@@ -1,0 +1,1256 @@
+{
+  "Meta": {
+    "home": {
+      "title": "Florida Fiberglass Pools — Fornecedor e Instalador no Sul da Flórida",
+      "description": "Instalação de piscinas de fibra de vidro premium de Key West a Sarasota. Mais de 1000 piscinas entregues, garantia estrutural vitalícia, financiamento disponível."
+    },
+    "about": {
+      "title": "Sobre Nós — Florida Fiberglass Pools",
+      "description": "Desde 2014, a FLFG Pools construiu o maior showroom de piscinas de fibra de vidro do sul da Flórida. Conheça nossa equipe, processo e mais de 1000 instalações bem-sucedidas."
+    },
+    "pools": {
+      "title": "Catálogo de Piscinas de Fibra de Vidro — Mais de 120 Modelos em Estoque",
+      "description": "Navegue por nossos mais de 120 estilos de piscinas de fibra de vidro. Tamanhos de 12 a 40 pés, múltiplas cores e formas. Entrega imediata no sul da Flórida."
+    },
+    "showroom": {
+      "title": "Showroom de Piscinas Concluídas — Galeria do Sul da Flórida",
+      "description": "Veja nosso portfólio de mais de 1000 piscinas instaladas em Miami, Fort Lauderdale e Palm Beach. Quintais reais, transformações reais."
+    },
+    "blog": {
+      "title": "Guia e Dicas de Piscinas — Blog FLFG Pools",
+      "description": "Conselhos de especialistas sobre propriedade de piscinas de fibra de vidro na Flórida: custos, manutenção, processo de instalação, financiamento e inspiração de design."
+    },
+    "contact": {
+      "title": "Contate a FLFG Pools — Obtenha seu Orçamento Grátis",
+      "description": "Solicite uma consulta gratuita de piscinas de fibra de vidro no sul da Flórida. Hablamos Español, Falamos Português. Ligue para 786-207-1634 ou preencha nosso formulário."
+    },
+    "resources": {
+      "title": "Perguntas Frequentes — FLFG Pools",
+      "description": "Perguntas frequentes sobre piscinas de fibra de vidro, garantias, prazos de instalação, opções de financiamento e guias de manutenção."
+    },
+    "createByYourself": {
+      "title": "Projete sua piscina e solicite orçamento — Florida Fiberglass Pools",
+      "description": "Configure modelo, tamanho, cor, extras e dados técnicos do quintal para receber design e orçamento por email."
+    },
+    "poolBenefits": {
+      "title": "Benefícios de Piscinas de Fibra de Vidro — Por que os Proprietários Escolhem Fibra de Vidro",
+      "description": "Explore os principais benefícios das piscinas de fibra de vidro: baixa manutenção, superfície lisa, recursos integrados, instalação rápida, durabilidade e menor custo de propriedade a longo prazo."
+    },
+    "poolPricingGuide": {
+      "title": "Guia de Preços de Piscinas de Fibra de Vidro",
+      "description": "Entenda os custos das piscinas de fibra de vidro no sul da Flórida: preços base, opções de personalização, instalação, permissões e soluções de financiamento."
+    },
+    "FiberglassVsConcrete": {
+      "title": "Piscinas de Fibra de Vidro vs Concreto vs Vinil — Guia de Preços e Comparação",
+      "description": "Compare piscinas de fibra de vidro, concreto e vinil lado a lado: tempo de instalação, faixas de custo, manutenção, valor de revenda e considerações de propriedade a longo prazo."
+    }
+  },
+  "Nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "products": "Produtos",
+    "pools": "Piscinas",
+    "spa": "Spa",
+    "ledge": "Ledge",
+    "showroom": "Showroom",
+    "blog": "Blog",
+    "faqs": "FAQs",
+    "info": "Info",
+    "poolBenefits": "Benefícios de Piscinas",
+    "poolPricingGuide": "Guia de Preços",
+    "fiberglassVsConcrete": "Concreto vs Fibra de Vidro",
+    "contact": "Contato",
+    "poolsServices": "Piscinas e Serviços",
+    "poolsSpa": "Piscinas e Spa",
+    "poolEquipment": "Equipamentos",
+    "patioFurniture": "Móveis",
+    "service": "Serviço",
+    "language": "Idioma"
+  },
+  "Home": {
+    "hero": {
+      "badge": "Novo Modelo — Disponível Agora",
+      "title": "Sua piscina dos sonhos, construída para durar no sul da Flórida",
+      "subtitle": "Piscinas de fibra de vidro premium projetadas para segurança, diversão e baixa manutenção.",
+      "ctaPrimary": "Explorar modelos",
+      "ctaSecondary": "Orçamento grátis",
+      "scroll": "Role para descobrir"
+    },
+    "about": {
+      "label": "Sobre nós",
+      "title": "O maior showroom de piscinas de fibra de vidro do sul da Flórida",
+      "paragraph1": "Com mais de 8.000 pés quadrados, exibimos mais de 150 estilos de piscinas pessoalmente. Desde 2014, entregamos mais de 1000 piscinas para famílias de Key West a Sarasota, incluindo os condados de Miami-Dade, Broward e Palm Beach.",
+      "paragraph2": "Como distribuidor exclusivo da para todo o sul da Flórida, nossa equipe guia você desde a consulta até a instalação, garantindo que sua piscina se ajuste ao seu estilo de vida, orçamento e quintal — respaldada por uma garantia estrutural vitalícia diretamente de fábrica.",
+      "cta": "Conheça nossa história"
+    },
+    "stats": {
+      "soldPools": "Piscinas entregues",
+      "stylesInStock": "Estilos em estoque",
+      "yearsExperience": "Anos de experiência",
+      "warranty": "Garantia vitalícia",
+      "warrantyText": "Vitalícia"
+    },
+    "whyUs": {
+      "label": "Por que nos escolher",
+      "title": "Uma empresa profissional de piscinas de fibra de vidro em quem você pode confiar",
+      "features": {
+        "safety": {
+          "title": "Segurança, qualidade e estilo",
+          "description": "Cada piscina atende aos códigos de construção da Flórida e padrões de furacão. Superfícies antiderrapantes, degraus seguros para crianças e acabamento gelcoat durável."
+        },
+        "stock": {
+          "title": "Mais de 100 modelos prontos em uma média de 4 semanas.",
+          "description": "Entrega imediata na maioria dos modelos. Escolha entre mais de 120 formas, tamanhos e cores — todos em estoque em nosso showroom de Miami."
+        },
+        "custom": {
+          "title": "Tamanhos e cores personalizados",
+          "description": "Gosta de um estilo mas precisa de outras dimensões? Personalizamos conforme seu espaço com múltiplas combinações de tamanho e cor."
+        },
+        "warranty": {
+          "title": "Garantia estrutural de 15 anos",
+          "description": "Cobertura líder na indústria em cada piscina. Nossas cascas de fibra de vidro são construídas para durar décadas com manutenção mínima."
+        }
+      }
+    },
+    "financing": {
+      "label": "Financiamento",
+      "title": "Você sonha, nós financiamos",
+      "description": "Parceiros com a Hearth para oferecer opções de pagamento mensal para seu projeto de piscina. Pré-qualifique-se em minutos — ver opções não afeta seu score de crédito.",
+      "cta": "Aplicar agora"
+    },
+    "featuredPools": {
+      "label": "Modelos em destaque",
+      "title": "Piscinas de fibra de vidro mais populares esta temporada",
+      "subtitle": "Explore nossos estilos mais solicitados. Todos disponíveis para instalação imediata no sul da Flórida.",
+      "viewAll": "Ver todos os 150+ modelos"
+    },
+    "reviews": {
+      "label": "Avaliações",
+      "title": "O que nossos clientes dizem",
+      "subtitle": "4.7 média de 128 avaliações verificadas no Google",
+      "cta": "Compartilhe sua experiência"
+    },
+    "cta": {
+      "title": "Pronto para ter sua piscina dos sonhos?",
+      "subtitle": "Obtenha uma consulta e orçamento grátis. Hablamos Español, Falamos Português.",
+      "button": "Inicie seu projeto"
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "Construindo os quintais do sul da Flórida desde 2014",
+      "subtitle": "De um pequeno negócio familiar ao maior showroom de piscinas de fibra de vidro da região e distribuidor exclusivo da Rainforest Pools."
+    },
+    "story": {
+      "title": "Nossa história",
+      "paragraph1": "A Florida Fiberglass Pools começou em 2014 com uma missão simples: tornar acessíveis piscinas premium de fibra de vidro para as famílias do sul da Flórida. O que começou como uma operação pequena agora abrange um showroom de 8.000 pés quadrados com mais de 150 estilos de piscinas em exibição, e somos o distribuidor exclusivo da Rainforest Pools para todo o sul da Flórida.",
+      "paragraph2": "Crescemos mantendo-nos fiéis aos nossos valores — produtos de qualidade, preços honestos e apoiando cada instalação. Nossos mais de 1000 projetos concluídos e garantia estrutural vitalícia são nosso compromisso com seu quintal.",
+      "paragraph3": "Hoje servimos de Key West a Sarasota, incluindo os condados de Miami-Dade, Broward e Palm Beach, com uma equipe de Certified Pool Contractors, designers internos e especialistas em financiamento."
+    },
+    "values": {
+      "title": "Pelo que nos destacamos",
+      "items": {
+        "quality": {
+          "title": "Qualidade sem compromisso",
+          "description": "Só instalamos piscinas que atendem nossos próprios padrões. Se não colocaríamos em nosso quintal, não colocaremos no seu."
+        },
+        "transparency": {
+          "title": "Preços transparentes",
+          "description": "Sem taxas ocultas, sem surpresas. Você recebe um orçamento detalhado antes de começarmos a obra."
+        },
+        "community": {
+          "title": "Raízes locais, serviço local",
+          "description": "Somos um negócio familiar do sul da Flórida. Nossa reputação nesta comunidade é tudo."
+        },
+        "support": {
+          "title": "Suporte vitalício",
+          "description": "Depois da instalação, continuamos aqui. Perguntas de manutenção, reclamações de garantia, upgrades — ligue quando quiser."
+        }
+      }
+    },
+    "showroom": {
+      "title": "Visite nosso showroom",
+      "description": "21500 S Dixie Hwy, Miami, FL 33189. Aberto segunda a sexta 9am–5pm, sábado 9am–1pm.",
+      "cta": "Como chegar"
+    },
+    "stats": {
+      "soldPools": "Piscinas entregues",
+      "stylesInStock": "Estilos em estoque",
+      "yearsExperience": "Anos de experiência",
+      "warranty": "Garantia vitalícia",
+      "warrantyText": "Vitalícia"
+    }
+  },
+  "Products": {
+    "hero": {
+      "title": "Encontre sua piscina de fibra de vidro perfeita",
+      "subtitle": "Mais de 150 estilos em estoque. Filtre por tamanho, forma e cor. Todos disponíveis para entrega imediata no sul da Flórida."
+    },
+    "filter": {
+      "size": "Tamanho",
+      "allSizes": "Todos os tamanhos",
+      "upTo16": "Até 16 pés",
+      "16to22": "16 – 22 pés",
+      "22plus": "22 pés ou mais",
+      "spa": "Modelos Spa",
+      "ledge": "Modelos Ledge",
+      "shape": "Forma",
+      "allShapes": "Todas as formas",
+      "rectangle": "Retangular",
+      "freeform": "Livre",
+      "beachEntry": "Entrada de praia",
+      "type": "Tipo",
+      "allTypes": "Todos os tipos",
+      "pool": "Piscina",
+      "spaType": "Spa",
+      "ledgeType": "Ledge",
+      "capacity": "Capacidade de água",
+      "allCapacity": "Todas as capacidades",
+      "under5k": "Menos de 5,000 gal",
+      "5kTo10k": "5,000 – 10,000 gal",
+      "over10k": "Mais de 10,000 gal",
+      "color": "Cor",
+      "sortBy": "Ordenar por",
+      "popular": "Mais populares",
+      "smallest": "Menores primeiro",
+      "largest": "Maiores primeiro",
+      "results": "{count} piscinas encontradas",
+      "clear": "Limpar filtros",
+      "noResults": "Nenhuma piscina encontrada com esses filtros."
+    },
+    "card": {
+      "from": "Desde",
+      "viewDetails": "Ver detalhes",
+      "inStock": "Em estoque",
+      "madeToOrder": "Sob encomenda"
+    },
+    "detail": {
+      "specs": "Especificações",
+      "length": "Comprimento",
+      "width": "Largura",
+      "depth": "Profundidade",
+      "surfaceArea": "Área de superfície",
+      "waterVolume": "Volume de água",
+      "weight": "Peso",
+      "features": "Características",
+      "colors": "Cores disponíveis",
+      "requestQuote": "Solicite um orçamento para esta piscina",
+      "relatedPools": "Você também pode gostar",
+      "isoModels": "Modelos 3D",
+      "noImages": "Em breve imagens",
+      "priceRange": "Faixa de preço",
+      "avgPrice": "Média",
+      "contactForPricing": "Contate-nos para preços"
+    }
+  },
+  "Showroom": {
+    "hero": {
+      "title": "Mais de 1000 quintais transformados",
+      "subtitle": "Instalações reais em todo o sul da Flórida. Filtre por localização, tamanho ou estilo."
+    },
+    "metrics": {
+      "completed": "Mais de 1,000 projetos concluídos",
+      "zones": "3 condados atendidos",
+      "years": "Mais de 15 anos de experiência"
+    },
+    "filters": {
+      "title": "Filtros",
+      "zone": "Zona",
+      "allZones": "Todas as zonas",
+      "miamiDade": "Miami-Dade",
+      "broward": "Broward",
+      "palmBeach": "Palm Beach",
+      "other": "Outra",
+      "size": "Tamanho",
+      "allSizes": "Todos os tamanhos",
+      "upTo16": "Até 16 pés",
+      "16to22": "16 – 22 pés",
+      "22plus": "22 pés ou mais",
+      "style": "Estilo",
+      "allStyles": "Todos os estilos",
+      "family": "Familiar",
+      "resort": "Resort",
+      "lap": "Lap",
+      "compact": "Compacto",
+      "results": "{count} projetos",
+      "clear": "Limpar filtros",
+      "noResults": "Nenhum projeto encontrado com esses filtros."
+    },
+    "viewProject": "Ver projeto",
+    "cta": {
+      "title": "Visite nosso showroom",
+      "subtitle": "Veja nossas piscinas de fibra de vidrio pessoalmente. Nossa equipe está pronta para ajudar.",
+      "address": "1234 Sample Blvd, Miami, FL 33101",
+      "hours": "Seg–Sáb: 9am – 6pm",
+      "button": "Como chegar"
+    }
+  },
+  "Blog": {
+    "hero": {
+      "title": "Propriedade de piscinas, explicada",
+      "subtitle": "Guias de custos, dicas de manutenção, inspiração de design e tudo o que você precisa saber sobre piscinas de fibra de vidro na Flórida."
+    },
+    "readMore": "Ler mais",
+    "minRead": "{minutes} min de leitura"
+  },
+  "Contact": {
+    "hero": {
+      "title": "Vamos construir sua piscina dos sonhos",
+      "subtitle": "Preencha o formulário ou ligue para 786-207-1634. Respondemos em 24 horas."
+    },
+    "form": {
+      "role": "Quem é você",
+      "roleHelper": "Adaptamos nossa proposta com base em se você é proprietário, contratante, corretor ou investidor.",
+      "roleOptions": {
+        "homeowner": "Proprietário",
+        "contractor": "Contratante",
+        "realtor": "Corretor de imóveis",
+        "investor": "Investidor"
+      },
+      "name": "Nome completo",
+      "namePlaceholder": "Ex. João Silva",
+      "phone": "Telefone",
+      "phonePlaceholder": "Ex. (786) 207-1634",
+      "email": "E-mail",
+      "emailPlaceholder": "Ex. joao@exemplo.com",
+      "zip": "Código postal",
+      "zipHelper": "Servimos de Key West a Sarasota, incluindo os condados de Miami-Dade, Broward e Palm Beach.",
+      "zipError": "Este código postal pode estar fora da nossa área principal de serviço. Ligue para nós — servimos de Key West a Sarasota e encaminharemos você a um parceiro de confiança.",
+      "message": "Conte-nos sobre seu projeto",
+      "messagePlaceholder": "Tamanho da piscina, prazo, detalhes do quintal, perguntas específicas…",
+      "submit": "Enviar minha solicitação",
+      "success": "Obrigado! Entraremos em contato em 24 horas.",
+      "error": "Algo deu errado. Por favor ligue para 786-207-1634."
+    },
+    "info": {
+      "phone": "Ligue para nós",
+      "email": "Escreva para nós",
+      "address": "Visite nosso showroom",
+      "directions": "Como chegar",
+      "hours": "Horário",
+      "hoursWeek": "Segunda – Sexta: 9am – 5pm",
+      "hoursSaturday": "Sábado: 9am – 1pm",
+      "hoursSunday": "Domingo: Fechado",
+      "languages": "Hablamos Español · Falamos Português"
+    }
+  },
+  "Resources": {
+    "hero": {
+      "title": "Recursos e Perguntas Frequentes",
+      "subtitle": "Tudo o que você precisa saber sobre piscinas de fibra de vidro no sul da Flórida."
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "items": [
+        {
+          "q": "O que torna as piscinas de fibra de vidro diferentes?",
+          "a": "As piscinas de fibra de vidro são fabricadas em Orlando, Flórida, e projetadas para proporcionar anos de lazer no quintal. Cada casco é produzido com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formatos que se adaptam a diferentes residências, estilos de vida e áreas externas. Como distribuidor exclusivo para o Sul da Flórida, levamos essas piscinas premium diretamente até você."
+        },
+        {
+          "q": "Que garantia vocês oferecem?",
+          "a": "Cada casco de piscina de fibra de vidro conta com garantia estrutural vitalícia diretamente da fábrica. Essa é uma garantia vitalícia para a estrutura do casco da piscina, respaldada pelos padrões de fabricação. Também oferecemos 3 anos de garantia sobre a mão de obra da instalação."
+        },
+        {
+          "q": "Quanto tempo leva a instalação de uma piscina de fibra de vidro?",
+          "a": "A maioria das instalações é concluída em cerca de 2 a 4 semanas após o início da obra. O casco de fibra de vidro em si é instalado em apenas um dia. O prazo total pode variar de acordo com as autorizações, condições climáticas, cronograma da construtora, condições da escavação e execução das áreas ao redor da piscina."
+        },
+        {
+          "q": "As piscinas de fibra de vidro são mais fáceis de manter?",
+          "a": "Sim, as piscinas de fibra de vidro são conhecidas por sua superfície lisa e pela facilidade de manutenção a longo prazo. A superfície não porosa da fibra de vidro ajuda a reduzir parte da manutenção normalmente associada a outros tipos de piscina, tornando os cuidados diários mais simples."
+        },
+        {
+          "q": "Como as piscinas de fibra de vidro se comparam às piscinas de concreto?",
+          "a": "As piscinas de fibra de vidro são fabricadas como cascos prontos em peça única, enquanto as piscinas de concreto são construídas no local. Isso proporciona às piscinas de fibra de vidro uma superfície mais lisa, uma instalação mais ágil e menor necessidade de manutenção ao longo do tempo. As piscinas de concreto oferecem maior flexibilidade de formatos, mas muitos proprietários escolhem a fibra de vidro pelo conforto e facilidade de manutenção."
+        },
+        {
+          "q": "Posso personalizar minha piscina de fibra de vidro?",
+          "a": "O casco da piscina possui um formato definido de fábrica, mas o projeto final do quintal pode ser personalizado. As opções mais populares incluem revestimento na linha d'água, iluminação LED, aquecedores ou resfriadores, corrimãos, melhorias no sistema de sanitização, recursos aquáticos e ampliação da área de lazer ou do pátio."
+        },
+        {
+          "q": "Quem instala as piscinas de fibra de vidro de vocês?",
+          "a": "Recomendamos um de nossos Empreiteiros Certificados de Piscinas disponível na região onde sua propriedade está localizada. Assim, você recebe um casco fabricado pelo fabricante enquanto trabalha com profissionais locais que conhecem as autorizações, escavação, condições do solo e a construção de piscinas na sua região."
+        },
+        {
+          "q": "Vocês cuidam das autorizações?",
+          "a": "Sim, cuidamos de todas as autorizações exigidas pelos condados onde atuamos como parte do nosso serviço de instalação."
+        },
+        {
+          "q": "Posso ver as piscinas pessoalmente?",
+          "a": "Com certeza. Nosso showroom de 8.000 pés quadrados, localizado em 21500 S Dixie Hwy, Miami, apresenta mais de 150 modelos de piscinas. Funcionamos de segunda a sexta, das 9h às 17h, e aos sábados, das 9h às 13h."
+        },
+        {
+          "q": "Vocês oferecem financiamento?",
+          "a": "Sim, somos parceiros da Hearth para oferecer opções de pagamento mensal. Você pode fazer a pré-qualificação em poucos minutos sem afetar sua pontuação de crédito."
+        },
+        {
+          "q": "Quais regiões vocês atendem?",
+          "a": "Atendemos de Key West até Sarasota, incluindo os condados de Miami-Dade, Broward e Palm Beach. Se você estiver fora dessas regiões, entre em contato conosco e indicaremos um parceiro de confiança."
+        },
+        {
+          "q": "Piscinas retangulares de fibra de vidro são uma boa opção para quintais modernos?",
+          "a": "Sim, as piscinas retangulares de fibra de vidro são uma excelente escolha para proprietários que desejam um formato de piscina limpo e atemporal. Suas linhas retas combinam muito bem com pátios, cozinhas externas, áreas cobertas de convivência, cercamentos com tela e projetos modernos de paisagismo."
+        },
+        {
+          "q": "Uma piscina de fibra de vidro pode aumentar o valor do imóvel?",
+          "a": "Uma piscina de fibra de vidro bem projetada pode valorizar um imóvel, especialmente quando se integra ao terreno e ao espaço de lazer externo. As piscinas retangulares costumam ser atraentes porque criam um layout de quintal limpo e organizado. O impacto real varia conforme o bairro, o clima, o estado de conservação da piscina e a demanda dos compradores na região."
+        },
+        {
+          "q": "Vocês oferecem uma opção DIY?",
+          "a": "Sim, nosso 'Kit Faça Você Mesmo' (DIY) inclui o casco da piscina e todos os equipamentos necessários para que você faça a instalação por conta própria com uma Licença de Proprietário (Home Owner Permit), ou você pode contratar seu próprio empreiteiro. Se preferir, também podemos incluir o serviço de instalação profissional com um de nossos Empreiteiros Certificados de Piscinas."
+        },
+        {
+          "q": "Por que escolher as piscinas de fibra de vidro da nós?",
+          "a": "Nossas piscinas de fibra de vidro combinam fabricação americana, conforto proporcionado pela superfície lisa, designs atraentes e suporte de construtores locais. Como distribuidor exclusivo para o Sul da Flórida, oferecemos mais de 150 modelos desenvolvidos para um estilo de vida moderno ao ar livre, manutenção mais fácil e uma experiência sofisticada no quintal — tudo respaldado por uma garantia estrutural vitalícia."
+        }
+      ]
+    }
+  },
+  "Footer": {
+    "tagline": "O fornecedor e instalador premier de piscinas de fibra de vidro do sul da Flórida desde 2014.",
+    "sitemap": "Mapa do site",
+    "poolsSpa": "Piscinas e Spa",
+    "contact": "Contato",
+    "newsletter": "Inscreva-se para receber nossas notícias",
+    "newsletterPlaceholder": "Seu e-mail",
+    "newsletterCta": "Inscrever-se",
+    "languages": "Hablamos Español · Falamos Português",
+    "rights": "Todos os direitos reservados.",
+    "sizes": {
+      "upTo16": "Até 16 pés",
+      "16to22": "16 – 22 pés",
+      "22plus": "22 pés ou mais",
+      "spa": "SPA"
+    },
+    "hours": {
+      "monFri": "Seg–Sex",
+      "sat": "Sáb",
+      "sun": "Dom"
+    }
+  },
+  "Breadcrumbs": {
+    "home": "Início",
+    "createByYourself": "Crie sua piscina"
+  },
+  "Common": {
+    "loading": "Carregando…",
+    "error": "Algo deu errado",
+    "back": "Voltar"
+  },
+  "CreateByYourself": {
+    "badge": "Crie sua piscina",
+    "heading": "Projete a piscina. Nós cotamos a realidade.",
+    "description": "Configure modelo, acabamento, extras, acesso ao quintal e prazo. Nossa equipe recebe os detalhes técnicos e envia um orçamento e direção de design para seu email.",
+    "previewAlt": "Pré-visualização do design da piscina de fibra de vidro",
+    "orientativeFrom": "Orientativo desde",
+    "priceNote": "O preço final é confirmado após revisão do local, verificação de acesso e requisitos de licenças.",
+    "steps": {
+      "pool": "Piscina",
+      "finish": "Acabamento",
+      "site": "Quintal",
+      "contact": "Contato"
+    },
+    "stepLabels": {
+      "step1": "Passo 1",
+      "step2": "Passo 2",
+      "step3": "Passo 3",
+      "step4": "Passo 4"
+    },
+    "step1Title": "Escolha a experiência base",
+    "step2Title": "Escolha cor e melhorias",
+    "step3Title": "Conte-nos sobre o quintal",
+    "step4Title": "Para onde enviamos o design?",
+    "poolTypes": {
+      "pool": "Piscina",
+      "spa": "Spa",
+      "tanning-ledge": "Plataforma de bronzeamento"
+    },
+    "sizeRange": "Faixa de tamanho",
+    "sizeOptions": {
+      "upTo16": "Até 16 pés",
+      "16to22": "16–22 pés",
+      "22plus": "22+ pés",
+      "spa": "Spa"
+    },
+    "baseModel": "Modelo base",
+    "finishColor": "Cor de acabamento",
+    "projectExtras": "Extras do projeto",
+    "extras": {
+      "integrated-spa": "Spa integrado",
+      "led-lighting": "Iluminação LED",
+      "heater": "Aquecedor",
+      "deck-patio": "Deck / área de quintal",
+      "salt-system": "Sistema de sal"
+    },
+    "city": "Cidade",
+    "zipCode": "Código postal",
+    "backyardAccess": "Acesso ao quintal",
+    "accessOptions": {
+      "wide-open": "Acesso amplo",
+      "standard-gate": "Portão padrão",
+      "tight-access": "Acesso estreito",
+      "crane-needed": "Provavelmente guindaste",
+      "not-sure": "Não tenho certeza"
+    },
+    "desiredTimeline": "Prazo desejado",
+    "timelineOptions": {
+      "asap": "O mais rápido possível",
+      "1-3-months": "1–3 meses",
+      "3-6-months": "3–6 meses",
+      "planning": "Fase de planejamento"
+    },
+    "roles": {
+      "homeowner": "Proprietário",
+      "contractor": "Contratante",
+      "realtor": "Corretor de imóveis",
+      "investor": "Investidor"
+    },
+    "fullName": "Nome completo",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "notesLabel": "Notas para a equipe de design",
+    "notesPlaceholder": "Conte-nos sobre dimensões do quintal, HOA, estilo preferido ou qualquer coisa que a equipe deva saber.",
+    "back": "Voltar",
+    "send": "Enviar minha configuração",
+    "continue": "Continuar",
+    "success": "Sua configuração está pronta. Nossa equipe revisará e responderá em 24 horas.",
+    "openEmailFallback": "Abrir fallback de email",
+    "error": "Não pudemos enviar a solicitação. Por favor verifique os campos obrigatórios ou ligue para nós diretamente.",
+    "contactForPricing": "Contate para conhecer o preço"
+
+  },
+  "Certifications": {
+    "label": "Certificações e Parceiros",
+    "title": "Certificações confiáveis e parceiros financeiros",
+    "subtitle": "Trabalhamos com organizações líderes da indústria para oferecer a mais alta qualidade e opções de financiamento.",
+    "financingLabel": "Parceiro Financeiro",
+    "financingText": "Opções de pagamento mensal disponíveis através da Hearth. Pré-qualifique-se em minutos sem afetar seu score de crédito.",
+    "items": {
+      "psn": { "name": "Pool & Spa Network", "alt": "Certificação PSN" },
+      "pmg": { "name": "PMG", "alt": "Certificação PMG" },
+      "esMark": { "name": "ES Mark", "alt": "Certificação ES Mark" },
+      "phta": { "name": "Pool & Hot Tub Alliance", "alt": "Certificação PHTA" },
+      "tenYears": { "name": "10 Anos de Excelência", "alt": "Selo de 10 Anos" },
+      "hearth": { "name": "Hearth Finance", "alt": "Parceiro Financeiro Hearth" }
+    }
+  },
+  "Reviews": {
+    "label": "Avaliações",
+    "title": "O que nossos clientes dizem",
+    "verifiedReviews": "{count} avaliações verificadas no Google",
+    "verified": "Verificado",
+    "shareExperience": "Compartilhe sua experiência →",
+    "lessThanIdeal": "Teve uma experiência menos que ideal? Escreva para nós diretamente em",
+    "resolveIn24h": "e resolveremos em 24 horas."
+  },
+  "PoolBenefits": {
+    "hero": {
+      "title": "Benefícios de Piscinas de Fibra de Vidro",
+      "subtitle": "Por que os Proprietários Escolhem Piscinas de Fibra de Vidro",
+      "paragraph1": "Piscinas de Fibra de Vidro são populares porque oferecem superfície lisa, manutenção rotineira mais fácil, assentos e degraus integrados, e um caminho mais rápido do planejamento ao nado.",
+      "paragraph2": "Para muitos proprietários na Flórida, a Fibra de Vidro é uma opção atraente porque a piscina chega pré-fabricada com a forma, acabamento, degraus, bancos e recursos já moldados.",
+      "ctaPrimary": "Explorar Modelos de Piscinas",
+      "ctaSecondary": "Solicitar um Orçamento"
+    },
+    "intro": {
+      "takeawayLabel": "Resumo simples:",
+      "takeaway": "Piscinas de Fibra de Vidro são projetadas para fazer a propriedade de uma piscina no quintal parecer mais fácil, mais confortável e mais previsível desde o início.",
+      "items": [
+        {
+          "title": "Baixa Manutenção",
+          "description": "A superfície lisa de gelcoat ajuda a tornar o cuidado rotineiro da piscina mais simples e gerenciável."
+        },
+        {
+          "title": "Superfície Lisa",
+          "description": "As superfícies de piscinas de Fibra de Vidro são confortáveis para os pés, degraus, bancos e áreas de nado."
+        },
+        {
+          "title": "Recursos Integrados",
+          "description": "Degraus, bancos, plataformas de bronzeamento e áreas de assento podem ser moldados diretamente na estrutura."
+        },
+        {
+          "title": "Planejamento de Instalação Mais Rápido",
+          "description": "Uma estrutura pré-fabricada pode ajudar a simplificar a sequência de construção em comparação com construções personalizadas mais complexas."
+        }
+      ]
+    },
+    "takeawayLabel": "Resumo simples:",
+    "benefits": [
+      {
+        "label": "Benefício #2",
+        "title": "Instalação Rápida e Eficiente",
+        "description": "Como as piscinas de fibra de vidro chegam como estruturas completas fabricadas, o processo de instalação é tipicamente mais ágil do que tipos de piscinas construídas no local.",
+        "points": [
+          {
+            "title": "Estrutura Pré-Fabricada",
+            "description": "A estrutura da piscina chega como uma estrutura manufaturada completa, com a forma, degraus, bancos e acabamento já formados antes de chegar à propriedade."
+          },
+          {
+            "title": "Trabalho em Local Otimizado",
+            "description": "Uma vez que a preparação do local está completa, a estrutura pode ser entregue e colocada, permitindo que as etapas restantes de instalação avancem mais eficientemente."
+          },
+          {
+            "title": "Menos Fases Estruturais",
+            "description": "Em comparação com piscinas construídas no local, uma estrutura de Fibra de Vidro tipicamente envolve menos fases de construção estrutural, o que pode reduzir variáveis de agendamento."
+          },
+          {
+            "title": "Menos Perturbação do Quintal",
+            "description": "Para muitos proprietários que trabalham com construtores locais independententes, a sequência de construção mais previsível pode significar menos perturbação prolongada ao quintal."
+          }
+        ],
+        "subHeading": "Do Planejamento ao Nado",
+        "subDescription": "Uma piscina de fibra de vidro pode ajudar os construtores locais a avançar pela sequência de instalação mais eficientemente uma vez que o trabalho começa, incluindo colocação, conexões de encanamento, configuração de equipamentos, aterro e deck.",
+        "takeaway": "Uma piscina de fibra de vidro pode ajudar os construtores locais a avançar pela sequência de instalação mais eficientemente uma vez que o trabalho começa, incluindo colocação, conexões de encanamento, configuração de equipamentos, aterro e deck."
+      },
+      {
+        "label": "Benefício #3",
+        "title": "Conforto Superior e Superfície Lisa",
+        "description": "As piscinas de fibra de vidro são acabadas com uma superfície lisa de gelcoat que se sente confortável em toda a estrutura, incluindo paredes, piso, degraus, bancos e áreas de entrada.",
+        "subHeading": "Conforto que Você Nota",
+        "subDescription": "Ao contrário de acabamentos mais ásperos de piscinas, a superfície lisa é suave durante o uso diário, especialmente em áreas de alto contato onde as famílias sentam, ficam de pé, entram e saem da piscina. A sensação da superfície é uma das diferenças diárias mais imediatas que os proprietários experimentam com uma piscina de Fibra de Vidro.",
+        "points": [
+          {
+            "title": "Degraus e Bancos Confortáveis",
+            "description": "Degraus, bancos, plataformas e áreas de entrada integrados têm o mesmo acabamento liso que o resto da estrutura da piscina."
+          },
+          {
+            "title": "Piso Suave da Piscina",
+            "description": "A superfície lisa de gelcoat se sente confortável sob os pés e reduz a irritação em comparação com acabamentos interiores mais ásperos."
+          },
+          {
+            "title": "Transições Limpas e Consistentes",
+            "description": "Como a estrutura é formada em fábrica, assentos, degraus, áreas rasas e zonas de nado são integrados com transições suaves e consistentes."
+          },
+          {
+            "title": "Limpeza Rotineira Mais Fácil",
+            "description": "O acabamento liso também facilita o cuidado porque detritos são menos propensos a aderir a superfícies texturizadas ou irregulares."
+          }
+        ],
+        "takeaway": "Uma piscina de fibra de vidro é projetada para se sentir suave, confortável e consistente em toda a área de natação, não apenas no piso da piscina."
+      },
+      {
+        "label": "Benefício #4",
+        "title": "Resistência, Durabilidade e Estabilidade Estrutural",
+        "description": "As estruturas de piscinas de fibra de vidro são fabricadas como estruturas únicas e integradas em vez de construídas em seções no local.",
+        "subHeading": "Por que Importa",
+        "subDescription": "Uma vez instalada e aterrada conforme as diretrizes do fabricante, a estrutura de uma peça única ajuda a distribuir forças externas uniformemente ao redor da piscina. Os proprietários obtêm uma estrutura de piscina projetada para estabilidade a longo prazo, com menos ciclos de renovação de superfície do que muitas alternativas construídas no local.",
+        "points": [
+          {
+            "title": "Construção de Fibra de Vidro de Uma Peça",
+            "description": "Uma estrutura de piscina de fibra de vidro é fabricada como uma estrutura integrada única, ajudando a proporcionar resistência consistente em toda a estrutura."
+          },
+          {
+            "title": "Fabricação Controlada",
+            "description": "Como a estrutura é projetada e formada em um ambiente de fabricação controlado, dimensões, espessura e elementos estruturais permanecem consistentes de piscina para piscina."
+          },
+          {
+            "title": "Resistência Consistente da Estrutura",
+            "description": "A estrutura integrada ajuda a reduzir a variabilidade que pode ocorrer com a construção no local e apóia a confiabilidade estrutural a longo prazo."
+          },
+          {
+            "title": "Projetada para Propriedade a Longo Prazo",
+            "description": "Proprietários que valorizam desempenho previsível a longo prazo frequentemente veem esta consistência estrutural como uma vantagem chave da construção de piscinas de Fibra de Vidro."
+          }
+        ],
+        "takeaway": "As piscinas de fibra de vidro combinam construção de uma peça, fabricação controlada e resistência de estrutura composta para apoiar uma experiência de propriedade mais previsível."
+      },
+      {
+        "label": "Benefício #5",
+        "title": "Menor Custo de Propriedade ao Longo do Tempo",
+        "description": "Embora o preço inicial varie por modelo, condições do local e escopo do construtor, muitos proprietários consideram as piscinas de fibra de vidro uma opção rentável a longo prazo.",
+        "subHeading": "Pense Além do Preço Inicial",
+        "subDescription": "O valor a longo prazo vem de como a superfície e a estrutura da piscina são mantidas ao longo do tempo, não de atalhos na construção. Uma piscina de Fibra de Vidro pode ajudar a reduzir futuros gastos relacionados à superfície, interrupções de serviço e incerteza de manutenção a longo prazo.",
+        "points": [
+          {
+            "title": "Sem Ressuperficialização Periódica",
+            "description": "O acabamento liso de gelcoat não requer ressuperficialização periódica como parte da propriedade normal, o que pode reduzir interrupções de serviço a longo prazo."
+          },
+          {
+            "title": "Cuidado Rotineiro Mais Simples",
+            "description": "O cuidado rotineiro tipicamente se concentra em limpeza padrão e equilíbrio da água em vez de manutenção estrutural contínua da superfície."
+          },
+          {
+            "title": "Menos Gastos Relacionados à Superfície",
+            "description": "Como o acabamento interior é parte da estrutura manufaturada, os proprietários podem evitar muitos custos recorrentes de renovação de superfície associados com outros tipos de piscinas."
+          },
+          {
+            "title": "Propriedade Mais Previsível",
+            "description": "Ao longo de anos de uso, expectativas de manutenção previsíveis podem tornar os gastos contínuos de propriedade mais fáceis de planejar."
+          }
+        ],
+        "takeaway": "Proprietários que priorizam expectativas de manutenção estáveis e menos gastos de superfície a longo prazo frequentemente veem as piscinas de fibra de vidro como uma escolha prática ao avaliar o custo total de propriedade."
+      },
+      {
+        "label": "Benefício #6",
+        "title": "Designs Modernos e Recursos Integrados",
+        "description": "As piscinas de fibra de vidro são oferecidas em uma variedade de designs modernos com recursos funcionais integrados diretamente na estrutura manufaturada.",
+        "subHeading": "Escolha um Modelo de Piscina Baseado em Como Você a Usará",
+        "subDescription": "Em vez de adicionar cada recurso separadamente durante a construção, os proprietários podem escolher um modelo de piscina que já inclui o layout, estilo de entrada, assento e recursos de água rasa que se ajustam aos seus planos de quintal. Pontos de entrada, zonas de assento, plataformas e áreas rasas são projetados para funcionar juntos, apoiando natação diária, relaxamento, entretenimento e uso familiar.",
+        "points": [
+          {
+            "title": "Degraus Integrados",
+            "description": "Áreas de entrada limpas e confortáveis são moldadas diretamente na estrutura da piscina para um visual acabado e integrado."
+          },
+          {
+            "title": "Bancos e Assentos",
+            "description": "Assentos integrados apóiam relaxamento, conversa e uso diário casual."
+          },
+          {
+            "title": "Plataformas de Bronzeamento",
+            "description": "Modelos selecionados incluem áreas de plataforma rasa para relaxar, refrescar-se ou criar um ambiente de resort no quintal."
+          },
+          {
+            "title": "Formas Modernas de Piscina",
+            "description": "Escolha entre designs adequados para entretenimento, natação, quintais compactos, uso familiar ou espaços externos estilo resort."
+          }
+        ],
+        "takeaway": "As piscinas de fibra de vidro facilitam a seleção de um design acabado que já corresponde a como você quer nadar, relaxar, entreter-se e usar seu quintal.",
+        "ctaText": "Explorar Modelos de Piscinas",
+        "ctaHref": "/products"
+      },
+      {
+        "label": "Benefício #7",
+        "title": "Proteção de Superfície a Longo Prazo",
+        "description": "As piscinas de fibra de vidro são acabadas com uma superfície durável de gelcoat que é aplicada durante a fabricação e serve como acabamento interior permanente da piscina.",
+        "subHeading": "Menos Projetos de Renovação de Superfície",
+        "subDescription": "Como esta superfície é parte da estrutura manufaturada, não requer replastering periódico, refinamento nem substituição de liner como parte da propriedade normal. O cuidado rotineiro se concentra em limpeza e equilíbrio da água em vez de restaurar ou substituir a superfície interior.",
+        "points": [
+          {
+            "title": "Acabamento Durável de Gelcoat",
+            "description": "A superfície interior é aplicada durante a fabricação e se torna parte da estrutura acabada da piscina de Fibra de Vidro."
+          },
+          {
+            "title": "Sem Replastering",
+            "description": "A Fibra de Vidro evita o ciclo recorrente de ressuperficialização comumente associado com a propriedade de piscinas de concreto."
+          },
+          {
+            "title": "Sem Substituição de Liner",
+            "description": "Não há cronograma de substituição de liner de vinil porque a estrutura de Fibra de Vidro inclui o acabamento interior permanente."
+          },
+          {
+            "title": "Menos Tempo de Inatividade",
+            "description": "Os proprietários podem evitar muitos projetos recorrentes de renovação de superfície que podem envolver tempo de inatividade, interrupção e custos futuros adicionais."
+          }
+        ],
+        "takeaway": "Com uma piscina de fibra de vidro, o cuidado de superfície a longo prazo é mais previsível porque o acabamento de gelcoat é projetado como a superfície interior permanente da estrutura manufaturada."
+      },
+      {
+        "label": "Benefício #8",
+        "title": "Valor de Revenda e Atração para Compradores",
+        "description": "Ao avaliar o valor a longo prazo, muitos proprietários consideram como uma piscina será vista por futuros compradores. Uma piscina de fibra de vidro pode ajudar a criar um quintal que se sente prático, moderno e mais fácil de entender do ponto de vista de propriedade.",
+        "subHeading": "Uma Piscina Mais Fácil de Explicar a Futuros Compradores",
+        "subDescription": "Compradores de imóveis frequentemente perguntam sobre expectativas de manutenção, condição da superfície, gastos futuros e quanto trabalho a piscina pode exigir ao longo do tempo. As piscinas de fibra de vidro podem ser atraentes em conversas de revenda porque são associadas com superfícies lisas, designs modernos, recursos integrados e menos requisitos recorrentes de substituição de superfície em comparação com outros tipos de piscinas enterradas. Nota importante: o valor de revenda depende do mercado local, demanda de compradores, condição da propriedade, design da piscina e apresentação geral do quintal.",
+        "points": [
+          {
+            "title": "Atração Moderna do Quintal",
+            "description": "Linhas limpas, assentos integrados e formas contemporâneas de piscina podem ajudar o quintal a parecer mais acabado e atraente para futuros compradores."
+          },
+          {
+            "title": "História de Manutenção Previsível",
+            "description": "A propriedade de Fibra de Vidro pode ser mais fácil de explicar porque o cuidado rotineiro se concentra em limpeza e equilíbrio da água em vez de projetos recorrentes de substituição de superfície."
+          },
+          {
+            "title": "Menos Preocupações Futuras de Superfície",
+            "description": "Uma piscina que não requer replastering periódico nem substituição de liner como parte da propriedade normal pode gerar menos preocupações durante a devida diligência do comprador."
+          },
+          {
+            "title": "Ajuste ao Estilo de Vida de Clima Quente",
+            "description": "Na Flórida e outros mercados de clima quente, uma piscina bem projetada pode apoiar o estilo de vida ao ar livre que muitos compradores já estão buscando."
+          }
+        ],
+        "takeaway": "Uma piscina de fibra de vidro pode ajudar a criar um quintal que se sente prático, moderno e mais fácil de entender do ponto de vista de propriedade, apoiando a atração de revenda em mercados de clima quente."
+      }
+    ],
+    "comparison": {
+      "label": "Comparação de Piscinas",
+      "title": "Fibra de Vidro vs. Concreto vs. Liner de Vinil",
+      "subtitle": "Os proprietários frequentemente comparam piscinas de fibra de vidro, concreto e liner de vinil ao avaliar opções enterradas. Esta visão geral destaca diferenças comuns em abordagem de construção, expectativas de manutenção e considerações de propriedade a longo prazo.",
+      "headers": {
+        "feature": "Característica",
+        "fiberglass": "Fibra de Vidro",
+        "concrete": "Concreto",
+        "vinyl": "Liner de Vinil"
+      },
+      "rows": [
+        {
+          "feature": "Tempo de Instalação",
+          "fiberglass": "Tempo de construção geral tipicamente mais curto",
+          "concrete": "Processo de construção mais longo e multifásico",
+          "vinyl": "Tempo moderado com instalação de liner"
+        },
+        {
+          "feature": "Manutenção Rotineira",
+          "fiberglass": "Cuidado de superfície simplificado",
+          "concrete": "Requer cuidado de superfície mais frequente",
+          "vinyl": "Cuidado moderado de superfície e liner"
+        },
+        {
+          "feature": "Sensação de Superfície",
+          "fiberglass": "Acabamento liso de gelcoat",
+          "concrete": "Acabamento texturizado ou áspero dependendo do material",
+          "vinyl": "Superfície lisa de liner"
+        },
+        {
+          "feature": "Renovação de Superfície",
+          "fiberglass": "Sem ressuperficialização periódica requerida",
+          "concrete": "Replastering ou refinamento periódico",
+          "vinyl": "Substituição recorrente de liner"
+        },
+        {
+          "feature": "Recursos de Design",
+          "fiberglass": "Degraus, bancos e plataformas integrados por modelo",
+          "concrete": "Recursos personalizados formados durante a construção",
+          "vinyl": "Recursos estruturais integrados limitados"
+        },
+        {
+          "feature": "Propriedade a Longo Prazo",
+          "fiberglass": "Planejamento de manutenção previsível",
+          "concrete": "Maior planejamento de manutenção de superfície a longo prazo",
+          "vinyl": "Gastos recorrentes relacionados a liner"
+        }
+      ],
+      "note": "Esta visão geral é para comparação geral. Tempos de instalação, rotinas de manutenção e custos a longo prazo variam por construtor, região, uso e design da piscina.",
+      "deepDiveText": "Quer uma comparação mais profunda? Revise o guia completo de Fibra de Vidro vs. concreto para um detalhamento lado a lado mais detalhado de tipos de piscinas.",
+      "ctaText": "Ver Guia de Fibra de Vidro vs. Concreto"
+    },
+    "finalCta": {
+      "title": "Pronto para Explorar Modelos de Piscinas de Fibra de Vidro?",
+      "subtitle": "Navegue nosso catálogo de mais de 120 estilos de piscinas de Fibra de Vidro e encontre a opção perfeita para seu quintal.",
+      "ctaPrimary": "Explorar Modelos de Piscinas",
+      "ctaSecondary": "Solicitar um Orçamento"
+    }
+  },
+  "poolPricingGuide": {
+    "costHero": {
+      "title": "Quanto Custa uma Piscina de Fibra de Vidrio?",
+      "paragraph1": "O preço de uma piscina de fibra de vidrio depende de mais do que a cápsula da piscina. A maioria dos proprietários orça um projeto completo de quintal que pode incluir a cápsula da piscina, entrega, escavação, colocação, encanamento, equipamento de filtração, instalação elétrica, decking, partida, permissões e melhorias selecionadas.",
+      "paragraph2": "Como cada propriedade é diferente, não há um único preço que se aplique a cada projeto de piscina de fibra de vidrio. O investimento final é moldado pelo modelo da piscina, acesso ao quintal, condições do solo, inclinação, drenagem, requisitos locais de permissão, planos de decking, escolhas de equipamentos e recursos opcionais como iluminação, aquecimento, automação, recursos de água ou espaços ampliados de vida ao ar livre.",
+      "paragraph3": "Resposta rápida: A melhor maneira de pensar sobre o custo de uma piscina de fibra de vidrio é pelo escopo do projeto. Um projeto simples com fácil acesso e recursos padrão geralmente terá um preço diferente de um design de quintal maior com equipamentos melhorados, mais decking, condições difíceis do local ou recursos personalizados de vida ao ar livre.",
+      "paragraph4": "Este guia ajudará você a entender como o preço de piscinas de fibra de vidrio é tipicamente estruturado, quais fatores influenciam o custo final e como planejar com mais confiança antes de solicitar um orçamento específico do projeto de um construtor local.",
+      "ctaPrimary": "Conte-nos Sobre Seu Projeto"
+    },
+    "projectRanges": {
+      "label": "Escopo do Projeto",
+      "title": "Faixas Típicas de Projetos de Piscinas de Fibra de Vidrio",
+      "subtitle": "Projetos de piscinas de fibra de vidrio geralmente se dividem em três categorias gerais de escopo. Estes não são preços fixos, mas podem ajudá-lo a entender por que um projeto pode custar mais que outro antes de uma estimativa específica do local ser preparada.",
+      "cards": [
+        {
+          "scope": "Escopo Simples",
+          "title": "Projeto Base",
+          "description": "Um projeto base é tipicamente o tipo mais direto de instalação de piscina de fibra de vidrio.",
+          "points": [
+            "Cápsula de piscina padrão e escopo de instalação",
+            "Escavação e aterro básicos",
+            "Equipamento central de circulação e filtração",
+            "Decking mínimo imediatamente ao redor da piscina",
+            "Acesso simples ao quintal e menos complicações do local"
+          ]
+        },
+        {
+          "scope": "Mais Comum",
+          "title": "Projeto de Médio Porte",
+          "description": "Um projeto de médio porte frequentemente inclui um layout maior, mais espaço utilizável de pátio ou melhorias de conforto selecionadas.",
+          "points": [
+            "Modelos de piscina maiores ou layouts ampliados",
+            "Decking adicional ou materiais melhorados",
+            "Iluminação, equipamentos ou melhorias de conveniência",
+            "Considerações moderadas de local ou acesso",
+            "Planejamento mais completo do quintal ao redor da piscina"
+          ]
+        },
+        {
+          "scope": "Escopo Personalizado",
+          "title": "Projeto Complexo",
+          "description": "Um projeto complexo geralmente envolve mais planejamento, mais trabalho no local ou um design mais personalizado de vida ao ar livre.",
+          "points": [
+            "Condições difíceis do local ou acesso limitado",
+            "Decking extenso, hardscaping ou áreas de vida ao ar livre",
+            "Aquecimento, automação, recursos de água ou opções especiais",
+            "Muros de contenção, trabalho de drenagem ou considerações de inclinação",
+            "Maiores requisitos de permissões, engenharia ou coordenação"
+          ]
+        }
+      ],
+      "planningNote": "O escopo exato varia por propriedade, layout, distribuidor e requisitos locais. Esta visão geral é para planejamento inicial e não substitui o orçamento específico do projeto de um construtor."
+    },
+    "keyFactors": {
+      "label": "Fatores Chave",
+      "title": "Fatores Chave Que Determinam o Custo de uma Piscina de Fibra de Vidrio",
+      "subtitle": "O preço de uma piscina de fibra de vidrio depende de mais do que a piscina em si. O custo final é moldado pelo modelo da piscina, a condição da propriedade, a quantidade de decking e espaço de vida ao ar livre incluído, e o nível de equipamentos ou melhorias selecionadas.",
+      "cards": [
+        {
+          "title": "Tamanho, Forma e Modelo da Piscina",
+          "costIncreaseLabel": "O custo pode aumentar quando:",
+          "costIncrease": "A piscina é maior, mais funda, mais complexa de colocar ou requer mais espaço de pátio ao redor para completar o layout."
+        },
+        {
+          "title": "Condições do Local e Acesso",
+          "costIncreaseLabel": "O custo pode aumentar quando:",
+          "costIncrease": "O quintal tem acesso limitado, condições difíceis de escavação, preocupações com drenagem, mudanças de elevação ou obstáculos que requerem planejamento adicional."
+        },
+        {
+          "title": "Decking, Layout e Recursos",
+          "costIncreaseLabel": "O custo pode aumentar quando:",
+          "costIncrease": "O projeto inclui decking ampliado, materiais melhorados, iluminação, aquecimento, automação, recursos de água ou uma área maior de vida ao ar livre."
+        },
+        {
+          "title": "Permissões e Requisitos Locais",
+          "costIncreaseLabel": "O custo pode aumentar quando:",
+          "costIncrease": "O projeto requer engenharia adicional, inspeções, coordenação de serviços públicos, cercamento, trabalho de contenção ou outros requisitos específicos do local."
+        }
+      ],
+      "helpfulTip": "Dois orçamentos de piscinas de fibra de vidrio podem parecer muito diferentes se incluírem diferentes quantidades de decking, equipamentos, trabalho elétrico, preparação do local, permissões ou melhorias opcionais. Sempre compare o escopo completo do projeto, não apenas o modelo da piscina."
+    },
+    "included": {
+      "label": "O Que Inclui",
+      "title": "O Que Tipicamente Está Incluído em um Projeto de Piscina de Fibra de Vidrio",
+      "subtitle": "Um projeto de piscina de fibra de vidrio geralmente inclui mais do que a cápsula da piscina. Embora as inclusões exatas variem por distribuidor, localização, condições da propriedade e escopo do projeto, a maioria das instalações padrão é construída em torno de um conjunto central de produtos e serviços que preparam o local, colocam a piscina, conectam os equipamentos e deixam o sistema pronto para uso.",
+      "items": [
+        { "title": "Cápsula de Piscina de Fibra de Vidrio", "description": "A cápsula de fibra de vidrio é a estrutura principal da piscina e é selecionada com base no modelo, tamanho, forma, profundidade e objetivos de layout para o quintal." },
+        { "title": "Entrega e Colocação", "description": "A cápsula da piscina deve ser entregue à propriedade e cuidadosamente colocada na área de escavação preparada usando o equipamento apropriado para o local." },
+        { "title": "Escavação e Preparação da Base", "description": "O quintal é escavado para o modelo de piscina selecionado, e a base é preparada para que a cápsula possa ser colocada, nivelada e suportada corretamente." },
+        { "title": "Encanamento e Filtração", "description": "Equipamentos padrão de encanamento e filtração ajudam a circular, filtrar e manter a água da piscina como parte do sistema operacional central." },
+        { "title": "Conexões Elétricas e Configuração de Equipamentos", "description": "Trabalho elétrico e configuração de equipamentos são coordenados para que bombas, controles, iluminação ou outros sistemas selecionados possam operar de forma segura e correta." },
+        { "title": "Decking Básico Ao Redor da Piscina", "description": "Muitos projetos padrão incluem uma quantidade básica de decking ou espaço de pátio imediatamente ao redor da piscina, com áreas ampliadas orçadas separadamente." },
+        { "title": "Partida e Testes do Sistema", "description": "Uma vez que a piscina e os equipamentos estão conectados, o sistema é iniciado e testado para que o construtor possa confirmar que os sistemas básicos da piscina estão operando." }
+      ],
+      "importantNote": "As inclusões exatas podem variar por construtor e localização. Antes de comparar orçamentos, pergunte o que está incluído para decking, escopo elétrico, manejo de permissões, equipamentos, partida, necessidades de acesso e qualquer trabalho específico do local. Isso ajuda você a comparar o escopo completo do projeto, não apenas a cápsula da piscina."
+    },
+    "upgrades": {
+      "label": "Melhorias",
+      "title": "Recursos Opcionais e Melhorias a Considerar",
+      "subtitle": "Após o escopo base do projeto ser estabelecido, muitos proprietários escolhem melhorias opcionais que melhoram o conforto, conveniência, design ou usabilidade durante todo o ano. Estas seleções podem afetar o preço final do projeto, por isso é útil pensar quais recursos importam mais antes de solicitar um orçamento detalhado.",
+      "cards": [
+        { "title": "Controles e Conveniência", "description": "Automação de piscina e sistemas de controle inteligente podem facilitar o gerenciamento de equipamentos, iluminação, horários e recursos selecionados de um só lugar.", "commonUpgrade": "Automação ou controles de piscina baseados em app." },
+        { "title": "Extensão de Temporada", "description": "Sistemas de aquecimento podem ajudar a estender a temporada de natação e melhorar o conforto quando as temperaturas da água estão mais frias.", "commonUpgrade": "Aquecedor de piscina ou bomba de calor." },
+        { "title": "Água e Iluminação", "description": "Iluminação e recursos de água podem mudar a aparência e a sensação da área da piscina enquanto tornam o quintal mais agradável à noite.", "commonUpgrade": "Iluminação LED, bubblers, deck jets ou recursos de água." },
+        { "title": "Opções de Saneamento", "description": "Diferentes sistemas de saneamento podem afetar as rotinas de manutenção, seleções de equipamentos e preferências de cuidado a longo prazo da piscina.", "commonUpgrade": "Sistema de saneamento de água salgada." },
+        { "title": "Melhorias de Design", "description": "Alguns modelos de piscinas de fibra de vidrio incluem recursos de design integrados que influenciam como a piscina é usada, relaxada e aproveitada.", "commonUpgrade": "Assentos integrados, plataformas de bronzeamento, bancos ou layouts tipo spa." },
+        { "title": "Vida ao Ar Livre", "description": "Decking ampliado, materiais especializados de pátio, áreas de assento e recursos de vida ao ar livre podem transformar a piscina em um espaço mais completo do quintal.", "commonUpgrade": "Áreas maiores de pátio, pavimentos, decking melhorado ou espaços conectados de entretenimento." }
+      ],
+      "planningTip": "As melhorias são melhores selecionadas com base em como você planeja usar a piscina. Uma família focada em entretenimento noturno pode valorizar iluminação e espaço de pátio, enquanto outro proprietário pode priorizar aquecimento, automação ou opções de equipamentos de baixa manutenção."
+    },
+    "ownership": {
+      "label": "Propriedade a Longo Prazo",
+      "title": "Planejamento para Propriedade a Longo Prazo",
+      "subtitle": "Uma piscina de fibra de vidrio é um investimento a longo prazo no quintal, por isso é útil pensar além do preço de instalação inicial. A propriedade contínua geralmente inclui cuidado rotineiro da água, eletricidade para equipamentos de piscina, necessidades de serviço sazonal e manutenção ou substituição normal de equipamentos ao longo do tempo.",
+      "cards": [
+        { "title": "Cuidado Rotineiro", "description": "Toda piscina precisa de atenção regular para manter a água clara, equilibrada e confortável. Isso pode incluir testes de água, escovação, skimming, limpeza de filtros e manutenção básica de produtos químicos ou saneamento.", "planFor": "Equilíbrio contínuo da água, limpeza e manutenção rotineira." },
+        { "title": "Serviços Públicos", "description": "Equipamentos de piscina usam eletricidade para circular e filtrar a água. Recursos opcionais como aquecimento, iluminação, automação ou recursos de água também podem afetar os custos operacionais mensais.", "planFor": "Eletricidade, operação da bomba e uso opcional de aquecimento ou iluminação." },
+        { "title": "Ciclo de Vida do Equipamento", "description": "Equipamentos de piscina são projetados para uso regular, mas itens de desgaste normal podem precisar de serviço ou substituição ao longo do tempo dependendo do uso, clima, cuidado da água e seleção de equipamentos.", "planFor": "Bombas, filtros, luzes, controles, aquecedores e outros componentes de equipamentos ao longo do tempo." }
+      ],
+      "longTermCostsHeading": "Custos a Longo Prazo a Ter em Mente",
+      "longTermCosts": [
+        "Testes e equilíbrio da água",
+        "Ferramentas de limpeza ou serviço profissional de piscina",
+        "Eletricidade para circulação e filtração",
+        "Uso opcional de aquecimento, iluminação ou automação",
+        "Limpeza de filtros ou substituição de meio filtrante",
+        "Manutenção normal de bombas e equipamentos",
+        "Cuidado sazonal dependendo do clima e localização",
+        "Substituição de itens de desgaste à medida que os equipamentos envelhecem"
+      ],
+      "helpfulTip": "A propriedade a longo prazo de uma piscina é mais fácil de orçar quando você entende com que frequência planeja nadar, se deseja aquecimento ou automação, quanta manutenção deseja gerenciar sozinho e o que seu clima local exige."
+    },
+    "accuratePricing": {
+      "label": "Preços Precisos",
+      "title": "Como Obter Preços Precisos para Seu Projeto",
+      "subtitle": "Como o preço de piscinas de fibra de vidrio é específico para cada local, a forma mais confiável de entender o custo do seu projeto é revisar sua propriedade, modelo de piscina preferido, objetivos de layout do quintal e requisitos locais com um construtor qualificado. Uma estimativa realista depende do escopo completo do projeto, não apenas da cápsula da piscina.",
+      "cards": [
+        { "title": "Propriedade e Acesso", "description": "Acesso ao quintal, caminho de entrega, inclinação, condições de escavação, drenagem e espaço disponível para equipamentos podem afetar como o projeto é planejado e orçado.", "helpfulDetails": "Largura do portão, acesso da entrada, fotos do quintal, inclinação, árvores, cercas e obstáculos visíveis." },
+        { "title": "Requisitos Locais", "description": "Permissões, inspeções, recuos, regras de barreiras, coordenação de serviços públicos, engenharia e requisitos de código podem variar por cidade, condado, estado e bairro.", "helpfulDetails": "Cidade, condado, regras de HOA, preocupações de recuo, localizações de serviços públicos e quaisquer requisitos de permissão conhecidos." },
+        { "title": "Design e Layout", "description": "Seleção do modelo de piscina, orientação, áreas de natação pretendidas, assentos, plataformas de bronzeamento, opções de spa e como a piscina se conecta à casa influenciam a estimativa.", "helpfulDetails": "Tamanho de piscina preferido, ideias de modelo, objetivos de layout, exposição ao sol, localização do pátio e como você planeja usar a piscina." },
+        { "title": "Escopo e Seleções", "description": "Tamanho do decking, materiais de pátio, iluminação, aquecimento, automação, opções de saneamento, recursos de água e outras melhorias podem mudar o investimento total do projeto.", "helpfulDetails": "Tamanho desejado de decking, preferências de equipamentos, lista de melhorias desejadas, cronograma e expectativas de orçamento." }
+      ],
+      "quoteChecklistHeading": "Antes de Solicitar um Orçamento, Reúna Estes Detalhes",
+      "quoteChecklist": [
+        "Seu tamanho ou modelo de piscina preferido",
+        "Fotos ou vídeo do quintal",
+        "Largura aproximada de acesso ao quintal",
+        "Tamanho desejado de pátio ou decking",
+        "Interesse em aquecimento, iluminação, automação, sal, spa ou plataformas de bronzeamento",
+        "Problemas conhecidos de inclinação, drenagem, árvores, cercas ou acesso",
+        "Requisitos de cidade, condado e HOA se conhecidos",
+        "Seu cronograma ideal do projeto"
+      ]
+    },
+    "usingGuide": {
+      "label": "Guia de Planejamento",
+      "title": "Usando Este Guia para Planejar Seu Projeto de Piscina de Fibra de Vidrio",
+      "subtitle": "Este guia de preços e planejamento é projetado para ajudá-lo a entender como projetos de piscinas de fibra de vidrio são tipicamente dimensionados, quais fatores influenciam o custo e como orçar com mais confiança durante a fase inicial de pesquisa.",
+      "cards": [
+        { "title": "Entenda o Escopo Primeiro", "description": "Comece pensando se seu projeto provavelmente será simples, de médio porte ou mais complexo com base no modelo da piscina, condições do quintal, acesso, decking e melhorias que você deseja." },
+        { "title": "Compare Projetos Completos", "description": "Ao revisar preços, compare o escopo completo do projeto em vez de apenas a cápsula da piscina. Decking, trabalho elétrico, permissões, equipamentos, acesso e preparação do local podem afetar o número final." },
+        { "title": "Priorize Seus Itens Essenciais", "description": "Decida quais recursos importam mais antes de solicitar um orçamento. Aquecimento, iluminação, automação, sistemas de sal, plataformas de bronzeamento, recursos de água e pátio ampliado podem mudar o investimento." },
+        { "title": "Fale com um Construtor Local", "description": "Como cada propriedade é diferente, um construtor local qualificado pode ajudar a avaliar seu quintal, explicar os requisitos locais e transformar orientação geral de preços em uma estimativa mais precisa do projeto." }
+      ]
+    },
+    "costFinalCta": {
+      "title": "Pronto para Dar o Próximo Passo?",
+      "subtitle": "A melhor maneira de passar do planejamento geral para preços realistas é compartilhar seus objetivos do projeto, localização, estilo de piscina preferido, cronograma e quaisquer detalhes que você já saiba sobre seu quintal.",
+      "finalTip": "Os compradores de piscinas mais confiantes geralmente entendem três coisas antes de solicitar um orçamento: o tipo de piscina que querem, como querem que o quintal funcione e quais recursos são essenciais versus opcionais.",
+      "ctaPrimary": "Conte-nos Sobre Seu Projeto",
+      "ctaSecondary": "Explorar Modelos de Piscinas"
+    }
+  },
+  "FiberglassVsConcrete": {
+    "hero": {
+      "title": "Piscinas de Fibra de Vidrio vs Concreto vs Vinil",
+      "subtitle": "Qual é a certa para você?",
+      "paragraph1": "Ao comparar piscinas de fibra de vidro vs concreto vs vinil, muitos proprietários se surpreendem com a diferença de desempenho desses tipos de piscinas enterradas ao longo do tempo. Embora todas as três possam criar um quintal atraente, elas variam significativamente em custo inicial, tempo de instalação, requisitos de manutenção e experiência de propriedade a longo prazo.",
+      "paragraph2": "Proprietários que pesquisam piscinas hoje frequentemente comparam piscinas de fibra de vidrio, piscinas de concreto (gunite) e piscinas de revestimento de vinil lado a lado, tentando entender não apenas como elas parecem quando novas, mas como a propriedade realmente se sente anos depois. Fatores como durabilidade da superfície, demanda de produtos químicos, reparos e impacto na revenda tendem a importar mais com o tempo do que impressões iniciais.",
+      "ctaPrimary": "Explorar Modelos de Piscinas",
+      "ctaSecondary": "Fale Conosco"
+    },
+    "comparison": {
+      "label": "Visão Rápida",
+      "title": "Comparação Rápida de Tipos de Piscinas",
+      "subtitle": "Comparação rápida de piscinas de fibra de vidrio, concreto (gunite) e revestimento de vinil em fatores chave de propriedade.",
+      "headers": {
+        "feature": "Característica",
+        "fiberglass": "Piscinas de Fibra de Vidrio",
+        "concrete": "Piscinas de Concreto (Gunite)",
+        "vinyl": "Piscinas de Revestimento de Vinil"
+      },
+      "rows": [
+        { "feature": "Tempo de Instalação", "fiberglass": "2–4 semanas (típico)", "concrete": "3–6+ meses (varia)", "vinyl": "4–8 semanas (típico)" },
+        { "feature": "Faixa de Custo Inicial", "fiberglass": "$$–$$$", "concrete": "$$$$", "vinyl": "$–$$" },
+        { "feature": "Manutenção", "fiberglass": "Muito baixa", "concrete": "Alta", "vinyl": "Moderada" },
+        { "feature": "Textura da Superfície", "fiberglass": "Lisa, confortável", "concrete": "Áspera / porosa", "vinyl": "Lisa" },
+        { "feature": "Resistência a Algas", "fiberglass": "Excelente", "concrete": "Baixa", "vinyl": "Moderada" },
+        { "feature": "Reparos a Longo Prazo", "fiberglass": "Mínimos", "concrete": "Revestimento frequente", "vinyl": "Substituição de revestimento" },
+        { "feature": "Custo de Propriedade Vitalícia", "fiberglass": "Mais baixo em geral", "concrete": "Mais alto em geral", "vinyl": "Moderado" },
+        { "feature": "Desempenho em Clima / Solo", "fiberglass": "Excelente (cápsula de engenharia)", "concrete": "Variável (construída no local)", "vinyl": "Variável (revestimento + sistema de paredes)" },
+        { "feature": "Melhor Para", "fiberglass": "Preços previsíveis, instalações rápidas, menor manutenção a longo prazo", "concrete": "Formas totalmente personalizadas, recursos integrados, designs complexos", "vinyl": "Orçamentos de entrada, horizontes de propriedade mais curtos" }
+      ]
+    },
+    "poolTypes": {
+      "takeawayLabel": "Conclusão",
+      "concrete": {
+        "label": "Tipo de Piscina #1",
+        "title": "Piscinas de Concreto (Gunite): Personalizadas, mas Caras",
+        "description": "Piscinas de concreto (frequentemente chamadas de gunite) são frequentemente comercializadas como a opção enterrada mais personalizável. E é verdade — elas podem ser construídas em quase qualquer forma ou profundidade. No entanto, essa flexibilidade vem com importantes contrapartidas em tempo, manutenção e custo vitalício.",
+        "characteristics": [
+          { "title": "Construída no Local", "description": "Construída com aço e concreto projetado através de múltiplas fases no local." },
+          { "title": "Prazos de Construção Longos", "description": "Frequentemente 3–6 meses ou mais, dependendo do escopo e do clima." },
+          { "title": "Superfície Porosa", "description": "Pode favorecer o crescimento de algas e aumentar a demanda de produtos químicos ao longo do tempo." },
+          { "title": "Revestimento Periódico", "description": "Tipicamente requer revestimento a cada 10–15 anos (varia conforme o acabamento e a química da água)." }
+        ],
+        "prosHeading": "Vantagens",
+        "pros": [
+          "Personalização quase ilimitada de forma e profundidade",
+          "Pode acomodar designs complexos, bordas e recursos integrados",
+          "Potencial estético de alto padrão quando nova ou recém-revestida"
+        ],
+        "consHeading": "Desvantagens",
+        "cons": [
+          "O maior custo inicial e de propriedade a longo prazo",
+          "Superfícies mais ásperas podem ser abrasivas para a pele e trajes de banho",
+          "Maior uso de produtos químicos e requisitos de escovação devido à porosidade",
+          "Manutenção contínua pode incluir reboco, azulejo, borda e manutenção de acabamento de superfície"
+        ],
+        "bestFitHeading": "Melhor para proprietários que:",
+        "bestFit": [
+          "Querem máxima flexibilidade de design para formas, profundidades, acabamentos e recursos integrados",
+          "Estão confortáveis com prazos de construção mais longos e mais fases no local",
+          "Preferem um visual totalmente personalizado e estão dispostos a planejar revestimento periódico",
+          "Esperam maior manutenção contínua e custos de propriedade vitalícia comparado a outros tipos de piscinas"
+        ],
+        "takeaway": "Piscinas de concreto oferecem liberdade de design sem igual, mas exigem o maior tempo de construção, a maior manutenção e o investimento a longo prazo mais significativo."
+      },
+      "vinyl": {
+        "label": "Tipo de Piscina #2",
+        "title": "Piscinas de Revestimento de Vinil: Menor Custo de Entrada, Substituições Contínuas",
+        "description": "Piscinas de revestimento de vinil são frequentemente escolhidas porque tipicamente têm um preço inicial mais baixo do que outros tipos de piscinas enterradas. Mas muitos proprietários não contabilizam completamente a realidade a longo prazo: o revestimento é um item de desgaste, e a substituição é uma parte normal da propriedade.",
+        "characteristics": [
+          { "title": "Sistemas de Paredes", "description": "Construídas com sistemas de paredes de aço, polímero ou concreto com um revestimento de vinil esticado para formar a superfície interior." },
+          { "title": "Ciclo de Substituição do Revestimento", "description": "Revestimentos tipicamente precisam de substituição a cada 7–12 anos (varia conforme uso, exposição ao sol e química)." },
+          { "title": "Superfície Vulnerável", "description": "Suscetível a perfurações por animais de estimação, detritos afiados, brinquedos e ferramentas de limpeza inadequadas." },
+          { "title": "Sensação Lisa", "description": "O vinil pode parecer suave e confortável para nadadores quando em boas condições." }
+        ],
+        "prosHeading": "Vantagens",
+        "pros": [
+          "Menor investimento inicial comparado à maioria das opções enterradas",
+          "Superfície lisa ao toque para nadadores",
+          "Tempo de construção mais rápido do que muitos projetos de concreto (gunite)"
+        ],
+        "consHeading": "Desvantagens",
+        "cons": [
+          "Custo recorrente de substituição do revestimento a cada 7–12 anos (típico)",
+          "Maior risco de rasgos, rugas e desbotamento ao longo do tempo",
+          "Menos opções de design de degraus e bancos do que muitos modelos de piscinas de fibra de vidrio",
+          "Pode contribuir menos para o valor de revenda a longo prazo do que outros tipos de piscinas"
+        ],
+        "bestFitHeading": "Melhor para proprietários que:",
+        "bestFit": [
+          "Estão priorizando um custo inicial mais baixo ao planejar uma nova piscina enterrada",
+          "Preferem uma superfície interior lisa e layouts de piscina simples",
+          "Entendem que a substituição do revestimento é uma despesa normal e recorrente de propriedade",
+          "Estão planejando em torno de horizontes de propriedade mais curtos ou decisões baseadas em orçamento"
+        ],
+        "takeaway": "Piscinas de revestimento de vinil oferecem um preço de entrada mais baixo, mas exigem substituições contínuas do revestimento e trazem mais incerteza a longo prazo."
+      },
+      "fiberglass": {
+        "label": "Tipo de Piscina #3",
+        "title": "Piscinas de Fibra de Vidrio: O Padrão Moderno para Proprietários Inteligentes",
+        "description": "Piscinas de fibra de vidrio tornaram-se o segmento de mais rápido crescimento do mercado de piscinas enterradas. Diferente de piscinas construídas inteiramente no local, piscinas de fibra de vidrio são fabricadas em uma instalação controlada e entregues como uma cápsula única totalmente projetada.",
+        "characteristics": [
+          { "title": "Cápsula de Uma Peça Fabricada em Fábrica", "description": "Fabricada como uma estrutura única e integrada, projetada para resistência e longevidade." },
+          { "title": "Instalação Rápida", "description": "Instalada em semanas em vez de meses após a conclusão da preparação do local." },
+          { "title": "Superfície de Gelcoat Não Porosa", "description": "Superfície lisa que resiste a algas e manchas, com mínima manutenção estrutural." },
+          { "title": "Compatível com Água Salgada", "description": "Ideal para sistemas de piscinas de água salgada devido ao acabamento de gelcoat não poroso." }
+        ],
+        "prosHeading": "Vantagens",
+        "pros": [
+          "O menor custo de propriedade vitalícia entre os tipos de piscinas enterradas",
+          "Uso mínimo de produtos químicos devido à superfície não porosa",
+          "Excelente resistência ao crescimento de algas e manchas de superfície",
+          "Instalação rápida reduz a disrupção do quintal",
+          "Superfície confortável e antiderrapante para todas as idades",
+          "Ideal para sistemas de piscinas de água salgada"
+        ],
+        "consHeading": "Considerações",
+        "cons": [
+          "Formas e tamanhos da cápsula são pré-projetados em vez de totalmente personalizadas",
+          "Requer preparação adequada do local e instalação experiente",
+          "Acesso é necessário para entregar a cápsula da piscina ao quintal"
+        ],
+        "bestFitHeading": "Melhor para proprietários que:",
+        "bestFit": [
+          "Querem um prazo de instalação previsível, com a maioria dos projetos concluídos em algumas semanas após a preparação do local",
+          "Preferem menor manutenção contínua e cuidado mais simples com a água",
+          "Valorizam uma superfície interior lisa para conforto e facilidade de limpeza",
+          "Estão confortáveis escolhendo entre tamanhos e layouts de piscina estabelecidos em vez de formas totalmente personalizadas"
+        ],
+        "takeaway": "Piscinas de fibra de vidrio combinam instalação mais rápida, menor manutenção e desempenho a longo prazo previsível, tornando-as o tipo de piscina enterrada de mais rápido crescimento."
+      }
+    },
+    "costComparison": {
+      "label": "Custo ao Longo do Tempo",
+      "title": "Comparação de Custos: Fibra de Vidrio vs Concreto vs Vinil ao Longo do Tempo",
+      "subtitle": "Ao comparar tipos de piscinas, é natural focar no preço de instalação inicial. No entanto, o custo a longo prazo de possuir uma piscina também inclui manutenção, reparos e substituições de superfície ao longo do tempo.",
+      "ranges": [
+        { "type": "Piscinas de Fibra de Vidrio", "range": "$55,000 – $155,000" },
+        { "type": "Piscinas de Concreto (Gunite)", "range": "$80,000 – $200,000+" },
+        { "type": "Piscinas de Revestimento de Vinil", "range": "$45,000 – $85,000" }
+      ],
+      "rangesNote": "Os custos reais do projeto variam conforme o tamanho da piscina, acesso ao local, condições de escavação, escopo do deck, seleção de equipamentos e requisitos locais.",
+      "considerationsHeading": "Considerações de Propriedade a Longo Prazo",
+      "considerations": [
+        { "title": "Piscinas de Concreto", "description": "Frequentemente envolvem custos vitalícios mais altos devido a revestimento periódico, maior uso de produtos químicos e manutenção contínua de superfície." },
+        { "title": "Piscinas de Revestimento de Vinil", "description": "Tipicamente requerem múltiplas substituições de revestimento durante a vida da piscina, o que adiciona custos recorrentes além da instalação inicial." },
+        { "title": "Piscinas de Fibra de Vidrio", "description": "Geralmente têm custos de propriedade mais previsíveis, com menos renovações importantes de superfície e menores demandas de manutenção rotineira." }
+      ],
+      "perspectiveLabel": "Perspectiva de custo",
+      "perspective": "O preço inicial mais baixo nem sempre se traduz no menor custo a longo prazo. Proprietários que planejam ficar em sua casa por muitos anos frequentemente descobrem que manutenção previsível e menos reparos importantes importam tanto quanto o investimento inicial."
+    },
+    "maintenance": {
+      "label": "Manutenção",
+      "title": "Diferenças de Manutenção Entre Tipos de Piscinas",
+      "subtitle": "Manutenção contínua e química da água desempenham um papel importante no custo real e aproveitamento da propriedade de uma piscina. As superfícies das piscinas influenciam a demanda de produtos químicos, frequência de limpeza e quão facilmente as algas podem se instalar.",
+      "headers": {
+        "factor": "Fator de Manutenção",
+        "fiberglass": "Piscinas de Fibra de Vidrio",
+        "concrete": "Piscinas de Concreto (Gunite)",
+        "vinyl": "Piscinas de Revestimento de Vinil"
+      },
+      "rows": [
+        { "factor": "Demanda de Produtos Químicos", "fiberglass": "Baixa", "concrete": "Alta", "vinyl": "Moderada" },
+        { "factor": "Escovação Necessária", "fiberglass": "Rara", "concrete": "Semanal", "vinyl": "Ocasional" },
+        { "factor": "Risco de Crescimento de Algas", "fiberglass": "Menor (superfície não porosa)", "concrete": "Maior (superfície porosa)", "vinyl": "Moderado" },
+        { "factor": "Manchas de Superfície", "fiberglass": "Resiste a manchas", "concrete": "Mais comuns ao longo do tempo", "vinyl": "Possíveis com a idade" },
+        { "factor": "Compatibilidade com Água Salgada", "fiberglass": "Excelente", "concrete": "Varia conforme acabamento e seleção de equipamentos", "vinyl": "Boa" }
+      ],
+      "whyItMattersLabel": "Por que isso importa",
+      "whyItMatters": "Diferenças em escovação, demanda de produtos químicos e manutenção de superfície podem afetar o esforço diário e os custos operacionais ao longo do tempo, especialmente em climas quentes onde a pressão de algas pode ser maior."
+    },
+    "homeValue": {
+      "label": "Valor da Residência",
+      "title": "Qual Tipo de Piscina Agrega Mais Valor à Residência?",
+      "subtitle": "Além do aproveitamento pessoal, muitos proprietários consideram como uma piscina enterrada pode afetar o valor de revenda e o apelo para compradores. Na maioria dos casos, piscinas agregam valor melhorando o apelo de estilo de vida e ajudando uma casa a se destacar, em vez de devolver seu custo total de instalação na revenda.",
+      "cards": [
+        {
+          "type": "Piscinas de Fibra de Vidrio",
+          "points": [
+            "Forte apelo para compradores devido à facilidade de propriedade e manutenção previsível",
+            "Frequentemente percebidas como menor risco comparadas a piscinas que requerem renovações periódicas de superfície",
+            "Tipicamente mantêm um acabamento limpo e consistente com cuidado rotineiro"
+          ]
+        },
+        {
+          "type": "Piscinas de Concreto (Gunite)",
+          "points": [
+            "Aparência premium e potencial de design totalmente personalizado",
+            "Impacto na revenda depende fortemente da condição atual e qualidade do acabamento",
+            "Alguns compradores contabilizam futuros revestimentos e expectativas de manutenção"
+          ]
+        },
+        {
+          "type": "Piscinas de Revestimento de Vinil",
+          "points": [
+            "Idade e condição do revestimento influenciam fortemente o valor percebido",
+            "O tempo de substituição pode se tornar um ponto de negociação durante a revenda",
+            "Frequentemente vista como uma opção de orçamento em vez de um recurso premium a longo prazo"
+          ]
+        }
+      ],
+      "takeawayLabel": "Ponto-chave",
+      "takeaway": "O valor de uma piscina geralmente é melhor medido em estilo de vida e comerciabilidade. Em muitas regiões amigas de piscinas, compradores tendem a preferir piscinas que parecem bem mantidas e parecem previsíveis de possuir, e isso frequentemente se resume ao tipo de piscina, condição da superfície e a manutenção a longo prazo que o comprador espera herdar."
+    },
+    "finalVerdict": {
+      "label": "Veredito Final",
+      "title": "Veredito Final: Fibra de Vidrio vs Concreto vs Vinil",
+      "subtitle": "Não há uma única melhor piscina para cada proprietário. A escolha certa depende de como você pondera flexibilidade de design, investimento inicial, expectativas de manutenção e experiência de propriedade a longo prazo.",
+      "cards": [
+        {
+          "type": "Concreto (Gunite)",
+          "description": "Piscinas de concreto são frequentemente escolhidas por proprietários que querem liberdade total de design e estão confortáveis com um processo de construção mais longo e mais manutenção contínua ao longo do tempo.",
+          "points": [
+            "Melhor para formas totalmente personalizadas, profundidades e recursos integrados",
+            "Prazos de construção mais longos entre os tipos de piscinas enterradas",
+            "Manutenção contínua e revestimento devem ser esperados durante a vida da piscina"
+          ]
+        },
+        {
+          "type": "Revestimento de Vinil",
+          "description": "Piscinas de revestimento de vinil tipicamente atraem proprietários que priorizam um custo inicial mais baixo, com o entendimento de que a substituição do revestimento é uma parte normal da propriedade a longo prazo.",
+          "points": [
+            "Menor investimento inicial comparado à maioria das opções enterradas",
+            "Superfície interior lisa ao toque",
+            "A substituição do revestimento tipicamente é necessária a cada 7–12 anos"
+          ]
+        },
+        {
+          "type": "Fibra de Vidrio",
+          "description": "Piscinas de fibra de vidrio são comumente selecionadas por proprietários que buscam uma combinação equilibrada de durabilidade, instalação mais rápida e manutenção mais simples a longo prazo.",
+          "points": [
+            "Prazos de instalação medidos em semanas em vez de meses",
+            "Superfície não porosa que suporta menor demanda de produtos químicos e limpeza mais fácil",
+            "Propriedade a longo prazo previsível com mínima renovação de superfície"
+          ]
+        }
+      ],
+      "perspectiveLabel": "Perspectiva de propriedade",
+      "perspective": "Muitos proprietários acabam gravitando em torno de tipos de piscinas que parecem previsíveis de possuir, onde manutenção, aparência e expectativas a longo prazo são claras desde o início. Em mercados amigos de piscinas, essa previsibilidade pode influenciar a satisfação tanto quanto o design ou custo inicial."
+    },
+    "finalCta": {
+      "title": "Pronto para Encontrar a Piscina Certa para seu Quintal?",
+      "subtitle": "Navegue nosso catálogo de modelos de piscinas de fibra de vidrio ou entre em contato para discutir seu projeto com nossa equipe.",
+      "ctaPrimary": "Explorar Modelos de Piscinas",
+      "ctaSecondary": "Fale Conosco"
+    }
+  },
+  "Chatbot": {
+    "title": "Tobias, Assistente da FLFG",
+    "openLabel": "Abrir assistente de chat",
+    "closeLabel": "Fechar assistente de chat",
+    "placeholder": "Digite sua pergunta...",
+    "welcome": "Olá! Sou Tobias, posso ajudar com informações sobre nossas piscinas, spas, plataformas e empresa. O que você gostaria de saber?",
+    "suggestions": ["Preços de piscinas", "Tempo de instalação", "Garantia", "Horários do showroom"],
+    "noMatch": "Não tenho informações suficientes para responder com precisão. Você pode reformular sua pergunta ou escolher um destes tópicos.",
+    "clarify": "Para dar uma resposta precisa, a qual destes tópicos você se refere?",
+    "restart": "Recomeçar",
+    "restartLabel": "Reiniciar conversa",
+    "learnMore": "Saber mais",
+    "send": "Enviar"
+  }
+}
