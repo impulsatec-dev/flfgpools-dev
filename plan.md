@@ -9,7 +9,7 @@ Se conservan con total fidelidad los textos, datos y la propuesta de negocio act
 •	Diseño: dirección visual completa, paleta, tipografía, sistema de componentes y tratamiento de movimiento.
 •	Estructura: arquitectura de las 7 secciones solicitadas (Home, About, Projects, Products, Contact, FAQs, Privacy) más el módulo interactivo Create by Yourself.
 •	SEO: estrategia técnica y de contenido orientada a posicionamiento local en el sur de Florida, incluyendo datos estructurados, metadatos y arquitectura bilingüe.
-•	Copy: textos definitivos por sección, fieles al original y depurados de las inconsistencias actuales.
+•	Copy: textos definitivos por sección, fieles al original y depurados de las inconsistencias actuales...
 
 1.2 Problemas del sitio actual que este plan resuelve
 Problema actual	Cómo se resuelve en el sitio nuevo
