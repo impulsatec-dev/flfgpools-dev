@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, AlertCircle, Loader2 } from 'lucide-react';
+import { Check, AlertCircle, Loader2, MapPin, ExternalLink } from 'lucide-react';
 import { SOCIAL_LINKS } from '@/config/site';
 
 export function ContactForm() {
   const t = useTranslations('Contact.form');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [zipError, setZipError] = useState('');
+  const [addressValue, setAddressValue] = useState('');
 
   const validateZip = (zip: string) => {
     const zipNum = parseInt(zip, 10);
@@ -111,7 +112,7 @@ export function ContactForm() {
             className="w-full glass-chip rounded-xl px-4 py-3"
           />
         </div>
-        <div>
+        {/* <div>
           <label htmlFor="zip" className="block text-sm font-medium text-pool-deep mb-1">
             {t('zip')}
           </label>
@@ -133,7 +134,42 @@ export function ContactForm() {
               {zipError}
             </p>
           )}
+        </div> */}
+      
+
+      
+
+      {/* Address with Google Maps link */}
+      <div>
+        <label htmlFor="address" className="block text-sm font-medium text-pool-deep mb-1">
+          {t('address')}
+        </label>
+        <p className="text-xs text-pool-deep/60 mb-2">{t('addressHelper')}</p>
+        <div className="relative">
+          <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-pool-deep/30 pointer-events-none" />
+          <input
+            id="address"
+            name="address"
+            type="text"
+            value={addressValue}
+            onChange={(e) => setAddressValue(e.target.value)}
+            placeholder={t('addressPlaceholder')}
+            className="w-full glass-chip rounded-xl pl-10 pr-4 py-3"
+          />
         </div>
+        <div className="mt-2 flex items-center gap-2">
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addressValue || 'Miami, FL')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs font-medium text-pool-aqua hover:text-pool-deep transition-colors"
+          >
+            <ExternalLink className="h-3.5 w-3.5" />
+            {t('addressMapButton')}
+          </a>
+          <span className="text-xs text-pool-deep/40">{t('addressMapHint')}</span>
+        </div>
+      </div>
       </div>
 
       {/* Message */}

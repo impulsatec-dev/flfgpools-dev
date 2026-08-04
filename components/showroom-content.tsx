@@ -7,6 +7,7 @@ import { Breadcrumbs } from '@/components/breadcrumbs';
 import { SectionReveal } from '@/lib/motion/scroll-components';
 import { showroomProjects, getPoolByCode, type ShowroomZone, type ShowroomStyle, type ShowroomProject } from '@/lib/pools';
 import { cn } from '@/lib/utils';
+import { useRouter } from '@/i18n/navigation';
 import { MapPin, Home, Clock, ArrowRight, Search, X, Award, Calendar, SlidersHorizontal, CircleCheck } from 'lucide-react';
 import { motion, AnimatePresence, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 
@@ -189,6 +190,7 @@ function ProjectFigure({
 export function ShowroomContent({ locale }: { locale: string }) {
   const t = useTranslations('Showroom');
   const reduce = useReducedMotion();
+  const router = useRouter();
   const [zoneFilter, setZoneFilter] = useState<ShowroomZone | 'all'>('all');
   const [sizeFilter, setSizeFilter] = useState<'all' | 'upTo16' | '16to22' | '22plus'>('all');
   const [styleFilter, setStyleFilter] = useState<ShowroomStyle | 'all'>('all');
@@ -197,6 +199,18 @@ export function ShowroomContent({ locale }: { locale: string }) {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const handleSelectProject = (project: ShowroomProject) => {
+    setSelectedProject(project);
+    if (project.modelCode) {
+      const pool = getPoolByCode(project.modelCode);
+      if (pool) {
+        const basePath = pool.productClass === 'spa' ? '/products/spa' : '/products/pools';
+        router.push(`${basePath}/${pool.slug}`);
+        return;
+      }
+    }
+  };
   const filterBarRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -665,7 +679,7 @@ export function ShowroomContent({ locale }: { locale: string }) {
                 offset={layoutOffsets[i % layoutOffsets.length]}
                 reduce={reduce}
                 onHoverStart={setHoveredProject}
-                onSelect={setSelectedProject}
+                onSelect={handleSelectProject}
                 isSelected={selectedProject?.id === project.id}
               />
             ))

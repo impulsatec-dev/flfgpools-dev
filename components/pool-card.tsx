@@ -66,7 +66,7 @@ export function PoolCard({ pool, locale, index = 0 }: PoolCardProps) {
       {/* Content */}
       <div className="p-6">
         <h3 className="text-xl font-display font-bold text-pool-deep">
-          {pool.name}
+          {pool.modelCode} - {pool.name}
         </h3>
         <p className="mt-1 text-sm text-pool-deep/60">
           {pool.dimensionsText.width} × {pool.dimensionsText.length} · {pool.dimensionsText.depth}

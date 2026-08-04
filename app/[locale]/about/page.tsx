@@ -5,7 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { SectionReveal, RevealItem, StatCounter } from '@/lib/motion/scroll-components';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { STATS } from '@/config/stats';
-import { Shield, Eye, Heart, Headphones } from 'lucide-react';
+import { Shield, Eye, Heart, Headphones, Home, MapPin, Clock, ArrowRight } from 'lucide-react';
 import { Certifications } from '@/components/certifications';
 import { SITE_URL, BUSINESS_INFO } from '@/config/site';
 import type { Metadata } from 'next';
@@ -139,11 +139,31 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
       {/* Showroom CTA */}
       <section className="container mx-auto px-4 py-16">
-        <div className="glass-panel p-8 md:p-12 text-center">
-          <h2 className="text-3xl font-display font-bold">{t('showroom.title')}</h2>
-          <p className="mt-3 text-pool-deep/70">{t('showroom.description')}</p>
+        <div className="glass-card p-8 md:p-12 text-center max-w-3xl mx-auto">
+          <div className="flex justify-center mb-4">
+            <div className="h-16 w-16 rounded-full bg-pool-aqua/30 flex items-center justify-center">
+              <Home className="h-8 w-8 text-pool-aqua" />
+            </div>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-pool-deep">
+            {t('showroom.title')}
+          </h2>
+          <p className="mt-4 text-lg text-pool-deep/70 max-w-xl mx-auto">
+            {t('showroom.subtitle')}
+          </p>
 
-          <div className="mt-6 overflow-hidden rounded-2xl border border-pool-deep/10 shadow-lg">
+          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6">
+            <div className="flex items-center gap-2 text-pool-deep/70">
+              <MapPin className="h-5 w-5 text-pool-aqua" />
+              <span className="text-lg font-medium">{t('showroom.address')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-pool-deep/70">
+              <Clock className="h-5 w-5 text-pool-aqua" />
+              <span className="text-lg font-medium">{t('showroom.hours')}</span>
+            </div>
+          </div>
+
+          <div className="mt-8 overflow-hidden rounded-2xl border border-pool-deep/10 shadow-lg">
             <iframe
               src="https://www.google.com/maps?q=21500+S+Dixie+Hwy+Miami+FL+33189&output=embed"
               width="100%"
@@ -159,9 +179,10 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
             href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
             target="_blank"
             rel="noopener noreferrer"
-            className="glass-btn-primary hero-cta-primary mt-6 inline-flex glass-btn-primary px-5 py-2 text-white"
+            className="mt-8 glass-btn-primary inline-flex items-center gap-2 px-6 py-3 text-white font-medium"
           >
             {t('showroom.cta')}
+            <ArrowRight className="h-4 w-4" />
           </a>
         </div>
       </section>

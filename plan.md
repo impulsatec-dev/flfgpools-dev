@@ -4,7 +4,7 @@ La lectura de diseño que guía todo el documento es la siguiente:
 Design Read
 Rediseño tipo overhaul de un negocio físico local de piscinas de fibra de vidrio en el sur de Florida, para una audiencia mixta (propietarios hispano y angloparlantes, contractors, realtors e inversionistas), con un lenguaje premium-minimalista de alto impacto en el home y tono más calmo en el resto, apoyado en una aproximación web de liquid glass y Motion con moderación.
 
-Se conservan con total fidelidad los textos, datos y la propuesta de negocio actual: el showroom de más de 6,000 sqft, la trayectoria desde 2014, las certificaciones (ICC/ES, PHTA), el catálogo de modelos, el financiamiento con Hearth y la atención en español, inglés y portugués. Sobre esa base se corrigen los problemas detectados en la auditoría previa y se añaden las páginas solicitadas.
+Se conservan con total fidelidad los textos, datos y la propuesta de negocio actual: el showroom de más de 6,000 sqft, la trayectoria desde 2013, las certificaciones (ICC/ES, PHTA), el catálogo de modelos, el financiamiento con Hearth y la atención en español, inglés y portugués. Sobre esa base se corrigen los problemas detectados en la auditoría previa y se añaden las páginas solicitadas.
 1.1 Qué incluye este plan
 •	Diseño: dirección visual completa, paleta, tipografía, sistema de componentes y tratamiento de movimiento.
 •	Estructura: arquitectura de las 7 secciones solicitadas (Home, About, Projects, Products, Contact, FAQs, Privacy) más el módulo interactivo Create by Yourself.
@@ -84,7 +84,7 @@ La barra de navegación usa el tratamiento de vidrio flotante, se contrae al hac
 El home es la única página con intensidad visual alta. Su trabajo es transmitir, en los primeros segundos, que esta es una empresa seria, con presencia física real y un producto premium. Se estructura en bloques que descienden en intensidad.
 Estructura de bloques
 1.	Hero inmersivo. Video o imagen de gran formato de una piscina terminada, con overlay de vidrio. Titular fiel a la marca, subtítulo y dos CTAs: “Ver catálogo” y “Diseña la tuya”.
-2.	Franja de confianza. Las cifras verificadas del negocio (años desde 2014, piscinas instaladas, tamaño del showroom, estilos disponibles), presentadas como contadores sobrios.
+2.	Franja de confianza. Las cifras verificadas del negocio (años desde 2013, piscinas instaladas, tamaño del showroom, estilos disponibles), presentadas como contadores sobrios.
 3.	La ventaja del showroom. Bloque dedicado al diferenciador central: el mayor showroom de fibra de vidrio del sur de Florida, con foto real y CTA para agendar visita.
 4.	Por qué fibra de vidrio. Tres a cuatro beneficios clave (durabilidad, baja mantención, instalación rápida, superficie no porosa), con iconografía propia y movimiento de revelado.
 5.	Catálogo destacado. Carrusel o grilla de modelos seleccionados, con tarjetas de vidrio sobre foto, que enlazan a Products.
@@ -102,8 +102,8 @@ Se conserva la esencia del texto actual (“Your dream pool”), pero el subtít
 La página About baja la intensidad y se vuelve narrativa. Su función es convertir la trayectoria en confianza. Conserva íntegro el texto institucional actual y lo organiza mejor.
 Bloques
 •	Intro: encabezado calmo con una foto del showroom o del equipo.
-•	Historia: el texto actual íntegro — más de 6,000 sqft, el mayor showroom del sur de Florida, más de 120 piscinas exhibidas, presencia desde 2014, compromiso con la calidad y el acompañamiento de principio a fin.
-•	Trayectoria: línea de tiempo desde 2014 hasta hoy, con hitos del negocio.
+•	Historia: el texto actual íntegro — más de 6,000 sqft, el mayor showroom del sur de Florida, más de 120 piscinas exhibidas, presencia desde 2013, compromiso con la calidad y el acompañamiento de principio a fin.
+•	Trayectoria: línea de tiempo desde 2013 hasta hoy, con hitos del negocio.
 •	Certificaciones: las certificaciones (ICC/ES, PHTA) presentadas como argumento, no solo como logos: qué significan y por qué importan para los permisos en Florida.
 •	Equipo e idiomas: breve presentación del equipo y la atención en español, inglés y portugués.
 •	CTA: invitación a visitar el showroom o solicitar una cotización.

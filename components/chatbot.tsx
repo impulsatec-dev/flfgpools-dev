@@ -88,25 +88,25 @@ export function Chatbot() {
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', damping: 18, stiffness: 280 }}
             onClick={() => setIsOpen(true)}
-            className="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-pool-aqua to-pool-deep shadow-xl shadow-pool-deep/30 transition-transform hover:scale-105 active:scale-95"
+            className="fixed bottom-6 right-6 z-50 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-pool-aqua to-pool-deep shadow-xl shadow-pool-deep/30 transition-transform hover:scale-105 active:scale-95"
             aria-label={t('openLabel')}
           >
             <span className="absolute inset-0 animate-ping rounded-full bg-pool-aqua/30 [animation-duration:3s]" />
-            <div className="relative flex h-10 w-10 items-center justify-center rounded-full bg-white/15 backdrop-blur-sm overflow-hidden ring-1 ring-white/20">
+            <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-white/15 backdrop-blur-sm overflow-hidden ring-1 ring-white/20">
               <Image
                 src="/favicon-flfg.png"
                 alt="FLFG"
-                width={25}
-                height={25}
+                width={56}
+                height={56}
                 className="object-contain"
               />
             </div>
             <Image
               src="/Tobias/Tobias_3/Tobias_3.2.2-Trans.png"
               alt=""
-              width={90}
-              height={90}
-              className="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2 object-contain drop-shadow-lg"
+              width={150}
+              height={150}
+              className="pointer-events-none absolute -top-14 left-1/2 -translate-x-1/2 object-contain drop-shadow-lg"
             />
           </motion.button>
         )}

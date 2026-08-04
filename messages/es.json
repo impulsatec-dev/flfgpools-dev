@@ -2,11 +2,11 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Proveedor e Instalador en el Sur de Florida",
-      "description": "Instalación de piscinas de fibra de vidrio premium de Key West a Sarasota. Más de 1000 piscinas entregadas, garantía estructural de por vida, financiamiento disponible."
+      "description": "Instalación de piscinas de fibra de vidrio premium. Servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Más de 1000 piscinas entregadas, garantía estructural de por vida, financiamiento disponible."
     },
     "about": {
       "title": "Sobre Nosotros — Florida Fiberglass Pools",
-      "description": "Desde 2014, FLFG Pools ha construido el showroom de piscinas de fibra de vidrio más grande del sur de Florida. Conoce nuestro equipo, proceso y más de 1000 instalaciones exitosas."
+      "description": "Desde 2013, FLFG Pools ha construido el showroom de piscinas de fibra de vidrio más grande del sur de Florida. Conoce nuestro equipo, proceso y más de 1000 instalaciones exitosas."
     },
     "pools": {
       "title": "Catálogo de Piscinas de Fibra de Vidrio — Más de 120 Modelos en Stock",
@@ -79,13 +79,13 @@
     "about": {
       "label": "Sobre nosotros",
       "title": "El showroom de piscinas de fibra de vidrio más grande del sur de Florida",
-      "paragraph1": "Con más de 8,000 pies cuadrados, mostramos más de 150 estilos de piscinas en persona. Desde 2014, hemos entregado más de 1000 piscinas a familias desde Key West hasta Sarasota, incluyendo los condados de Miami-Dade, Broward y Palm Beach.",
+      "paragraph1": "Con más de 8,000 pies cuadrados, mostramos más de 150 estilos de piscinas en persona. Desde 2013, hemos entregado más de 1000 piscinas a familias desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward.",
       "paragraph2": "Como distribuidor exclusivo para todo el sur de Florida, nuestro equipo te guía desde la consulta hasta la instalación, asegurando que tu piscina se ajuste a tu estilo de vida, presupuesto y patio — respaldada por una garantía estructural de por vida directamente de fábrica.",
       "cta": "Conoce nuestra historia"
     },
     "stats": {
       "soldPools": "Piscinas entregadas",
-      "stylesInStock": "Estilos en stock",
+      "stylesInStock": "Combinaciones de estilos en stock",
       "yearsExperience": "Años de experiencia",
       "warranty": "Garantía de por vida",
       "warrantyText": "De por vida"
@@ -138,14 +138,14 @@
   },
   "About": {
     "hero": {
-      "title": "Construyendo los patios del sur de Florida desde 2014",
+      "title": "Construyendo los patios del sur de Florida desde 2013",
       "subtitle": "De un pequeño negocio familiar al showroom de piscinas de fibra de vidrio más grande de la región y distribuidor exclusivo de Rainforest Pools."
     },
     "story": {
       "title": "Nuestra historia",
-      "paragraph1": "Florida Fiberglass Pools comenzó en 2014 con una misión simple: hacer accesibles las piscinas premium de fibra de vidrio para las familias del sur de Florida. Lo que empezó como una operación pequeña ahora abarca un showroom de 8,000 pies cuadrados con más de 150 estilos de piscinas en exhibición, y somos el distribuidor exclusivo de Rainforest Pools para todo el sur de Florida.",
-      "paragraph2": "Hemos crecido manteniéndonos fieles a nuestros valores — productos de calidad, precios honestos y respaldando cada instalación. Nuestros más de 1000 proyectos completados y garantía estructural de por vida son nuestro compromiso con tu patio.",
-      "paragraph3": "Hoy servimos desde Key West hasta Sarasota, incluyendo los condados de Miami-Dade, Broward y Palm Beach, con un equipo de Certified Pool Contractors, diseñadores internos y especialistas en financiamiento."
+      "paragraph1": "Florida Fiberglass Pools comenzó en 2013 con una misión simple: hacer accesibles las piscinas premium de fibra de vidrio para las familias del sur de Florida. Lo que empezó como una operación pequeña ahora abarca un showroom de 8,000 pies cuadrados con más de 150 combinaciones de modelos de cascos disponibles, y somos el distribuidor exclusivo para todo el sur de Florida.",
+      "paragraph2": "Hemos crecido manteniéndonos fieles a nuestros valores — productos de primera calidad, precios honestos, servicio al cliente y garantías superiores a las del mercado. Nuestro compromiso con nuestros más de 1,200 clientes satisfechos a lo largo de nuestra historia es nuestro compromiso con tu patio.",
+      "paragraph3": "Hoy servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Según el condado donde se encuentre tu propiedad, te ofrecemos uno de nuestros instaladores expertos de piscinas de fibra de vidrio, así como opciones de financiamiento. Nuestro equipo incluye Certified Pool Contractors, diseñadores internos y especialistas en financiamiento."
     },
     "values": {
       "title": "Lo que representamos",
@@ -170,12 +170,14 @@
     },
     "showroom": {
       "title": "Visita nuestro showroom",
-      "description": "21500 S Dixie Hwy, Miami, FL 33189. Abierto lunes a viernes 9am–5pm, sábado 9am–1pm.",
+      "subtitle": "Ve nuestras piscinas de fibra de vidrio en persona. Nuestro equipo está listo para ayudarte.",
+      "address": "21500 S Dixie Hwy, Miami, FL 33189",
+      "hours": "Lun–Sáb: 9am – 6pm",
       "cta": "Cómo llegar"
     },
     "stats": {
       "soldPools": "Piscinas entregadas",
-      "stylesInStock": "Estilos en stock",
+      "stylesInStock": "Combinaciones de estilos en stock",
       "yearsExperience": "Años de experiencia",
       "warranty": "Garantía de por vida",
       "warrantyText": "De por vida"
@@ -212,6 +214,7 @@
       "over10k": "Más de 10,000 gal",
       "color": "Color",
       "sortBy": "Ordenar por",
+      "numeric": "Numérico",
       "popular": "Más populares",
       "smallest": "Más pequeños primero",
       "largest": "Más grandes primero",
@@ -281,7 +284,7 @@
     "cta": {
       "title": "Visita nuestro showroom",
       "subtitle": "Ve nuestras piscinas de fibra de vidrio en persona. Nuestro equipo está listo para ayudarte.",
-      "address": "1234 Sample Blvd, Miami, FL 33101",
+      "address": "21500 S Dixie Hwy, Miami, FL 33189.",
       "hours": "Lun–Sáb: 9am – 6pm",
       "button": "Cómo llegar"
     }
@@ -315,8 +318,13 @@
       "email": "Correo electrónico",
       "emailPlaceholder": "Ej. juan@ejemplo.com",
       "zip": "Código postal",
-      "zipHelper": "Servimos desde Key West hasta Sarasota, incluyendo los condados de Miami-Dade, Broward y Palm Beach.",
-      "zipError": "Este código postal puede estar fuera de nuestra área principal de servicio. Llámanos — servimos de Key West a Sarasota y te derivaremos a un socio de confianza.",
+      "zipHelper": "Servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward.",
+      "zipError": "Este código postal puede estar fuera de nuestra área principal de servicio. Llámanos — servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward y te derivaremos a un socio de confianza.",
+      "address": "Dirección de la propiedad",
+      "addressPlaceholder": "Ej. 123 Main St, Miami, FL 33189",
+      "addressHelper": "Ingresa la dirección de instalación. Usa el mapa para verificar tu ubicación.",
+      "addressMapButton": "Abrir Google Maps",
+      "addressMapHint": "Busca tu dirección en Google Maps y pégala aquí",
       "message": "Cuéntanos sobre tu proyecto",
       "messagePlaceholder": "Tamaño de piscina, timeline, detalles del patio, preguntas específicas…",
       "submit": "Enviar mi solicitud",
@@ -385,7 +393,7 @@
         },
         {
           "q": "¿Qué áreas cubren?",
-          "a": "Servimos desde Key West hasta Sarasota, incluyendo los condados de Miami-Dade, Broward y Palm Beach. Si estás fuera de estas áreas, llámanos y te derivaremos a un socio de confianza."
+          "a": "Servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Si estás fuera de estas áreas, llámanos y te derivaremos a un socio de confianza."
         },
         {
           "q": "¿Son las piscinas rectangulares de fibra de vidrio una buena opción para patios modernos?",
@@ -407,7 +415,7 @@
     }
   },
   "Footer": {
-    "tagline": "El proveedor e instalador premier de piscinas de fibra de vidrio del sur de Florida desde 2014.",
+    "tagline": "El proveedor e instalador premier de piscinas de fibra de vidrio del sur de Florida desde 2013.",
     "sitemap": "Mapa del sitio",
     "poolsSpa": "Piscinas y Spa",
     "contact": "Contacto",
@@ -522,15 +530,17 @@
     "label": "Certificaciones y Aliados",
     "title": "Certificaciones de confianza y aliados financieros",
     "subtitle": "Trabajamos con organizaciones líderes en la industria para brindarte la más alta calidad y opciones de financiamiento.",
-    "financingLabel": "Aliado Financiero",
-    "financingText": "Opciones de pago mensual disponibles a través de Hearth. Pre-califícate en minutos sin afectar tu puntaje crediticio.",
+    "financingLabel": "Aliados Financieros",
+    "financingText": "Opciones de pago mensual disponibles a través de Hearth y HFS Financial. Pre-califícate en minutos sin afectar tu puntaje crediticio.",
     "items": {
       "psn": { "name": "Pool & Spa Network", "alt": "Certificación PSN" },
       "pmg": { "name": "PMG", "alt": "Certificación PMG" },
       "esMark": { "name": "ES Mark", "alt": "Certificación ES Mark" },
       "phta": { "name": "Pool & Hot Tub Alliance", "alt": "Certificación PHTA" },
       "tenYears": { "name": "10 Años de Excelencia", "alt": "Sello de 10 Años" },
-      "hearth": { "name": "Hearth Finance", "alt": "Aliado Financiero Hearth" }
+      "13Years": { "name": "13 Años de Excelencia", "alt": "Sello de 13 Años" },
+      "hearth": { "name": "Hearth Finance", "alt": "Aliado Financiero Hearth" },
+      "hfs": { "name": "HFS Financial", "alt": "Aliado Financiero HFS Financial" }
     }
   },
   "Reviews": {

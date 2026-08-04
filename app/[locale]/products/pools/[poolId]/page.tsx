@@ -6,12 +6,12 @@ import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { Carousel } from '@/components/carousel';
 import { ImageGalleryTrigger } from '@/components/image-gallery';
-import { pools, getPoolBySlug } from '@/lib/pools';
+import { pools, getPoolBySlug, poolColors } from '@/lib/pools';
 import { getAllPoolIds } from '@/lib/product-data';
 import { poolProductSchema } from '@/lib/schema/product';
 import { formatCurrency } from '@/lib/utils';
 import { SITE_URL, BUSINESS_INFO } from '@/config/site';
-import { Check, Ruler, Maximize, Waves, Droplets, ImageIcon, Weight } from 'lucide-react';
+import { Check, Ruler, Maximize, Waves, Droplets, ImageIcon, Weight, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
@@ -236,12 +236,51 @@ export default function PoolDetailPage({
 
             {/* Colors */}
             {pool.colors.length > 0 && (
-              <div className="mt-6">
-                <h2 className="text-xl font-display font-bold mb-3">{t('detail.colors')}</h2>
-                <div className="flex flex-wrap gap-2">
-                  {pool.colors.map((color) => (
-                    <span key={color} className="glass-chip text-sm">{color}</span>
-                  ))}
+              <div className="mt-8">
+                <h2 className="text-xl font-display font-bold mb-4">{t('detail.colors')}</h2>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                  {pool.colors.map((colorName) => {
+                    const color = poolColors.find((c) => c.name === colorName);
+                    if (!color) {
+                      return (
+                        <span key={colorName} className="glass-chip text-sm">{colorName}</span>
+                      );
+                    }
+                    const galleryImages = [color.modelImage, ...color.referenceImages];
+                    return (
+                      <ImageGalleryTrigger
+                        key={colorName}
+                        images={galleryImages}
+                        alt={`${pool.name} — ${colorName}`}
+                        initialIndex={0}
+                      >
+                        <div className="group glass-card overflow-hidden cursor-pointer">
+                          {/* <div className={`relative aspect-[5/4] overflow-hidden bg-gradient-to-br ${color.gradient} opacity-95`}>
+                            <Image
+                              src={color.modelImage}
+                              alt={`${pool.name} — ${colorName}`}
+                              fill
+                              sizes="(max-width: 768px) 25vw, 15vw"
+                              className="object-contain p-3 transition-transform duration-500 ease-out group-hover:scale-105"
+                            />
+                          </div> */}
+                          <div className="px-4 py-3 flex items-center gap-3">
+                            <div className="relative h-8 w-8 shrink-0 rounded-lg overflow-hidden ring-1 ring-pool-deep/15 shadow-sm">
+                              <Image
+                                src={color.colorChip}
+                                alt={`${colorName} color swatch`}
+                                fill
+                                sizes="32px"
+                                className="object-cover"
+                              />
+                            </div>
+                            <span className="text-sm font-medium text-pool-deep truncate flex-1">{colorName}</span>
+                            <ArrowUpRight className="h-4 w-4 text-pool-deep/30 transition-all duration-300 group-hover:text-pool-aqua group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                          </div>
+                        </div>
+                      </ImageGalleryTrigger>
+                    );
+                  })}
                 </div>
               </div>
             )}

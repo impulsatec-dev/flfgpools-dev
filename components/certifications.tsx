@@ -7,11 +7,13 @@ const certifications = [
   { src: '/certi-brand/pmg-150x150.jpg', key: 'pmg' },
   { src: '/certi-brand/New-ES_Mark_BLK-1-380x380.jpg', key: 'esMark' },
   { src: '/certi-brand/LOGO-POOL-AND-HOT-1-380x380.png', key: 'phta' },
-  { src: '/certi-brand/SELO-10-ANOS.png', key: 'tenYears' },
+  // { src: '/certi-brand/SELO-10-ANOS.png', key: 'tenYears' },
+  { src: '/about/13-years.png', key: '13Years' },
 ] as const;
 
 const financing = [
   { src: '/certi-brand/hearthfinance.bak.jpg', key: 'hearth', href: 'https://www.hearth.com' },
+  { src: '/about/hfs-logo-new.webp', key: 'hfs', href: 'https://www.hfsfinancial.net/' },
 ] as const;
 
 export function Certifications({ variant = 'home' }: { variant?: 'home' | 'about' }) {
@@ -52,6 +54,10 @@ export function Certifications({ variant = 'home' }: { variant?: 'home' | 'about
               </div>
             </RevealItem>
           ))}
+
+
+
+          
         </div>
 
         {/* Financing partners */}

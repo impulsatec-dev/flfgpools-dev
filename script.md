@@ -2,7 +2,7 @@
 
 Script inicial.
 Briefing: 
-Nuestra companhia tiene mas de 13 años en el mercado de Piscinas de Fiberglass en el sur de la Florida y se há destacado por su conocimiento técnico, customer service y permanência física em este mercadocom mas de 1000 picinas comercializadas. Eso nos permite tener la distribuicion exclusiva de Rainforest Pools em todo el sul de la Florida asi desde Key West hasta Sarasota. (tenemos que poner um mapa donde muestra nuestra área)
+Nuestra companhia tiene mas de 13 años en el mercado de Piscinas de Fiberglass en el sur de la Florida y se há destacado por su conocimiento técnico, customer service y permanência física em este mercadocom mas de 1000 picinas comercializadas. Eso nos permite tener la distribuicion exclusiva de Rainforest Pools em todo el sul de la Florida asi desde Servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. (tenemos que poner um mapa donde muestra nuestra área)
 
 Nosotros podemos ofertar al mercado 3 tipos distintos o combinados de produtos/servicios, son ellos:
 - Cascos de piscinas residenciales producidos em fibra de vidrio de altíssima calidad com garatia de factoria por tempo ilimitado (de por vida);

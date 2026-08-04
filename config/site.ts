@@ -29,7 +29,7 @@ export const SOCIAL_LINKS = {
 export const BUSINESS_INFO = {
   name: 'Florida Fiberglass Pools',
   legalName: 'Florida Fiberglass Pools LLC',
-  foundedYear: 2014,
+  foundedYear: 2013,
   serviceArea: ['Monroe County', 'Miami-Dade County', 'Broward County', 'Palm Beach County', 'Sarasota County'],
   showroomSize: '8,000 sqft',
 } as const;
@@ -39,7 +39,7 @@ export const SEO_CONFIG = {
   title: 'Florida Fiberglass Pools',
   shortName: 'FLFG Pools',
   description:
-    'Supplier and installer of inground and above ground fiberglass pools in South Florida since 2014. 1000+ pools delivered with 15-year warranty. Serving Miami-Dade, Broward, Palm Beach & Monroe counties.',
+    'Supplier and installer of inground and above ground fiberglass pools in South Florida since 2013. 1000+ pools delivered with 15-year warranty. Serving Miami-Dade, Broward, Palm Beach & Monroe counties.',
   keywords: [
     'fiberglass pools Miami',
     'piscinas de fibra de vidrio Florida',

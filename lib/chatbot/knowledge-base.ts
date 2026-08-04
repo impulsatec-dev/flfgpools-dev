@@ -17,9 +17,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['sobre', 'historia', 'empresa', 'quem', 'fundada', 'inicio', 'negocio'],
     },
     answer: {
-      en: 'Florida Fiberglass Pools was founded in 2014 with a simple mission: make premium fiberglass pools accessible to South Florida families. What began as a small operation now spans an 8,000 sqft showroom with 150+ pool styles on display, and we are the exclusive distributor for all of South Florida. We have delivered 1000+ pools and have 13+ years of experience.',
-      es: 'Florida Fiberglass Pools fue fundada en 2014 con una misión simple: hacer accesibles las piscinas de fibra de vidrio premium para las familias del sur de Florida. Lo que comenzó como una pequeña operación ahora abarca un showroom de 8,000 sqft con más de 150 estilos de piscinas, y somos el distribuidor exclusivo para todo el sur de Florida. Hemos entregado más de 1000 piscinas y tenemos más de 13 años de experiencia.',
-      pt: 'A Florida Fiberglass Pools foi fundada em 2014 com uma missão simples: tornar as piscinas de fibra de vidro premium acessíveis às famílias do sul da Flórida. O que começou como uma pequena operação agora abrange um showroom de 8.000 sqft com mais de 150 estilos de piscinas, e somos o distribuidor exclusivo para todo o sul da Flórida. Entregamos mais de 1000 piscinas e temos mais de 13 anos de experiência.',
+      en: 'Florida Fiberglass Pools was founded in 2013 with a simple mission: make premium fiberglass pools accessible to South Florida families. What began as a small operation now spans an 8,000 sqft showroom with 150+ pool styles on display, and we are the exclusive distributor for all of South Florida. We have delivered 1000+ pools and have 13+ years of experience.',
+      es: 'Florida Fiberglass Pools fue fundada en 2013 con una misión simple: hacer accesibles las piscinas de fibra de vidrio premium para las familias del sur de Florida. Lo que comenzó como una pequeña operación ahora abarca un showroom de 8,000 sqft con más de 150 estilos de piscinas, y somos el distribuidor exclusivo para todo el sur de Florida. Hemos entregado más de 1000 piscinas y tenemos más de 13 años de experiencia.',
+      pt: 'A Florida Fiberglass Pools foi fundada em 2013 com uma missão simples: tornar as piscinas de fibra de vidro premium acessíveis às famílias do sul da Flórida. O que começou como uma pequena operação agora abrange um showroom de 8.000 sqft com mais de 150 estilos de piscinas, e somos o distribuidor exclusivo para todo o sul da Flórida. Entregamos mais de 1000 piscinas e temos mais de 13 anos de experiência.',
     },
     link: {
       en: '/about',
@@ -84,9 +84,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['servico', 'area', 'cobrimos', 'cobertura', 'condados', 'miami', 'broward', 'palm', 'beach', 'key', 'west', 'sarasota'],
     },
     answer: {
-      en: 'We serve from Key West to Sarasota, including Miami-Dade County, Broward County, Palm Beach County, and Sarasota County. If you are outside these areas, call us and we will refer you to a trusted partner.',
-      es: 'Servimos desde Key West hasta Sarasota, incluyendo los condados de Miami-Dade, Broward, Palm Beach y Sarasota. Si estás fuera de estas áreas, llámanos y te referiremos a un socio de confianza.',
-      pt: 'Atendemos de Key West a Sarasota, incluindo os condados de Miami-Dade, Broward, Palm Beach e Sarasota. Se você estiver fora dessas áreas, ligue para nós e o encaminharemos a um parceiro de confiança.',
+      en: 'from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. If you are outside these areas, call us and we will refer you to a trusted partner.',
+      es: 'Servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Si estás fuera de estas áreas, llámanos y te referiremos a un socio de confianza.',
+      pt: 'Atendemos desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. Se você estiver fora dessas áreas, ligue para nós e o encaminharemos a um parceiro de confiança.',
     },
   },
 

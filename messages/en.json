@@ -2,11 +2,11 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Supplier & Installer in South Florida",
-      "description": "Premium fiberglass pools installation from Key West to Sarasota. 1000+ pools delivered, lifetime structural warranty, financing available. Hablamos Español."
+      "description": "Premium fiberglass pools installation from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. 1000+ pools delivered, lifetime structural warranty, financing available. Hablamos Español."
     },
     "about": {
       "title": "About Us — Florida Fiberglass Pools",
-      "description": "Since 2014, FLFG Pools has built South Florida's largest fiberglass pool showroom. Learn about our team, process, and 1000+ successful installations."
+      "description": "Since 2013, FLFG Pools has built South Florida's largest fiberglass pool showroom. Learn about our team, process, and 1000+ successful installations."
     },
     "pools": {
       "title": "Fiberglass Pool Catalog — 120+ Models in Stock",
@@ -69,7 +69,7 @@
   },
   "Home": {
     "hero": {
-      "badge": "New Pool Model — Now Available",
+      "badge": "New Pool Model R16 — Now Available",
       "title": "Your dream pool, built to last in South Florida",
       "subtitle": "Premium fiberglass pools designed for safety, fun, and effortless maintenance.",
       "ctaPrimary": "Explore Pool Models",
@@ -79,13 +79,13 @@
     "about": {
       "label": "About Us",
       "title": "South Florida's largest fiberglass pool showroom",
-      "paragraph1": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2014, we've delivered 1000+ pools to families from Key West to Sarasota, including Miami-Dade, Broward, and Palm Beach counties.",
+      "paragraph1": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
       "paragraph2": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
       "cta": "Learn our story"
     },
     "stats": {
       "soldPools": "Pools delivered",
-      "stylesInStock": "Styles in stock",
+      "stylesInStock": "Styles combos in stock",
       "yearsExperience": "Years in business",
       "warranty": "Lifetime warranty",
       "warrantyText": "Lifetime"
@@ -138,44 +138,46 @@
   },
   "About": {
     "hero": {
-      "title": "Building South Florida's backyards since 2014",
+      "title": "Building South Florida's backyards since 2013",
       "subtitle": "From a small family business to the region's largest fiberglass pool showroom and exclusive distributor."
     },
     "story": {
       "title": "Our story",
-      "paragraph1": "Florida Fiberglass Pools started in 2014 with a simple mission: make premium fiberglass pools accessible to South Florida families. What began as a small operation now spans an 8,000 sqft showroom with 150+ pool styles on display, and we are the exclusive distributor for all of South Florida.",
-      "paragraph2": "We've grown by staying true to our values — quality products, honest pricing, and standing behind every installation. Our 1000+ completed projects and lifetime structural warranty are our commitment to your backyard.",
-      "paragraph3": "Today, we serve from Key West to Sarasota, including Miami-Dade, Broward, and Palm Beach counties, with a team of Certified Pool Contractors, in-house designers, and financing specialists."
+      "paragraph1": "Florida Fiberglass Pools began in 2013 with a simple mission: to make premium fiberglass pools accessible to South Florida families. What started as a small operation now encompasses an 8,000 sq ft. showroom with over 150 available shell model combinations, and we are the exclusive distributor for all of South Florida.",
+      "paragraph2": "We have grown by remaining true to our values ​​— top-quality products, honest prices, customer service, and above-market warranties. Our commitment to our more than 1,200 satisfied customers throughout our history is our commitment to your backyard.",
+      "paragraph3": "Today, we serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. Based on the county where your property is located, we offer one of our expert fiberglass pool installers, as well as financing options. Our team includes Certified Pool Contractors, in-house designers, and financing specialists."
     },
     "values": {
       "title": "What we stand for",
       "items": {
         "quality": {
           "title": "Quality without compromise",
-          "description": "We only install pools that meet our own standards. If we wouldn't put it in our backyard, we won't put it in yours."
+          "description": "Uncompromising quality, We only sell pools that exceed FBC standards; our pools surpass our own. If we wouldn't choose it for our own backyard, we wouldn't put it in yours."
         },
         "transparency": {
           "title": "Transparent pricing",
-          "description": "No hidden fees, no surprise charges. You get a detailed quote before we break ground."
+          "description": "No hidden fees, no surprise charges. You get a detailed quote before everything - Local roots, local service. We are a company with a physical presence in South Florida. We are not virtual, nor do we create artificial intelligence through social media. Our presence in this community and our reputation is everything."
         },
         "community": {
           "title": "Local roots, local service",
           "description": "We're a South Florida family business. Our reputation in this community is everything."
         },
         "support": {
-          "title": "Lifetime support",
-          "description": "After installation, we're still here. Maintenance questions, warranty claims, upgrades — call us anytime."
+          "title": "Best Customer service ever",
+          "description": "We are available to assist you in English, Spanish, and Portuguese. We always have an answer to your questions and queries. Call us; it will be a pleasure to talk to you."
         }
       }
     },
     "showroom": {
       "title": "Visit our showroom",
-      "description": "21500 S Dixie Hwy, Miami, FL 33189. Open Monday–Friday 9am–5pm, Saturday 9am–1pm.",
+      "subtitle": "See our fiberglass pools in person. Our team is ready to help you find the perfect fit.",
+      "address": "21500 S Dixie Hwy, Miami, FL 33189",
+      "hours": "Mon–Sat: 9am – 6pm",
       "cta": "Get directions"
     },
     "stats": {
       "soldPools": "Pools delivered",
-      "stylesInStock": "Styles in stock",
+      "stylesInStock": "Styles combos in stock",
       "yearsExperience": "Years in business",
       "warranty": "Lifetime warranty",
       "warrantyText": "Lifetime"
@@ -212,6 +214,7 @@
       "over10k": "Over 10,000 gal",
       "color": "Color",
       "sortBy": "Sort by",
+      "numeric": "Numeric",
       "popular": "Most popular",
       "smallest": "Smallest first",
       "largest": "Largest first",
@@ -281,7 +284,7 @@
     "cta": {
       "title": "Visit our showroom",
       "subtitle": "See our fiberglass pools in person. Our team is ready to help you find the perfect fit.",
-      "address": "1234 Sample Blvd, Miami, FL 33101",
+      "address": "21500 S Dixie Hwy, Miami, FL 33189.",
       "hours": "Mon–Sat: 9am – 6pm",
       "button": "Get directions"
     }
@@ -315,8 +318,13 @@
       "email": "Email address",
       "emailPlaceholder": "Ej. john@example.com",
       "zip": "ZIP code",
-      "zipHelper": "We serve from Key West to Sarasota, including Miami-Dade, Broward, and Palm Beach counties.",
-      "zipError": "This ZIP may be outside our core service area. Call us — we serve from Key West to Sarasota and can refer you to a trusted partner.",
+      "zipHelper": "We serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties",
+      "zipError": "This ZIP may be outside our core service area. Call us — we serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties and can refer you to a trusted partner.",
+      "address": "Property address",
+      "addressPlaceholder": "Ej. 123 Main St, Miami, FL 33189",
+      "addressHelper": "Enter the installation address. Use the map to verify your location.",
+      "addressMapButton": "Open Google Maps",
+      "addressMapHint": "Find your address on Google Maps and paste it here",
       "message": "Tell us about your project",
       "messagePlaceholder": "Pool size, timeline, backyard details, any specific questions…",
       "submit": "Send my request",
@@ -385,7 +393,7 @@
         },
         {
           "q": "What areas do you serve?",
-          "a": "We serve from Key West to Sarasota, including Miami-Dade, Broward, and Palm Beach counties. If you are outside these areas, call us and we will refer you to a trusted partner."
+          "a": "We serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. If you are outside these areas, call us and we will refer you to a trusted partner."
         },
         {
           "q": "Are rectangle fiberglass pools a good choice for modern backyards?",
@@ -407,7 +415,7 @@
     }
   },
   "Footer": {
-    "tagline": "South Florida's premier fiberglass pool supplier & installer since 2014.",
+    "tagline": "South Florida's premier fiberglass pool supplier & installer since 2013.",
     "sitemap": "Sitemap",
     "poolsSpa": "Pools & Spa",
     "contact": "Contact",
@@ -522,15 +530,17 @@
     "label": "Certifications & Partners",
     "title": "Trusted certifications and financial partners",
     "subtitle": "We work with industry-leading organizations to bring you the highest quality and financing options.",
-    "financingLabel": "Financing Partner",
-    "financingText": "Monthly payment options available through Hearth. Pre-qualify in minutes without affecting your credit score.",
+    "financingLabel": "Financing Partners",
+    "financingText": "Monthly payment options available through Hearth and HFS Financial. Pre-qualify in minutes without affecting your credit score.",
     "items": {
       "psn": { "name": "Pool & Spa Network", "alt": "PSN Certification" },
       "pmg": { "name": "PMG", "alt": "PMG Certification" },
       "esMark": { "name": "ES Mark", "alt": "ES Mark Certification" },
       "phta": { "name": "Pool & Hot Tub Alliance", "alt": "PHTA Certification" },
       "tenYears": { "name": "10 Years of Excellence", "alt": "10 Years Seal" },
-      "hearth": { "name": "Hearth Finance", "alt": "Hearth Financing Partner" }
+      "13Years": { "name": "13 Years of Excellence", "alt": "13 Years Seal" },
+      "hearth": { "name": "Hearth Finance", "alt": "Hearth Financing Partner" },
+      "hfs": { "name": "HFS Financial", "alt": "HFS Financial Financing Partner" }
     }
   },
   "Reviews": {
