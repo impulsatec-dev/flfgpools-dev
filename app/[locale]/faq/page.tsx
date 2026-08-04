@@ -93,7 +93,7 @@ export default function FaqsPage({ params: { locale } }: { params: { locale: str
           </div>
           <div className="glass-card overflow-hidden lg:sticky lg:top-28 relative aspect-[4/3]">
             <Image
-              src="/faq/img-faq.png"
+              src="/faq/img-faq-p.png"
               alt="Fiberglass pool FAQ"
               fill
               sizes="(max-width: 1024px) 100vw, 600px"

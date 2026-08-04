@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display } from 'next/font/google';
+import { DM_Sans, Inter, Playfair_Display } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import {  setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -23,6 +23,12 @@ const inter = Inter({
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-display',
+  display: 'swap',
+});
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-about-body',
   display: 'swap',
 });
 
@@ -125,7 +131,7 @@ export default async function LocaleLayout({
   const messages = (await import(`@/messages/${params.locale}.json`)).default;
 
   return (
-    <html lang={params.locale} className={`${inter.variable} ${playfair.variable}`}>
+    <html lang={params.locale} className={`${inter.variable} ${playfair.variable} ${dmSans.variable}`}>
       <head>
         <script
           type="application/ld+json"
