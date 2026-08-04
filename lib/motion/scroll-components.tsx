@@ -1,7 +1,7 @@
 'use client';
 
-import { motion, useReducedMotion, type Variants } from 'framer-motion';
-import { useRef, type ReactNode } from 'react';
+import { motion, useReducedMotion, useScroll, useTransform, type Variants } from 'framer-motion';
+import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 
 // === Section Reveal Wrapper ===
 export function SectionReveal({ children }: { children: ReactNode }) {
@@ -65,9 +65,112 @@ export function RevealItem({
   );
 }
 
+// === Independent Scroll Reveal Item ===
+export function ScrollRevealItem({
+  children,
+  className,
+  direction = 'vertical',
+}: {
+  children: ReactNode;
+  className?: string;
+  direction?: 'vertical' | 'fade';
+}) {
+  const reduce = useReducedMotion();
+  const verticalReveal = direction === 'vertical';
+
+  return (
+    <motion.div
+      initial={reduce ? false : { opacity: 0, ...(verticalReveal ? { y: 36 } : {}), filter: 'blur(8px)' }}
+      whileInView={{ opacity: 1, ...(verticalReveal ? { y: 0 } : {}), filter: 'blur(0px)' }}
+      viewport={{ once: true, margin: '-12% 0px -8% 0px' }}
+      transition={reduce ? { duration: 0 } : { duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+// === Horizontal Pinned Scroll ===
+export function HorizontalScrollSection({
+  children,
+  background,
+  topBar,
+  className = '',
+}: {
+  children: ReactNode;
+  background?: ReactNode;
+  topBar?: ReactNode;
+  className?: string;
+}) {
+  const sectionRef = useRef<HTMLElement>(null);
+  const trackRef = useRef<HTMLDivElement>(null);
+  const reduce = useReducedMotion();
+  const [distance, setDistance] = useState(0);
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useLayoutEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 1024px)');
+    const measure = () => {
+      setIsDesktop(mediaQuery.matches);
+      setDistance(mediaQuery.matches && trackRef.current
+        ? Math.max(trackRef.current.scrollWidth - window.innerWidth, 0)
+        : 0);
+    };
+
+    measure();
+    const resizeObserver = trackRef.current ? new ResizeObserver(measure) : null;
+    resizeObserver?.observe(trackRef.current!);
+    window.addEventListener('resize', measure, { passive: true });
+    mediaQuery.addEventListener('change', measure);
+
+    return () => {
+      resizeObserver?.disconnect();
+      window.removeEventListener('resize', measure);
+      mediaQuery.removeEventListener('change', measure);
+    };
+  }, []);
+
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ['start start', 'end end'],
+  });
+  const extendedDistance = distance * 1.02;
+  const x = useTransform(scrollYProgress, [0, 1], [0, -extendedDistance]);
+
+  if (reduce) {
+    return (
+      <section className={className}>
+        {background}
+        {topBar}
+        <div className="flex flex-col">{children}</div>
+      </section>
+    );
+  }
+
+  return (
+    <section
+      ref={sectionRef}
+      className={className}
+      style={isDesktop && extendedDistance > 0 ? { height: `calc(100vh + ${extendedDistance}px)` } : undefined}
+    >
+      {background}
+      <div className="relative lg:sticky lg:top-0 lg:h-screen lg:overflow-hidden">
+        {topBar}
+        <motion.div
+          ref={trackRef}
+          style={{ x }}
+          className="flex flex-col lg:h-full lg:w-max lg:flex-row max-lg:!transform-none will-change-transform"
+        >
+          {children}
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+
 // === Stat Counter ===
 import { animate, useInView, useMotionValue } from 'framer-motion';
-import { useEffect, useState } from 'react';
 
 export function StatCounter({
   to,
@@ -114,7 +217,6 @@ export function StatCounter({
 }
 
 // === Parallax Background ===
-import { useScroll, useTransform } from 'framer-motion';
 
 export function ParallaxBackground({
   children,
