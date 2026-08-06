@@ -81,6 +81,16 @@
       "title": "South Florida's largest fiberglass pool showroom",
       "paragraph1": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
       "paragraph2": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
+      "editorial": {
+        "openingTitle": "More than a pool. A place to imagine.",
+        "openingDescription": "See the selection in person and imagine what fits your backyard.",
+        "showroomTitle": "Find the shape that feels like yours.",
+        "showroomDescription": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
+        "processTitle": "Your backyard starts with a conversation.",
+        "processDescription": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
+        "closingTitle": "Designed for your life. Backed for life.",
+        "closingDescription": "Your pool is backed by a lifetime structural warranty from the factory."
+      },
       "cta": "Learn our story"
     },
     "stats": {

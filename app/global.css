@@ -227,7 +227,7 @@
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.45);
-    box-shadow: 0 4px 24px rgba(14, 165, 233, 0.15);
+    box-shadow: 0 4px 24px rgb(161 176 182 / 35%);
     padding: 0.5rem 1.25rem;
     font-size: 0.8rem;
     letter-spacing: 0.05em;

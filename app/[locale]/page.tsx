@@ -62,23 +62,25 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
     <>
       {/* === HERO === */}
       <section className="relative min-h-[90vh] overflow-hidden">
-        <ParallaxBackground className="absolute inset-0">
-           {/* <video
-            src="/about/bg-pool-about.mp4"
-            className="h-full w-full object-cover"
-            autoPlay
-            loop
-            muted
-          /> */}
-          <Image
-            src="/header/bg.png"
-            alt="Fiberglass pool installation in South Florida backyard"
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-
+        <ParallaxBackground className="absolute inset-0 h-[90vh] w-full">
+          <div className="relative h-full w-full">
+            {/* <video
+              src="/about/bg-pool-about.mp4"
+              className="h-full w-full object-cover"
+              autoPlay
+              loop
+              muted
+            /> */}
+            <Image
+              src="/header/bg.png"
+              alt="Fiberglass pool installation in South Florida backyard"
+              fill
+              priority
+              sizes="100vw"
+              unoptimized
+              className="object-cover"
+            />
+          </div>
         </ParallaxBackground>
 
         {/* Dual-layer overlay for richer depth */}
@@ -160,111 +162,106 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             </div>
           }
           topBar={
-            <div className="pointer-events-none absolute inset-x-0 top-[5.8rem] z-40 flex items-center gap-4 border-[2px] border-gray-600/30 bg-black/40 px-4 py-4 backdrop-blur-2xl transition-all duration-300 sm:px-10 lg:px-20">
-              <span className="h-px flex-1 bg-white/30" />
-              <span className="font-sans text-[12px] font-bold uppercase tracking-[0.28em] text-white/80">
+            <div className="pointer-events-none absolute inset-x-0 top-[5.8rem] z-40 flex items-center justify-center gap-2 border-b border-pool-deep/15 bg-pool-cream/75 px-3 py-3 backdrop-blur-xl transition-[background-color,border-color,backdrop-filter] duration-300 min-[768px]:justify-between min-[768px]:gap-4 min-[768px]:px-10 min-[768px]:py-4 min-[1024px]:px-20">
+              <span className="hidden h-px flex-1 bg-pool-deep/15 min-[768px]:block" />
+              <span className="whitespace-nowrap font-sans text-[10px] font-bold uppercase tracking-[0.18em] text-pool-deep/65 min-[768px]:text-[12px] min-[768px]:tracking-[0.28em]">
                 FLFG Pools / About
               </span>
-              <span className="h-px flex-1 bg-white/30" />
+              <span className="hidden h-px flex-1 bg-pool-deep/15 min-[768px]:block" />
             </div>
           }
         >
-          <article className="flex w-full shrink-0 flex-col justify-center px-4 py-24 sm:px-10 lg:h-screen lg:w-[72vw] lg:max-w-[62rem] lg:px-20 lg:py-16">
-            <ScrollRevealItem direction="fade">
-              <span className="glass-chip-section-title">{t('about.label')}</span>
-            </ScrollRevealItem>
-            <ScrollRevealItem direction="fade">
-              <h2 className="mt-5 max-w-3xl text-5xl font-display font-bold leading-[0.98] tracking-[-0.04em] text-pool-deep sm:text-6xl lg:text-7xl">
-                {t('about.title')}
+          <article className="flex w-full shrink-0 min-[768px]:w-screen flex-col justify-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[768px]:py-24 min-[1024px]:px-[9vw]">
+            <ScrollRevealItem direction="fade" className="max-w-4xl">
+              {/* <span className="glass-chip-section-title">{t('about.label')}</span> */}
+              <h2 className="mt-6 max-w-4xl text-[clamp(3rem,7vw,7rem)] font-display font-bold leading-[0.88] tracking-[-0.055em] text-pool-deep">
+                {t('about.editorial.openingTitle')}
               </h2>
-            </ScrollRevealItem>
-            <div className="mt-12 flex items-center gap-3 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-pool-deep/45 lg:mt-20">
-              <span className="h-px w-12 bg-pool-aqua" />
-              {t('hero.scroll')}
-            </div>
-          </article>
-
-          <article className="flex w-full shrink-0 items-center px-4 py-24 sm:px-10 lg:h-screen lg:w-[72vw] lg:px-20">
-            <ScrollRevealItem direction="fade" className="max-w-xl lg:ml-[10%]">
-              <span className="mb-5 block font-sans text-xs font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
-                01 / {t('about.label')}
-              </span>
-              <p className="max-w-[42rem] font-[var(--font-about-body)] text-lg leading-[1.75] text-pool-deep/70 sm:text-2xl">
-                {t('about.paragraph1')}
+              <p className="mt-8 max-w-xl font-[var(--font-about-body)] text-[1rem] leading-[1.65] text-pool-deep/65 sm:text-xl">
+                {t('about.editorial.openingDescription')}
               </p>
+              <div className="mt-12 flex items-center gap-3 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-pool-deep/45 lg:mt-16">
+                <span className="h-px w-11 bg-pool-aqua" />
+                {t('hero.scroll')}
+              </div>
             </ScrollRevealItem>
           </article>
 
-          <article className="relative flex w-full shrink-0 items-center px-4 py-24 sm:px-10 lg:h-screen lg:w-[108vw] lg:px-20">
-            <div className="w-full">
-              <div className="relative z-10 mb-6 flex items-end justify-between gap-6 border-b border-pool-deep/10 pb-3 font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
-                <span className="flex items-center gap-3 relative top-[10rem] text-[12px]"><span className="h-px w-8 bg-pool-aqua" />FLFG Pools / Visual archive</span>
-                <span className="relative top-[10rem] text-[12px]">02 / 05</span>
-              </div>
-              <div className="flex h-[62vh] items-center gap-6 sm:gap-8 lg:h-[72vh] lg:gap-16">
-                {[
-                  { src: '/home/img-about2.png', alt: 'FLFG Pools fiberglass pool installation', className: 'h-[52%] w-[28%] self-end lg:mb-12 lg:h-[62%] lg:w-[24%]' },
-                  { src: '/home/rainforest.jpg', alt: 'FLFG Pools Rainforest pool model', className: 'h-[72%] w-[30%] self-start lg:mt-8 lg:h-[78%] lg:w-[27%]' },
-                  { src: '/home/typea.png', alt: 'FLFG Pools Type A pool model', className: 'h-[60%] w-[31%] self-center lg:h-[68%] lg:w-[31%]' },
-                ].map((image) => (
-                  <figure key={image.src} className={`group relative min-h-0 shrink-0 overflow-hidden bg-pool-mist/40 ring-1 ring-pool-deep/10 shadow-[0_18px_45px_rgba(8,47,73,0.12)] ${image.className}`}>
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      fill
-                      sizes="(max-width: 640px) 34vw, 28vw"
-                      className="object-cover transition duration-700 ease-out group-hover:scale-105"
-                    />
-                    <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-pool-deep/70 to-transparent px-3 pb-3 pt-10 font-sans text-[10px] uppercase tracking-[0.12em] text-white/80 opacity-100 transition-opacity duration-500 sm:opacity-0 sm:group-hover:opacity-100">
-                      FLFG Pools
-                    </figcaption>
-                  </figure>
-                ))}
-              </div>
+          <article className="flex w-full shrink-0 min-[768px]:w-screen items-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]">
+            <div className="grid min-w-0 w-full items-center gap-10 min-[768px]:grid-cols-[minmax(18rem,0.72fr)_minmax(0,1.28fr)] min-[768px]:gap-4 min-[1024px]:gap-[8vw]">
+              <ScrollRevealItem direction="fade" className="min-w-0 max-w-xl">
+                <span className="mb-5 block font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
+                  01 / {t('about.label')}
+                </span>
+                <h3 className="mb-6 max-w-xl font-display text-[clamp(2.25rem,5vw,3rem)] font-bold leading-[0.92] tracking-[-0.05em] text-pool-deep">
+                  {t('about.editorial.showroomTitle')}
+                </h3>
+                <p className="max-w-[38rem] font-[var(--font-about-body)] text-[1rem] leading-[1.7] text-pool-deep/70 sm:text-2xl">
+                  {t('about.editorial.showroomDescription')}
+                </p>
+              </ScrollRevealItem>
+
+              <ScrollRevealItem direction="fade" className="min-w-0 w-full">
+                <div className="mb-5 flex items-center justify-between gap-6 border-b border-pool-deep/10 pb-3 font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
+                  <span className="flex items-center gap-3"><span className="h-px w-8 bg-pool-aqua" />FLFG Pools / Visual archive</span>
+                  <span>02 / 04</span>
+                </div>
+                <div className="grid h-[55vh] grid-cols-[0.72fr_1fr_1.18fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
+                  {[
+                    { src: '/home/img-about2.png', alt: 'FLFG Pools fiberglass pool installation', className: 'h-[48%] self-end min-[768px]:h-[55%]' },
+                    { src: '/home/rainforest.jpg', alt: 'FLFG Pools Rainforest pool model', className: 'h-[76%] self-start min-[768px]:h-[78%]' },
+                    { src: '/home/typea.png', alt: 'FLFG Pools Type A pool model', className: 'h-[90%] self-center min-[768px]:h-[92%]' },
+                  ].map((image) => (
+                    <figure key={image.src} className={`group relative min-h-0 overflow-hidden bg-pool-mist/40 shadow-[0_24px_55px_rgba(8,47,73,0.16)] ring-1 ring-pool-deep/10 ${image.className}`}>
+                      <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 30vw, 26vw" className="object-cover transition duration-700 ease-out motion-reduce:transition-none group-hover:scale-105" />
+                      <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-pool-deep/75 to-transparent px-3 pb-3 pt-10 font-sans text-[10px] uppercase tracking-[0.14em] text-white/85">
+                        FLFG Pools
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              </ScrollRevealItem>
             </div>
           </article>
 
-          <article className="flex w-full shrink-0 items-center px-4 py-24 sm:px-10 lg:h-screen lg:w-[72vw] lg:px-20">
-            <ScrollRevealItem direction="fade" className="max-w-xl lg:ml-[28%]">
-              <span className="mb-5 block font-sans text-xs font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
-                03 / {t('about.label')}
-              </span>
-              <p className="max-w-[42rem] font-[var(--font-about-body)] text-lg leading-[1.75] text-pool-deep/70 sm:text-2xl">
-                {t('about.paragraph2')}
-              </p>
-            </ScrollRevealItem>
-          </article>
+          <article className="flex w-full shrink-0 min-[768px]:w-screen items-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]">
+            <div className="grid min-w-0 w-full items-center gap-10 min-[768px]:grid-cols-[minmax(0,1.28fr)_minmax(18rem,0.72fr)] min-[768px]:gap-4 min-[1024px]:gap-[8vw]">
+              <ScrollRevealItem direction="fade" className="order-2 min-w-0 w-full min-[768px]:order-1">
+                <div className="mb-5 flex items-center justify-between gap-6 border-b border-pool-deep/10 pb-3 font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
+                  <span className="flex items-center gap-3"><span className="h-px w-8 bg-pool-aqua" />FLFG Pools / Visual archive</span>
+                  <span>03 / 04</span>
+                </div>
+                <div className="grid h-[55vh] grid-cols-[1.18fr_0.72fr_1fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
+                  {[
+                    { src: '/home/large-pools.png', alt: 'FLFG Pools large pool collection', className: 'h-[90%] self-start min-[768px]:h-[92%]' },
+                    { src: '/home/16ft22ft.webp', alt: 'FLFG Pools 16ft x 22ft pool model', className: 'h-[56%] self-end min-[768px]:h-[58%]' },
+                    { src: '/certi-brand/store-outside-4.jpeg', alt: 'FLFG Pools showroom building', className: 'h-[76%] self-center min-[768px]:h-[82%]' },
+                  ].map((image) => (
+                    <figure key={image.src} className={`group relative min-h-0 overflow-hidden bg-pool-mist/40 shadow-[0_24px_55px_rgba(8,47,73,0.16)] ring-1 ring-pool-deep/10 ${image.className}`}>
+                      <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 30vw, 26vw" className="object-cover transition duration-700 ease-out motion-reduce:transition-none group-hover:scale-105" />
+                      <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-pool-deep/75 to-transparent px-3 pb-3 pt-10 font-sans text-[10px] uppercase tracking-[0.14em] text-white/85">
+                        FLFG Pools
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              </ScrollRevealItem>
 
-          <article className="relative flex w-full shrink-0 items-center px-4 py-24 sm:px-10 lg:h-screen lg:w-[108vw] lg:px-20">
-            <div className="w-full">
-              <div className="relative z-10 mb-6 flex items-end justify-between gap-6 border-b border-pool-deep/10 pb-3 font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
-                <span className="flex items-center gap-3 relative top-[4rem] text-[12px]"><span className="h-px w-8 bg-pool-aqua" />FLFG Pools / Visual archive</span>
-                <span className="relative top-[4rem] text-[12px]">04 / 05</span>
-              </div>
-              <div className="flex h-[62vh] items-center justify-end gap-4 sm:gap-8 lg:h-[72vh] lg:gap-12">
-                {[
-                  { src: '/home/large-pools.png', alt: 'FLFG Pools large pool collection', className: 'h-[66%] w-[30%] self-start lg:mt-12 lg:h-[72%] lg:w-[27%]' },
-                  { src: '/home/16ft22ft.webp', alt: 'FLFG Pools 16ft x 22ft pool model', className: 'h-[54%] w-[28%] self-end lg:mb-8 lg:h-[60%] lg:w-[24%]' },
-                  { src: '/certi-brand/store-outside-4.jpeg', alt: 'FLFG Pools showroom building', className: 'h-[76%] w-[32%] self-center lg:h-[82%] lg:w-[30%]' },
-                ].map((image) => (
-                  <figure key={image.src} className={`group relative min-h-0 shrink-0 overflow-hidden bg-pool-mist/40 ring-1 ring-pool-deep/10 shadow-[0_18px_45px_rgba(8,47,73,0.12)] ${image.className}`}>
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      fill
-                      sizes="(max-width: 640px) 38vw, 28vw"
-                      className="object-cover transition duration-700 ease-out group-hover:scale-105"
-                    />
-                    <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-pool-deep/70 to-transparent px-3 pb-3 pt-10 font-sans text-[10px] uppercase tracking-[0.12em] text-white/80 opacity-100 transition-opacity duration-500 sm:opacity-0 sm:group-hover:opacity-100">
-                      FLFG Pools
-                    </figcaption>
-                  </figure>
-                ))}
-              </div>
+              <ScrollRevealItem direction="fade" className="order-1 min-w-0 max-w-xl min-[768px]:order-2">
+                <span className="mb-5 block font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
+                  02 / {t('about.label')}
+                </span>
+                <h3 className="mb-6 max-w-xl font-display text-[clamp(2.25rem,5vw,3rem)] font-bold leading-[0.92] tracking-[-0.05em] text-pool-deep">
+                  {t('about.editorial.processTitle')}
+                </h3>
+                <p className="max-w-[38rem] font-[var(--font-about-body)] text-[clamp(1rem,1.4vw,1.5rem)] leading-[1.7] text-pool-deep/70">
+                  {t('about.editorial.processDescription')}
+                </p>
+              </ScrollRevealItem>
             </div>
           </article>
 
-          <article className="relative flex w-full shrink-0 flex-col justify-center overflow-hidden px-4 py-24 sm:px-10 lg:h-screen lg:w-[88vw] lg:px-20">
+          <article className="relative flex w-full shrink-0 min-[768px]:w-screen flex-col justify-center overflow-hidden px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]">
             <div className="pointer-events-none absolute inset-0" aria-hidden="true">
               <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display text-[clamp(9rem,28vw,28rem)] font-bold leading-none tracking-[-0.1em] text-pool-deep/[0.035]">
                 FLFG
@@ -272,40 +269,28 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               <span className="absolute left-1/2 top-1/2 h-px w-[min(70vw,54rem)] -translate-x-1/2 bg-pool-deep/10" />
               <span className="absolute left-1/2 top-1/2 h-[min(70vw,54rem)] w-px -translate-x-1/2 -translate-y-1/2 bg-pool-deep/10" />
               <span className="absolute left-1/2 top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border border-pool-aqua bg-pool-cream shadow-[0_0_0_10px_rgba(14,165,233,0.08)]" />
-              <span className="absolute left-1/2 top-[calc(50%+min(12vw,8rem))] -translate-x-1/2 font-sans text-[10px] font-semibold uppercase tracking-[0.28em] text-pool-deep/35">
+              <span className="absolute left-1/2 top-[calc(60%+min(12vw,8rem))] hidden -translate-x-1/2 font-sans text-[12px] font-semibold uppercase tracking-[0.28em] text-pool-deep/35 min-[768px]:block">
                 South Florida · Since 2013
               </span>
             </div>
-
-            <div className="relative z-10 flex flex-col items-center text-center">
-              <ScrollRevealItem direction="fade" className="max-w-xl">
-              <span className="mb-5 block font-sans text-xs font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
-                05 / FLFG Pools / Miami
+            <ScrollRevealItem direction="fade" className="relative z-10 mx-auto max-w-xl px-2 text-center sm:px-0">
+              <span className="mb-5 block font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
+                03 / {t('about.label')}
               </span>
-              <Link
-                href="/about"
-                className="glass-btn-primary hero-cta-primary inline-flex items-center gap-2 px-5 py-2.5 font-[var(--font-about-body)] text-white"
-              >
+              <h3 className="mb-5 font-display text-5xl pb-5 font-bold leading-[0.9] tracking-[-0.05em] text-pool-deep sm:text-6xl">
+                {t('about.editorial.closingTitle')}
+              </h3>
+              <p className="mx-auto mb-8 max-w-md font-[var(--font-about-body)] text-lg leading-[1.65] text-pool-deep/65">
+                {t('about.editorial.closingDescription')}
+              </p>
+              <Link href="/about" className="glass-btn-primary hero-cta-primary inline-flex items-center gap-2 px-5 py-2.5 mb-8 font-[var(--font-about-body)] text-white">
                 {t('about.cta')}
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              </ScrollRevealItem>
-            </div>
-            {/* <ScrollRevealItem direction="fade" className="w-full max-w-[420px]">
-              <Carousel
-                className="shadow-[0_24px_64px_rgba(8,47,73,0.18)]"
-                images={[
-                  { src: '/home/img-about.png', alt: 'FLFG Pools showroom in Miami' },
-                  { src: '/home/img-about2.png', alt: 'FLFG Pools fiberglass pool installation' },
-                  { src: '/home/typea.png', alt: 'FLFG Pools Type A pool model' },
-                  { src: '/home/rainforest.jpg', alt: 'FLFG Pools Rainforest pool model' },
-                  { src: '/home/large-pools.png', alt: 'FLFG Pools large pool collection' },
-                  { src: '/home/16ft22ft.webp', alt: 'FLFG Pools 16ft x 22ft pool model' },
-                  { src: '/certi-brand/store-outside-2.png', alt: 'FLFG Pools store exterior' },
-                  { src: '/certi-brand/store-outside-4.jpeg', alt: 'FLFG Pools showroom building' },
-                ]}
-              />
-            </ScrollRevealItem> */}
+              <span className="block font-sans text-[12px] font-semibold uppercase tracking-[0.2em] text-pool-deep/35 min-[768px]:hidden">
+                South Florida · Since 2013
+              </span>
+            </ScrollRevealItem>
           </article>
         </HorizontalScrollSection>
       </SectionReveal>

@@ -21,6 +21,11 @@ export function formatCurrency(amount: number, locale: string = 'en-US'): string
   }).format(amount);
 }
 
+export function formatNumber(amount: number, locale: string = 'en-US'): string {
+  const fullLocale = localeMap[locale] || locale;
+  return new Intl.NumberFormat(fullLocale).format(amount);
+}
+
 export function getPoolSizeCategory(lengthFt: number): 'upTo16' | '16to22' | '22plus' | 'spa' {
   if (lengthFt <= 16) return 'upTo16';
   if (lengthFt <= 22) return '16to22';

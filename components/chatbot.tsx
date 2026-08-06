@@ -106,7 +106,7 @@ export function Chatbot() {
               alt=""
               width={150}
               height={150}
-              className="pointer-events-none absolute -top-14 left-1/2 -translate-x-1/2 object-contain drop-shadow-lg"
+              className="pointer-events-none absolute -top-[3.8rem] left-1/2 -translate-x-1/2 object-contain drop-shadow-lg"
             />
           </motion.button>
         )}

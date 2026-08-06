@@ -5,7 +5,7 @@ import { Link } from '@/i18n/navigation';
 import { motion, useReducedMotion } from 'framer-motion';
 import { ArrowRight, Check, ImageIcon } from 'lucide-react';
 import type { Pool } from '@/lib/pools';
-import { formatCurrency } from '@/lib/utils';
+import { formatCurrency, formatNumber } from '@/lib/utils';
 
 interface PoolCardProps {
   pool: Pool;
@@ -105,7 +105,7 @@ export function PoolCard({ pool, locale, index = 0 }: PoolCardProps) {
               </>
             ) : (
               <p className="text-sm text-pool-deep/50">
-                {pool.waterVolumeGallons.toLocaleString()} gal · {pool.weight.toLocaleString()} lbs
+                {formatNumber(pool.waterVolumeGallons, locale)} gal · {formatNumber(pool.weight, locale)} lbs
               </p>
             )}
           </div>

@@ -110,7 +110,7 @@ export function HorizontalScrollSection({
   const [isDesktop, setIsDesktop] = useState(false);
 
   useLayoutEffect(() => {
-    const mediaQuery = window.matchMedia('(min-width: 1024px)');
+    const mediaQuery = window.matchMedia('(min-width: 768px)');
     const measure = () => {
       setIsDesktop(mediaQuery.matches);
       setDistance(mediaQuery.matches && trackRef.current
@@ -135,7 +135,7 @@ export function HorizontalScrollSection({
     target: sectionRef,
     offset: ['start start', 'end end'],
   });
-  const extendedDistance = distance * 1.02;
+  const extendedDistance = distance * 1.01;
   const x = useTransform(scrollYProgress, [0, 1], [0, -extendedDistance]);
 
   if (reduce) {
@@ -151,16 +151,16 @@ export function HorizontalScrollSection({
   return (
     <section
       ref={sectionRef}
-      className={className}
+      className={`relative ${className}`}
       style={isDesktop && extendedDistance > 0 ? { height: `calc(100vh + ${extendedDistance}px)` } : undefined}
     >
       {background}
-      <div className="relative lg:sticky lg:top-0 lg:h-screen lg:overflow-hidden">
+      <div className="relative min-[768px]:sticky min-[768px]:top-0 min-[768px]:h-screen min-[768px]:overflow-hidden">
         {topBar}
         <motion.div
           ref={trackRef}
           style={{ x }}
-          className="flex flex-col lg:h-full lg:w-max lg:flex-row max-lg:!transform-none will-change-transform"
+          className="flex flex-col min-[768px]:h-full min-[768px]:w-max min-[768px]:flex-row max-[627px]:!transform-none will-change-transform"
         >
           {children}
         </motion.div>
@@ -241,15 +241,15 @@ export function ParallaxBackground({
 
   if (!mounted || reduce) {
     return (
-      <div ref={ref} className={className}>
+      <div ref={ref} className={className ?? 'relative'}>
         {children}
       </div>
     );
   }
 
   return (
-    <div ref={ref} className={className}>
-      <motion.div style={{ y, scale }} className="absolute inset-0">
+    <div ref={ref} className={className ?? 'relative'}>
+      <motion.div style={{ y, scale }} className="absolute inset-0 h-full w-full">
         {children}
       </motion.div>
     </div>
