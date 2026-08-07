@@ -448,7 +448,8 @@
   },
   "Breadcrumbs": {
     "home": "Home",
-    "createByYourself": "Create by Yourself"
+    "createByYourself": "Create by Yourself",
+    "more": "Show more breadcrumb levels"
   },
   "Common": {
     "loading": "Loading…",

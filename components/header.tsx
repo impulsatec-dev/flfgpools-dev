@@ -80,7 +80,13 @@ export function Header() {
         )}
       >
         <div className="container mx-auto">
-          <nav className={cn('glass-nav pointer-events-auto', scrolled && 'glass-nav-scrolled')}>
+          <nav
+            className={cn(
+              'glass-nav pointer-events-auto',
+              scrolled && 'glass-nav-scrolled',
+              open && 'invisible'
+            )}
+          >
             <div className="flex min-w-0 items-center gap-4">
               {/* Logo */}
               <Link href="/" className={cn('flex shrink-0 items-center', scrolled && 'hidden lg:flex')}>
@@ -369,9 +375,28 @@ export function Header() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="absolute right-0 top-0 bottom-0 w-80 glass-modal p-6 pt-24"
+              className="absolute right-0 top-0 bottom-0 flex h-dvh max-h-dvh w-80 flex-col overflow-y-auto overscroll-contain glass-modal p-6"
             >
-              <ul className="space-y-2 flex flex-col" style={{ paddingTop: '24px' }}>
+              <div className="sticky top-0 z-10 -mx-2 mb-6 flex shrink-0 items-center justify-between rounded-2xl px-2 py-2 ">
+                <Link href="/" onClick={() => setOpen(false)} className="flex items-center">
+                  <Image
+                    src="/header/logo-alta.png"
+                    alt="FLFG Pools"
+                    width={190}
+                    height={53}
+                    className="h-auto w-[190px]"
+                    priority
+                  />
+                </Link>
+                <button
+                  onClick={() => setOpen(false)}
+                  className="shrink-0 rounded-full p-2 text-pool-deep transition-colors hover:bg-pool-mist/50"
+                  aria-label="Close menu"
+                >
+                  <X className="h-6 w-6" />
+                </button>
+              </div>
+              <ul className="flex flex-col space-y-2">
                 {navItemsBefore.map((item) => (
                   <li key={item.href}>
                     <Link

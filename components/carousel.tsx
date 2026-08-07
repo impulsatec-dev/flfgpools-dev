@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -22,11 +22,12 @@ export type CarouselProps = {
 export function Carousel({
   images,
   autoplayMs = 4000,
-  aspectClass = 'aspect-[4/3] sm:aspect-[5/4]',
+  aspectClass = 'aspect-[4/3] sm:aspect-[16/10] lg:aspect-[16/9]',
   className = '',
 }: CarouselProps) {
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState(1);
+  const touchStartX = useRef<number | null>(null);
 
   const count = images.length;
 
@@ -50,12 +51,32 @@ export function Carousel({
     return () => clearInterval(timer);
   }, [autoplayMs, count]);
 
+  const handlePointerDown = (event: React.PointerEvent<HTMLDivElement>) => {
+    if (event.pointerType === 'touch') touchStartX.current = event.clientX;
+  };
+
+  const handlePointerUp = (event: React.PointerEvent<HTMLDivElement>) => {
+    if (event.pointerType !== 'touch' || touchStartX.current === null) return;
+    const distance = event.clientX - touchStartX.current;
+    touchStartX.current = null;
+    if (Math.abs(distance) < 45) return;
+    if (distance > 0) prev();
+    else next();
+  };
+
   if (count === 0) return null;
 
   return (
-    <div className={`glass-card overflow-hidden relative group self-start h-fit ${className}`}>
+    <div
+      className={`glass-card relative self-start overflow-hidden ${className}`}
+      onPointerDown={handlePointerDown}
+      onPointerUp={handlePointerUp}
+      onPointerCancel={() => {
+        touchStartX.current = null;
+      }}
+    >
       {/* Slides */}
-      <div className={`relative ${aspectClass}`}>
+      <div className={`relative overflow-hidden ${aspectClass} touch-pan-y`}>
         <AnimatePresence initial={false} custom={direction} mode="popLayout">
           <motion.img
             key={index}
@@ -66,48 +87,54 @@ export function Carousel({
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: direction > 0 ? -60 : 60 }}
             transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 h-full w-full object-cover"
+            draggable={false}
           />
         </AnimatePresence>
-
         {/* Gradient overlay for controls legibility */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
       </div>
 
       {/* Prev / Next arrows */}
-      <button
-        type="button"
-        aria-label="Previous image"
-        onClick={prev}
-        className="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full glass-btn flex items-center justify-center text-pool-deep opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-      >
-        <ChevronLeft className="h-5 w-5" />
-      </button>
-      <button
-        type="button"
-        aria-label="Next image"
-        onClick={next}
-        className="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full glass-btn flex items-center justify-center text-pool-deep opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-      >
-        <ChevronRight className="h-5 w-5" />
-      </button>
-
-      {/* Dots */}
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-10 flex gap-2">
-        {images.map((_, i) => (
+      {count > 1 && (
+        <div className="flex min-h-14 items-center justify-between gap-3 border-t border-pool-deep/10 bg-white/60 px-3 py-2 backdrop-blur-sm sm:px-4">
           <button
-            key={i}
             type="button"
-            aria-label={`Go to image ${i + 1}`}
-            onClick={() => go(i, i > index ? 1 : -1)}
-            className={`h-2 rounded-full transition-all duration-300 ${
-              i === index
-                ? 'w-6 bg-white'
-                : 'w-2 bg-white/50 hover:bg-white/80'
-            }`}
-          />
-        ))}
-      </div>
+            aria-label="Previous image"
+            onClick={prev}
+            className="glass-btn flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-pool-deep transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pool-deep/40"
+          >
+            <ChevronLeft className="h-5 w-5" />
+          </button>
+
+          {/* Dots */}
+          <div className="flex min-w-0 flex-1 items-center justify-center gap-1.5 overflow-x-auto py-1" aria-label="Image navigation">
+            {images.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                aria-label={`Go to image ${i + 1}`}
+                aria-current={i === index}
+                onClick={() => go(i, i > index ? 1 : -1)}
+                className={`h-2 shrink-0 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pool-deep/40 ${
+                  i === index
+                    ? 'w-6 bg-pool-deep'
+                    : 'w-2 bg-pool-deep/30 hover:bg-pool-deep/60'
+                }`}
+              />
+            ))}
+          </div>
+
+          <button
+            type="button"
+            aria-label="Next image"
+            onClick={next}
+            className="glass-btn flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-pool-deep transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pool-deep/40"
+          >
+            <ChevronRight className="h-5 w-5" />
+          </button>
+        </div>
+      )}
     </div>
   );
 }

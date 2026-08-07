@@ -281,7 +281,7 @@ export default function SpaDetailPage({
             )}
 
             {/* Price + CTA */}
-            <div className="mt-8 glass-panel p-6 flex items-center justify-between">
+            <div className="mt-8 flex flex-col gap-5 glass-panel p-5 sm:flex-row sm:items-center sm:justify-between sm:p-6">
               <div>
                 {hasPrice && pool.priceInitial != null ? (
                   <>
@@ -304,7 +304,7 @@ export default function SpaDetailPage({
               </div>
               <Link
                 href="/contact"
-                className="glass-btn-primary px-6 py-3 text-white font-medium"
+                className="glass-btn-primary inline-flex w-full justify-center px-6 py-3 text-white font-medium sm:w-auto"
               >
                 {t('detail.requestQuote')}
               </Link>

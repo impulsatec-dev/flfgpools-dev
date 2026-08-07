@@ -447,7 +447,8 @@
   },
   "Breadcrumbs": {
     "home": "Início",
-    "createByYourself": "Crie sua piscina"
+    "createByYourself": "Crie sua piscina",
+    "more": "Mostrar mais níveis de navegação"
   },
   "Common": {
     "loading": "Carregando…",
