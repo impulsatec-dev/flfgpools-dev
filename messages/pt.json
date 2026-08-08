@@ -2,7 +2,7 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Fornecedor e Instalador no Sul da Flórida",
-      "description": "Instalação de piscinas de fibra de vidro premium. Atendemos desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. Mais de 1000 piscinas entregues, garantia estrutural vitalícia, financiamento disponível."
+      "description": "Instalação de piscinas de fibra de vidro premium. Atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. Mais de 1000 piscinas entregues, garantia estrutural vitalícia, financiamento disponível."
     },
     "about": {
       "title": "Sobre Nós — Florida Fiberglass Pools",
@@ -79,13 +79,13 @@
     "about": {
       "label": "Sobre nós",
       "title": "O maior showroom de piscinas de fibra de vidro do sul da Flórida",
-      "paragraph1": "Com mais de 8.000 pés quadrados, exibimos mais de 150 estilos de piscinas pessoalmente. Desde 2013, entregamos mais de 1000 piscinas para famílias desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
+      "paragraph1": "Com mais de 8.000 pés quadrados, exibimos mais de 150 estilos de piscinas pessoalmente. Desde 2013, entregamos mais de 1000 piscinas para famílias em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
       "paragraph2": "Como distribuidor exclusivo para todo o sul da Flórida, nossa equipe guia você desde a consulta até a instalação, garantindo que sua piscina se ajuste ao seu estilo de vida, orçamento e quintal — respaldada por uma garantia estrutural vitalícia diretamente de fábrica.",
       "editorial": {
         "openingTitle": "Mais que uma piscina. Um lugar para imaginar.",
         "openingDescription": "Veja a seleção pessoalmente e imagine o que combina com o seu quintal.",
         "showroomTitle": "Encontre a forma que parece feita para você.",
-        "showroomDescription": "Com mais de 8.000 pés quadrados, exibimos pessoalmente mais de 150 combos de estilos de piscinas. Desde 2013, entregamos mais de 1000 piscinas para famílias desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
+        "showroomDescription": "Com mais de 8.000 pés quadrados, exibimos pessoalmente mais de 150 combos de estilos de piscinas. Desde 2013, entregamos mais de 1000 piscinas para famílias em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
         "processTitle": "Seu quintal começa com uma conversa.",
         "processDescription": "Como distribuidor exclusivo para todo o sul da Flórida, nossa equipe guia você desde a consulta até a instalação, garantindo que sua piscina se ajuste ao seu estilo de vida, orçamento e quintal — respaldada por uma garantia estrutural vitalícia diretamente de fábrica.",
         "closingTitle": "Feita para a sua vida. Protegida para sempre.",
@@ -155,7 +155,7 @@
       "title": "Nossa história",
       "paragraph1": "A Florida Fiberglass Pools começou em 2013 com uma missão simples: tornar acessíveis piscinas premium de fibra de vidro para as famílias do sul da Flórida. O que começou como uma operação pequena agora abrange um showroom de 8.000 pés quadrados com mais de 150 combinações de modelos de cascos disponíveis, e somos o distribuidor exclusivo para todo o sul da Flórida.",
       "paragraph2": "Crescemos mantendo-nos fiéis aos nossos valores — produtos de primeira qualidade, preços honestos, atendimento ao cliente e garantias superiores às do mercado. Nosso compromisso com nossos mais de 1.200 clientes satisfeitos ao longo de nossa história é nosso compromisso com seu quintal.",
-      "paragraph3": "Hoje atendemos desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. De acordo com o condado onde sua propriedade está localizada, oferecemos um de nossos instaladores especialistas em piscinas de fibra de vidro, bem como opções de financiamento. Nossa equipe inclui Certified Pool Contractors, designers internos e especialistas em financiamento."
+      "paragraph3": "Hoje atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. De acordo com o condado onde sua propriedade está localizada, oferecemos um de nossos instaladores especialistas em piscinas de fibra de vidro, bem como opções de financiamento. Nossa equipe inclui Certified Pool Contractors, designers internos e especialistas em financiamento."
     },
     "values": {
       "title": "Pelo que nos destacamos",
@@ -327,8 +327,8 @@
       "email": "E-mail",
       "emailPlaceholder": "Ex. joao@exemplo.com",
       "zip": "Código postal",
-      "zipHelper": "Atendemos desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
-      "zipError": "Este código postal pode estar fora da nossa área principal de serviço. Ligue para nós — atendemos desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward e encaminharemos você a um parceiro de confiança.",
+      "zipHelper": "Atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
+      "zipError": "Este código postal pode estar fora da nossa área principal de serviço. Ligue para nós — atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward e encaminharemos você a um parceiro de confiança.",
       "address": "Endereço da propriedade",
       "addressPlaceholder": "Ex. 123 Main St, Miami, FL 33189",
       "addressHelper": "Insira o endereço de instalação. Use o mapa para verificar sua localização.",

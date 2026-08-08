@@ -2,7 +2,7 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Supplier & Installer in South Florida",
-      "description": "Premium fiberglass pools installation from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. 1000+ pools delivered, lifetime structural warranty, financing available. Hablamos Español."
+      "description": "Premium fiberglass pools installation in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. 1000+ pools delivered, lifetime structural warranty, financing available. Hablamos Español."
     },
     "about": {
       "title": "About Us — Florida Fiberglass Pools",
@@ -79,13 +79,12 @@
     "about": {
       "label": "About Us",
       "title": "South Florida's largest fiberglass pool showroom",
-      "paragraph1": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
+      "paragraph1": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
       "paragraph2": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
       "editorial": {
         "openingTitle": "More than a pool. A place to imagine.",
         "openingDescription": "See the selection in person and imagine what fits your backyard.",
         "showroomTitle": "Find the shape that feels like yours.",
-        "showroomDescription": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
         "processTitle": "Your backyard starts with a conversation.",
         "processDescription": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
         "closingTitle": "Designed for your life. Backed for life.",
@@ -155,7 +154,7 @@
       "title": "Our story",
       "paragraph1": "Florida Fiberglass Pools began in 2013 with a simple mission: to make premium fiberglass pools accessible to South Florida families. What started as a small operation now encompasses an 8,000 sq ft. showroom with over 150 available shell model combinations, and we are the exclusive distributor for all of South Florida.",
       "paragraph2": "We have grown by remaining true to our values ​​— top-quality products, honest prices, customer service, and above-market warranties. Our commitment to our more than 1,200 satisfied customers throughout our history is our commitment to your backyard.",
-      "paragraph3": "Today, we serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. Based on the county where your property is located, we offer one of our expert fiberglass pool installers, as well as financing options. Our team includes Certified Pool Contractors, in-house designers, and financing specialists."
+      "paragraph3": "Today, we serve in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. Based on the county where your property is located, we offer one of our expert fiberglass pool installers, as well as financing options. Our team includes Certified Pool Contractors, in-house designers, and financing specialists."
     },
     "values": {
       "title": "What we stand for",
@@ -328,8 +327,8 @@
       "email": "Email address",
       "emailPlaceholder": "Ej. john@example.com",
       "zip": "ZIP code",
-      "zipHelper": "We serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties",
-      "zipError": "This ZIP may be outside our core service area. Call us — we serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties and can refer you to a trusted partner.",
+      "zipHelper": "We serve in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties",
+      "zipError": "This ZIP may be outside our core service area. Call us — we serve in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties and can refer you to a trusted partner.",
       "address": "Property address",
       "addressPlaceholder": "Ej. 123 Main St, Miami, FL 33189",
       "addressHelper": "Enter the installation address. Use the map to verify your location.",
@@ -403,7 +402,7 @@
         },
         {
           "q": "What areas do you serve?",
-          "a": "We serve from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. If you are outside these areas, call us and we will refer you to a trusted partner."
+          "a": "We serve in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. If you are outside these areas, call us and we will refer you to a trusted partner."
         },
         {
           "q": "Are rectangle fiberglass pools a good choice for modern backyards?",
