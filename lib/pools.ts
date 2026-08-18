@@ -13,7 +13,8 @@ export interface PoolColor {
 export const poolColors: PoolColor[] = [
   {
     name: 'Bahama Blue',
-    modelImage: '/models-colors/bahama-blue/Bahama-Blue-Water-Swatch-compressed.webp',
+    modelImage: '/models-colors/bahama-blue/bahama-blue-compressed.webp',
+    // /models-colors/bahama-blue/Bahama-Blue-Water-Swatch-compressed.webp
     colorChip: '/models-colors/bahama-blue/bahama-blue-compressed.webp',
     referenceImages: [
       '/models-colors/bahama-blue/reference/ChatGPT-Image-Oct-14-2025-10_20_44-AM-1024x683.png',
@@ -23,7 +24,8 @@ export const poolColors: PoolColor[] = [
   },
   {
     name: 'Caribbean Blue',
-    modelImage: '/models-colors/caribbean-blue/caribbean-blue-water-graphic-compressed.webp',
+    modelImage: '/models-colors/caribbean-blue/caribbean-blue-compressed-964x1024.webp',
+    // '/models-colors/caribbean-blue/caribbean-blue-water-graphic-compressed.webp',
     colorChip: '/models-colors/caribbean-blue/caribbean-blue-compressed-964x1024.webp',
     referenceImages: [
       '/models-colors/caribbean-blue/reference/Costa-Rica-GPT-1024x683.png',
@@ -33,7 +35,8 @@ export const poolColors: PoolColor[] = [
   },
   {
     name: 'Diamond Gray',
-    modelImage: '/models-colors/diamond-gray/Diamond-Gray-Water-Color.webp',
+    modelImage: '/models-colors/diamond-gray/gray-diamond-color-chip-compressed.webp',
+    // '/models-colors/diamond-gray/Diamond-Gray-Water-Color.webp',
     colorChip: '/models-colors/diamond-gray/gray-diamond-color-chip-compressed.webp',
     referenceImages: [
       '/models-colors/diamond-gray/reference/Costa-Rica-Cumba-Spa-Gray-compressed-1024x768.webp',
@@ -43,7 +46,8 @@ export const poolColors: PoolColor[] = [
   },
   {
     name: 'Blue Abyss',
-    modelImage: '/models-colors/blue-abyss/Blue-Abyss-water-color.webp',
+    modelImage: '/models-colors/blue-abyss/Blue-Abyss-Color-Chip-compressed.webp',
+    // '/models-colors/blue-abyss/Blue-Abyss-water-color.webp',
     colorChip: '/models-colors/blue-abyss/Blue-Abyss-Color-Chip-compressed.webp',
     referenceImages: [
       '/models-colors/blue-abyss/reference/blue-abyss-travertine-patio-1024x684.webp',
@@ -52,7 +56,8 @@ export const poolColors: PoolColor[] = [
   },
   {
     name: 'Sky Blue',
-    modelImage: '/models-colors/sky-blue/sky-blue-water-color-compressed.webp',
+    modelImage: '/models-colors/sky-blue/sky-blue-color-chip-compressed.webp',
+    // '/models-colors/sky-blue/sky-blue-water-color-compressed.webp',
     colorChip: '/models-colors/sky-blue/sky-blue-color-chip-compressed.webp',
     referenceImages: [
       '/models-colors/sky-blue/reference/Brasilia_Sky_Blue-1024x768.png',
@@ -62,7 +67,8 @@ export const poolColors: PoolColor[] = [
   },
   {
     name: 'White Ivory',
-    modelImage: '/models-colors/white-ivory/White-Ivory-Water-Color.webp',
+    modelImage: '/models-colors/white-ivory/white-ivory-pure-white-color-chip-compressed.webp',
+    // '/models-colors/white-ivory/White-Ivory-Water-Color.webp',
     colorChip: '/models-colors/white-ivory/white-ivory-pure-white-color-chip-compressed.webp',
     referenceImages: [
       '/models-colors/white-ivory/reference/neblina-beach-white-compressed-768x1024.webp',
@@ -72,7 +78,8 @@ export const poolColors: PoolColor[] = [
   },
   {
     name: 'Black Obsidian',
-    modelImage: '/models-colors/black-obsidian/black-obsidian-water-color-compressed.webp',
+    modelImage: '/models-colors/black-obsidian/black-obsidian-color-chip-compressed.webp',
+    // '/models-colors/black-obsidian/black-obsidian-water-color-compressed.webp',
     colorChip: '/models-colors/black-obsidian/black-obsidian-color-chip-compressed.webp',
     referenceImages: [
       '/models-colors/black-obsidian/reference/black-obsidian-travertine-patio-1024x682.webp',
@@ -127,6 +134,12 @@ const _freeformFeatures = {
   en: [..._poolFeatures.en, 'Freeform design'],
   es: [..._poolFeatures.es, 'Diseño de forma libre'],
   pt: [..._poolFeatures.pt, 'Design de forma livre'],
+};
+
+const _tanningLedgeFeatures = {
+  en: [..._poolFeatures.en, 'Tanning ledge', 'Built-in bench seating'],
+  es: [..._poolFeatures.es, 'Repisa para bronceado', 'Asientos de banco integrados'],
+  pt: [..._poolFeatures.pt, 'Prainha para bronzeamento', 'Assentos de banco integrados'],
 };
 
 const _largeExtra = {
@@ -201,6 +214,98 @@ function ledgeDesc(name: string, code: string, w: string, l: string, d: string, 
   };
 }
 
+const _manufacturerDescriptions = {
+  R1: {
+    en: 'A compact cocktail pool with a clean rectangular shape, built-in seating, and a flat-bottom layout designed for smaller backyard spaces.',
+    es: 'Una piscina tipo cocktail compacta, de forma rectangular limpia, con asientos integrados y fondo plano, diseñada para patios pequeños.',
+    pt: 'Uma piscina tipo cocktail compacta, com formato retangular, assentos integrados e fundo plano, projetada para espaços menores no quintal.',
+  },
+  R2: {
+    en: 'A spacious rectangle built for homeowners who want clean lines, open swim space, and a modern backyard layout.',
+    es: 'Una piscina rectangular espaciosa para quienes buscan líneas limpias, amplio espacio para nadar y un diseño moderno para el patio.',
+    pt: 'Uma piscina retangular espaçosa para quem busca linhas limpas, amplo espaço para nadar e um layout moderno no quintal.',
+  },
+  R3: {
+    en: 'A compact fiberglass pool with a modern rectangle shape, comfortable entry steps, ledge, and inviting space for lounging, cooling off, and everyday backyard enjoyment.',
+    es: 'Una piscina compacta de fibra de vidrio con forma rectangular moderna, escalones de entrada cómodos, repisa y un espacio acogedor para descansar, refrescarse y disfrutar del patio todos los días.',
+    pt: 'Uma piscina compacta de fibra de vidro com formato retangular moderno, degraus de entrada confortáveis, prainha e espaço convidativo para relaxar, se refrescar e aproveitar o quintal todos os dias.',
+  },
+  R4: {
+    en: 'Compact rectangular pool designed for homeowners who want clean lines, a built-in tanning ledge, and a polished backyard look without choosing an oversized pool.',
+    es: 'Piscina rectangular compacta para quienes buscan líneas limpias, una repisa para bronceado integrada y un patio elegante sin elegir una piscina sobredimensionada.',
+    pt: 'Piscina retangular compacta para quem busca linhas limpas, uma prainha integrada para bronzeamento e um quintal sofisticado sem escolher uma piscina grande demais.',
+  },
+  R5: {
+    en: 'Mid-size freeform pool designed for homeowners who want a softer backyard shape, comfortable built-in features, and plenty of room for everyday enjoyment.',
+    es: 'Piscina mediana de forma libre para quienes buscan una silueta más orgánica, características integradas cómodas y mucho espacio para disfrutarla todos los días.',
+    pt: 'Piscina de formato livre e tamanho médio para quem busca um contorno mais suave, recursos integrados confortáveis e bastante espaço para aproveitar todos os dias.',
+  },
+  R6: {
+    en: 'A freeform fiberglass pool with flowing curves, generous swim space, and a relaxed resort-style design for everyday enjoyment.',
+    es: 'Una piscina de fibra de vidrio de forma libre, con curvas fluidas, amplio espacio para nadar y un diseño relajado estilo resort para disfrutar todos los días.',
+    pt: 'Uma piscina de fibra de vidro de formato livre, com curvas fluidas, amplo espaço para nadar e um design descontraído de resort para aproveitar todos os dias.',
+  },
+  R7: {
+    en: 'A spacious geometric fiberglass pool with generous swim space, a wide entry area, and a clean modern look for larger backyards.',
+    es: 'Una piscina geométrica espaciosa de fibra de vidrio, con amplio espacio para nadar, una entrada ancha y un estilo moderno para patios grandes.',
+    pt: 'Uma piscina geométrica espaçosa de fibra de vidro, com amplo espaço para nadar, uma entrada larga e um visual moderno para quintais maiores.',
+  },
+  R8: {
+    en: 'A spacious rectangular fiberglass pool with an integrated tanning ledge, generous swim area, and deeper water for active family enjoyment.',
+    es: 'Una piscina rectangular espaciosa de fibra de vidrio, con repisa para bronceado integrada, amplia zona de nado y mayor profundidad para el disfrute activo de toda la familia.',
+    pt: 'Uma piscina retangular espaçosa de fibra de vidro, com prainha integrada para bronzeamento, ampla área para nadar e maior profundidade para a diversão ativa da família.',
+  },
+  R9: {
+    en: 'A spacious rectangular pool designed for homeowners who want open swim space, built-in lounging comfort, and a polished backyard look.',
+    es: 'Una piscina rectangular espaciosa para quienes buscan espacio abierto para nadar, comodidad integrada para descansar y un patio elegante.',
+    pt: 'Uma piscina retangular espaçosa para quem busca espaço aberto para nadar, conforto integrado para relaxar e um quintal sofisticado.',
+  },
+  R10: {
+    en: 'A freeform fiberglass pool with a built-in tanning ledge, open swim space, and a relaxed shape designed for backyard living.',
+    es: 'Una piscina de fibra de vidrio de forma libre, con repisa para bronceado integrada, espacio abierto para nadar y una forma relajada para disfrutar del patio.',
+    pt: 'Uma piscina de fibra de vidro de formato livre, com prainha integrada para bronzeamento, espaço aberto para nadar e um formato descontraído para a vida no quintal.',
+  },
+  R11: {
+    en: 'A compact rectangular pool designed for homeowners who want a smaller pool with built-in lounging, clean lines, and everyday comfort.',
+    es: 'Una piscina rectangular compacta para quienes buscan una piscina más pequeña, con espacio integrado para descansar, líneas limpias y comodidad diaria.',
+    pt: 'Uma piscina retangular compacta para quem busca uma piscina menor, com espaço integrado para relaxar, linhas limpas e conforto diário.',
+  },
+  R12: {
+    en: 'A spacious freeform fiberglass pool with flowing curves, generous swim space, and an inviting design for active family use and relaxed outdoor living.',
+    es: 'Una piscina espaciosa de fibra de vidrio con forma libre, curvas fluidas, amplio espacio para nadar y un diseño acogedor para familias activas y una vida al aire libre relajada.',
+    pt: 'Uma piscina espaçosa de fibra de vidro de formato livre, com curvas fluidas, amplo espaço para nadar e um design convidativo para famílias ativas e uma vida ao ar livre descontraída.',
+  },
+  R13: {
+    en: 'A spacious rectangular pool with an integrated spa combination, open swim space, built-in relaxation, and a polished resort-style backyard look.',
+    es: 'Una piscina rectangular espaciosa con una combinación de spa integrada, espacio abierto para nadar, zonas integradas de descanso y un patio elegante estilo resort.',
+    pt: 'Uma piscina retangular espaçosa com combinação de spa integrada, espaço aberto para nadar, áreas integradas de relaxamento e um quintal sofisticado com estilo de resort.',
+  },
+  R14: {
+    en: 'A compact rectangular fiberglass pool designed for smaller backyards, courtyards, and relaxed everyday enjoyment.',
+    es: 'Una piscina compacta rectangular de fibra de vidrio, diseñada para patios pequeños, patios interiores y un disfrute diario relajado.',
+    pt: 'Uma piscina retangular compacta de fibra de vidro, projetada para quintais menores, pátios internos e um aproveitamento diário descontraído.',
+  },
+  R15: {
+    en: 'The Solaris fits beautifully into compact yards, courtyards, side-yard spaces, and smaller outdoor living areas where every foot matters.',
+    es: 'La Solaris encaja perfectamente en patios compactos, patios interiores, espacios laterales y áreas exteriores pequeñas donde cada pie cuenta.',
+    pt: 'A Solaris se encaixa perfeitamente em quintais compactos, pátios internos, espaços laterais e áreas externas menores onde cada pé faz diferença.',
+  },
+  R16: {
+    en: 'Classic rectangular design with a multi-level tanning ledge, open swim space, and comfortable deep-end seating.',
+    es: 'Diseño rectangular clásico con una repisa para bronceado de varios niveles, espacio abierto para nadar y cómodos asientos en el extremo profundo.',
+    pt: 'Design retangular clássico com prainha para bronzeamento em vários níveis, espaço aberto para nadar e assentos confortáveis na parte funda.',
+  },
+  R17: {
+    en: 'A compact rectangular pool designed for homeowners who want a smaller pool with full-width ledge, clean lines, and everyday comfort.',
+    es: 'Una piscina rectangular compacta para quienes buscan una piscina más pequeña, con repisa de ancho completo, líneas limpias y comodidad diaria.',
+    pt: 'Uma piscina retangular compacta para quem busca uma piscina menor, com prainha em toda a largura, linhas limpas e conforto diário.',
+  },
+} as const;
+
+function manufacturerDesc(code: keyof typeof _manufacturerDescriptions) {
+  return _manufacturerDescriptions[code];
+}
+
 export const pools: Pool[] = [
   {
     slug: 'r1-neblina-grande',
@@ -222,11 +327,11 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Neblina-Grande/Neblina-Grande-plan.png',
       '/iso-models/Pools/Neblina-Grande/Neblina-Grande-iso.png',
       '/iso-models/Pools/Neblina-Grande/Neblina-Grande-iso-2.png',
-      '/iso-models/Pools/Neblina-Grande/Neblina-Grande-Pool-FBs.webp',
+      // '/iso-models/Pools/Neblina-Grande/Neblina-Grande-Pool-FBs.webp',
       '/iso-models/Pools/Neblina-Grande/neblina-grande-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Neblina Grande', 'R1', "8'", "16'", "5'", 3500, 'rectangle'),
+    description: manufacturerDesc('R1'),
     features: _poolFeatures,
   },
   {
@@ -251,7 +356,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Cali-Cove/Cali-Cove-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Cali Cove', 'R4', '11\'6"', '22\'8"', '10"-3\'6"-5\'', 7000, 'freeform'),
+    description: manufacturerDesc('R4'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -277,7 +382,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Costa-Rica/Costa-Rica-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Costa Rica', 'R5', "12'", "25'", '3\'5"-5\'6"', 7000, 'freeform'),
+    description: manufacturerDesc('R5'),
     features: withLarge(_freeformFeatures),
     popular: true,
   },
@@ -303,7 +408,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Costa-Beach/Costa-Beach-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Costa Beach', 'R10', "12'", "27'", '10"-3\'6"-5\'6"', 7000, 'beach-entry'),
+    description: manufacturerDesc('R10'),
     features: withLarge(_beachFeatures),
   },
   {
@@ -329,7 +434,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Neblina-Beach/Neblina-Beach-with-Markup.webp',
     ],
     colors: poolColorNames,
-    description: poolDesc('Neblina Beach', 'R11', "12'", "20'", '10"-5\'', 7000, 'beach-entry'),
+    description: manufacturerDesc('R11'),
     features: _beachFeatures,
   },
   {
@@ -355,7 +460,7 @@ export const pools: Pool[] = [
       
     ],
     colors: poolColorNames,
-    description: poolDesc('Colombian Cove', 'R3', '11\'6"', '26\'4"', '10"-3\'6"-5\'4"', 7500, 'freeform'),
+    description: manufacturerDesc('R3'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -379,7 +484,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Colombian/Columbian-Pool-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Colombian', 'R2', '11\'5"', '26\'4"', '3\'6"-5\'4"', 8000, 'rectangle'),
+    description: manufacturerDesc('R2'),
     features: withLarge(_poolFeatures),
   },
   {
@@ -401,11 +506,11 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Colombian-Beach/Columbian-Beach-plan.png',
       '/iso-models/Pools/Colombian-Beach/Columbian-Beach-iso.png',
       '/iso-models/Pools/Colombian-Beach/Columbian-Beach-iso-2.png',      
-      '/iso-models/Pools/Colombian-Beach/Columbian-Beach-FBs.png',
+      // '/iso-models/Pools/Colombian-Beach/Columbian-Beach-FBs.png',
       '/iso-models/Pools/Colombian-Beach/Columbian-Beach-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Colombian Beach', 'R9', '11\'6"', "32'", '10"-3\'6"-5\'4"', 9000, 'beach-entry'),
+    description: manufacturerDesc('R9'),
     features: withLarge(_beachFeatures),
   },
   {
@@ -429,7 +534,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Roatan/Roatan-Pool-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Roatan', 'R6', "14'", "30'", '3\'5"-5\'11"', 10000, 'freeform'),
+    description: manufacturerDesc('R6'),
     features: withLarge(_freeformFeatures),
     popular: true,
   },
@@ -455,7 +560,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Roatan-Beach/Roatan-Beach-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Roatan Beach', 'R12', "14'", "35'", '10"-3\'6"-5\'11"', 10000, 'beach-entry'),
+    description: manufacturerDesc('R12'),
     features: withLarge(_beachFeatures),
   },
   {
@@ -478,10 +583,10 @@ export const pools: Pool[] = [
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Brasilia/Brasilia-Tech-p.png',
-      '/iso-models/Pools/Brasilia/Brasilia-Pool-FBs.png',
+      // '/iso-models/Pools/Brasilia/Brasilia-Pool-FBs.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Brasilia', 'R7', "14'", "30'", '3\'6"-6\'', 11500, 'rectangle'),
+    description: manufacturerDesc('R7'),
     features: withLarge(_poolFeatures),
     popular: true,
   },
@@ -506,7 +611,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Belize/Belize-Pool-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Belize', 'R8', "14'", "29'", "4'-6'", 11500, 'freeform'),
+    description: manufacturerDesc('R8'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -527,7 +632,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Colombian-Resort/Colombian-Resort-tech-p.png',
     ],
     colors: poolColorNames,
-    description: poolDesc('Colombian Resort', 'R13', "12'", "33'", '3\'5"-5\'4"', 7100, 'freeform'),
+    description: manufacturerDesc('R13'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -547,7 +652,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Nova/Nova.jpg',
     ],
     colors: poolColorNames,
-    description: poolDesc('Nova', 'R14', "7'", "14'", "4'", 2500, 'rectangle'),
+    description: manufacturerDesc('R14'),
     features: _poolFeatures,
   },
   {
@@ -567,8 +672,46 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Solaris/Solaris.jpg',
     ],
     colors: poolColorNames,
-    description: poolDesc('Solaris', 'R15', "10'", "20'", '4\'6"', 4500, 'rectangle'),
+    description: manufacturerDesc('R15'),
     features: _poolFeatures,
+  },
+  {
+    slug: 'r16-radiant-island',
+    name: 'Radiant Island',
+    modelCode: 'R16',
+    productClass: 'pool',
+    shape: 'rectangle',
+    sizeCategory: '22plus',
+    lengthFt: 30, widthFt: 16, depthFt: 6,
+    dimensionsText: { width: "16'", length: "30'", depth: '4\'6"-6\'' },
+    surfaceAreaSqft: 480,
+    waterVolumeGallons: 14500, weight: 4000,
+    images: [
+      '/iso-models/Pools/Randiant-Island/Showroom/Radiant-Island.webp',
+    ],
+    imagesIsoModels: [],
+    colors: poolColorNames,
+    description: manufacturerDesc('R16'),
+    features: _tanningLedgeFeatures,
+  },
+  {
+    slug: 'r17-macaw-cove',
+    name: 'Macaw Cove',
+    modelCode: 'R17',
+    productClass: 'pool',
+    shape: 'rectangle',
+    sizeCategory: '22plus',
+    lengthFt: 23, widthFt: 10, depthFt: 4.5,
+    dimensionsText: { width: "10'", length: "23'", depth: '4\'6" flat bottom' },
+    surfaceAreaSqft: 230,
+    waterVolumeGallons: 3300, weight: 2300,
+    images: [
+      '/iso-models/Pools/Macaw-Cove/Showroom/Macaw-Cove-Compressed.webp',
+    ],
+    imagesIsoModels: [],
+    colors: poolColorNames,
+    description: manufacturerDesc('R17'),
+    features: _tanningLedgeFeatures,
   },
   {
     slug: 'rs1-quatro',
@@ -752,9 +895,13 @@ const _showroomMeta: { slug: string; zone: ShowroomZone; style: ShowroomStyle; l
   { slug: 'r13-colombian-resort', zone: 'other', style: 'resort', location: 'Naples, FL' },
   { slug: 'r14-nova', zone: 'miami-dade', style: 'compact', location: 'Miami, FL' },
   { slug: 'r15-solaris', zone: 'broward', style: 'family', location: 'Boca Raton, FL' },
+  { slug: 'r16-radiant-island', zone: 'miami-dade', style: 'family', location: 'Miami, FL'},
+  { slug: 'r17-macaw-cove', zone: 'miami-dade', style: 'family', location: 'Miami, FL'},  
   { slug: 'rs1-quatro', zone: 'miami-dade', style: 'compact', location: 'Miami, FL' },
   { slug: 'rs2-cumba', zone: 'broward', style: 'compact', location: 'Fort Lauderdale, FL'},
   { slug: 'rs3-neblina', zone: 'miami-dade', style: 'compact', location: 'Miami, FL'},
+  { slug: 'rl1-natal-ledge', zone: 'palm-beach', style: 'family', location: 'West Palm Beach, FL'},
+  { slug: 'rl2-rio-ledge', zone: 'palm-beach', style: 'family', location: 'West Palm Beach, FL'},
 ];
 
 export const showroomProjects: ShowroomProject[] = _showroomMeta

@@ -79,12 +79,13 @@
     "about": {
       "label": "About Us",
       "title": "South Florida's largest fiberglass pool showroom",
-      "paragraph1": "With over 8,000 sqft, we showcase more than 150 pool styles in person. Since 2013, we've delivered 1000+ pools to families in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
+      "paragraph1": " With a showroom over 8,000 sqft, we are a Rainforest - an American Brand AAA quality locally production - Exclusive Distributor offering more than 150 possible pool shells different combinations. Since 2013, we've delivered 1000+ pools to families across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
       "paragraph2": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
       "editorial": {
         "openingTitle": "More than a pool. A place to imagine.",
         "openingDescription": "See the selection in person and imagine what fits your backyard.",
         "showroomTitle": "Find the shape that feels like yours.",
+        "showroomDescription": "Across more than 8,000 square feet, we display over 150 pool style combos in person. Since 2013 we have delivered more than 1000 pools to families across all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
         "processTitle": "Your backyard starts with a conversation.",
         "processDescription": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
         "closingTitle": "Designed for your life. Backed for life.",
@@ -94,7 +95,7 @@
     },
     "stats": {
       "soldPools": "Pools delivered",
-      "stylesInStock": "Styles combos in stock",
+      "stylesInStock": "Choose from different combinations",
       "yearsExperience": "Years in business",
       "warranty": "Lifetime warranty",
       "warrantyText": "Lifetime"
@@ -109,11 +110,11 @@
         },
         "stock": {
           "title": "100+ styles ready in 4 weeks average",
-          "description": "Immediate delivery on most models. Choose from 120+ shapes, sizes, and colors — all in stock at our Miami showroom."
+          "description": "More than 150 possible pool shells different combinations available to be built in 4 week average and shipp straight from our factory to your backyard."
         },
         "custom": {
           "title": "Custom sizes & colors",
-          "description": "Like a style but need different dimensions? We customize around your space with multiple size and color combinations."
+          "description": "Standard no limited. We offers 17 pool shells, 3 SPA shells, 2 Tanning Ledge that can be combined with 7 different colors to show you more than 150 combinations available under your desire."
         },
         "warranty": {
           "title": "Lifetime structural warranty",
@@ -131,7 +132,7 @@
       "label": "Featured Models",
       "title": "Popular fiberglass pools this season",
       "subtitle": "Explore our most requested styles. All available for immediate installation in South Florida.",
-      "viewAll": "View all 150+ models"
+      "viewAll": "View all models"
     },
     "reviews": {
       "label": "Reviews",
@@ -195,7 +196,7 @@
   "Products": {
     "hero": {
       "title": "Find your perfect fiberglass pool",
-      "subtitle": "150+ styles in stock. Filter by size, shape, and color. All available for immediate delivery in South Florida."
+      "subtitle": "More than 150 possible pool shells different combinations available to be built in 4 week average."
     },
     "filter": {
       "title": "Filters",
@@ -223,6 +224,7 @@
       "over10k": "Over 10,000 gal",
       "color": "Color",
       "sortBy": "Sort by",
+      "default": "Default",
       "numeric": "Numeric",
       "popular": "Most popular",
       "smallest": "Smallest first",
@@ -309,7 +311,7 @@
   "Contact": {
     "hero": {
       "title": "Let's build your dream pool",
-      "subtitle": "Fill out the form below or call us at 786-207-1634. We respond within 24 hours."
+      "subtitle": "Fill out the form below or call us at 786-207-1634. We respond within 24 business hours."
     },
     "form": {
       "role": "Who you are",
@@ -337,8 +339,9 @@
       "message": "Tell us about your project",
       "messagePlaceholder": "Pool size, timeline, backyard details, any specific questions…",
       "submit": "Send my request",
-      "success": "Thank you! We'll contact you within 24 hours.",
-      "error": "Something went wrong. Please call 786-207-1634."
+      "success": "Thank you! We'll contact you within 24 business hours.",
+      "error": "Something went wrong. Please call 786-207-1634.",
+      "openEmailFallback": "Open email fallback"
     },
     "info": {
       "phone": "Call us",
@@ -531,7 +534,7 @@
     "back": "Back",
     "send": "Send my configuration",
     "continue": "Continue",
-    "success": "Your configuration is ready. Our team will review it and respond within 24 hours.",
+    "success": "Your configuration is ready. Our team will review it and respond within 24 business hours.",
     "openEmailFallback": "Open email fallback",
     "error": "We could not send the request. Please check required fields or call us directly.",
     "contactForPricing": "Contact us for pricing"
@@ -560,7 +563,7 @@
     "verified": "Verified",
     "shareExperience": "Share your experience →",
     "lessThanIdeal": "Had a less-than-ideal experience? Email us directly at",
-    "resolveIn24h": "and we'll resolve it within 24 hours."
+    "resolveIn24h": "and we'll resolve it within 24 business hours."
   },
   "PoolBenefits": {
     "hero": {

@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState, type ComponentType, type ReactNode } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import {
   ArrowRight,
@@ -72,7 +72,7 @@ const roles = [
 
 const stepKeys = ['pool', 'finish', 'site', 'contact'] as const;
 
-type FormState = Omit<CreateByYourselfLead, 'extras'> & { extras: string[] };
+type FormState = Omit<CreateByYourselfLead, 'extras' | 'locale'> & { extras: string[] };
 
 const initialState: FormState = {
   poolType: 'pool',
@@ -93,6 +93,7 @@ const initialState: FormState = {
 
 export function CreateByYourself() {
   const t = useTranslations('CreateByYourself');
+  const locale = useLocale();
   const reduce = useReducedMotion();
   const [step, setStep] = useState(0);
   const [form, setForm] = useState<FormState>(initialState);
@@ -145,7 +146,7 @@ export function CreateByYourself() {
       const response = await fetch('/api/create-by-yourself', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, locale }),
       });
       const data = await response.json();
 

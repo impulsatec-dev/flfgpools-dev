@@ -79,7 +79,7 @@
     "about": {
       "label": "Sobre nosotros",
       "title": "El showroom de piscinas de fibra de vidrio más grande del sur de Florida",
-      "paragraph1": "Con más de 8,000 pies cuadrados, mostramos más de 150 estilos de piscinas en persona. Desde 2013, hemos entregado más de 1000 piscinas a familias en todo el sur de florida, desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward.",
+      "paragraph1": "Contamos con una sala de exposición de más de 8.000 pies cuadrados y somos distribuidores exclusivos de Rainforest, una marca estadounidense de calidad AAA con fabricación local, ofreciendo más de 150 combinaciones posibles de cascos para piscinas. Desde 2013, hemos entregado más de 1.000 piscinas a familias en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands y Okeechobee.",
       "paragraph2": "Como distribuidor exclusivo para todo el sur de Florida, nuestro equipo te guía desde la consulta hasta la instalación, asegurando que tu piscina se ajuste a tu estilo de vida, presupuesto y patio — respaldada por una garantía estructural de por vida directamente de fábrica.",
       "editorial": {
         "openingTitle": "Más que una piscina. Un lugar para imaginar.",
@@ -110,11 +110,11 @@
         },
         "stock": {
           "title": "Más de 100 estilos listos en un promedio de 4 semanas.",
-          "description": "Entrega inmediata en la mayoría de modelos. Elige entre más de 120 formas, tamaños y colores — todos en stock en nuestro showroom de Miami."
+          "description": "Disponemos de más de 150 modelos y combinaciones de cascos de piscina, con un plazo de fabricación promedio de 4 semanas y envío directo desde nuestra fábrica hasta su jardín."
         },
         "custom": {
           "title": "Tamaños y colores personalizados",
-          "description": "¿Te gusta un estilo pero necesitas otras dimensiones? Personalizamos según tu espacio con múltiples combinaciones de tamaño y color."
+          "description": "Sin limitaciones estándar. Ofrecemos 17 modelos de vaso de piscina, 3 de spa y 2 de plataforma de bronceado, que pueden combinarse con 7 colores diferentes para ofrecerle más de 150 combinaciones según sus preferencias."
         },
         "warranty": {
           "title": "Garantía estructural de por vida",
@@ -132,7 +132,7 @@
       "label": "Modelos destacados",
       "title": "Piscinas de fibra de vidrio más populares esta temporada",
       "subtitle": "Explora nuestros estilos más solicitados. Todos disponibles para instalación inmediata en el sur de Florida.",
-      "viewAll": "Ver los 150+ modelos"
+      "viewAll": "Ver todos los modelos"
     },
     "reviews": {
       "label": "Reseñas",
@@ -187,7 +187,7 @@
     },
     "stats": {
       "soldPools": "Piscinas entregadas",
-      "stylesInStock": "Combinaciones de estilos en stock",
+      "stylesInStock": "Elige entre diferentes combinaciones.",
       "yearsExperience": "Años de experiencia",
       "warranty": "Garantía de por vida",
       "warrantyText": "De por vida"
@@ -196,7 +196,7 @@
   "Products": {
     "hero": {
       "title": "Encuentra tu piscina de fibra de vidrio perfecta",
-      "subtitle": "Más de 150 estilos en stock. Filtra por tamaño, forma y color. Todos disponibles para entrega inmediata en el sur de Florida."
+      "subtitle": "Hay disponibles más de 150 combinaciones posibles de cascos de piscina para su construcción en un plazo promedio de 4 semanas."
     },
     "filter": {
       "title": "Filtros",
@@ -224,6 +224,7 @@
       "over10k": "Más de 10,000 gal",
       "color": "Color",
       "sortBy": "Ordenar por",
+      "default": "Por defecto",
       "numeric": "Numérico",
       "popular": "Más populares",
       "smallest": "Más pequeños primero",
@@ -310,7 +311,7 @@
   "Contact": {
     "hero": {
       "title": "Construyamos tu piscina soñada",
-      "subtitle": "Completa el formulario o llámanos al 786-207-1634. Respondemos en 24 horas."
+      "subtitle": "Completa el formulario o llámanos al 786-207-1634. Respondemos en 24 horas laborales."
     },
     "form": {
       "role": "¿Quién eres?",
@@ -338,8 +339,9 @@
       "message": "Cuéntanos sobre tu proyecto",
       "messagePlaceholder": "Tamaño de piscina, timeline, detalles del patio, preguntas específicas…",
       "submit": "Enviar mi solicitud",
-      "success": "¡Gracias! Te contactaremos en 24 horas.",
-      "error": "Algo salió mal. Por favor llama al 786-207-1634."
+      "success": "¡Gracias! Te contactaremos en 24 horas laborales.",
+      "error": "Algo salió mal. Por favor llama al 786-207-1634.",
+      "openEmailFallback": "Abrir respaldo de correo"
     },
     "info": {
       "phone": "Llámanos",
@@ -532,7 +534,7 @@
     "back": "Atrás",
     "send": "Enviar mi configuración",
     "continue": "Continuar",
-    "success": "Tu configuración está lista. Nuestro equipo la revisará y responderá en 24 horas.",
+    "success": "Tu configuración está lista. Nuestro equipo la revisará y responderá en 24 horas laborales.",
     "openEmailFallback": "Abrir respaldo de correo",
     "error": "No pudimos enviar la solicitud. Por favor revisa los campos obligatorios o llámanos directamente.",
     "contactForPricing": "Conoce el precio"
@@ -561,7 +563,7 @@
     "verified": "Verificado",
     "shareExperience": "Comparte tu experiencia →",
     "lessThanIdeal": "¿Tuviste una experiencia menos que ideal? Escríbenos directamente a",
-    "resolveIn24h": "y lo resolveremos en 24 horas."
+    "resolveIn24h": "y lo resolveremos en 24 horas laborales."
   },
   "PoolBenefits": {
     "hero": {

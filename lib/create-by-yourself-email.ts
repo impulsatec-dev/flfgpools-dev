@@ -1,5 +1,15 @@
 import { z } from 'zod';
-import { SOCIAL_LINKS } from '@/config/site';
+import { pools } from '@/lib/pools';
+import {
+  buildMailto,
+  leadsRecipient,
+  renderLeadHtml,
+  renderLeadText,
+  sendLeadEmail,
+  telHref,
+  type LeadContent,
+  type LeadRow,
+} from '@/lib/mailer';
 
 export const createByYourselfLeadSchema = z.object({
   poolType: z.enum(['pool', 'spa', 'tanning-ledge']),
@@ -16,6 +26,7 @@ export const createByYourselfLeadSchema = z.object({
   phone: z.string().min(7),
   email: z.string().email(),
   notes: z.string().optional().default(''),
+  locale: z.enum(['en', 'es', 'pt']).optional().default('en'),
 });
 
 export type CreateByYourselfLead = z.infer<typeof createByYourselfLeadSchema>;
@@ -45,6 +56,9 @@ const labels: Record<string, string> = {
   'heater': 'Heater',
   'deck-patio': 'Deck / patio area',
   'salt-system': 'Salt system',
+  en: 'English',
+  es: 'Spanish',
+  pt: 'Portuguese',
 };
 
 export function readable(value: string) {
@@ -52,85 +66,69 @@ export function readable(value: string) {
 }
 
 export function buildCreateByYourselfEmail(lead: CreateByYourselfLead) {
-  const subject = `Create by Yourself quote request — ${lead.name}`;
-  const lines = [
-    'New Create by Yourself lead',
-    '',
-    'Pool configuration',
-    `Type: ${readable(lead.poolType)}`,
-    `Size: ${readable(lead.size)}`,
-    `Model: ${lead.model}`,
-    `Color: ${lead.color}`,
-    `Extras: ${lead.extras.length ? lead.extras.join(', ') : 'None selected'}`,
-    '',
-    'Site details',
-    `City: ${lead.city}`,
-    `ZIP: ${lead.zip}`,
-    `Backyard access: ${readable(lead.backyardAccess)}`,
-    `Desired timeline: ${readable(lead.timeline)}`,
-    `Customer type: ${readable(lead.role)}`,
-    '',
-    'Contact',
-    `Name: ${lead.name}`,
-    `Phone: ${lead.phone}`,
-    `Email: ${lead.email}`,
-    '',
-    'Notes',
-    lead.notes || 'No notes provided',
-  ];
+  const subject = `Create by Yourself · ${lead.name} (${lead.city} ${lead.zip})`;
+  const pool = pools.find((item) => item.slug === lead.model);
+  const model = pool ? `${pool.modelCode} ${pool.name}` : lead.model;
+  const dimensions = pool
+    ? `${pool.dimensionsText.length} × ${pool.dimensionsText.width} × ${pool.dimensionsText.depth}`
+    : '';
 
-  const body = lines.join('\n');
-  const to = process.env.LEADS_TO_EMAIL || SOCIAL_LINKS.email_principal;
-  const mailto = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const configRows: LeadRow[] = [
+    ['Type', readable(lead.poolType)],
+    ['Size range', readable(lead.size)],
+    ['Model', model],
+  ];
+  if (dimensions) configRows.push(['Dimensions', dimensions]);
+  configRows.push(
+    ['Finish color', lead.color],
+    ['Extras', lead.extras.length ? lead.extras.map(readable).join(', ') : 'None selected']
+  );
+
+  const content: LeadContent = {
+    kicker: 'Create by Yourself',
+    headline: lead.name,
+    subhead: [`${model} in ${lead.color}`, readable(lead.timeline)].join(' · '),
+    phone: lead.phone,
+    email: lead.email,
+    sections: [
+      { heading: 'Pool configuration', rows: configRows },
+      {
+        heading: 'Site details',
+        rows: [
+          ['Location', `${lead.city}, FL ${lead.zip}`, `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lead.city}, FL ${lead.zip}`)}`],
+          ['Backyard access', readable(lead.backyardAccess)],
+          ['Desired timeline', readable(lead.timeline)],
+        ],
+      },
+      {
+        heading: 'Contact',
+        rows: [
+          ['Phone', lead.phone, telHref(lead.phone)],
+          ['Email', lead.email, `mailto:${lead.email}`],
+          ['Customer type', readable(lead.role)],
+          ['Preferred language', readable(lead.locale)],
+        ],
+      },
+      { heading: 'Notes', text: lead.notes || 'No notes provided.' },
+    ],
+  };
+
+  const body = renderLeadText(content);
+  const to = leadsRecipient();
 
   return {
     to,
     subject,
     body,
-    mailto,
+    html: renderLeadHtml(content),
+    replyTo: lead.email,
+    mailto: buildMailto(to, subject, body),
   };
 }
 
 export async function sendCreateByYourselfLead(lead: CreateByYourselfLead) {
   const email = buildCreateByYourselfEmail(lead);
+  const { delivered } = await sendLeadEmail(email, { form: 'create-by-yourself', lead, email });
 
-  if (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS) {
-    const nodemailer = await import('nodemailer');
-
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: (Number(process.env.SMTP_PORT) || 587) === 465,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
-
-    await transporter.sendMail({
-      from: process.env.SMTP_FROM || process.env.SMTP_USER,
-      to: email.to,
-      subject: email.subject,
-      text: email.body,
-      replyTo: lead.email,
-    });
-
-    return { delivered: true, ...email };
-  }
-
-  if (process.env.LEADS_WEBHOOK_URL) {
-    const response = await fetch(process.env.LEADS_WEBHOOK_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ lead, email }),
-    });
-
-    if (!response.ok) {
-      throw new Error('Lead webhook failed');
-    }
-
-    return { delivered: true, ...email };
-  }
-
-  return { delivered: false, ...email };
+  return { delivered, ...email };
 }

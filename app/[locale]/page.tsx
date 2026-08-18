@@ -151,27 +151,30 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       </section>
 
       {/* === ABOUT === */}
+      {/* To re-enable horizontal scroll, replace this <section> with <HorizontalScrollSection className="relative isolate bg-pool-cream" background={...} topBar={...}> and add shrink-0 / min-[768px]:w-screen / min-[768px]:h-screen back to each <article> */}
       <SectionReveal>
-        <HorizontalScrollSection
+        {/* <HorizontalScrollSection
           className="relative isolate bg-pool-cream"
-          background={
+          background={ */}
+            <section className="relative isolate bg-pool-cream">
             <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
               <div className="absolute -right-40 top-[8%] h-[32rem] w-[32rem] rounded-full bg-pool-mist/60 blur-3xl" />
               <div className="absolute -left-48 top-[48%] h-[28rem] w-[28rem] rounded-full bg-pool-sand/80 blur-3xl" />
               <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-pool-cream to-transparent" />
             </div>
-          }
-          topBar={
-            <div className="pointer-events-none absolute inset-x-0 top-[5.8rem] z-40 flex items-center justify-center gap-2 border-b border-pool-deep/15 bg-pool-cream/75 px-3 py-3 backdrop-blur-xl transition-[background-color,border-color,backdrop-filter] duration-300 min-[768px]:justify-between min-[768px]:gap-4 min-[768px]:px-10 min-[768px]:py-4 min-[1024px]:px-20">
+          {/*   }   
+            topBar={
+            <div className="pointer-events-none absolute inset-x-0 top-[5.8rem] z-40 flex items-center justify-center gap-2 border-b border-pool-deep/15 bg-pool-cream/75 px-3 py-3 backdrop-blur-xl transition-[background-color,border-color,backdrop-filter] duration-300 min-[768px]:justify-between min-[768px]:gap-4 min-[768px]:px-10 min-[768px]:py-4 min-[1024px]:px-20"> */}
+            <div className="pointer-events-none sticky top-0 z-40 flex items-center justify-center gap-2 border-b border-pool-deep/15 bg-pool-cream/75 px-3 py-3 backdrop-blur-xl transition-[background-color,border-color,backdrop-filter] duration-300 min-[768px]:justify-between min-[768px]:gap-4 min-[768px]:px-10 min-[768px]:py-4 min-[1024px]:px-20">
               <span className="hidden h-px flex-1 bg-pool-deep/15 min-[768px]:block" />
               <span className="whitespace-nowrap font-sans text-[10px] font-bold uppercase tracking-[0.18em] text-pool-deep/65 min-[768px]:text-[12px] min-[768px]:tracking-[0.28em]">
                 FLFG Pools / About
               </span>
               <span className="hidden h-px flex-1 bg-pool-deep/15 min-[768px]:block" />
             </div>
-          }
-        >
-          <article className="flex w-full shrink-0 min-[768px]:w-screen flex-col justify-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[768px]:py-24 min-[1024px]:px-[9vw]">
+        
+          {/* <article className="flex w-full shrink-0 min-[768px]:w-screen flex-col justify-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[768px]:py-24 min-[1024px]:px-[9vw]"> */}
+          <article className="flex w-full flex-col justify-center px-4 py-28 sm:px-10 min-[768px]:px-6 min-[768px]:py-24 min-[1024px]:px-[9vw]">
             <ScrollRevealItem direction="fade" className="max-w-4xl">
               {/* <span className="glass-chip-section-title">{t('about.label')}</span> */}
               <h2 className="mt-6 max-w-4xl text-[clamp(3rem,7vw,7rem)] font-display font-bold leading-[0.88] tracking-[-0.055em] text-pool-deep">
@@ -187,7 +190,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             </ScrollRevealItem>
           </article>
 
-          <article className="flex w-full shrink-0 min-[768px]:w-screen items-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]">
+          {/* <article className="flex w-full shrink-0 min-[768px]:w-screen items-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]"> */}
+          <article className="flex w-full items-center px-4 py-28 sm:px-10 min-[768px]:px-6 min-[1024px]:px-[9vw]">
             <div className="grid min-w-0 w-full items-center gap-10 min-[768px]:grid-cols-[minmax(18rem,0.72fr)_minmax(0,1.28fr)] min-[768px]:gap-4 min-[1024px]:gap-[8vw]">
               <ScrollRevealItem direction="fade" className="min-w-0 max-w-xl">
                 <span className="mb-5 block font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
@@ -224,7 +228,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             </div>
           </article>
 
-          <article className="flex w-full shrink-0 min-[768px]:w-screen items-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]">
+          {/* <article className="flex w-full shrink-0 min-[768px]:w-screen items-center px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]"> */}
+           <article className="flex w-full items-center px-4 py-28 sm:px-10 min-[768px]:px-6 min-[1024px]:px-[9vw]">
             <div className="grid min-w-0 w-full items-center gap-10 min-[768px]:grid-cols-[minmax(0,1.28fr)_minmax(18rem,0.72fr)] min-[768px]:gap-4 min-[1024px]:gap-[8vw]">
               <ScrollRevealItem direction="fade" className="order-2 min-w-0 w-full min-[768px]:order-1">
                 <div className="mb-5 flex items-center justify-between gap-6 border-b border-pool-deep/10 pb-3 font-sans text-[10px] font-semibold uppercase tracking-[0.18em] text-pool-deep/45">
@@ -261,7 +266,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             </div>
           </article>
 
-          <article className="relative flex w-full shrink-0 min-[768px]:w-screen flex-col justify-center overflow-hidden px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]">
+          {/* <article className="relative flex w-full shrink-0 min-[768px]:w-screen flex-col justify-center overflow-hidden px-4 py-28 sm:px-10 min-[768px]:h-screen min-[768px]:px-6 min-[1024px]:px-[9vw]"> */}
+             <article className="relative flex w-full flex-col justify-center overflow-hidden px-4 py-28 sm:px-10 min-[768px]:px-6 min-[1024px]:px-[9vw]">
             <div className="pointer-events-none absolute inset-0" aria-hidden="true">
               <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display text-[clamp(9rem,28vw,28rem)] font-bold leading-none tracking-[-0.1em] text-pool-deep/[0.035]">
                 FLFG
@@ -292,7 +298,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               </span>
             </ScrollRevealItem>
           </article>
-        </HorizontalScrollSection>
+        {/* </HorizontalScrollSection> */}
+         </section>
       </SectionReveal>
 
       {/* === WHY US — editorial list, not card grid === */}

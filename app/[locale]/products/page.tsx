@@ -48,7 +48,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
   const [shapeFilter, setShapeFilter] = useState<PoolShape | 'all'>('all');
   const [classFilter, setClassFilter] = useState<ProductClass | 'all'>('all');
   const [capacityFilter, setCapacityFilter] = useState('all');
-  const [sortBy, setSortBy] = useState<'numeric' | 'popular' | 'smallest' | 'largest'>('numeric');
+  const [sortBy, setSortBy] = useState<'default' | 'numeric' | 'popular' | 'smallest' | 'largest'>('default');
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   useEffect(() => {
@@ -78,6 +78,11 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
         return true;
       });
     }
+    const classOrder: Record<ProductClass, number> = { pool: 0, spa: 1, ledge: 2 };
+    const modelNum = (code: string) => {
+      const match = code.match(/(\d+)/);
+      return match ? parseInt(match[1], 10) : 0;
+    };
     switch (sortBy) {
       case 'smallest':
         result.sort((a, b) => a.lengthFt - b.lengthFt);
@@ -85,14 +90,15 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
       case 'largest':
         result.sort((a, b) => b.lengthFt - a.lengthFt);
         break;
-      case 'numeric': {
-        const modelNum = (code: string) => {
-          const match = code.match(/(\d+)/);
-          return match ? parseInt(match[1], 10) : 0;
-        };
+      case 'numeric':
         result.sort((a, b) => modelNum(a.modelCode) - modelNum(b.modelCode));
         break;
-      }
+      case 'default':
+        result.sort((a, b) => {
+          const c = classOrder[a.productClass] - classOrder[b.productClass];
+          return c !== 0 ? c : modelNum(a.modelCode) - modelNum(b.modelCode);
+        });
+        break;
       default:
         result.sort((a, b) => Number(b.popular ?? false) - Number(a.popular ?? false));
     }
@@ -156,6 +162,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
               onChange={(e) => setSortBy(e.target.value as any)}
               className="glass-chip text-sm cursor-pointer"
             >
+              <option value="default">{t('filter.default')}</option>
               <option value="numeric">{t('filter.numeric')}</option>
               {/* <option value="popular">{t('filter.popular')}</option> */}
               <option value="smallest">{t('filter.smallest')}</option>

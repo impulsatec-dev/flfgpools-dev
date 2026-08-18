@@ -36,6 +36,11 @@ const nextConfig = {
   },
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
+    // The lead emails embed the logo from disk, so it has to ship with the routes.
+    outputFileTracingIncludes: {
+      '/api/contact': ['./public/header/logo-alta.png'],
+      '/api/create-by-yourself': ['./public/header/logo-alta.png'],
+    },
   },
   async headers() {
     return [

@@ -1,16 +1,18 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, AlertCircle, Loader2, MapPin, ExternalLink } from 'lucide-react';
 import { SOCIAL_LINKS } from '@/config/site';
 
 export function ContactForm() {
   const t = useTranslations('Contact.form');
+  const locale = useLocale();
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [zipError, setZipError] = useState('');
   const [addressValue, setAddressValue] = useState('');
+  const [mailto, setMailto] = useState('');
 
   const validateZip = (zip: string) => {
     const zipNum = parseInt(zip, 10);
@@ -28,17 +30,38 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const zip = formData.get('zip') as string;
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const zip = (formData.get('zip') as string | null)?.trim();
 
-    if (!validateZip(zip)) return;
+    if (zip && !validateZip(zip)) return;
 
     setStatus('loading');
     try {
-      // Simulate API call — replace with real endpoint
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          role: formData.get('role'),
+          name: formData.get('name'),
+          phone: formData.get('phone'),
+          email: formData.get('email'),
+          address: formData.get('address') || '',
+          ...(zip ? { zip } : {}),
+          message: formData.get('message') || '',
+          locale,
+        }),
+      });
+      const data = await response.json();
+
+      if (!response.ok || !data.ok) {
+        throw new Error(data.error || 'Unable to send request');
+      }
+
+      setMailto(data.delivered ? '' : data.mailto || '');
       setStatus('success');
-      (e.target as HTMLFormElement).reset();
+      form.reset();
+      setAddressValue('');
     } catch {
       setStatus('error');
     }
@@ -213,6 +236,11 @@ export function ContactForm() {
           >
             <Check className="h-5 w-5" />
             {t('success')}
+            {mailto ? (
+              <a href={mailto} className="font-semibold underline">
+                {t('openEmailFallback')}
+              </a>
+            ) : null}
           </motion.div>
         )}
         {status === 'error' && (

@@ -41,6 +41,12 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
+  // Requests the middleware skips (favicon.ico, any file-like path) still reach
+  // this segment, so the locale has to be validated before importing messages.
+  if (!locales.includes(params.locale as any)) {
+    notFound();
+  }
+
   const messages = (await import(`@/messages/${params.locale}.json`)).default;
   const meta = messages.Meta;
 
