@@ -70,7 +70,7 @@ export default function FiberglassVsConcretePage({ params: { locale } }: { param
     concrete: string;
     vinyl: string;
   }>;
-  const poolTypes = ['concrete', 'vinyl', 'fiberglass'] as const;
+  const poolTypes = ['fiberglass', 'concrete', 'vinyl'] as const;
   const poolTypeData = poolTypes.map((key) => t.raw(`poolTypes.${key}`) as PoolType);
   const costRanges = t.raw('costComparison.ranges') as Array<{ type: string; range: string }>;
   const costConsiderations = t.raw('costComparison.considerations') as Array<{ title: string; description: string }>;
@@ -529,11 +529,11 @@ export default function FiberglassVsConcretePage({ params: { locale } }: { param
           <div className="grid md:grid-cols-3 gap-5">
             {verdictCards.map((card, i) => (
               <RevealItem key={i} custom={i}>
-                <div className={`glass-card relative h-full overflow-hidden p-6 ${i === 2 ? 'border border-pool-aqua/20' : ''}`}>
-                  {i === 2 && (
+                <div className={`glass-card relative h-full overflow-hidden p-6 ${i === 0 ? 'border border-pool-aqua/20' : ''}`}>
+                  {i === 0 ? (
                     <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-pool-aqua/70 to-pool-blue/20" />
-                  )}
-                  <h3 className={`font-display text-lg font-bold leading-tight ${i === 2 ? 'text-pool-aqua' : 'text-pool-deep'}`}>
+                  ) : null}
+                  <h3 className={`font-display text-lg font-bold leading-tight ${i === 0 ? 'text-pool-aqua' : 'text-pool-deep'}`}>
                     {card.type}
                   </h3>
                   <p className="mt-3 text-sm leading-relaxed text-pool-deep/70">

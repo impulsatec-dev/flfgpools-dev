@@ -12,7 +12,7 @@ const certifications = [
 ] as const;
 
 const financing = [
-  { src: '/certi-brand/hearthfinance.bak.jpg', key: 'hearth', href: 'https://www.hearth.com' },
+  { src: '/certi-brand/hearthfinance.bak.jpg', key: 'hearth', href: 'https://app.gethearth.com/partners/florida-fiberglass-pools-llc?utm_campaign=55117&utm_content=darkblue&utm_medium=contractor-website&utm_source=contractor&utm_term=310x120' },
   { src: '/about/hfs-logo-new.webp', key: 'hfs', href: 'https://www.hfsfinancial.net/' },
 ] as const;
 

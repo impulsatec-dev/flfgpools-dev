@@ -2,7 +2,7 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Proveedor e Instalador en el Sur de Florida",
-      "description": "Instalación de piscinas de fibra de vidrio premium. Servimos en todo el sur de florida, desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Más de 1000 piscinas entregadas, garantía estructural de por vida, financiamiento disponible."
+      "description": "Instalación de piscinas de fibra de vidrio premium. Servimos en todo el sur de florida, atravez de los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee. Más de 1000 piscinas entregadas, garantía estructural de por vida, financiamiento disponible."
     },
     "about": {
       "title": "Sobre Nosotros — Florida Fiberglass Pools",
@@ -59,6 +59,7 @@
     "poolBenefits": "Beneficios de Piscinas",
     "poolPricingGuide": "Guía de Precios",
     "fiberglassVsConcrete": "Concreto vs Fibra de Vidrio",
+    "colors": "Colores",
     "contact": "Contacto",
     "poolsServices": "Piscinas y Servicios",
     "poolsSpa": "Piscinas y Spa",
@@ -85,7 +86,7 @@
         "openingTitle": "Más que una piscina. Un lugar para imaginar.",
         "openingDescription": "Conoce la selección en persona e imagina qué encaja con tu patio.",
         "showroomTitle": "Encuentra la forma que se siente tuya.",
-        "showroomDescription": "Con más de 8,000 pies cuadrados, mostramos más de 150 combos de estilos de piscinas en persona. Desde 2013, hemos entregado más de 1000 piscinas a familias en todo el sur de florida, desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward.",
+        "showroomDescription": "Con más de 8,000 pies cuadrados, mostramos más de 150 combos de estilos de piscinas en persona. Desde 2013, hemos entregado más de 1000 piscinas a familias en todo el sur de florida, en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands y Okeechobee.",
         "processTitle": "Tu patio empieza con una conversación.",
         "processDescription": "Como distribuidor exclusivo para todo el sur de Florida, nuestro equipo te guía desde la consulta hasta la instalación, asegurando que tu piscina se ajuste a tu estilo de vida, presupuesto y patio — respaldada por una garantía estructural de por vida directamente de fábrica.",
         "closingTitle": "Diseñada para tu vida. Respaldada de por vida.",
@@ -155,7 +156,7 @@
       "title": "Nuestra historia",
       "paragraph1": "Florida Fiberglass Pools comenzó en 2013 con una misión simple: hacer accesibles las piscinas premium de fibra de vidrio para las familias del sur de Florida. Lo que empezó como una operación pequeña ahora abarca un showroom de 8,000 pies cuadrados con más de 150 combinaciones de modelos de cascos disponibles, y somos el distribuidor exclusivo para todo el sur de Florida.",
       "paragraph2": "Hemos crecido manteniéndonos fieles a nuestros valores — productos de primera calidad, precios honestos, servicio al cliente y garantías superiores a las del mercado. Nuestro compromiso con nuestros más de 1,200 clientes satisfechos a lo largo de nuestra historia es nuestro compromiso con tu patio.",
-      "paragraph3": "Hoy servimos en todo el sur de florida, desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Según el condado donde se encuentre tu propiedad, te ofrecemos uno de nuestros instaladores expertos de piscinas de fibra de vidrio, así como opciones de financiamiento. Nuestro equipo incluye Certified Pool Contractors, diseñadores internos y especialistas en financiamiento."
+      "paragraph3": "Hoy servimos en todo el sur de florida, en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee. Según el condado donde se encuentre tu propiedad, te ofrecemos uno de nuestros instaladores expertos de piscinas de fibra de vidrio, así como opciones de financiamiento. Nuestro equipo incluye Certified Pool Contractors, diseñadores internos y especialistas en financiamiento."
     },
     "values": {
       "title": "Lo que representamos",
@@ -256,6 +257,38 @@
       "priceRange": "Rango de precio",
       "avgPrice": "Promedio",
       "contactForPricing": "Contáctanos para precios"
+    },
+    "colors": {
+      "title": "Descubre tu color de piscina perfecto",
+      "subtitle": "Transforma tu patio trasero en un resort privado con acabados de piscina de fibra de vidrio impresionantes diseñados para reflejar tu estilo, tu hogar y la forma en que quieres vivir al aire libre.",
+      "bahamablue": {
+        "description1": "Azul tropical rico con una apariencia de agua audaz y refrescante. Bahama Blue aporta un acabado vibrante inspirado en islas a la piscina, creando una apariencia de agua azul profunda que se siente brillante, limpia e invitadora. Su tono rico añade profundidad visual durante el día mientras le da a la piscina un aspecto fresco y refrescante desde el patio, terraza o área de vida al aire libre.",
+        "description2": "Este color es una excelente opción para propietarios que quieren que su piscina destaque como un verdadero centro del patio trasero. El acabado azul audaz combina hermosamente con travertino claro, adoquines grises, piedra natural, paisajismo tropical y muebles de exterior modernos. Bahama Blue es ideal para crear un patio trasero estilo resort con una sensación clásica de piscina, especialmente para propietarios que aman un color de agua vívido con mucho movimiento, brillo y energía visual."
+      },
+      "caribbeanblue": {
+        "description1": "Azul brillante y refrescante con una sensación de agua costera limpia. Caribbean Blue aporta un aspecto tropical y animado a la piscina con un acabado azul claro que se siente fresco, brillante e invitador. Su tono vibrante ayuda a crear la apariencia de agua de piscina brillante con mucho movimiento, profundidad y energía solar.",
+        "description2": "Este color es una hermosa opción para propietarios que quieren un aspecto clásico de piscina azul que se sienta limpio y optimista sin parecer demasiado oscuro. Combina especialmente bien con adoquines claros, cubiertas blancas o grises, piedra natural, paisajismo tropical y espacios de vida al aire libre relajados. Caribbean Blue es ideal para crear un patio trasero que se sienta abierto, alegre e inspirado en vacaciones, dando a la piscina un color de agua fresco que resalta hermosamente desde el patio, césped o área de asientos al aire libre."
+      },
+      "diamondgray": {
+        "description1": "Elegancia plateada gris suave con una apariencia de agua limpia y refrescante. Diamond Gray crea un acabado de piscina refinado con una base gris clara, salpicado sutil y una apariencia de agua azul gris suave. Su tono discreto le da a la piscina un aspecto limpio y pulido mientras permite que la luz solar, el movimiento del agua y los materiales circundantes den forma a la sensación general.",
+        "description2": "Este color es una hermosa opción para propietarios que quieren una alternativa más suave y sofisticada a un acabado de piscina azul audaz. Combina especialmente bien con blanco, gris, carbón, travertino, piedra natural, adoquines modernos y espacios de vida al aire libre inspirados en la costa. Diamond Gray es ideal para crear un ambiente de patio trasero tranquilo y elegante con agua que se siente brillante, clara y ligeramente reflectante. El resultado es un color de piscina atemporal que se ve fresco a pleno sol mientras mantiene una apariencia suave y de gama alta desde el patio o área de asientos al aire libre."
+      },
+      "blueabyss": {
+        "description1": "Azul profundo y dramático con una apariencia de agua rica como joya. Blue Abyss crea un acabado de piscina audaz y lujoso con tonos azul marino profundo y cobalto que le dan al agua una sensación de profundidad impactante. Su base más oscura y los reflejos azul brillantes crean un aspecto dramático y reflectante que se siente pulido, moderno y de gama alta.",
+        "description2": "Este color es una excelente opción para propietarios que quieren que su piscina haga una declaración. La apariencia de agua azul rica combina hermosamente con piedra clara, cubiertas blancas o grises, adoquines modernos, bordes oscuros, paisajismo tropical y espacios de vida al aire libre elegantes. Blue Abyss es ideal para crear un patio trasero inspirado en resorts con agua que se siente profunda, vibrante y visualmente poderosa. El resultado es un color de piscina sofisticado con mucho movimiento, brillo y una presencia premium de noche a día."
+      },
+      "skyblue": {
+        "description1": "Azul claro y aireado con una apariencia de agua brillante y refrescante. Sky Blue crea un aspecto de agua de piscina suave y limpio con un tono aqua pálido que se siente fresco, abierto e invitador. Su color claro ayuda a que el agua aparezca brillante y clara, especialmente en patios traseros soleados donde la luz natural puede resaltar el movimiento suave y el brillo.",
+        "description2": "Este color es una hermosa opción para propietarios que quieren una alternativa más suave a los acabados azules más profundos. Combina bien con adoquines claros, cubiertas blancas o grises, patios inspirados en la costa, paisajismo tropical y espacios de vida al aire libre relajados. Sky Blue es ideal para crear un patio trasero alegre estilo resort con agua que se siente fresca, tranquila y fácil de disfrutar. El resultado es un acabado de piscina limpio y refrescante que le da a todo el espacio exterior una sensación brillante y acogedora."
+      },
+      "whiteivory": {
+        "description1": "Blanco brillante clásico con una apariencia de agua limpia y brillante. White Ivory crea un acabado de piscina atemporal con un aspecto brillante y limpio que permite que el agua aparezca ligera, crujiente y refrescante. Su base blanca simple refleja la luz solar hermosamente, ayudando a que la piscina se sienta abierta, clara e invitadora durante todo el día.",
+        "description2": "Este color es una excelente opción para propietarios que quieren una apariencia clásica de piscina que funcione con casi cualquier estilo de patio trasero. Combina bien con travertino, concreto, adoquines grises, piedra natural, paletas costeras, paisajismo tropical y espacios de vida al aire libre tradicionales. White Ivory es ideal para crear un ambiente de patio trasero fresco y limpio con agua que se siente brillante y fácil de disfrutar. El resultado es un acabado de piscina versátil con un aspecto simple y pulido que nunca se siente excesivamente de moda."
+      },
+      "blackobsidian": {
+        "description1": "Acabado oscuro y dramático con una apariencia de agua profundamente reflectante. Black Obsidian crea un aspecto de agua de piscina audaz y de gama alta con tonos ricos de carbón, azul profundo y espejo que se sienten elegantes, modernos y lujosos. Su color más oscuro permite que el agua refleje el cielo, el paisaje circundante y el área de vida al aire libre, creando un efecto visual impactante durante todo el día.",
+        "description2": "Este color es una hermosa opción para propietarios que quieren una alternativa más dramática a los acabados azules tradicionales. Combina bien con adoquines claros, piedra natural, patios modernos, paisajismo tropical, líneas arquitectónicas limpias y diseños de patio trasero inspirados en resorts. Black Obsidian es ideal para crear un patio trasero sofisticado y de gama alta con agua que se siente profunda, tranquila y visualmente impactante. El resultado es un acabado de piscina dramático que le da a todo el espacio exterior una sensación pulida y de lujo."
+      }
     }
   },
   "Showroom": {
@@ -329,8 +362,8 @@
       "email": "Correo electrónico",
       "emailPlaceholder": "Ej. juan@ejemplo.com",
       "zip": "Código postal",
-      "zipHelper": "Servimos en todo el sur de florida, desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward.",
-      "zipError": "Este código postal puede estar fuera de nuestra área principal de servicio. Llámanos — servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward y te derivaremos a un socio de confianza.",
+      "zipHelper": "Servimos en todo el sur de florida, en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee.",
+      "zipError": "Este código postal puede estar fuera de nuestra área principal de servicio. Llámanos — servimos en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee y te derivaremos a un socio de confianza.",
       "address": "Dirección de la propiedad",
       "addressPlaceholder": "Ej. 123 Main St, Miami, FL 33189",
       "addressHelper": "Ingresa la dirección de instalación. Usa el mapa para verificar tu ubicación.",
@@ -397,7 +430,7 @@
         },
         {
           "q": "¿Puedo ver las piscinas en persona?",
-          "a": "Por supuesto. Nuestro showroom de 8,000 pies cuadrados en 21500 S Dixie Hwy, Miami, muestra más de 150 estilos de piscinas. Abierto lunes a viernes 9am-5pm, sábado 9am-1pm."
+          "a": "Por supuesto. Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, en 21500 S Dixie Hwy, Miami, muestra más de 150 estilos de piscinas. Abierto lunes a viernes 9am-5pm, sábado 9am-1pm."
         },
         {
           "q": "¿Ofrecen financiamiento?",
@@ -405,7 +438,7 @@
         },
         {
           "q": "¿Qué áreas cubren?",
-          "a": "Servimos en todo el sur de florida, desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Si estás fuera de estas áreas, llámanos y te derivaremos a un socio de confianza."
+          "a": "Servimos en todo el sur de florida, en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee. Si estás fuera de estas áreas, llámanos y te derivaremos a un socio de confianza."
         },
         {
           "q": "¿Son las piscinas rectangulares de fibra de vidrio una buena opción para patios modernos?",
@@ -421,7 +454,7 @@
         },
         {
           "q": "¿Por qué elegir nuestras piscinas de fibra de vidrio?",
-          "a": "Nuestras piscinas combinan fabricación americana, comodidad, diseños atractivos y soporte de constructores locales. Como distribuidor exclusivo del sur de Florida, ofrecemos más de 150 modelos con diseños que apoyan el living exterior moderno, mantenimiento fácil y una experiencia de patio pulida — todo respaldado por una garantía estructural de por vida."
+          "a": "Nuestras piscinas combinan fabricación americana, comodidad, diseños atractivos y soporte de constructores locales. Como distribuidor exclusivo del sur de Florida, ofrecemos más de 150 combinaciones de estilos con diseños que apoyan el living exterior moderno, mantenimiento fácil y una experiencia de patio pulida — todo respaldado por una garantía estructural de por vida."
         }
       ]
     }
@@ -1048,72 +1081,8 @@
     },
     "poolTypes": {
       "takeawayLabel": "Conclusión",
-      "concrete": {
-        "label": "Tipo de Piscina #1",
-        "title": "Piscinas de Concreto (Gunite): Personalizadas, pero Costosas",
-        "description": "Las piscinas de concreto (a menudo llamadas gunite) se comercializan frecuentemente como la opción enterrada más personalizable. Y es cierto: se pueden construir en casi cualquier forma o profundidad. Sin embargo, esa flexibilidad viene con importantes contrapartidas en tiempo, mantenimiento y costo de por vida.",
-        "characteristics": [
-          { "title": "Construida en Sitio", "description": "Construida con acero corrugado y concreto proyectado a través de múltiples fases en sitio." },
-          { "title": "Tiempos de Construcción Largos", "description": "A menudo 3–6 meses o más dependiendo del alcance y el clima." },
-          { "title": "Superficie Porosa", "description": "Puede favorecer el crecimiento de algas y aumenta la demanda de químicos con el tiempo." },
-          { "title": "Resurfacing Periódico", "description": "Típicamente requiere resurfacing cada 10–15 años (varía según el acabado y la química del agua)." }
-        ],
-        "prosHeading": "Ventajas",
-        "pros": [
-          "Personalización casi ilimitada de forma y profundidad",
-          "Puede acomodar diseños complejos, bordes y características integradas",
-          "Potencial estético de alta gama cuando es nueva o recién resurfaced"
-        ],
-        "consHeading": "Desventajas",
-        "cons": [
-          "El costo más alto inicial y de propiedad a largo plazo",
-          "Superficies más ásperas pueden ser abrasivas para la piel y trajes de baño",
-          "Mayor uso de químicos y requisitos de cepillado debido a la porosidad",
-          "El mantenimiento continuo puede incluir yeso, azulejo, borde y mantenimiento de acabado de superficie"
-        ],
-        "bestFitHeading": "Mejor para propietarios que:",
-        "bestFit": [
-          "Quieren máxima flexibilidad de diseño para formas, profundidades, acabados y características integradas",
-          "Están cómodos con tiempos de construcción más largos y más fases en sitio",
-          "Prefieren un aspecto totalmente personalizado y están dispuestos a planificar resurfacing periódico",
-          "Esperan mayor mantenimiento continuo y costos de propiedad de por vida comparado con otros tipos de piscinas"
-        ],
-        "takeaway": "Las piscinas de concreto ofrecen libertad de diseño sin igual pero requieren el mayor tiempo de construcción, el mantenimiento más alto y la inversión a largo plazo más significativa."
-      },
-      "vinyl": {
-        "label": "Tipo de Piscina #2",
-        "title": "Piscinas de Revestimiento de Vinilo: Menor Costo de Entrada, Reemplazos Continuos",
-        "description": "Las piscinas de revestimiento de vinilo a menudo se eligen porque típicamente tienen un precio inicial más bajo que otros tipos de piscinas enterradas. Pero muchos propietarios no contabilizan completamente la realidad a largo plazo: el revestimiento es un componente de desgaste, y el reemplazo es una parte normal de la propiedad.",
-        "characteristics": [
-          { "title": "Sistemas de Paredes", "description": "Construidas con sistemas de paredes de acero, polímero o concreto con un revestimiento de vinilo estirado para formar la superficie interior." },
-          { "title": "Ciclo de Reemplazo de Revestimiento", "description": "Los revestimientos típicamente necesitan reemplazo cada 7–12 años (varía según uso, exposición al sol y química)." },
-          { "title": "Superficie Vulnerable", "description": "Susceptible a perforaciones por mascotas, escombros afilados, juguetes y herramientas de limpieza inadecuadas." },
-          { "title": "Sensación Lisa", "description": "El vinilo puede sentirse suave y cómodo para los nadadores cuando está en buena condición." }
-        ],
-        "prosHeading": "Ventajas",
-        "pros": [
-          "Menor inversión inicial comparada con la mayoría de las opciones enterradas",
-          "Superficie lisa al tacto para nadadores",
-          "Tiempo de construcción más rápido que muchos proyectos de concreto (gunite)"
-        ],
-        "consHeading": "Desventajas",
-        "cons": [
-          "Costo recurrente de reemplazo de revestimiento cada 7–12 años (típico)",
-          "Mayor riesgo de desgarros, arrugas y decoloración con el tiempo",
-          "Menos opciones de diseño de escalones y bancos que muchos modelos de piscinas de fibra de vidrio",
-          "Puede contribuir menos al valor de reventa a largo plazo que otros tipos de piscinas"
-        ],
-        "bestFitHeading": "Mejor para propietarios que:",
-        "bestFit": [
-          "Están priorizando un costo inicial más bajo al planificar una nueva piscina enterrada",
-          "Prefieren una superficie interior lisa y diseños de piscina sencillos",
-          "Entienden que el reemplazo del revestimiento es un gasto normal y recurrente de propiedad",
-          "Están planificando alrededor de horizontes de propiedad más cortos o decisiones basadas en presupuesto"
-        ],
-        "takeaway": "Las piscinas de revestimiento de vinilo ofrecen un precio de entrada más bajo pero requieren reemplazos continuos del revestimiento y conllevan más incertidumbre a largo plazo."
-      },
       "fiberglass": {
-        "label": "Tipo de Piscina #3",
+        "label": "Tipo de Piscina #1",
         "title": "Piscinas de Fibra de Vidrio: El Estándar Moderno para Propietarios Inteligentes",
         "description": "Las piscinas de fibra de vidrio se han convertido en el segmento de más rápido crecimiento del mercado de piscinas enterradas. A diferencia de las piscinas construidas enteramente en sitio, las piscinas de fibra de vidrio se fabrican en una instalación controlada y se entregan como una cáscara única totalmente ingenieril.",
         "characteristics": [
@@ -1145,6 +1114,70 @@
           "Están cómodos eligiendo entre tamaños y diseños de piscina establecidos en lugar de formas totalmente personalizadas"
         ],
         "takeaway": "Las piscinas de fibra de vidrio combinan instalación más rápida, menor mantenimiento y rendimiento a largo plazo predecible, lo que las convierte en el tipo de piscina enterrada de más rápido crecimiento."
+      },
+      "concrete": {
+        "label": "Tipo de Piscina #2",
+        "title": "Piscinas de Concreto (Gunite): Personalizadas, pero Costosas",
+        "description": "Las piscinas de concreto (a menudo llamadas gunite) se comercializan frecuentemente como la opción enterrada más personalizable. Y es cierto: se pueden construir en casi cualquier forma o profundidad. Sin embargo, esa flexibilidad viene con importantes contrapartidas en tiempo, mantenimiento y costo de por vida.",
+        "characteristics": [
+          { "title": "Construida en Sitio", "description": "Construida con acero corrugado y concreto proyectado a través de múltiples fases en sitio." },
+          { "title": "Tiempos de Construcción Largos", "description": "A menudo 3–6 meses o más dependiendo del alcance y el clima." },
+          { "title": "Superficie Porosa", "description": "Puede favorecer el crecimiento de algas y aumenta la demanda de químicos con el tiempo." },
+          { "title": "Resurfacing Periódico", "description": "Típicamente requiere resurfacing cada 10–15 años (varía según el acabado y la química del agua)." }
+        ],
+        "prosHeading": "Ventajas",
+        "pros": [
+          "Personalización casi ilimitada de forma y profundidad",
+          "Puede acomodar diseños complejos, bordes y características integradas",
+          "Potencial estético de alta gama cuando es nueva o recién resurfaced"
+        ],
+        "consHeading": "Desventajas",
+        "cons": [
+          "El costo más alto inicial y de propiedad a largo plazo",
+          "Superficies más ásperas pueden ser abrasivas para la piel y trajes de baño",
+          "Mayor uso de químicos y requisitos de cepillado debido a la porosidad",
+          "El mantenimiento continuo puede incluir yeso, azulejo, borde y mantenimiento de acabado de superficie"
+        ],
+        "bestFitHeading": "Mejor para propietarios que:",
+        "bestFit": [
+          "Quieren máxima flexibilidad de diseño para formas, profundidades, acabados y características integradas",
+          "Están cómodos con tiempos de construcción más largos y más fases en sitio",
+          "Prefieren un aspecto totalmente personalizado y están dispuestos a planificar resurfacing periódico",
+          "Esperan mayor mantenimiento continuo y costos de propiedad de por vida comparado con otros tipos de piscinas"
+        ],
+        "takeaway": "Las piscinas de concreto ofrecen libertad de diseño sin igual pero requieren el mayor tiempo de construcción, el mantenimiento más alto y la inversión a largo plazo más significativa."
+      },
+      "vinyl": {
+        "label": "Tipo de Piscina #3",
+        "title": "Piscinas de Revestimiento de Vinilo: Menor Costo de Entrada, Reemplazos Continuos",
+        "description": "Las piscinas de revestimiento de vinilo a menudo se eligen porque típicamente tienen un precio inicial más bajo que otros tipos de piscinas enterradas. Pero muchos propietarios no contabilizan completamente la realidad a largo plazo: el revestimiento es un componente de desgaste, y el reemplazo es una parte normal de la propiedad.",
+        "characteristics": [
+          { "title": "Sistemas de Paredes", "description": "Construidas con sistemas de paredes de acero, polímero o concreto con un revestimiento de vinilo estirado para formar la superficie interior." },
+          { "title": "Ciclo de Reemplazo de Revestimiento", "description": "Los revestimientos típicamente necesitan reemplazo cada 7–12 años (varía según uso, exposición al sol y química)." },
+          { "title": "Superficie Vulnerable", "description": "Susceptible a perforaciones por mascotas, escombros afilados, juguetes y herramientas de limpieza inadecuadas." },
+          { "title": "Sensación Lisa", "description": "El vinilo puede sentirse suave y cómodo para los nadadores cuando está en buena condición." }
+        ],
+        "prosHeading": "Ventajas",
+        "pros": [
+          "Menor inversión inicial comparada con la mayoría de las opciones enterradas",
+          "Superficie lisa al tacto para nadadores",
+          "Tiempo de construcción más rápido que muchos proyectos de concreto (gunite)"
+        ],
+        "consHeading": "Desventajas",
+        "cons": [
+          "Costo recurrente de reemplazo de revestimiento cada 7–12 años (típico)",
+          "Mayor riesgo de desgarros, arrugas y decoloración con el tiempo",
+          "Menos opciones de diseño de escalones y bancos que muchos modelos de piscinas de fibra de vidrio",
+          "Puede contribuir menos al valor de reventa a largo plazo que otros tipos de piscinas"
+        ],
+        "bestFitHeading": "Mejor para propietarios que:",
+        "bestFit": [
+          "Están priorizando un costo inicial más bajo al planificar una nueva piscina enterrada",
+          "Prefieren una superficie interior lisa y diseños de piscina sencillos",
+          "Entienden que el reemplazo del revestimiento es un gasto normal y recurrente de propiedad",
+          "Están planificando alrededor de horizontes de propiedad más cortos o decisiones basadas en presupuesto"
+        ],
+        "takeaway": "Las piscinas de revestimiento de vinilo ofrecen un precio de entrada más bajo pero requieren reemplazos continuos del revestimiento y conllevan más incertidumbre a largo plazo."
       }
     },
     "costComparison": {
@@ -1224,6 +1257,15 @@
       "title": "Veredicto Final: Fibra de Vidrio vs Concreto vs Vinilo",
       "subtitle": "No hay una sola mejor piscina para cada propietario. La elección correcta depende de cómo ponderes flexibilidad de diseño, inversión inicial, expectativas de mantenimiento y experiencia de propiedad a largo plazo.",
       "cards": [
+         {
+          "type": "Fibra de Vidrio",
+          "description": "Las piscinas de fibra de vidrio comúnmente son seleccionadas por propietarios que buscan una combinación equilibrada de durabilidad, instalación más rápida y mantenimiento más simple a largo plazo.",
+          "points": [
+            "Tiempos de instalación medidos en semanas en lugar de meses",
+            "Superficie no porosa que soporta menor demanda de químicos y limpieza más fácil",
+            "Propiedad a largo plazo predecible con mínima renovación de superficie"
+          ]
+        },
         {
           "type": "Concreto (Gunite)",
           "description": "Las piscinas de concreto a menudo son elegidas por propietarios que quieren libertad total de diseño y están cómodos con un proceso de construcción más largo y más mantenimiento continuo con el tiempo.",
@@ -1241,16 +1283,8 @@
             "Superficie interior lisa al tacto",
             "El reemplazo del revestimiento típicamente se requiere cada 7–12 años"
           ]
-        },
-        {
-          "type": "Fibra de Vidrio",
-          "description": "Las piscinas de fibra de vidrio comúnmente son seleccionadas por propietarios que buscan una combinación equilibrada de durabilidad, instalación más rápida y mantenimiento más simple a largo plazo.",
-          "points": [
-            "Tiempos de instalación medidos en semanas en lugar de meses",
-            "Superficie no porosa que soporta menor demanda de químicos y limpieza más fácil",
-            "Propiedad a largo plazo predecible con mínima renovación de superficie"
-          ]
         }
+       
       ],
       "perspectiveLabel": "Perspectiva de propiedad",
       "perspective": "Muchos propietarios finalmente gravitan hacia tipos de piscinas que se sienten predecibles de poseer, donde el mantenimiento, la apariencia y las expectativas a largo plazo son claras desde el principio. En mercados amigables con piscinas, esta previsibilidad puede influir en la satisfacción tanto como el diseño o costo inicial."

@@ -39,7 +39,7 @@ export const SEO_CONFIG = {
   title: 'Florida Fiberglass Pools',
   shortName: 'FLFG Pools',
   description:
-    'Supplier and installer of inground and above ground fiberglass pools in South Florida since 2013. 1000+ pools delivered with 15-year warranty. Serving Miami-Dade, Broward, Palm Beach & Monroe counties.',
+    'Supplier and installer of inground and above ground fiberglass pools in South Florida since 2013. 1000+ pools delivered with 15-year warranty. Serving across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.',
   keywords: [
     'fiberglass pools Miami',
     'piscinas de fibra de vidrio Florida',

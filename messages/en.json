@@ -2,7 +2,7 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Supplier & Installer in South Florida",
-      "description": "Premium fiberglass pools installation in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. 1000+ pools delivered, lifetime structural warranty, financing available. Hablamos Español."
+      "description": "Premium fiberglass pools installation in all south florida, across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties. 1000+ pools delivered, lifetime structural warranty, financing available. Hablamos Español."
     },
     "about": {
       "title": "About Us — Florida Fiberglass Pools",
@@ -14,7 +14,7 @@
     },
     "showroom": {
       "title": "Completed Showroom — South Florida Gallery",
-      "description": "See our portfolio of 1000+ installed fiberglass pools across Miami, Fort Lauderdale, and Palm Beach. Real backyards, real transformations."
+      "description": "See our portfolio of 1000+ installed fiberglass pools acrossacross Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties. Real backyards, real transformations."
     },
     "blog": {
       "title": "Pool Guide & Tips — FLFG Pools Blog",
@@ -59,6 +59,7 @@
     "poolBenefits": "Pool Benefits",
     "poolPricingGuide": "Pool Pricing Guide",
     "fiberglassVsConcrete": "Concrete vs Fiberglass",
+    "colors": "Colors",
     "contact": "Contact",
     "poolsServices": "Pools & Services",
     "poolsSpa": "Pools & Spa",
@@ -85,7 +86,7 @@
         "openingTitle": "More than a pool. A place to imagine.",
         "openingDescription": "See the selection in person and imagine what fits your backyard.",
         "showroomTitle": "Find the shape that feels like yours.",
-        "showroomDescription": "Across more than 8,000 square feet, we display over 150 pool style combos in person. Since 2013 we have delivered more than 1000 pools to families across all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties.",
+        "showroomDescription": "Across more than 8,000 square feet, we display over 150 pool style combos in person. Since 2013 we have delivered more than 1000 pools to families across all south florida, across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
         "processTitle": "Your backyard starts with a conversation.",
         "processDescription": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
         "closingTitle": "Designed for your life. Backed for life.",
@@ -125,7 +126,7 @@
     "financing": {
       "label": "Financing",
       "title": "You dream it, we finance it",
-      "description": "We partner with Hearth to bring you monthly payment options for your pool project. Pre-qualify in minutes — seeing options won't affect your credit score.",
+      "description": "We partner with Hearth and HFS to bring you monthly payment options for your pool project. Pre-qualify in minutes — seeing options won't affect your credit score.",
       "cta": "Apply now"
     },
     "featuredPools": {
@@ -155,7 +156,7 @@
       "title": "Our story",
       "paragraph1": "Florida Fiberglass Pools began in 2013 with a simple mission: to make premium fiberglass pools accessible to South Florida families. What started as a small operation now encompasses an 8,000 sq ft. showroom with over 150 available shell model combinations, and we are the exclusive distributor for all of South Florida.",
       "paragraph2": "We have grown by remaining true to our values ​​— top-quality products, honest prices, customer service, and above-market warranties. Our commitment to our more than 1,200 satisfied customers throughout our history is our commitment to your backyard.",
-      "paragraph3": "Today, we serve in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. Based on the county where your property is located, we offer one of our expert fiberglass pool installers, as well as financing options. Our team includes Certified Pool Contractors, in-house designers, and financing specialists."
+      "paragraph3": "Today, we serve in all south florida, across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties. Based on the county where your property is located, we offer one of our expert fiberglass pool installers, as well as financing options. Our team includes Certified Pool Contractors, in-house designers, and financing specialists."
     },
     "values": {
       "title": "What we stand for",
@@ -256,6 +257,38 @@
       "priceRange": "Price range",
       "avgPrice": "Avg",
       "contactForPricing": "Contact us for pricing"
+    },
+    "colors": {
+      "title": "Discover Your Perfect Pool Color",
+      "subtitle": "Transform your backyard into a private resort with stunning fiberglass pool finishes designed to reflect your style, your home, and the way you want to live outside.",
+      "bahamablue": {
+        "description1": "Rich tropical blue with a bold, refreshing water look. Bahama Blue brings a vibrant island-inspired finish to the pool, creating a deep blue water appearance that feels bright, clean, and inviting. Its rich tone adds visual depth during the day while giving the pool a crisp, refreshing look from the patio, deck, or outdoor living area.",
+        "description2": "This color is a strong choice for homeowners who want their pool to stand out as a true backyard centerpiece. The bold blue finish pairs beautifully with light travertine, gray pavers, natural stone, tropical landscaping, and modern outdoor furniture. Bahama Blue is ideal for creating a resort-style backyard with a classic swimming pool feel, especially for homeowners who love a vivid water color with plenty of movement, sparkle, and visual energy."
+      },
+      "caribbeanblue": {
+        "description1": "Bright, refreshing blue with a clean coastal-water feel. Caribbean Blue brings a lively, tropical look to the pool with a clear blue finish that feels fresh, bright, and inviting. Its vibrant tone helps create the appearance of sparkling pool water with plenty of movement, depth, and sunlit energy.",
+        "description2": "This color is a beautiful choice for homeowners who want a classic blue swimming pool look that feels clean and upbeat without appearing too dark. It pairs especially well with light pavers, white or gray decking, natural stone, tropical landscaping, and relaxed outdoor living spaces. Caribbean Blue is ideal for creating a backyard that feels open, cheerful, and vacation-inspired, giving the pool a crisp water color that stands out beautifully from the patio, lawn, or outdoor seating area."
+      },
+      "diamondgray": {
+        "description1": "Soft silver-gray elegance with a clean, refreshing water look. Diamond Gray creates a refined pool finish with a light gray base, subtle speckling, and a soft blue-gray water appearance. Its understated tone gives the pool a clean, polished look while allowing sunlight, water movement, and surrounding materials to shape the overall feel.",
+        "description2": "This color is a beautiful choice for homeowners who want a softer, more sophisticated alternative to a bold blue pool finish. It pairs especially well with white, gray, charcoal, travertine, natural stone, modern pavers, and coastal-inspired outdoor living spaces. Diamond Gray is ideal for creating a calm, elegant backyard setting with water that feels bright, clear, and lightly reflective. The result is a timeless pool color that looks fresh in full sun while maintaining a smooth, upscale appearance from the patio or outdoor seating area."
+      },
+      "blueabyss": {
+        "description1": "Deep, dramatic blue with a rich, jewel-like water appearance. Blue Abyss creates a bold, luxurious pool finish with deep navy and cobalt tones that give the water a striking sense of depth. Its darker base and shimmering blue highlights create a dramatic, reflective look that feels polished, modern, and upscale.",
+        "description2": "This color is a strong choice for homeowners who want their pool to make a statement. The rich blue water appearance pairs beautifully with light stone, white or gray decking, modern pavers, dark coping, tropical landscaping, and elegant outdoor living spaces. Blue Abyss is ideal for creating a resort-inspired backyard with water that feels deep, vibrant, and visually powerful. The result is a sophisticated pool color with strong movement, sparkle, and a premium nighttime-to-daytime presence."
+      },
+      "skyblue": {
+        "description1": "Light, airy blue with a bright and refreshing water appearance. Sky Blue creates a soft, clean pool-water look with a pale aqua tone that feels fresh, open, and inviting. Its light color helps the water appear bright and clear, especially in sunny backyards where natural light can bring out gentle movement and shimmer.",
+        "description2": "This color is a beautiful choice for homeowners who want a softer alternative to deeper blue finishes. It pairs well with light pavers, white or gray decking, coastal-inspired patios, tropical landscaping, and relaxed outdoor living spaces. Sky Blue is ideal for creating a cheerful, resort-style backyard with water that feels crisp, calm, and easy to enjoy. The result is a clean, refreshing pool finish that gives the entire outdoor space a bright, welcoming feel."
+      },
+      "whiteivory": {
+        "description1": "Classic bright white with a clean, sparkling pool-water appearance. White Ivory creates a timeless pool finish with a bright, clean look that allows the water to appear light, crisp, and refreshing. Its simple white base reflects sunlight beautifully, helping the pool feel open, clear, and inviting throughout the day.",
+        "description2": "This color is a great choice for homeowners who want a classic swimming pool appearance that works with almost any backyard style. It pairs well with travertine, concrete, gray pavers, natural stone, coastal palettes, tropical landscaping, and traditional outdoor living spaces. White Ivory is ideal for creating a fresh, clean backyard setting with water that feels bright and easy to enjoy. The result is a versatile pool finish with a simple, polished look that never feels overly trendy."
+      },
+      "blackobsidian": {
+        "description1": "Dark, dramatic finish with a deep reflective water appearance. Black Obsidian creates a bold, upscale pool-water look with rich charcoal, deep blue, and mirror-like tones that feel sleek, modern, and luxurious. Its darker color allows the water to reflect the sky, surrounding landscape, and outdoor living area, creating a striking visual effect throughout the day.",
+        "description2": "This color is a beautiful choice for homeowners who want a more dramatic alternative to traditional blue finishes. It pairs well with light pavers, natural stone, modern patios, tropical landscaping, clean architectural lines, and resort-inspired backyard designs. Black Obsidian is ideal for creating a sophisticated, high-end backyard with water that feels deep, calm, and visually striking. The result is a dramatic pool finish that gives the entire outdoor space a polished, luxury feel."
+      }
     }
   },
   "Showroom": {
@@ -397,15 +430,15 @@
         },
         {
           "q": "Can I see pools in person?",
-          "a": "Absolutely. Our 8,000 sqft showroom at 21500 S Dixie Hwy, Miami, displays over 150 pool styles. Open Monday-Friday 9am-5pm, Saturday 9am-1pm."
+          "a": "Absolutely. You can visit us to appreciate the quality of our products, colors, and more, at 21500 S Dixie Hwy, Miami. Open Monday-Friday 9am-5pm, Saturday 9am-1pm."
         },
         {
           "q": "Do you offer financing?",
-          "a": "Yes, we partner with Hearth to offer monthly payment options. You can pre-qualify in minutes without affecting your credit score."
+          "a": "Yes, we partner with Hearth and HFS to offer monthly payment options. You can pre-qualify in minutes without affecting your credit score."
         },
         {
           "q": "What areas do you serve?",
-          "a": "We serve in all south florida, from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. If you are outside these areas, call us and we will refer you to a trusted partner."
+          "a": "We serve in all south florida, across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties. If you are outside these areas, call us and we will refer you to a trusted partner."
         },
         {
           "q": "Are rectangle fiberglass pools a good choice for modern backyards?",
@@ -421,7 +454,7 @@
         },
         {
           "q": "Why choose our fiberglass pools from FLFG Pools?",
-          "a": "Our fiberglass pools combine American-made manufacturing, smooth comfort, attractive designs, and local builder support. As the exclusive distributor for South Florida, we offer 150+ models with designs that support modern outdoor living, easier maintenance, and a polished backyard experience — all backed by a lifetime structural warranty."
+          "a": "Our fiberglass pools combine American-made manufacturing, smooth comfort, attractive designs, and local builder support. As the exclusive distributor for South Florida, we offer 150+ pool style combination with designs that support modern outdoor living, easier maintenance, and a polished backyard experience — all backed by a lifetime structural warranty."
         }
       ]
     }
@@ -1048,72 +1081,8 @@
     },
     "poolTypes": {
       "takeawayLabel": "Takeaway",
-      "concrete": {
-        "label": "Pool Type #1",
-        "title": "Concrete (Gunite) Pools: Custom, but Costly",
-        "description": "Concrete (often called gunite) pools are frequently marketed as the most customizable inground option. And it's true — they can be built in almost any shape or depth. However, that flexibility comes with important trade-offs in timeline, maintenance, and lifetime cost.",
-        "characteristics": [
-          { "title": "Built On-Site", "description": "Constructed using steel rebar and sprayed concrete through multiple on-site phases." },
-          { "title": "Long Construction Timelines", "description": "Often 3–6 months or longer depending on scope and weather." },
-          { "title": "Porous Surface", "description": "Can encourage algae growth and increases chemical demand over time." },
-          { "title": "Periodic Resurfacing", "description": "Typically requires resurfacing every 10–15 years (varies by finish and water chemistry)." }
-        ],
-        "prosHeading": "Pros",
-        "pros": [
-          "Nearly unlimited shape and depth customization",
-          "Can accommodate complex designs, edges, and integrated features",
-          "High-end aesthetic potential when new or freshly resurfaced"
-        ],
-        "consHeading": "Cons",
-        "cons": [
-          "Highest upfront and long-term ownership cost",
-          "Rougher surfaces can be abrasive on skin and swimwear",
-          "Higher chemical use and brushing requirements due to porosity",
-          "Ongoing upkeep may include plaster, tile, coping, and surface-finish maintenance"
-        ],
-        "bestFitHeading": "Best fit for homeowners who:",
-        "bestFit": [
-          "Want maximum design flexibility for shapes, depths, finishes, and integrated features",
-          "Are comfortable with longer construction timelines and more on-site phases",
-          "Prefer a fully customized look and are willing to plan for periodic resurfacing",
-          "Expect higher ongoing upkeep and lifetime ownership costs compared with other pool types"
-        ],
-        "takeaway": "Concrete pools offer unmatched design freedom but require the longest build time, highest maintenance, and most significant long-term investment."
-      },
-      "vinyl": {
-        "label": "Pool Type #2",
-        "title": "Vinyl Liner Pools: Lower Entry Cost, Ongoing Replacements",
-        "description": "Vinyl liner pools are often selected because they typically have a lower upfront price than other inground pool types. But many homeowners don't fully account for the long-term reality: the liner is a wear item, and replacement is a normal part of ownership.",
-        "characteristics": [
-          { "title": "Wall Systems", "description": "Built with steel, polymer, or concrete wall systems with a vinyl liner stretched to form the interior surface." },
-          { "title": "Liner Replacement Cycle", "description": "Liners typically need replacement every 7–12 years (varies by use, sun exposure, and chemistry)." },
-          { "title": "Vulnerable Surface", "description": "Susceptible to punctures from pets, sharp debris, toys, and improper cleaning tools." },
-          { "title": "Smooth Feel", "description": "Vinyl can feel smooth and comfortable for swimmers when in good condition." }
-        ],
-        "prosHeading": "Pros",
-        "pros": [
-          "Lower initial investment compared to most inground options",
-          "Smooth surface feel for swimmers",
-          "Faster build timeline than many concrete (gunite) projects"
-        ],
-        "consHeading": "Cons",
-        "cons": [
-          "Recurring liner replacement cost every 7–12 years (typical)",
-          "Greater risk of tears, wrinkles, and fading over time",
-          "Fewer step and bench design options than many fiberglass pool models",
-          "May contribute less to long-term resale value than other pool types"
-        ],
-        "bestFitHeading": "Best fit for homeowners who:",
-        "bestFit": [
-          "Are prioritizing lower upfront cost when planning a new inground pool",
-          "Prefer a smooth interior surface and straightforward pool layouts",
-          "Understand that liner replacement is a normal, recurring ownership expense",
-          "Are planning around shorter ownership horizons or budget-first decisions"
-        ],
-        "takeaway": "Vinyl liner pools offer a lower entry price but require ongoing liner replacements and carry more long-term uncertainty."
-      },
       "fiberglass": {
-        "label": "Pool Type #3",
+        "label": "Pool Type #1",
         "title": "Fiberglass Pools: The Modern Standard for Smart Homeowners",
         "description": "Fiberglass pools have become the fastest-growing segment of the inground pool market. Unlike pools built entirely on-site, fiberglass pools are manufactured in a controlled facility and delivered as a single, fully engineered shell.",
         "characteristics": [
@@ -1145,6 +1114,70 @@
           "Are comfortable choosing from established pool sizes and layouts rather than fully custom shapes"
         ],
         "takeaway": "Fiberglass pools combine faster installation, lower maintenance, and predictable long-term performance, making them the fastest-growing inground pool type."
+      },
+      "concrete": {
+        "label": "Pool Type #2",
+        "title": "Concrete (Gunite) Pools: Custom, but Costly",
+        "description": "Concrete (often called gunite) pools are frequently marketed as the most customizable inground option. And it's true — they can be built in almost any shape or depth. However, that flexibility comes with important trade-offs in timeline, maintenance, and lifetime cost.",
+        "characteristics": [
+          { "title": "Built On-Site", "description": "Constructed using steel rebar and sprayed concrete through multiple on-site phases." },
+          { "title": "Long Construction Timelines", "description": "Often 3–6 months or longer depending on scope and weather." },
+          { "title": "Porous Surface", "description": "Can encourage algae growth and increases chemical demand over time." },
+          { "title": "Periodic Resurfacing", "description": "Typically requires resurfacing every 10–15 years (varies by finish and water chemistry)." }
+        ],
+        "prosHeading": "Pros",
+        "pros": [
+          "Nearly unlimited shape and depth customization",
+          "Can accommodate complex designs, edges, and integrated features",
+          "High-end aesthetic potential when new or freshly resurfaced"
+        ],
+        "consHeading": "Cons",
+        "cons": [
+          "Highest upfront and long-term ownership cost",
+          "Rougher surfaces can be abrasive on skin and swimwear",
+          "Higher chemical use and brushing requirements due to porosity",
+          "Ongoing upkeep may include plaster, tile, coping, and surface-finish maintenance"
+        ],
+        "bestFitHeading": "Best fit for homeowners who:",
+        "bestFit": [
+          "Want maximum design flexibility for shapes, depths, finishes, and integrated features",
+          "Are comfortable with longer construction timelines and more on-site phases",
+          "Prefer a fully customized look and are willing to plan for periodic resurfacing",
+          "Expect higher ongoing upkeep and lifetime ownership costs compared with other pool types"
+        ],
+        "takeaway": "Concrete pools offer unmatched design freedom but require the longest build time, highest maintenance, and most significant long-term investment."
+      },
+      "vinyl": {
+        "label": "Pool Type #3",
+        "title": "Vinyl Liner Pools: Lower Entry Cost, Ongoing Replacements",
+        "description": "Vinyl liner pools are often selected because they typically have a lower upfront price than other inground pool types. But many homeowners don't fully account for the long-term reality: the liner is a wear item, and replacement is a normal part of ownership.",
+        "characteristics": [
+          { "title": "Wall Systems", "description": "Built with steel, polymer, or concrete wall systems with a vinyl liner stretched to form the interior surface." },
+          { "title": "Liner Replacement Cycle", "description": "Liners typically need replacement every 7–12 years (varies by use, sun exposure, and chemistry)." },
+          { "title": "Vulnerable Surface", "description": "Susceptible to punctures from pets, sharp debris, toys, and improper cleaning tools." },
+          { "title": "Smooth Feel", "description": "Vinyl can feel smooth and comfortable for swimmers when in good condition." }
+        ],
+        "prosHeading": "Pros",
+        "pros": [
+          "Lower initial investment compared to most inground options",
+          "Smooth surface feel for swimmers",
+          "Faster build timeline than many concrete (gunite) projects"
+        ],
+        "consHeading": "Cons",
+        "cons": [
+          "Recurring liner replacement cost every 7–12 years (typical)",
+          "Greater risk of tears, wrinkles, and fading over time",
+          "Fewer step and bench design options than many fiberglass pool models",
+          "May contribute less to long-term resale value than other pool types"
+        ],
+        "bestFitHeading": "Best fit for homeowners who:",
+        "bestFit": [
+          "Are prioritizing lower upfront cost when planning a new inground pool",
+          "Prefer a smooth interior surface and straightforward pool layouts",
+          "Understand that liner replacement is a normal, recurring ownership expense",
+          "Are planning around shorter ownership horizons or budget-first decisions"
+        ],
+        "takeaway": "Vinyl liner pools offer a lower entry price but require ongoing liner replacements and carry more long-term uncertainty."
       }
     },
     "costComparison": {
@@ -1224,6 +1257,15 @@
       "title": "Final Verdict: Fiberglass vs Concrete vs Vinyl Pools",
       "subtitle": "There is no single best pool for every homeowner. The right choice depends on how you weigh design flexibility, upfront investment, maintenance expectations, and long-term ownership experience.",
       "cards": [
+         {
+          "type": "Fiberglass",
+          "description": "Fiberglass pools are commonly selected by homeowners seeking a balanced combination of durability, faster installation, and simpler long-term upkeep.",
+          "points": [
+            "Installation timelines measured in weeks rather than months",
+            "Non-porous surface that supports lower chemical demand and easier cleaning",
+            "Predictable long-term ownership with minimal surface renovation"
+          ]
+        },
         {
           "type": "Concrete (Gunite)",
           "description": "Concrete pools are often chosen by homeowners who want complete design freedom and are comfortable with a longer construction process and more hands-on upkeep over time.",
@@ -1241,16 +1283,8 @@
             "Smooth interior surface feel",
             "Liner replacement is typically required every 7–12 years"
           ]
-        },
-        {
-          "type": "Fiberglass",
-          "description": "Fiberglass pools are commonly selected by homeowners seeking a balanced combination of durability, faster installation, and simpler long-term upkeep.",
-          "points": [
-            "Installation timelines measured in weeks rather than months",
-            "Non-porous surface that supports lower chemical demand and easier cleaning",
-            "Predictable long-term ownership with minimal surface renovation"
-          ]
         }
+       
       ],
       "perspectiveLabel": "Ownership perspective",
       "perspective": "Many homeowners ultimately gravitate toward pool types that feel predictable to own, where maintenance, appearance, and long-term expectations are clear from the start. In pool-friendly markets, this predictability can influence satisfaction just as much as initial design or cost."

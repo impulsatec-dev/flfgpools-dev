@@ -71,8 +71,8 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['showroom', 'visitar', 'localizacao', 'locacao', 'lugar', 'endereco', 'ver piscinas', 'ver as piscinas pessoalmente', 'ver piscinas pessoalmente', 'loja', 'local', 'como chego', 'onde fica', 'horarios do showroom', 'endereco do showroom'],
     },
     answer: {
-      en: 'Our 8,000 sqft showroom is at 21500 S Dixie Hwy, Miami, FL 33189. We display over 150 pool styles in person. Open Monday–Friday 9am–5pm, Saturday 9am–1pm, Sunday closed. Come see our pools in person!',
-      es: 'Nuestro showroom de 8,000 sqft está en 21500 S Dixie Hwy, Miami, FL 33189. Mostramos más de 150 estilos de piscinas en persona. Abierto lunes a viernes de 9am a 5pm, sábados de 9am a 1pm, domingos cerrado. ¡Ven a ver nuestras piscinas en persona!',
+      en: 'You can visit us to appreciate the quality of our products, colors, and more. is at 21500 S Dixie Hwy, Miami, FL 33189. We display over 150 pool styles in person. Open Monday–Friday 9am–5pm, Saturday 9am–1pm, Sunday closed. Come see our pools in person!',
+      es: 'Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, está en 21500 S Dixie Hwy, Miami, FL 33189. Mostramos más de 150 estilos de piscinas en persona. Abierto lunes a viernes de 9am a 5pm, sábados de 9am a 1pm, domingos cerrado. ¡Ven a ver nuestras piscinas en persona!',
       pt: 'Nosso showroom de 8.000 sqft está em 21500 S Dixie Hwy, Miami, FL 33189. Exibimos mais de 150 estilos de piscinas pessoalmente. Aberto de segunda a sexta das 9h às 17h, sábados das 9h às 13h, domingos fechado. Venha ver nossas piscinas pessoalmente!',
     },
   },
@@ -84,7 +84,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['servico', 'area', 'cobrimos', 'cobertura', 'condados', 'miami', 'broward', 'palm', 'beach', 'key', 'west', 'sarasota'],
     },
     answer: {
-      en: 'from Hardee to Miami-Dade, Monroe to Saint Lucie, Palm Beach and Broward counties. If you are outside these areas, call us and we will refer you to a trusted partner.',
+      en: 'across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties. If you are outside these areas, call us and we will refer you to a trusted partner.',
       es: 'Servimos desde los condados de Hardee hasta Miami-Dade, Monroe hasta Saint Lucie, Palm Beach y Broward. Si estás fuera de estas áreas, llámanos y te referiremos a un socio de confianza.',
       pt: 'Atendemos desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. Se você estiver fora dessas áreas, ligue para nós e o encaminharemos a um parceiro de confiança.',
     },
@@ -228,7 +228,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['voces oferecem financiamento', 'financiamento', 'pagamento', 'mensal', 'emprestimo', 'credito', 'afordar'],
     },
     answer: {
-      en: 'Yes, we partner with Hearth to offer monthly payment options. You can pre-qualify in minutes without affecting your credit score.',
+      en: 'Yes, we partner with Hearth and HFS to offer monthly payment options. You can pre-qualify in minutes without affecting your credit score.',
       es: 'Sí, nos asociamos con Hearth para ofrecer opciones de pago mensual. Puede precalificarse en minutos sin afectar su puntaje crediticio.',
       pt: 'Sim, fazemos parceria com a Hearth para oferecer opções de pagamento mensal. Você pode pré-qualificar em minutos sem afetar seu score de crédito.',
     },

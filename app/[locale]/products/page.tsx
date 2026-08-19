@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
 import { PoolCard } from '@/components/pool-card';
 import { Breadcrumbs } from '@/components/breadcrumbs';
-import { pools, type PoolShape, type ProductClass } from '@/lib/pools';
+import { pools, poolColors, type PoolShape, type ProductClass } from '@/lib/pools';
 import { cn } from '@/lib/utils';
 import { Filter, X, SlidersHorizontal, Ruler, Shapes, Tag, Droplets, ArrowUpDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -130,6 +130,56 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
         </h1>
         <p className="mt-4 text-xl text-pool-deep/70 max-w-2xl">{t('hero.subtitle')}</p>
       </section>
+
+      {/* Color chips */}
+      {/* <section className="container mx-auto px-4 py-8">
+        <span className="text-2xl font-display font-bold text-pool-deep mb-4 block text-center">
+          Opcion 1
+        </span>
+        <div className="flex flex-wrap justify-center gap-4">
+          {poolColors.map((color) => (
+            <div
+              key={color.name}
+              className="flex flex-col items-center gap-2 group cursor-pointer"
+            >
+              <div
+                className={cn(
+                  'w-16 h-16 rounded-full border-4 border-white shadow-lg transition-transform duration-300 group-hover:scale-110',
+                  `bg-gradient-to-br ${color.gradient}`
+                )}
+              />
+              <span className="text-xs font-medium text-pool-deep/70 group-hover:text-pool-deep transition-colors">
+                {color.name}
+              </span>
+            </div>
+          ))}
+        </div>
+      </section> */}
+
+      {/* Color chips */}
+      <section className="container mx-auto px-4 py-8">
+        {/* <span className="text-2xl font-display font-bold text-pool-deep mb-4 block text-center">
+          Opcion 2
+        </span> */}
+        <div className="flex flex-wrap justify-center gap-4">
+          {poolColors.map((color) => (
+            <div
+              key={color.name}
+              className="flex flex-col items-center gap-2 group cursor-pointer"
+            >
+              <img
+                src={color.colorChip}
+                alt={color.name}
+                className="w-20 h-20 rounded-full border-4 border-white shadow-lg transition-transform duration-300 group-hover:scale-110 object-cover"
+              />
+              <span className="text-xs font-medium text-pool-deep/70 group-hover:text-pool-deep transition-colors">
+                {color.name}
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+      
 
       {/* Filter bar */}
       <section className="container mx-auto px-4 py-8">

@@ -247,6 +247,13 @@ export function Header() {
                           >
                             {t('fiberglassVsConcrete')}
                           </Link>
+                          <Link
+                            href="/info/colors"
+                            onClick={() => setInfoOpen(false)}
+                            className="block px-4 py-2 text-sm font-medium text-pool-deep hover:bg-pool-mist/30 transition-colors"
+                          >
+                            {t('colors')}
+                          </Link>
                         </motion.div>
                       </>
                     )}
@@ -525,6 +532,13 @@ export function Header() {
                           className="block pl-8 pr-4 py-2.5 rounded-lg text-base font-medium text-pool-deep/80 hover:bg-pool-mist transition-colors"
                         >
                           {t('fiberglassVsConcrete')}
+                        </Link>
+                        <Link
+                          href="/info/colors"
+                          onClick={() => setOpen(false)}
+                          className="block pl-8 pr-4 py-2.5 rounded-lg text-base font-medium text-pool-deep/80 hover:bg-pool-mist transition-colors"
+                        >
+                          {t('colors')}
                         </Link>
                       </motion.div>
                     )}

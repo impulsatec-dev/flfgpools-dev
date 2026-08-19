@@ -2,7 +2,7 @@
   "Meta": {
     "home": {
       "title": "Florida Fiberglass Pools — Fornecedor e Instalador no Sul da Flórida",
-      "description": "Instalação de piscinas de fibra de vidro premium. Atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. Mais de 1000 piscinas entregues, garantia estrutural vitalícia, financiamento disponível."
+      "description": "Instalação de piscinas de fibra de vidro premium. Atendemos em todo o sul da Flórida, nos condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee. Mais de 1000 piscinas entregues, garantia estrutural vitalícia, financiamento disponível."
     },
     "about": {
       "title": "Sobre Nós — Florida Fiberglass Pools",
@@ -59,6 +59,7 @@
     "poolBenefits": "Benefícios de Piscinas",
     "poolPricingGuide": "Guia de Preços",
     "fiberglassVsConcrete": "Concreto vs Fibra de Vidro",
+    "colors": "Cores",
     "contact": "Contato",
     "poolsServices": "Piscinas e Serviços",
     "poolsSpa": "Piscinas e Spa",
@@ -85,7 +86,7 @@
         "openingTitle": "Mais que uma piscina. Um lugar para imaginar.",
         "openingDescription": "Veja a seleção pessoalmente e imagine o que combina com o seu quintal.",
         "showroomTitle": "Encontre a forma que parece feita para você.",
-        "showroomDescription": "Com mais de 8.000 pés quadrados, exibimos pessoalmente mais de 150 combos de estilos de piscinas. Desde 2013, entregamos mais de 1000 piscinas para famílias em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
+        "showroomDescription": "Com mais de 8.000 pés quadrados, exibimos pessoalmente mais de 150 combos de estilos de piscinas. Desde 2013, entregamos mais de 1000 piscinas para famílias em todo o sul da Flórida. Nos condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee.",
         "processTitle": "Seu quintal começa com uma conversa.",
         "processDescription": "Como distribuidor exclusivo para todo o sul da Flórida, nossa equipe guia você desde a consulta até a instalação, garantindo que sua piscina se ajuste ao seu estilo de vida, orçamento e quintal — respaldada por uma garantia estrutural vitalícia diretamente de fábrica.",
         "closingTitle": "Feita para a sua vida. Protegida para sempre.",
@@ -155,7 +156,7 @@
       "title": "Nossa história",
       "paragraph1": "A Florida Fiberglass Pools começou em 2013 com uma missão simples: tornar acessíveis piscinas premium de fibra de vidro para as famílias do sul da Flórida. O que começou como uma operação pequena agora abrange um showroom de 8.000 pés quadrados com mais de 150 combinações de modelos de cascos disponíveis, e somos o distribuidor exclusivo para todo o sul da Flórida.",
       "paragraph2": "Crescemos mantendo-nos fiéis aos nossos valores — produtos de primeira qualidade, preços honestos, atendimento ao cliente e garantias superiores às do mercado. Nosso compromisso com nossos mais de 1.200 clientes satisfeitos ao longo de nossa história é nosso compromisso com seu quintal.",
-      "paragraph3": "Hoje atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward. De acordo com o condado onde sua propriedade está localizada, oferecemos um de nossos instaladores especialistas em piscinas de fibra de vidro, bem como opções de financiamento. Nossa equipe inclui Certified Pool Contractors, designers internos e especialistas em financiamento."
+      "paragraph3": "Hoje atendemos em todo o sul da Flórida, desde os condados de  Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobe. De acordo com o condado onde sua propriedade está localizada, oferecemos um de nossos instaladores especialistas em piscinas de fibra de vidro, bem como opções de financiamento. Nossa equipe inclui Certified Pool Contractors, designers internos e especialistas em financiamento."
     },
     "values": {
       "title": "Pelo que nos destacamos",
@@ -255,6 +256,38 @@
       "priceRange": "Faixa de preço",
       "avgPrice": "Média",
       "contactForPricing": "Contate-nos para preços"
+    },
+    "colors": {
+      "title": "Descubra sua cor de piscina perfeita",
+      "subtitle": "Transforme seu quintal em um resort privado com acabados impressionantes de piscina de fibra de vidro projetados para refletir seu estilo, sua casa e a maneira como você deseja viver ao ar livre.",
+      "bahamablue": {
+        "description1": "Azul tropical rico com uma aparência de água ousada e refrescante. Bahama Blue traz um acabado vibrante inspirado em ilhas para a piscina, criando uma aparência de água azul profunda que parece brilhante, limpa e convidativa. Seu tom rico adiciona profundidade visual durante o dia enquanto dá à piscina uma aparência fresca e refrescante do pátio, deck ou área de vida ao ar livre.",
+        "description2": "Esta cor é uma excelente escolha para proprietários que querem que sua piscina se destaque como um verdadeiro centro do quintal. O acabado azul ousado combina lindamente com travertino claro, pavimentadores cinzas, pedra natural, paisagismo tropical e móveis de exterior modernos. Bahama Blue é ideal para criar um quintal estilo resort com uma sensação clássica de piscina, especialmente para proprietários que amam uma cor de água vívida com muito movimento, brilho e energia visual."
+      },
+      "caribbeanblue": {
+        "description1": "Azul brilhante e refrescante com uma sensação de água costeira limpa. Caribbean Blue traz um aspecto tropical e animado para a piscina com um acabado azul claro que parece fresco, brilhante e convidativo. Seu tom vibrante ajuda a criar a aparência de água de piscina brilhante com muito movimento, profundidade e energia solar.",
+        "description2": "Esta cor é uma bela escolha para proprietários que querem um aspecto clássico de piscina azul que parece limpo e otimista sem parecer muito escuro. Combina especialmente bem com pavimentadores claros, decks brancos ou cinzas, pedra natural, paisagismo tropical e espaços de vida ao ar livre relaxantes. Caribbean Blue é ideal para criar um quintal que parece aberto, alegre e inspirado em férias, dando à piscina uma cor de água fresca que se destaca lindamente do pátio, gramado ou área de estar ao ar livre."
+      },
+      "diamondgray": {
+        "description1": "Elegância prateada cinza suave com uma aparência de água limpa e refrescante. Diamond Gray cria um acabado de piscina refinado com uma base cinza clara, salpicado sutil e uma aparência de água azul cinza suave. Seu tom discreto dá à piscina uma aparência limpa e polida enquanto permite que a luz solar, o movimento da água e os materiais circundantes moldem a sensação geral.",
+        "description2": "Esta cor é uma bela escolha para proprietários que querem uma alternativa mais suave e sofisticada a um acabado de piscina azul ousado. Combina especialmente bem com branco, cinza, carvão, travertino, pedra natural, pavimentadores modernos e espaços de vida ao ar livre inspirados na costa. Diamond Gray é ideal para criar um ambiente de quintal tranquilo e elegante com água que parece brilhante, clara e levemente reflexiva. O resultado é uma cor de piscina atemporal que parece fresca a pleno sol enquanto mantém uma aparência suave e de alta qualidade do pátio ou área de estar ao ar livre."
+      },
+      "blueabyss": {
+        "description1": "Azul profundo e dramático com uma aparência de água rica como joia. Blue Abyss cria um acabado de piscina ousado e luxuoso com tons azul marinho profundo e cobalto que dão à água uma sensação de profundidade impactante. Sua base mais escura e os reflexos azul brilhante criam um aspecto dramático e reflexivo que parece polido, moderno e de alta qualidade.",
+        "description2": "Esta cor é uma excelente escolha para proprietários que querem que sua piscina faça uma declaração. A aparência de água azul rica combina lindamente com pedra clara, decks brancos ou cinzas, pavimentadores modernos, bordas escuras, paisagismo tropical e espaços de vida ao ar livre elegantes. Blue Abyss é ideal para criar um quintal inspirado em resorts com água que parece profunda, vibrante e visualmente poderosa. O resultado é uma cor de piscina sofisticada com muito movimento, brilho e uma presença premium de noite a dia."
+      },
+      "skyblue": {
+        "description1": "Azul claro e arejado com uma aparência de água brilhante e refrescante. Sky Blue cria um aspecto de água de piscina suave e limpo com um tom aqua pálido que parece fresco, aberto e convidativo. Sua cor clara ajuda a água a parecer brilhante e clara, especialmente em quintais ensolarados onde a luz natural pode destacar o movimento suave e o brilho.",
+        "description2": "Esta cor é uma bela escolha para proprietários que querem uma alternativa mais suave aos acabados azuis mais profundos. Combina bem com pavimentadores claros, decks brancos ou cinzas, pátios inspirados na costa, paisagismo tropical e espaços de vida ao ar livre relaxantes. Sky Blue é ideal para criar um quintal alegre estilo resort com água que parece fresca, calma e fácil de desfrutar. O resultado é um acabado de piscina limpo e refrescante que dá a todo o espaço exterior uma sensação brilhante e acolhedora."
+      },
+      "whiteivory": {
+        "description1": "Branco brilhante clássico com uma aparência de água limpa e brilhante. White Ivory cria um acabado de piscina atemporal com um aspecto brilhante e limpo que permite que a água pareça leve, crocante e refrescante. Sua base branca simples reflete a luz solar lindamente, ajudando a piscina a parecer aberta, clara e convidativa durante todo o dia.",
+        "description2": "Esta cor é uma excelente escolha para proprietários que querem uma aparência clássica de piscina que funcione com quase qualquer estilo de quintal. Combina bem com travertino, concreto, pavimentadores cinzas, pedra natural, paletas costeiras, paisagismo tropical e espaços de vida ao ar livre tradicionais. White Ivory é ideal para criar um ambiente de quintal fresco e limpo com água que parece brilhante e fácil de desfrutar. O resultado é um acabado de piscina versátil com um aspecto simples e polido que nunca parece excessivamente na moda."
+      },
+      "blackobsidian": {
+        "description1": "Acabado escuro e dramático com uma aparência de água profundamente reflexiva. Black Obsidian cria um aspecto de água de piscina ousado e de alta qualidade com tons ricos de carvão, azul profundo e espelho que parecem elegantes, modernos e luxuosos. Sua cor mais escura permite que a água reflita o céu, a paisagem circundante e a área de vida ao ar livre, criando um efeito visual impactante durante todo o dia.",
+        "description2": "Esta cor é uma bela escolha para proprietários que querem uma alternativa mais dramática aos acabados azuis tradicionais. Combina bem com pavimentadores claros, pedra natural, pátios modernos, paisagismo tropical, linhas arquitetônicas limpas e designs de quintal inspirados em resorts. Black Obsidian é ideal para criar um quintal sofisticado e de alta qualidade com água que parece profunda, calma e visualmente impactante. O resultado é um acabado de piscina dramático que dá a todo o espaço exterior uma sensação polida e de luxo."
+      }
     }
   },
   "Showroom": {
@@ -328,8 +361,8 @@
       "email": "E-mail",
       "emailPlaceholder": "Ex. joao@exemplo.com",
       "zip": "Código postal",
-      "zipHelper": "Atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward.",
-      "zipError": "Este código postal pode estar fora da nossa área principal de serviço. Ligue para nós — atendemos em todo o sul da Flórida, desde os condados de Hardee a Miami-Dade, Monroe a Saint Lucie, Palm Beach e Broward e encaminharemos você a um parceiro de confiança.",
+      "zipHelper": "Atendemos em todo o sul da Flórida, desde os condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee.",
+      "zipError": "Este código postal pode estar fora da nossa área principal de serviço. Ligue para nós — atendemos em todo o sul da Flórida, desde os condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee e encaminharemos você a um parceiro de confiança.",
       "address": "Endereço da propriedade",
       "addressPlaceholder": "Ex. 123 Main St, Miami, FL 33189",
       "addressHelper": "Insira o endereço de instalação. Use o mapa para verificar sua localização.",
@@ -368,7 +401,7 @@
         },
         {
           "q": "Que garantia vocês oferecem?",
-          "a": "Cada casco de piscina de fibra de vidro conta com garantia estrutural vitalícia diretamente da fábrica. Essa é uma garantia vitalícia para a estrutura do casco da piscina, respaldada pelos padrões de fabricação. Também oferecemos 3 anos de garantia sobre a mão de obra da instalação."
+          "a": "Cada casco de piscina de fibra de vidro conta com garantia estrutural vitalícia diretamente da fábrica. Essa é uma garantia vitalícia para a estrutura do casco da piscina, respaldada nos padrões de fabricação. Também oferecemos 3 anos de garantia sobre a mão de obra da instalação."
         },
         {
           "q": "Quanto tempo leva a instalação de uma piscina de fibra de vidro?",
@@ -392,19 +425,19 @@
         },
         {
           "q": "Vocês cuidam das autorizações?",
-          "a": "Sim, cuidamos de todas as autorizações exigidas pelos condados onde atuamos como parte do nosso serviço de instalação."
+          "a": "Sim, cuidamos de todas as autorizações exigidas nos condados onde atuamos como parte do nosso serviço de instalação."
         },
         {
           "q": "Posso ver as piscinas pessoalmente?",
-          "a": "Com certeza. Nosso showroom de 8.000 pés quadrados, localizado em 21500 S Dixie Hwy, Miami, apresenta mais de 150 modelos de piscinas. Funcionamos de segunda a sexta, das 9h às 17h, e aos sábados, das 9h às 13h."
+          "a": "Com certeza. Você pode nos visitar para apreciar a qualidade de nossos produtos, as cores e muito mais, localizado em 21500 S Dixie Hwy, Miami, apresenta mais de 150 modelos de piscinas. Funcionamos de segunda a sexta, das 9h às 17h, e aos sábados, das 9h às 13h."
         },
         {
           "q": "Vocês oferecem financiamento?",
-          "a": "Sim, somos parceiros da Hearth para oferecer opções de pagamento mensal. Você pode fazer a pré-qualificação em poucos minutos sem afetar sua pontuação de crédito."
+          "a": "Sim, somos parceiros da Hearth y HFS para oferecer opções de pagamento mensal. Você pode fazer a pré-qualificação em poucos minutos sem afetar sua pontuação de crédito."
         },
         {
           "q": "Quais regiões vocês atendem?",
-          "a": "Atendemos de Key West até Sarasota, incluindo os condados de Miami-Dade, Broward e Palm Beach. Se você estiver fora dessas regiões, entre em contato conosco e indicaremos um parceiro de confiança."
+          "a": "Atendemos de Key West até Sarasota, incluindo os condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee. Se você estiver fora dessas regiões, entre em contato conosco e indicaremos um parceiro de confiança."
         },
         {
           "q": "Piscinas retangulares de fibra de vidro são uma boa opção para quintais modernos?",
@@ -420,7 +453,7 @@
         },
         {
           "q": "Por que escolher as piscinas de fibra de vidro da nós?",
-          "a": "Nossas piscinas de fibra de vidro combinam fabricação americana, conforto proporcionado pela superfície lisa, designs atraentes e suporte de construtores locais. Como distribuidor exclusivo para o Sul da Flórida, oferecemos mais de 150 modelos desenvolvidos para um estilo de vida moderno ao ar livre, manutenção mais fácil e uma experiência sofisticada no quintal — tudo respaldado por uma garantia estrutural vitalícia."
+          "a": "Nossas piscinas de fibra de vidro combinam fabricação americana, conforto proporcionado pela superfície lisa, designs atraentes e suporte de construtores locais. Como distribuidor exclusivo para o Sul da Flórida, oferecemos mais de 150 combinações de estilos desenvolvidos para um estilo de vida moderno ao ar livre, manutenção mais fácil e uma experiência sofisticada no quintal — tudo respaldado por uma garantia estrutural vitalícia."
         }
       ]
     }
@@ -1048,8 +1081,42 @@
     },
     "poolTypes": {
       "takeawayLabel": "Conclusão",
-      "concrete": {
+      "fiberglass": {
         "label": "Tipo de Piscina #1",
+        "title": "Piscinas de Fibra de Vidrio: O Padrão Moderno para Proprietários Inteligentes",
+        "description": "Piscinas de fibra de vidrio tornaram-se o segmento de mais rápido crescimento do mercado de piscinas enterradas. Diferente de piscinas construídas inteiramente no local, piscinas de fibra de vidrio são fabricadas em uma instalação controlada e entregues como uma cápsula única totalmente projetada.",
+        "characteristics": [
+          { "title": "Cápsula de Uma Peça Fabricada em Fábrica", "description": "Fabricada como uma estrutura única e integrada, projetada para resistência e longevidade." },
+          { "title": "Instalação Rápida", "description": "Instalada em semanas em vez de meses após a conclusão da preparação do local." },
+          { "title": "Superfície de Gelcoat Não Porosa", "description": "Superfície lisa que resiste a algas e manchas, com mínima manutenção estrutural." },
+          { "title": "Compatível com Água Salgada", "description": "Ideal para sistemas de piscinas de água salgada devido ao acabamento de gelcoat não poroso." }
+        ],
+        "prosHeading": "Vantagens",
+        "pros": [
+          "O menor custo de propriedade vitalícia entre os tipos de piscinas enterradas",
+          "Uso mínimo de produtos químicos devido à superfície não porosa",
+          "Excelente resistência ao crescimento de algas e manchas de superfície",
+          "Instalação rápida reduz a disrupção do quintal",
+          "Superfície confortável e antiderrapante para todas as idades",
+          "Ideal para sistemas de piscinas de água salgada"
+        ],
+        "consHeading": "Considerações",
+        "cons": [
+          "Formas e tamanhos da cápsula são pré-projetados em vez de totalmente personalizadas",
+          "Requer preparação adequada do local e instalação experiente",
+          "Acesso é necessário para entregar a cápsula da piscina ao quintal"
+        ],
+        "bestFitHeading": "Melhor para proprietários que:",
+        "bestFit": [
+          "Querem um prazo de instalação previsível, com a maioria dos projetos concluídos em algumas semanas após a preparação do local",
+          "Preferem menor manutenção contínua e cuidado mais simples com a água",
+          "Valorizam uma superfície interior lisa para conforto e facilidade de limpeza",
+          "Estão confortáveis escolhendo entre tamanhos e layouts de piscina estabelecidos em vez de formas totalmente personalizadas"
+        ],
+        "takeaway": "Piscinas de fibra de vidro combinam instalação mais rápida, menor manutenção e desempenho a longo prazo previsível, tornando-as o tipo de piscina enterrada de mais rápido crescimento."
+      },
+      "concrete": {
+        "label": "Tipo de Piscina #2",
         "title": "Piscinas de Concreto (Gunite): Personalizadas, mas Caras",
         "description": "Piscinas de concreto (frequentemente chamadas de gunite) são frequentemente comercializadas como a opção enterrada mais personalizável. E é verdade — elas podem ser construídas em quase qualquer forma ou profundidade. No entanto, essa flexibilidade vem com importantes contrapartidas em tempo, manutenção e custo vitalício.",
         "characteristics": [
@@ -1081,7 +1148,7 @@
         "takeaway": "Piscinas de concreto oferecem liberdade de design sem igual, mas exigem o maior tempo de construção, a maior manutenção e o investimento a longo prazo mais significativo."
       },
       "vinyl": {
-        "label": "Tipo de Piscina #2",
+        "label": "Tipo de Piscina #3",
         "title": "Piscinas de Revestimento de Vinil: Menor Custo de Entrada, Substituições Contínuas",
         "description": "Piscinas de revestimento de vinil são frequentemente escolhidas porque tipicamente têm um preço inicial mais baixo do que outros tipos de piscinas enterradas. Mas muitos proprietários não contabilizam completamente a realidade a longo prazo: o revestimento é um item de desgaste, e a substituição é uma parte normal da propriedade.",
         "characteristics": [
@@ -1111,45 +1178,11 @@
           "Estão planejando em torno de horizontes de propriedade mais curtos ou decisões baseadas em orçamento"
         ],
         "takeaway": "Piscinas de revestimento de vinil oferecem um preço de entrada mais baixo, mas exigem substituições contínuas do revestimento e trazem mais incerteza a longo prazo."
-      },
-      "fiberglass": {
-        "label": "Tipo de Piscina #3",
-        "title": "Piscinas de Fibra de Vidrio: O Padrão Moderno para Proprietários Inteligentes",
-        "description": "Piscinas de fibra de vidrio tornaram-se o segmento de mais rápido crescimento do mercado de piscinas enterradas. Diferente de piscinas construídas inteiramente no local, piscinas de fibra de vidrio são fabricadas em uma instalação controlada e entregues como uma cápsula única totalmente projetada.",
-        "characteristics": [
-          { "title": "Cápsula de Uma Peça Fabricada em Fábrica", "description": "Fabricada como uma estrutura única e integrada, projetada para resistência e longevidade." },
-          { "title": "Instalação Rápida", "description": "Instalada em semanas em vez de meses após a conclusão da preparação do local." },
-          { "title": "Superfície de Gelcoat Não Porosa", "description": "Superfície lisa que resiste a algas e manchas, com mínima manutenção estrutural." },
-          { "title": "Compatível com Água Salgada", "description": "Ideal para sistemas de piscinas de água salgada devido ao acabamento de gelcoat não poroso." }
-        ],
-        "prosHeading": "Vantagens",
-        "pros": [
-          "O menor custo de propriedade vitalícia entre os tipos de piscinas enterradas",
-          "Uso mínimo de produtos químicos devido à superfície não porosa",
-          "Excelente resistência ao crescimento de algas e manchas de superfície",
-          "Instalação rápida reduz a disrupção do quintal",
-          "Superfície confortável e antiderrapante para todas as idades",
-          "Ideal para sistemas de piscinas de água salgada"
-        ],
-        "consHeading": "Considerações",
-        "cons": [
-          "Formas e tamanhos da cápsula são pré-projetados em vez de totalmente personalizadas",
-          "Requer preparação adequada do local e instalação experiente",
-          "Acesso é necessário para entregar a cápsula da piscina ao quintal"
-        ],
-        "bestFitHeading": "Melhor para proprietários que:",
-        "bestFit": [
-          "Querem um prazo de instalação previsível, com a maioria dos projetos concluídos em algumas semanas após a preparação do local",
-          "Preferem menor manutenção contínua e cuidado mais simples com a água",
-          "Valorizam uma superfície interior lisa para conforto e facilidade de limpeza",
-          "Estão confortáveis escolhendo entre tamanhos e layouts de piscina estabelecidos em vez de formas totalmente personalizadas"
-        ],
-        "takeaway": "Piscinas de fibra de vidrio combinam instalação mais rápida, menor manutenção e desempenho a longo prazo previsível, tornando-as o tipo de piscina enterrada de mais rápido crescimento."
       }
     },
     "costComparison": {
       "label": "Custo ao Longo do Tempo",
-      "title": "Comparação de Custos: Fibra de Vidrio vs Concreto vs Vinil ao Longo do Tempo",
+      "title": "Comparação de Custos: Fibra de Vidro vs Concreto vs Vinil ao Longo do Tempo",
       "subtitle": "Ao comparar tipos de piscinas, é natural focar no preço de instalação inicial. No entanto, o custo a longo prazo de possuir uma piscina também inclui manutenção, reparos e substituições de superfície ao longo do tempo.",
       "ranges": [
         { "type": "Piscinas de Fibra de Vidrio", "range": "$55,000 – $155,000" },
@@ -1224,6 +1257,15 @@
       "title": "Veredito Final: Fibra de Vidrio vs Concreto vs Vinil",
       "subtitle": "Não há uma única melhor piscina para cada proprietário. A escolha certa depende de como você pondera flexibilidade de design, investimento inicial, expectativas de manutenção e experiência de propriedade a longo prazo.",
       "cards": [
+          {
+          "type": "Fibra de Vidrio",
+          "description": "Piscinas de fibra de vidrio são comumente selecionadas por proprietários que buscam uma combinação equilibrada de durabilidade, instalação mais rápida e manutenção mais simples a longo prazo.",
+          "points": [
+            "Prazos de instalação medidos em semanas em vez de meses",
+            "Superfície não porosa que suporta menor demanda de produtos químicos e limpeza mais fácil",
+            "Propriedade a longo prazo previsível com mínima renovação de superfície"
+          ]
+        },
         {
           "type": "Concreto (Gunite)",
           "description": "Piscinas de concreto são frequentemente escolhidas por proprietários que querem liberdade total de design e estão confortáveis com um processo de construção mais longo e mais manutenção contínua ao longo do tempo.",
@@ -1241,16 +1283,8 @@
             "Superfície interior lisa ao toque",
             "A substituição do revestimento tipicamente é necessária a cada 7–12 anos"
           ]
-        },
-        {
-          "type": "Fibra de Vidrio",
-          "description": "Piscinas de fibra de vidrio são comumente selecionadas por proprietários que buscam uma combinação equilibrada de durabilidade, instalação mais rápida e manutenção mais simples a longo prazo.",
-          "points": [
-            "Prazos de instalação medidos em semanas em vez de meses",
-            "Superfície não porosa que suporta menor demanda de produtos químicos e limpeza mais fácil",
-            "Propriedade a longo prazo previsível com mínima renovação de superfície"
-          ]
         }
+      
       ],
       "perspectiveLabel": "Perspectiva de propriedade",
       "perspective": "Muitos proprietários acabam gravitando em torno de tipos de piscinas que parecem previsíveis de possuir, onde manutenção, aparência e expectativas a longo prazo são claras desde o início. Em mercados amigos de piscinas, essa previsibilidade pode influenciar a satisfação tanto quanto o design ou custo inicial."
