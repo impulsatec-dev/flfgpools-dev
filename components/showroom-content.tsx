@@ -647,7 +647,7 @@ export function ShowroomContent({ locale }: { locale: string }) {
         {/* Fixed background image with dark overlay */}
         <div className="fixed inset-0 -z-10">
           <Image
-            src="/showroom/lake-pool.jpg"
+            src="/showroom/Columbian-Beach.jpeg"
             alt=""
             fill
             sizes="100vw"
