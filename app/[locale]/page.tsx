@@ -72,7 +72,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               muted
             /> */}
             <Image
-              src="/header/bg.png"
+              src="public/iso-models/Pools/Colombian-Beach/Showroom/Columbian-Beach.png"
               alt="Fiberglass pool installation in South Florida backyard"
               fill
               priority
