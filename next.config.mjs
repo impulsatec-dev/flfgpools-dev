@@ -32,6 +32,8 @@ const nextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: 'flfgpools.com' },
+      { protocol: 'https', hostname: '**.vercel.app' },
+      { protocol: 'https', hostname: 'www.novatec.digital' },
     ],
   },
   experimental: {

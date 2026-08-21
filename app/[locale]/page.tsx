@@ -72,7 +72,9 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               muted
             /> */}
             <Image
-              src="public/iso-models/Pools/Colombian-Beach/Showroom/Columbian-Beach.png"
+              // src="/iso-models/Pools/Colombian-Beach/Showroom/Columbian-Beach.png"
+              src="/iso-models/Pools/Macaw-Cove/Showroom/Macaw-Cove-Compressed.webp"
+              // src="/iso-models/Pools/Nova/Showroom/Nova-1.jpg"
               alt="Fiberglass pool installation in South Florida backyard"
               fill
               priority

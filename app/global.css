@@ -222,12 +222,12 @@
 
   /* === Hero Chip — frosted badge with glow === */
   .glass-chip-hero {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.45);
-    box-shadow: 0 4px 24px rgb(161 176 182 / 35%);
+    box-shadow: 0 4px 24px rgb(161 176 182 / 55%);
     padding: 0.5rem 1.25rem;
     font-size: 0.8rem;
     letter-spacing: 0.05em;

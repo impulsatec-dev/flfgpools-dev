@@ -1,5 +1,6 @@
 'use client';
 
+import { useRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { motion, useReducedMotion } from 'framer-motion';
@@ -24,18 +25,43 @@ export function PoolCard({ pool, locale, index = 0 }: PoolCardProps) {
         ? `/products/pools/${pool.slug}`
         : `/products/pools/${pool.slug}`;
 
+  const ref = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+      // Check if already visible on mount
+      if (ref.current.getBoundingClientRect().top < window.innerHeight) {
+        setIsVisible(true);
+      }
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <motion.div
-      initial={reduce ? {} : { opacity: 0, y: 30, filter: 'blur(8px)' }}
-      whileInView={reduce ? {} : { opacity: 1, y: 0, filter: 'blur(0px)' }}
-      viewport={{ once: true, margin: '-40px' }}
-      transition={{
-        delay: index * 0.1,
-        duration: 0.6,
-        ease: [0.22, 1, 0.36, 1],
-      }}
-      className="glass-card group"
-    >
+    <Link href={detailHref}>
+      <motion.div
+        ref={ref}
+        initial={reduce ? {} : { opacity: 0, y: 30, filter: 'blur(8px)' }}
+        animate={reduce ? {} : (isVisible ? { opacity: 1, y: 0, filter: 'blur(0px)' } : { opacity: 0, y: 30, filter: 'blur(8px)' })}
+        transition={{
+          duration: 0.3,
+          ease: [0.22, 1, 0.36, 1],
+        }}
+        className="glass-card group"
+
+      >
       {/* Image */}
       <div className="relative aspect-[4/3] overflow-hidden rounded-t-glass">
         {hasImage ? (
@@ -109,15 +135,13 @@ export function PoolCard({ pool, locale, index = 0 }: PoolCardProps) {
               </p>
             )}
           </div>
-          <Link
-            href={detailHref}
-            className="glass-btn-primary flex items-center gap-2 px-4 py-2 text-sm text-white"
-          >
+          <div className="glass-btn-primary flex items-center gap-2 px-4 py-2 text-sm text-white">
             Details
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </Link>
+          </div>
         </div>
       </div>
-    </motion.div>
+      </motion.div>
+    </Link>
   );
 }
