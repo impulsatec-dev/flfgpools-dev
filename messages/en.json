@@ -70,7 +70,7 @@
   },
   "Home": {
     "hero": {
-      "badge": "New Pool Model R16 — Now Available",
+      "badge": "New Pool Model R16 and 17 — Now Available",
       "title": "Your dream pool, built to last in South Florida",
       "subtitle": "Premium fiberglass pools designed for safety, fun, and effortless maintenance.",
       "ctaPrimary": "Explore Pool Models",
@@ -398,11 +398,11 @@
       "items": [
         {
           "q": "What makes fiberglass pools different?",
-          "a": "Fiberglass pools are manufactured in Orlando, Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes, lifestyles, and outdoor spaces. As the exclusive distributor for South Florida, we bring these premium pools directly to you."
+          "a": "Fiberglass pools are manufactured in Florida, Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes, lifestyles, and outdoor spaces. As the exclusive distributor for South Florida, we bring these premium pools directly to you."
         },
         {
           "q": "What warranty do you offer?",
-          "a": "Every fiberglass pool shell comes with a lifetime structural warranty directly from the factory. This is a lifetime warranty on the pool shell structure, backed by manufacturing standards. We also provide a 3-year warranty on installation workmanship."
+          "a": "Every fiberglass pool shell comes with a lifetime structural warranty directly from the factory."
         },
         {
           "q": "How long does fiberglass pool installation take?",
@@ -426,7 +426,7 @@
         },
         {
           "q": "Do you handle permits?",
-          "a": "Yes, we handle all permits required by the counties we serve as part of our installation service."
+          "a": "Yes, we handle all permits required by the counties we serve as part of the installation service."
         },
         {
           "q": "Can I see pools in person?",
@@ -524,7 +524,8 @@
       "upTo16": "Up to 16 ft",
       "16to22": "16–22 ft",
       "22plus": "22+ ft",
-      "spa": "Spa"
+      "spa": "Spa",
+      "ledge": "Tanning ledge"
     },
     "baseModel": "Base model",
     "finishColor": "Finish color",

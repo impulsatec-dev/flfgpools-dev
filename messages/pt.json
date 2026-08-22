@@ -70,7 +70,7 @@
   },
   "Home": {
     "hero": {
-      "badge": "Novo Modelo — Disponível Agora",
+      "badge": "Novo Modelo R16 e R17 — Disponível Agora",
       "title": "Sua piscina dos sonhos, construída para durar no sul da Flórida",
       "subtitle": "Piscinas de fibra de vidro premium projetadas para segurança, diversão e baixa manutenção.",
       "ctaPrimary": "Explorar modelos",
@@ -126,7 +126,7 @@
     "financing": {
       "label": "Financiamento",
       "title": "Você sonha, nós financiamos",
-      "description": "Parceiros com a Hearth para oferecer opções de pagamento mensal para seu projeto de piscina. Pré-qualifique-se em minutos — ver opções não afeta seu score de crédito.",
+      "description": "Parceiros com a Hearth e HFS para oferecer opções de pagamento mensal para seu projeto de piscina. Pré-qualifique-se em minutos — ver opções não afeta seu score de crédito.",
       "cta": "Aplicar agora"
     },
     "featuredPools": {
@@ -397,11 +397,11 @@
       "items": [
         {
           "q": "O que torna as piscinas de fibra de vidro diferentes?",
-          "a": "As piscinas de fibra de vidro são fabricadas em Orlando, Flórida, e projetadas para proporcionar anos de lazer no quintal. Cada casco é produzido com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formatos que se adaptam a diferentes residências, estilos de vida e áreas externas. Como distribuidor exclusivo para o Sul da Flórida, levamos essas piscinas premium diretamente até você."
+          "a": "As piscinas de fibra de vidro são fabricadas em Florida, Flórida, e projetadas para proporcionar anos de lazer no quintal. Cada casco é produzido com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formatos que se adaptam a diferentes residências, estilos de vida e áreas externas. Como distribuidor exclusivo para o Sul da Flórida, levamos essas piscinas premium diretamente até você."
         },
         {
           "q": "Que garantia vocês oferecem?",
-          "a": "Cada casco de piscina de fibra de vidro conta com garantia estrutural vitalícia diretamente da fábrica. Essa é uma garantia vitalícia para a estrutura do casco da piscina, respaldada nos padrões de fabricação. Também oferecemos 3 anos de garantia sobre a mão de obra da instalação."
+          "a": "Cada casco de piscina de fibra de vidro conta com garantia estrutural vitalícia diretamente da fábrica."
         },
         {
           "q": "Quanto tempo leva a instalação de uma piscina de fibra de vidro?",
@@ -425,11 +425,11 @@
         },
         {
           "q": "Vocês cuidam das autorizações?",
-          "a": "Sim, cuidamos de todas as autorizações exigidas nos condados onde atuamos como parte do nosso serviço de instalação."
+          "a": "Sim, cuidamos de todas as autorizações exigidas nos condados onde atuamos como parte do serviço de instalação."
         },
         {
           "q": "Posso ver as piscinas pessoalmente?",
-          "a": "Com certeza. Você pode nos visitar para apreciar a qualidade de nossos produtos, as cores e muito mais, localizado em 21500 S Dixie Hwy, Miami, apresenta mais de 150 modelos de piscinas. Funcionamos de segunda a sexta, das 9h às 17h, e aos sábados, das 9h às 13h."
+          "a": "Com certeza. Você pode nos visitar para apreciar a qualidade de nossos produtos, as cores e muito mais, localizado em 21500 S Dixie Hwy, Miami. Funcionamos de segunda a sexta, das 9h às 17h, e aos sábados, das 9h às 13h."
         },
         {
           "q": "Vocês oferecem financiamento?",
@@ -523,7 +523,8 @@
       "upTo16": "Até 16 pés",
       "16to22": "16–22 pés",
       "22plus": "22+ pés",
-      "spa": "Spa"
+      "spa": "Spa",
+      "ledge": "Plataforma de bronzeamento"
     },
     "baseModel": "Modelo base",
     "finishColor": "Cor de acabamento",

@@ -70,7 +70,7 @@
   },
   "Home": {
     "hero": {
-      "badge": "Nuevo Modelo — Disponible Ahora",
+      "badge": "Nuevo Modelo R16 y R17 — Disponible Ahora",
       "title": "Tu piscina soñada, construida para durar en el sur de Florida",
       "subtitle": "Piscinas de fibra de vidrio premium diseñadas para seguridad, diversión y bajo mantenimiento.",
       "ctaPrimary": "Explorar modelos",
@@ -126,7 +126,7 @@
     "financing": {
       "label": "Financiamiento",
       "title": "Tú lo sueñas, nosotros lo financiamos",
-      "description": "Trabajamos con Hearth para ofrecerte opciones de pago mensual para tu proyecto de piscina. Pre-califícate en minutos — ver opciones no afecta tu puntaje crediticio.",
+      "description": "Trabajamos con Hearth y HFS para ofrecerte opciones de pago mensual para tu proyecto de piscina. Pre-califícate en minutos — ver opciones no afecta tu puntaje crediticio.",
       "cta": "Aplicar ahora"
     },
     "featuredPools": {
@@ -398,11 +398,11 @@
       "items": [
         {
           "q": "¿Qué hace diferentes a las piscinas de fibra de vidrio?",
-          "a": "Las piscinas de fibra de vidrio se fabrican en Orlando, Florida, y están diseñadas para el disfrute a largo plazo del patio. Cada cáscara de piscina se construye con calidad consistente, una superficie suave de fibra de vidrio y una selección de formas que se adaptan a diferentes hogares y estilos de vida. Como distribuidor exclusivo en el sur de Florida, te traemos estas piscinas premium directamente."
+          "a": "Las piscinas de fibra de vidrio se fabrican en Florida, Florida, y están diseñadas para el disfrute a largo plazo del patio. Cada cáscara de piscina se construye con calidad consistente, una superficie suave de fibra de vidrio y una selección de formas que se adaptan a diferentes hogares y estilos de vida. Como distribuidor exclusivo en el sur de Florida, te traemos estas piscinas premium directamente."
         },
         {
           "q": "¿Qué garantía ofrecen?",
-          "a": "Cada cubierta de piscina de fibra de vidrio viene con garantía estructural de por vida directamente de fábrica. Esta es una garantía de por vida sobre la estructura de la piscina, respaldada por los estándares de fabricación. También ofrecemos una garantía de 3 años sobre la mano de obra de instalación."
+          "a": "Cada cubierta de piscina de fibra de vidrio viene con garantía estructural de por vida directamente de fábrica."
         },
         {
           "q": "¿Cuánto tiempo toma la instalación de una piscina de fibra de vidrio?",
@@ -426,15 +426,15 @@
         },
         {
           "q": "¿Gestionan los permisos?",
-          "a": "Sí, gestionamos todos los permisos requeridos por los condados que servimos como parte de nuestro servicio de instalación."
+          "a": "Sí, gestionamos todos los permisos requeridos por los condados que servimos como parte del servicio de instalación."
         },
         {
           "q": "¿Puedo ver las piscinas en persona?",
-          "a": "Por supuesto. Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, en 21500 S Dixie Hwy, Miami, muestra más de 150 estilos de piscinas. Abierto lunes a viernes 9am-5pm, sábado 9am-1pm."
+          "a": "Por supuesto. Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, en 21500 S Dixie Hwy, Miami. Abierto lunes a viernes 9am-5pm, sábado 9am-1pm."
         },
         {
           "q": "¿Ofrecen financiamiento?",
-          "a": "Sí, trabajamos con Hearth para ofrecer opciones de pago mensual. Puedes pre-calificarte en minutos sin afectar tu puntaje crediticio."
+          "a": "Sí, trabajamos con Hearth y HFS para ofrecer opciones de pago mensual. Puedes pre-calificarte en minutos sin afectar tu puntaje crediticio."
         },
         {
           "q": "¿Qué áreas cubren?",
@@ -524,7 +524,8 @@
       "upTo16": "Hasta 16 pies",
       "16to22": "16–22 pies",
       "22plus": "22+ pies",
-      "spa": "Spa"
+      "spa": "Spa",
+      "ledge": "Plataforma de bronceado"
     },
     "baseModel": "Modelo base",
     "finishColor": "Color de acabado",

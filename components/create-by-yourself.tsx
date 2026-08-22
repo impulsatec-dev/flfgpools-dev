@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useMemo, useState, type ComponentType, type ReactNode } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
@@ -31,6 +32,7 @@ const sizeOptions = [
   { value: '16to22' },
   { value: '22plus' },
   { value: 'spa' },
+  { value: 'ledge' },
 ] as const;
 
 const fallbackImages = [
@@ -103,7 +105,8 @@ export function CreateByYourself() {
   const compatiblePools = useMemo(() => {
     if (form.poolType === 'spa') return pools.filter((pool) => pool.productClass === 'spa');
     if (form.size === 'spa') return pools.filter((pool) => pool.productClass === 'spa');
-    return pools.filter((pool) => pool.productClass !== 'spa' && pool.sizeCategory === form.size);
+    if (form.size === 'ledge') return pools.filter((pool) => pool.productClass === 'ledge');
+    return pools.filter((pool) => pool.productClass !== 'spa' && pool.productClass !== 'ledge' && pool.sizeCategory === form.size);
   }, [form.poolType, form.size]);
 
   const selectedPool = useMemo(() => {
@@ -117,7 +120,7 @@ export function CreateByYourself() {
   }, [form.backyardAccess, form.extras.length, selectedPool.priceInitial]);
 
   const selectedColor = poolColors.find((c) => c.name === form.color) || poolColors[0];
-  const previewImage = selectedColor.referenceImages[0] || fallbackImages[step] || fallbackImages[0];
+  const previewImage = selectedPool.images[0] || fallbackImages[step] || fallbackImages[0];
 
   const update = <Key extends keyof FormState>(key: Key, value: FormState[Key]) => {
     setForm((current) => ({ ...current, [key]: value }));
@@ -196,16 +199,23 @@ export function CreateByYourself() {
           >
             <div className="relative h-full min-h-[380px] sm:min-h-[620px]">
               <AnimatePresence mode="wait">
-                <motion.img
+                <motion.div
                   key={previewImage}
-                  src={previewImage}
-                  alt={t('previewAlt')}
                   initial={reduce ? false : { opacity: 0, scale: 1.05 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.98 }}
                   transition={{ duration: 0.45 }}
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
+                  className="absolute inset-0 h-full w-full"
+                >
+                  <Image
+                    src={previewImage}
+                    alt={t('previewAlt')}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                    priority
+                  />
+                </motion.div>
               </AnimatePresence>
               <div className="absolute inset-0 bg-gradient-to-t from-pool-deep via-pool-deep/40 to-transparent" />
               <div className="absolute left-4 right-4 top-4 sm:left-6 sm:right-6 sm:top-6 flex items-center justify-between gap-3">
@@ -219,8 +229,14 @@ export function CreateByYourself() {
                       <p className="text-xs uppercase tracking-[0.24em] text-white/60">{t('orientativeFrom')}</p>
                       <p className="mt-1 text-2xl sm:text-4xl font-bold">{selectedPool.priceInitial != null ? formatCurrency(estimatedFrom, 'en-US') : t('contactForPricing')}</p>
                     </div>
-                    <div className="h-10 w-10 sm:h-14 sm:w-14 overflow-hidden rounded-full shadow-lg ring-1 ring-white/50">
-                      <img src={selectedColor.colorChip} alt={form.color} className="h-full w-full object-cover" />
+                    <div className="h-10 w-10 sm:h-14 sm:w-14 overflow-hidden rounded-full shadow-lg ring-1 ring-white/50 relative">
+                      <Image
+                        src={selectedColor.colorChip}
+                        alt={form.color}
+                        fill
+                        sizes="(max-width: 768px) 40px, 56px"
+                        className="object-cover"
+                      />
                     </div>
                   </div>
                   <p className="mt-4 text-sm text-white/70">
@@ -285,7 +301,7 @@ export function CreateByYourself() {
                             active={form.size === item.value}
                             onClick={() => {
                               update('size', item.value);
-                              const first = pools.find((pool) => pool.sizeCategory === item.value && pool.productClass !== 'spa');
+                              const first = pools.find((pool) => pool.sizeCategory === item.value && pool.productClass !== 'spa' && pool.productClass !== 'ledge');
                               if (first) update('model', first.slug);
                             }}
                           >
@@ -325,11 +341,13 @@ export function CreateByYourself() {
                             )}
                           >
                             <div className="relative h-20 overflow-hidden rounded-xl">
-                              <img
+                              <Image
                                 src={color.modelImage}
                                 alt={color.name}
+                                fill
+                                sizes="(max-width: 768px) 50vw, 25vw"
                                 className={cn(
-                                  'h-full w-full object-cover transition-transform duration-300',
+                                  'object-cover transition-transform duration-300',
                                   form.color === color.name ? 'scale-105' : 'scale-100'
                                 )}
                               />

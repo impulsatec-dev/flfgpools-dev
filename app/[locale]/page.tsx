@@ -212,11 +212,11 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
                   <span className="flex items-center gap-3"><span className="h-px w-8 bg-pool-aqua" />FLFG Pools / Visual archive</span>
                   <span>02 / 04</span>
                 </div>
-                <div className="grid h-[55vh] grid-cols-[0.72fr_1fr_1.18fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
+                <div className="grid h-[55vh] grid-cols-[1.8fr_1.9fr_0.1fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
                   {[
-                    { src: '/home/3-FloridaFiberglassPools.jpg', alt: 'FLFG Pools fiberglass pool installation', className: 'h-[48%] self-end min-[768px]:h-[55%]' },
-                    { src: '/home/7-FloridaFiberglassPools.jpg', alt: 'FLFG Pools Rainforest pool model', className: 'h-[76%] self-start min-[768px]:h-[78%]' },
-                    { src: '/home/2-FloridaFiberglassPools.jpg', alt: 'FLFG Pools Type A pool model', className: 'h-[90%] self-center min-[768px]:h-[92%]' },
+                    // { src: '/about/FloridaFiberglassPools-39.jpg', alt: 'FLFG Pools fiberglass pool installation', className: 'h-[48%] self-end min-[768px]:h-[55%]' },
+                    { src: '/about/FloridaFiberglassPools-147.jpg', alt: 'FLFG Pools Rainforest pool model', className: 'h-[76%] self-start min-[768px]:h-[78%]' },
+                    { src: '/about/FloridaFiberglassPools-236.jpg', alt: 'FLFG Pools Type A pool model', className: 'h-[90%] self-center min-[768px]:h-[92%]' },
                   ].map((image) => (
                     <figure key={image.src} className={`group relative min-h-0 overflow-hidden bg-pool-mist/40 shadow-[0_24px_55px_rgba(8,47,73,0.16)] ring-1 ring-pool-deep/10 ${image.className}`}>
                       <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 30vw, 26vw" className="object-cover transition duration-700 ease-out motion-reduce:transition-none group-hover:scale-105" />
@@ -238,11 +238,11 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
                   <span className="flex items-center gap-3"><span className="h-px w-8 bg-pool-aqua" />FLFG Pools / Visual archive</span>
                   <span>03 / 04</span>
                 </div>
-                <div className="grid h-[55vh] grid-cols-[1.18fr_0.72fr_1fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
+                <div className="grid h-[55vh] grid-cols-[1.8fr_1.72fr_0.1fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
                   {[
-                    { src: '/home/13-FloridaFiberglassPools.jpg', alt: 'FLFG Pools large pool collection', className: 'h-[90%] self-start min-[768px]:h-[92%]' },
-                    { src: '/home/15-FloridaFiberglassPools.jpg', alt: 'FLFG Pools 16ft x 22ft pool model', className: 'h-[56%] self-end min-[768px]:h-[58%]' },
-                    { src: '/home/10-FloridaFiberglassPools.jpg', alt: 'FLFG Pools showroom building', className: 'h-[76%] self-center min-[768px]:h-[82%]' },
+                    { src: '/about/FloridaFiberglassPools-252.jpg', alt: 'FLFG Pools large pool collection', className: 'h-[90%] self-start min-[768px]:h-[92%]' },
+                    // { src: '/about/FloridaFiberglassPools-298.jpg', alt: 'FLFG Pools 16ft x 22ft pool model', className: 'h-[56%] self-end min-[768px]:h-[58%]' },
+                    { src: '/about/FloridaFiberglassPools-326.jpg', alt: 'FLFG Pools showroom building', className: 'h-[76%] self-center min-[768px]:h-[78%]' },
                   ].map((image) => (
                     <figure key={image.src} className={`group relative min-h-0 overflow-hidden bg-pool-mist/40 shadow-[0_24px_55px_rgba(8,47,73,0.16)] ring-1 ring-pool-deep/10 ${image.className}`}>
                       <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 30vw, 26vw" className="object-cover transition duration-700 ease-out motion-reduce:transition-none group-hover:scale-105" />
@@ -397,7 +397,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               </h2>
               <p className="mt-4 text-pool-deep/70">{t('financing.description')}</p>
               <a
-                href="https://www.hearth.com"
+                href="https://app.gethearth.com/partners/florida-fiberglass-pools-llc?utm_campaign=55117&utm_content=darkblue&utm_medium=contractor-website&utm_source=contractor&utm_term=310x120"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="glass-btn-primary hero-cta-primary mt-6 inline-flex items-center gap-2 glass-btn-primary px-5 py-2 text-white"

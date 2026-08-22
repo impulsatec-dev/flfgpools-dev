@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useState, useMemo, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
@@ -167,11 +168,15 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
               key={color.name}
               className="flex flex-col items-center gap-2 group cursor-pointer"
             >
-              <img
-                src={color.colorChip}
-                alt={color.name}
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg transition-transform duration-300 group-hover:scale-110 object-cover"
-              />
+              <div className="relative w-20 h-20 rounded-full border-4 border-white shadow-lg overflow-hidden transition-transform duration-300 group-hover:scale-110">
+                <Image
+                  src={color.colorChip}
+                  alt={color.name}
+                  fill
+                  sizes="80px"
+                  className="object-cover"
+                />
+              </div>
               <span className="text-xs font-medium text-pool-deep/70 group-hover:text-pool-deep transition-colors">
                 {color.name}
               </span>

@@ -31,6 +31,10 @@ next-env.d.ts
 
 /mock
 
+/unused
+unused_images.txt
+unused_about.txt
+unused_pools.txt
 /docs
 docs/superpowers/specs/2026-08-03-about-horizontal-mockups-design.md
 

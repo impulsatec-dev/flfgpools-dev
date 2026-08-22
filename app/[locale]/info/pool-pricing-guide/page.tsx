@@ -113,7 +113,7 @@ export default function PoolPricingGuidePage({ params: { locale } }: { params: {
             </div>
             <div className="relative w-64 shrink-0 overflow-hidden aspect-[4/3] sm:w-80 md:w-96 lg:w-[28rem] xl:w-[32rem] lg:aspect-auto lg:-mr-12 lg:self-stretch rounded-3xl">
               <Image
-                src="/home/22ormore.webp"
+                src="/projects/R2-vert.jpg"
                 alt={t('costHero.title')}
                 fill
                 sizes="(max-width: 1024px) 100vw, 32rem"

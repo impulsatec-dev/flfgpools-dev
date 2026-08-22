@@ -107,7 +107,7 @@ export default function PoolBenefitsPage({ params: { locale } }: { params: { loc
             </div>
             <div className="relative w-64 shrink-0 overflow-hidden aspect-[4/3] sm:w-80 md:w-96 lg:w-[28rem] xl:w-[32rem] lg:aspect-auto lg:-mr-12 lg:self-stretch rounded-3xl">
               <Image
-                src="/header/bg.png"
+                src="/iso-models/Pools/Brasilia/Showroom/Brasilia-Charlotte-NC.avif"
                 alt={t('hero.title')}
                 fill
                 sizes="(max-width: 1024px) 100vw, 32rem"

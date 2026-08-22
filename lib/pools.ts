@@ -318,10 +318,11 @@ export const pools: Pool[] = [
     dimensionsText: { width: "8'", length: "16'", depth: "5'" },
     waterVolumeGallons: 3500, weight: 1500,
     images: [
-      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grand-1.jpeg',
+      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grand-1.JPEG',
       '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-2.webp',
-      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grand-3.jpeg',
-      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-8.jpg.jpeg.webp',
+      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-3.jpeg',
+      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-8.jpg.JPEG.webp',
+      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-Tropical-Blue-1.-AquaPat-2024.webp',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Neblina-Grande/Neblina-Grande-plan.png',
@@ -345,10 +346,10 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'6"', length: '22\'8"', depth: '10"-3\'6"-5\'' },
     waterVolumeGallons: 7000, weight: 2500,
     images: [
-      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-1.jpeg',
+      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-1.JPEG',
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-2.jpg',
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-9.25.25.avif',
-      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-LSP.webp',
+      // '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-LSP.webp',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Cali-Cove/Cali-Cove-plan.png',
@@ -371,9 +372,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "12'", length: "25'", depth: '3\'5"-5\'6"' },
     waterVolumeGallons: 7000, weight: 2500,
     images: [
-      '/iso-models/Pools/Costa-Rica/Showroom/costa-rica-1.webp',
+      '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-1.webp',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-GPT.webp',
-      '/iso-models/Pools/Costa-Rica/Showroom/costa-rica-2.jpeg',
+      '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-2.JPEG',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-18.jpg',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-Cumba-Spa-Gray-compressed.webp',
     ],
@@ -402,7 +403,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-9.30.avif',
       '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-69.webp',
       '/iso-models/Pools/Costa-Beach/Showroom/img_2533-1.webp',
-      '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-2.jpeg',
+      '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-2.JPEG',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Costa-Beach/Costa-Beach-plan.png',
@@ -426,9 +427,9 @@ export const pools: Pool[] = [
     waterVolumeGallons: 7000, weight: 2300,
     images: [
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.webp',
+      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.JPEG',
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-9.25.25.avif',
-      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-2.jpeg',
-      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Grande-Tropical-Blue-1.-AquaPat-2024.webp',
+      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-2.JPEG',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Neblina-Beach/Neblina-Beach-plan.png',
@@ -452,12 +453,12 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'6"', length: '26\'4"', depth: '10"-3\'6"-5\'4"' },
     waterVolumeGallons: 7500, weight: 3000,
     images: [
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-1.jpeg',
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-2.avif',
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-3.jpeg',
-      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-4.jpeg',
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-5.jpg',
-      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-pat-compressed.webp',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-1.JPEG',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-2.avif',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-3.JPEG',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-4.JPEG',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-5.jpg',
+      // '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-pat-compressed.webp',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Colombian-Cove/Columbian-Cove-plan.png',
@@ -481,9 +482,10 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'5"', length: '26\'4"', depth: '3\'6"-5\'4"' },
     waterVolumeGallons: 8000, weight: 3000,
     images: [
-      '/iso-models/Pools/Colombian/Showroom/Columbian-1.jpeg',
-      '/iso-models/Pools/Colombian/Showroom/Columbian-2.jpeg',
-      '/iso-models/Pools/Colombian/Showroom/Columbian-3.jpeg',
+      '/iso-models/Pools/Colombian/Showroom/Columbian-2.JPEG',
+      '/iso-models/Pools/Colombian/Showroom/Columbian-3.JPEG',
+      '/iso-models/Pools/Colombian/Showroom/Columbian-4.JPEG',
+      '/iso-models/Pools/Colombian/Showroom/Colombian.avif',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Colombian/Columbian-Pool-plan.png',
@@ -507,7 +509,6 @@ export const pools: Pool[] = [
     waterVolumeGallons: 9000, weight: 3300,
     images: [
       '/iso-models/Pools/Colombian-Beach/Showroom/Columbian-Beach.png',
-      '/iso-models/Pools/Colombian-Beach/Showroom/Colombian.avif',
       '/iso-models/Pools/Colombian-Beach/Showroom/Colombian-Beach-ECL.png',
       '/iso-models/Pools/Colombian-Beach/Showroom/Colombian-Beach-3.jpeg',
     ],
@@ -533,9 +534,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "14'", length: "30'", depth: '3\'5"-5\'11"' },
     waterVolumeGallons: 10000, weight: 3000,
     images: [
-      '/iso-models/Pools/Roatan/Showroom/Roatan-1.jpeg',
+      '/iso-models/Pools/Roatan/Showroom/Roatan-1.JPEG',
       '/iso-models/Pools/Roatan/Showroom/Roatan-11.12-2.avif',
-      '/iso-models/Pools/Roatan/Showroom/Roatan-2.jpeg',
+      '/iso-models/Pools/Roatan/Showroom/Roatan-2.JPEG',
       '/iso-models/Pools/Roatan/Showroom/img_2285-1.webp',
     ],
     imagesIsoModels: [
@@ -559,7 +560,7 @@ export const pools: Pool[] = [
     dimensionsText: { width: "14'", length: "35'", depth: '10"-3\'6"-5\'11"' },
     waterVolumeGallons: 10000, weight: 3800,
     images: [
-      '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-1.jpeg',
+      '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-1.JPEG',
       '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-Deland-FL.avif',
       '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-White-ECL.webp',
     ],
@@ -584,9 +585,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "14'", length: "30'", depth: '3\'6"-6\'' },
     waterVolumeGallons: 11500, weight: 3500,
     images: [
-      '/iso-models/Pools/Brasilia/Showroom/Brasilia-1.jpeg',
+      '/iso-models/Pools/Brasilia/Showroom/Brasilia-1.JPEG',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia_Sky_Blue.png',
-      '/iso-models/Pools/Brasilia/Showroom/Brasilia-2.jpeg',
+      '/iso-models/Pools/Brasilia/Showroom/Brasilia-2.JPEG',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia-Another.webp',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia-Rands.avif',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia-Set-N-Stone.webp',
@@ -614,7 +615,7 @@ export const pools: Pool[] = [
     images: [
       '/iso-models/Pools/Belize/Showroom/Belize-Danny-B-11.4.25.avif',
       '/iso-models/Pools/Belize/Showroom/Belize-Installed-8-1-rotated.webp',
-      '/iso-models/Pools/Belize/Showroom/Belize-render.jpeg',
+      '/iso-models/Pools/Belize/Showroom/Belize-Render.JPEG',
       '/iso-models/Pools/Belize/Showroom/Quatro-Rio-Belize-1.webp',
     ],
     imagesIsoModels: [
@@ -637,6 +638,7 @@ export const pools: Pool[] = [
     dimensionsText: { width: "12'", length: "33'", depth: '3\'5"-5\'4"' },
     waterVolumeGallons: 7100, weight: 3000,
     images: [
+      '/iso-models/Pools/Colombian-Resort/Showroom/R13-1.jpg',
       '/iso-models/Pools/Colombian-Resort/Showroom/Colombian-Resort-Compressed.webp',
       '/iso-models/Pools/Colombian-Resort/Showroom/Colombian-Resort-2.webp',
     ],
@@ -658,10 +660,11 @@ export const pools: Pool[] = [
     dimensionsText: { width: "7'", length: "14'", depth: "4'" },
     waterVolumeGallons: 2500, weight: 1500,
     images: [
+      '/iso-models/Pools/Nova/Showroom/Nova-7.jpg',
       '/iso-models/Pools/Nova/Showroom/Nova-1.jpg',
       '/iso-models/Pools/Nova/Showroom/Nova-2.jpg',
       '/iso-models/Pools/Nova/Showroom/Nova-3.jpg',
-      '/iso-models/Pools/Nova/Showroom/Nova-5.jpg',
+      '/iso-models/Pools/Nova/Showroom/Nova-6.jpg',
       '/iso-models/Pools/Nova/Showroom/Nova-MW.webp',
     ],
     imagesIsoModels: [
@@ -844,7 +847,7 @@ export const pools: Pool[] = [
     waterVolumeGallons: 400, weight: 250,
     images: [
       '/iso-models/Ledges/Rio-Ledge/Showroom/RL2.jpg',
-      '/iso-models/Ledges/Rio-Ledge/Showroom/RL2-1.jpeg',
+      '/iso-models/Ledges/Rio-Ledge/Showroom/RL2-1.JPEG',
     ],
     imagesIsoModels: [
       '/iso-models/Ledges/Rio-Ledge/Rio-Tan-Ledge-plan.png',

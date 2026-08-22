@@ -71,9 +71,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['showroom', 'visitar', 'localizacao', 'locacao', 'lugar', 'endereco', 'ver piscinas', 'ver as piscinas pessoalmente', 'ver piscinas pessoalmente', 'loja', 'local', 'como chego', 'onde fica', 'horarios do showroom', 'endereco do showroom'],
     },
     answer: {
-      en: 'You can visit us to appreciate the quality of our products, colors, and more. is at 21500 S Dixie Hwy, Miami, FL 33189. We display over 150 pool styles in person. Open Monday–Friday 9am–5pm, Saturday 9am–1pm, Sunday closed. Come see our pools in person!',
-      es: 'Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, está en 21500 S Dixie Hwy, Miami, FL 33189. Mostramos más de 150 estilos de piscinas en persona. Abierto lunes a viernes de 9am a 5pm, sábados de 9am a 1pm, domingos cerrado. ¡Ven a ver nuestras piscinas en persona!',
-      pt: 'Nosso showroom de 8.000 sqft está em 21500 S Dixie Hwy, Miami, FL 33189. Exibimos mais de 150 estilos de piscinas pessoalmente. Aberto de segunda a sexta das 9h às 17h, sábados das 9h às 13h, domingos fechado. Venha ver nossas piscinas pessoalmente!',
+      en: 'You can visit us to appreciate the quality of our products, colors, and more. is at 21500 S Dixie Hwy, Miami, FL 33189. Open Monday–Friday 9am–5pm, Saturday 9am–1pm, Sunday closed. Come see our pools in person!',
+      es: 'Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, está en 21500 S Dixie Hwy, Miami, FL 33189. Abierto lunes a viernes de 9am a 5pm, sábados de 9am a 1pm, domingos cerrado. ¡Ven a ver nuestras piscinas en persona!',
+      pt: 'Nosso showroom de 8.000 sqft está em 21500 S Dixie Hwy, Miami, FL 33189. Aberto de segunda a sexta das 9h às 17h, sábados das 9h às 13h, domingos fechado. Venha ver nossas piscinas pessoalmente!',
     },
   },
   {
@@ -99,9 +99,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['o que torna as piscinas de fibra de vidro diferentes', 'fibra', 'vidro', 'diferente', 'faz', 'unico', 'especial'],
     },
     answer: {
-      en: 'Fiberglass pools are manufactured in Orlando, Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes. As the exclusive distributor for South Florida, we bring these premium pools directly to you.',
-      es: 'Las piscinas de fibra de vidrio se fabrican en Orlando, Florida y están diseñadas para el disfrute a largo plazo del patio. Cada casco de piscina se construye con calidad consistente, una superficie lisa de fibra de vidrio y una selección de formas que funcionan para diferentes hogares. Como distribuidor exclusivo del sur de Florida, le traemos estas piscinas premium directamente.',
-      pt: 'As piscinas de fibra de vidro são fabricadas em Orlando, Flórida e projetadas para desfrute a longo prazo do quintal. Cada casco de piscina é construído com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formas que funcionam para diferentes lares. Como distribuidor exclusivo do sul da Flórida, trazemos essas piscinas premium diretamente para você.',
+      en: 'Fiberglass pools are manufactured in Florida, Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes. As the exclusive distributor for South Florida, we bring these premium pools directly to you.',
+      es: 'Las piscinas de fibra de vidrio se fabrican en Florida, Florida y están diseñadas para el disfrute a largo plazo del patio. Cada casco de piscina se construye con calidad consistente, una superficie lisa de fibra de vidrio y una selección de formas que funcionan para diferentes hogares. Como distribuidor exclusivo del sur de Florida, le traemos estas piscinas premium directamente.',
+      pt: 'As piscinas de fibra de vidro são fabricadas em Florida, Flórida e projetadas para desfrute a longo prazo do quintal. Cada casco de piscina é construído com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formas que funcionam para diferentes lares. Como distribuidor exclusivo do sul da Flórida, trazemos essas piscinas premium diretamente para você.',
     },
     link: {
       en: '/info/faqs',
@@ -117,9 +117,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['que garantia voces oferecem', 'garantia', 'garantias', 'vitalicia', 'garantia estrutural', 'quais garantias existem', 'qual garantia oferecem', 'estrutural', 'garantir'],
     },
     answer: {
-      en: 'Every fiberglass pool shell comes with a lifetime structural warranty directly from the factory. This is a lifetime warranty on the pool shell structure, backed by manufacturing standards. We also provide a 3-year warranty on installation workmanship.',
-      es: 'Cada casco de piscina de fibra de vidrio viene con una garantía estructural de por vida directamente de la fábrica. Esta es una garantía de por vida en la estructura del casco, respaldada por los estándares de fabricación. También proporcionamos una garantía de 3 años en la mano de obra de instalación.',
-      pt: 'Cada casco de piscina de fibra de vidro vem com uma garantia estrutural vitalícia diretamente da fábrica. Esta é uma garantia vitalícia na estrutura do casco, respaldada pelos padrões de fabricação. Também fornecemos uma garantia de 3 anos na mão de obra de instalação.',
+      en: 'Every fiberglass pool shell comes with a lifetime structural warranty directly from the factory.',
+      es: 'Cada casco de piscina de fibra de vidrio viene con una garantía estructural de por vida directamente de la fábrica.',
+      pt: 'Cada casco de piscina de fibra de vidro vem com uma garantia estrutural vitalícia diretamente da fábrica.',
     },
     link: {
       en: '/info/faqs',
@@ -215,22 +215,22 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['permiso', 'permisos', 'codigo', 'construcao', 'regulamentos'],
     },
     answer: {
-      en: 'Yes, we handle all permits required by the counties we serve as part of our installation service.',
-      es: 'Sí, manejamos todos los permisos requeridos por los condados que servimos como parte de nuestro servicio de instalación.',
-      pt: 'Sim, cuidamos de todas as permissões exigidas pelos condados que servimos como parte do nosso serviço de instalação.',
+      en: 'Yes, we handle all permits required by the counties we serve as part of the installation service.',
+      es: 'Sí, manejamos todos los permisos requeridos por los condados que servimos como parte del servicio de instalación.',
+      pt: 'Sim, cuidamos de todas as permissões exigidas pelos condados que servimos como parte do serviço de instalação.',
     },
   },
   {
     id: 'faq-financing',
     keywords: {
-      en: ['do you offer financing', 'financing', 'finance', 'payment', 'monthly', 'loan', 'credit', 'hearth', 'afford'],
-      es: ['ofrecen financiamiento', 'financiamiento', 'financiacion', 'pago', 'mensual', 'prestamo', 'credito', 'afordar'],
-      pt: ['voces oferecem financiamento', 'financiamento', 'pagamento', 'mensal', 'emprestimo', 'credito', 'afordar'],
+      en: ['do you offer financing', 'financing', 'finance', 'payment', 'monthly', 'loan', 'credit', 'hearth', 'hfs', 'afford'],
+      es: ['ofrecen financiamiento', 'financiamiento', 'financiacion', 'pago', 'mensual', 'prestamo', 'credito', 'hfs', 'afordar'],
+      pt: ['voces oferecem financiamento', 'financiamento', 'pagamento', 'mensal', 'emprestimo', 'credito', 'hfs', 'afordar'],
     },
     answer: {
       en: 'Yes, we partner with Hearth and HFS to offer monthly payment options. You can pre-qualify in minutes without affecting your credit score.',
-      es: 'Sí, nos asociamos con Hearth para ofrecer opciones de pago mensual. Puede precalificarse en minutos sin afectar su puntaje crediticio.',
-      pt: 'Sim, fazemos parceria com a Hearth para oferecer opções de pagamento mensal. Você pode pré-qualificar em minutos sem afetar seu score de crédito.',
+      es: 'Sí, nos asociamos con Hearth y HFS para ofrecer opciones de pago mensual. Puede precalificarse en minutos sin afectar su puntaje crediticio.',
+      pt: 'Sim, fazemos parceria com a Hearth e HFS para oferecer opções de pagamento mensal. Você pode pré-qualificar em minutos sem afetar seu score de crédito.',
     },
   },
   {
@@ -407,9 +407,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['preco', 'precos', 'custo', 'custa', 'caro', 'orcamento', 'estimado', 'precos de piscinas', 'quanto custa uma piscina'],
     },
     answer: {
-      en: 'Fiberglass pool project costs vary based on scope, size, site conditions, and customization. Key factors include pool size, site access, electrical/plumbing, patio decking, permits, and optional upgrades like LED lighting, heaters, or water features. For accurate pricing, we recommend requesting a free quote. We also offer financing through Hearth with monthly payment options.',
-      es: 'Los costos del proyecto de piscina de fibra de vidrio varían según el alcance, tamaño, condiciones del sitio y personalización. Los factores clave incluyen tamaño de la piscina, acceso al sitio, electricidad/plomería, patio, permisos y mejoras opcionales como iluminación LED, calentadores o características de agua. Para precios precisos, recomendamos solicitar una cotización gratis. También ofrecemos financiamiento a través de Hearth con opciones de pago mensual.',
-      pt: 'Os custos do projeto de piscina de fibra de vidro variam conforme o escopo, tamanho, condições do local e personalização. Os fatores principais incluem tamanho da piscina, acesso ao local, eletricidade/encanamento, pátio, permissões e melhorias opcionais como iluminação LED, aquecedores ou recursos de água. Para preços precisos, recomendamos solicitar um orçamento gratuito. Também oferecemos financiamento através da Hearth com opções de pagamento mensal.',
+      en: 'Fiberglass pool project costs vary based on scope, size, site conditions, and customization. Key factors include pool size, site access, electrical/plumbing, patio decking, permits, and optional upgrades like LED lighting, heaters, or water features. For accurate pricing, we recommend requesting a free quote. We also offer financing through Hearth and HFS with monthly payment options.',
+      es: 'Los costos del proyecto de piscina de fibra de vidrio varían según el alcance, tamaño, condiciones del sitio y personalización. Los factores clave incluyen tamaño de la piscina, acceso al sitio, electricidad/plomería, patio, permisos y mejoras opcionales como iluminación LED, calentadores o características de agua. Para precios precisos, recomendamos solicitar una cotización gratis. También ofrecemos financiamiento a través de Hearth y HFS con opciones de pago mensual.',
+      pt: 'Os custos do projeto de piscina de fibra de vidro variam conforme o escopo, tamanho, condições do local e personalização. Os fatores principais incluem tamanho da piscina, acesso ao local, eletricidade/encanamento, pátio, permissões e melhorias opcionais como iluminação LED, aquecedores ou recursos de água. Para preços precisos, recomendamos solicitar um orçamento gratuito. Também oferecemos financiamento através da Hearth e HFS com opções de pagamento mensal.',
     },
     link: {
       en: '/info/pool-pricing-guide',

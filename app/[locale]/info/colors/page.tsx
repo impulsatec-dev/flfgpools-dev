@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { poolColors } from '@/lib/pools';
 import { cn } from '@/lib/utils';
@@ -37,16 +38,22 @@ export default function ColorsPage({ params: { locale } }: { params: { locale: s
                 index % 2 === 1 ? 'md:order-2' : ''
               )}>
                 <div className="relative">
-                  <img
-                    src={color.modelImage}
-                    alt={`${color.name} pool`}
-                    className="w-full rounded-2xl shadow-xl object-cover aspect-[2/1]"
-                  />
+                  <div className="relative w-full rounded-2xl shadow-xl overflow-hidden aspect-[2/1]">
+                    <Image
+                      src={color.modelImage}
+                      alt={`${color.name} pool`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full border-4 border-white shadow-lg overflow-hidden bg-white">
-                    <img
+                    <Image
                       src={color.colorChip}
                       alt={`${color.name} color chip`}
-                      className="w-full h-full object-cover"
+                      fill
+                      sizes="96px"
+                      className="object-cover"
                     />
                   </div>
                 </div>

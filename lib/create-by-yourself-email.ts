@@ -13,7 +13,7 @@ import {
 
 export const createByYourselfLeadSchema = z.object({
   poolType: z.enum(['pool', 'spa', 'tanning-ledge']),
-  size: z.enum(['upTo16', '16to22', '22plus', 'spa']),
+  size: z.enum(['upTo16', '16to22', '22plus', 'spa', 'ledge']),
   model: z.string().min(1),
   color: z.string().min(1),
   extras: z.array(z.string()).default([]),
@@ -38,6 +38,7 @@ const labels: Record<string, string> = {
   upTo16: 'Up to 16 ft',
   '16to22': '16 ft – 22 ft',
   '22plus': '22 ft or more',
+  ledge: 'Tanning ledge',
   'wide-open': 'Wide open access',
   'standard-gate': 'Standard gate',
   'tight-access': 'Tight access',
