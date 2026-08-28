@@ -493,9 +493,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "12'", length: "25'", depth: '3\'5"-5\'6"' },
     waterVolumeGallons: 7000, weight: 2500,
     images: [
-      '/iso-models/Pools/Costa-Rica/Showroom/costa-rica-1.webp',
+      '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-1.webp',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-GPT.webp',
-      '/iso-models/Pools/Costa-Rica/Showroom/costa-rica-2.jpeg',
+      '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-2.jpeg',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-18.jpg',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-Cumba-Spa-Gray-compressed.webp',
     ],
@@ -550,7 +550,7 @@ export const pools: Pool[] = [
     waterVolumeGallons: 7000, weight: 2300,
     images: [
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.webp',
-      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.JPEG',
+      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.jpeg',
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-9.25.25.avif',
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-2.jpeg',
     ],
@@ -577,10 +577,10 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'6"', length: '26\'4"', depth: '10"-3\'6"-5\'4"' },
     waterVolumeGallons: 7500, weight: 3000,
     images: [
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-1.jpeg',
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-2.avif',
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-3.jpeg',
-      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-4.jpeg',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-1.jpeg',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-2.avif',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-3.jpeg',
+      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-4.jpeg',
       '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-5.jpg',
       // '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-pat-compressed.webp',
     ],
@@ -609,7 +609,7 @@ export const pools: Pool[] = [
     images: [
       '/iso-models/Pools/Colombian/Showroom/Columbian-2.jpeg',
       '/iso-models/Pools/Colombian/Showroom/Columbian-3.jpeg',
-      '/iso-models/Pools/Colombian/Showroom/Columbian-4.JPEG',
+      '/iso-models/Pools/Colombian/Showroom/Columbian-4.jpeg',
       '/iso-models/Pools/Colombian/Showroom/Colombian.avif',
     ],
     imagesIsoModels: [
