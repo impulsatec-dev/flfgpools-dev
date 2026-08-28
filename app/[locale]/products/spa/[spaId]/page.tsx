@@ -212,7 +212,7 @@ export default function SpaDetailPage({
             </div>
 
             {/* Features */}
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <h2 className="text-xl font-display font-bold mb-3">{t('detail.features')}</h2>
               <ul className="space-y-2">
                 {pool.features[locale as keyof typeof pool.features]?.map((feature, i) => (
@@ -227,7 +227,7 @@ export default function SpaDetailPage({
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Colors */}
             {pool.colors.length > 0 && (

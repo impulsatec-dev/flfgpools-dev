@@ -215,7 +215,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
                 <div className="grid h-[55vh] grid-cols-[1.8fr_1.9fr_0.1fr] items-center gap-3 sm:gap-5 min-[768px]:h-[68vh] min-[768px]:gap-4 min-[1024px]:gap-8">
                   {[
                     // { src: '/about/FloridaFiberglassPools-39.jpg', alt: 'FLFG Pools fiberglass pool installation', className: 'h-[48%] self-end min-[768px]:h-[55%]' },
-                    { src: '/about/FloridaFiberglassPools-147.jpg', alt: 'FLFG Pools Rainforest pool model', className: 'h-[76%] self-start min-[768px]:h-[78%]' },
+                    { src: '/about/FloridaFiberglassPools-147.jpg', alt: 'Florida Fiberglass Pools pool model', className: 'h-[76%] self-start min-[768px]:h-[78%]' },
                     { src: '/about/FloridaFiberglassPools-236.jpg', alt: 'FLFG Pools Type A pool model', className: 'h-[90%] self-center min-[768px]:h-[92%]' },
                   ].map((image) => (
                     <figure key={image.src} className={`group relative min-h-0 overflow-hidden bg-pool-mist/40 shadow-[0_24px_55px_rgba(8,47,73,0.16)] ring-1 ring-pool-deep/10 ${image.className}`}>
