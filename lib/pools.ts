@@ -347,6 +347,7 @@ export const pools: Pool[] = [
     waterVolumeGallons: 7000, weight: 2500,
     images: [
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-1.JPEG',
+      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove.jpeg',
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-2.jpg',
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-9.25.25.avif',
       // '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-LSP.webp',
@@ -662,6 +663,7 @@ export const pools: Pool[] = [
     waterVolumeGallons: 2500, weight: 1500,
     images: [
       '/iso-models/Pools/Nova/Showroom/Nova-7.jpg',
+      '/iso-models/Pools/Nova/Showroom/Nova.jpeg',
       '/iso-models/Pools/Nova/Showroom/Nova-1.jpg',
       '/iso-models/Pools/Nova/Showroom/Nova-2.jpg',
       '/iso-models/Pools/Nova/Showroom/Nova-3.jpg',
