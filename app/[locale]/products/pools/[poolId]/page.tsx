@@ -30,7 +30,7 @@ export async function generateMetadata({
 
   const t = await getTranslations({ locale: params.locale, namespace: 'Meta.pools' });
   const title = `${pool.modelCode} ${pool.name} — ${pool.lengthFt}ft Fiberglass Pool`;
-  const description = pool.description[params.locale as keyof typeof pool.description] || pool.description.en;
+  const description = pool.descriptionLarge?.[params.locale as keyof typeof pool.descriptionLarge] || pool.description[params.locale as keyof typeof pool.description] || pool.description.en;
   const ogImage = `/${params.locale}/opengraph-image`;
 
   return {
@@ -173,8 +173,8 @@ export default function PoolDetailPage({
               )}
             </div>
 
-            <p className="mt-6 text-lg text-pool-deep/70">
-              {pool.description[locale as keyof typeof pool.description] || pool.description.en}
+            <p className="mt-6 whitespace-pre-line text-lg leading-relaxed text-pool-deep/70">
+              {pool.descriptionLarge?.[locale as keyof typeof pool.descriptionLarge] || pool.description[locale as keyof typeof pool.description] || pool.description.en}
             </p>
 
             {/* Specs */}
@@ -217,7 +217,7 @@ export default function PoolDetailPage({
             </div>
 
             {/* Features */}
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <h2 className="text-xl font-display font-bold mb-3">{t('detail.features')}</h2>
               <ul className="space-y-2">
                 {pool.features[locale as keyof typeof pool.features]?.map((feature, i) => (
@@ -232,7 +232,7 @@ export default function PoolDetailPage({
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Colors */}
             {pool.colors.length > 0 && (

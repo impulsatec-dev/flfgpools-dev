@@ -33,7 +33,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale: params.locale, namespace: 'Meta.pools' });
 
   const title = `${pool.modelCode} ${pool.name} — ${pool.lengthFt}ft Fiberglass Pool`;
-  const description = pool.description[params.locale as keyof typeof pool.description] || pool.description.en;
+  const description = pool.descriptionLarge?.[params.locale as keyof typeof pool.descriptionLarge] || pool.description[params.locale as keyof typeof pool.description] || pool.description.en;
   const ogImage = `/${params.locale}/opengraph-image`;
 
   return {
@@ -174,8 +174,8 @@ export default function PoolDetailPage({
               )}
             </div>
 
-            <p className="mt-6 text-lg text-pool-deep/70">
-              {pool.description[locale as keyof typeof pool.description] || pool.description.en}
+            <p className="mt-6 whitespace-pre-line text-lg leading-relaxed text-pool-deep/70">
+              {pool.descriptionLarge?.[locale as keyof typeof pool.descriptionLarge] || pool.description[locale as keyof typeof pool.description] || pool.description.en}
             </p>
 
             {/* Specs */}

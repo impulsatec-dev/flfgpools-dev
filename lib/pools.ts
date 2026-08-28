@@ -115,6 +115,7 @@ export interface Pool {
   imagesIsoModels?: string[];
   colors: string[];
   description: { en: string; es: string; pt: string };
+  descriptionLarge?: { en: string; es?: string; pt?: string };
   features: { en: string[]; es: string[]; pt: string[] };
 }
 
@@ -306,6 +307,124 @@ function manufacturerDesc(code: keyof typeof _manufacturerDescriptions) {
   return _manufacturerDescriptions[code];
 }
 
+const _manufacturerDescriptionsLarge = {
+  R1: {
+    en: "The Neblina Grande fiberglass pool is a compact cocktail pool designed for homeowners who want a smaller pool with real comfort, built-in seating, and a clean rectangular look. Its 8′ x 16′ layout makes it a strong fit for patios, courtyards, side yards, screen enclosures, and smaller outdoor living spaces.\n\nOne of the biggest advantages of the Neblina Grande is its wraparound bench seating. This built-in seating gives homeowners a comfortable place to sit, cool off, gather with friends, or enjoy the water without needing a full-size backyard pool.\n\nFor homeowners comparing cocktail pools, plunge pools, and compact Florida Fiberglass Pools models, the Neblina Grande offers a polished balance of size, comfort, and everyday usability. Its clean rectangular shape pairs beautifully with paver patios, modern landscaping, outdoor seating, and covered outdoor living areas.",
+    es: "La piscina de fibra de vidrio Neblina Grande es una piscina cocktail compacta, diseñada para quienes buscan una piscina más pequeña con verdadera comodidad, asientos integrados y una apariencia rectangular limpia. Su distribución de 8′ x 16′ es ideal para patios, patios interiores, espacios laterales, cerramientos y áreas exteriores más pequeñas.\n\nUna de las mayores ventajas de la Neblina Grande son sus asientos envolventes. Esta banca integrada ofrece un lugar cómodo para sentarse, refrescarse, reunirse con amigos o disfrutar del agua sin necesitar una piscina grande.\n\nPara quienes comparan piscinas cocktail, plunge y modelos compactos de Florida Fiberglass Pools, la Neblina Grande ofrece un equilibrio elegante entre tamaño, comodidad y uso diario. Su forma rectangular combina muy bien con patios de adoquines, paisajismo moderno, muebles exteriores y áreas cubiertas.",
+    pt: "A piscina de fibra de vidro Neblina Grande é uma piscina cocktail compacta, projetada para quem busca uma piscina menor com conforto, assentos integrados e um visual retangular elegante. Seu layout de 8′ x 16′ combina bem com pátios, áreas internas, corredores laterais, espaços fechados e áreas externas menores.\n\nUma das maiores vantagens da Neblina Grande é o banco envolvente. Esse assento integrado oferece um lugar confortável para sentar, se refrescar, reunir amigos ou aproveitar a água sem precisar de uma piscina grande.\n\nPara quem compara piscinas cocktail, plunge e modelos compactos da Florida Fiberglass Pools, a Neblina Grande oferece um equilíbrio sofisticado entre tamanho, conforto e uso diário. Seu formato retangular combina muito bem com pisos de paver, paisagismo moderno, móveis externos e áreas cobertas.",
+  },
+  R2: {
+    en: "The Colombian fiberglass pool is a spacious rectangle built for homeowners who want clean lines, open swim space, and a modern backyard layout. Its straight-edge design makes it easy to pair with patios, outdoor kitchens, screen enclosures, and structured landscaping.\n\nThis model works especially well for families who want a pool that feels practical and elegant at the same time. The long rectangular shape gives swimmers room to move, play, exercise, and entertain while still maintaining a polished resort-style appearance.\n\nBuilt-in entry steps and seating make the Colombian comfortable for everyday use. Homeowners get a simple, versatile pool design that supports swimming, relaxing, and hosting without unnecessary curves or wasted space.",
+    es: "La piscina de fibra de vidrio Colombian es un modelo rectangular amplio para quienes buscan líneas limpias, espacio abierto para nadar y un diseño moderno para el patio. Su diseño recto combina fácilmente con patios, cocinas exteriores, cerramientos y paisajismo estructurado.\n\nEste modelo funciona especialmente bien para familias que buscan una piscina práctica y elegante al mismo tiempo. Su forma rectangular alargada ofrece espacio para nadar, jugar, hacer ejercicio y recibir invitados, manteniendo una apariencia refinada estilo resort.\n\nLos escalones de entrada y los asientos integrados hacen que la Colombian sea cómoda para el uso diario. Es un diseño sencillo y versátil que permite nadar, relajarse y compartir sin curvas innecesarias ni espacio desperdiciado.",
+    pt: "A piscina de fibra de vidro Colombian é um modelo retangular espaçoso para quem busca linhas limpas, área aberta para nadar e um layout moderno no quintal. Seu design reto combina facilmente com pátios, cozinhas externas, espaços fechados e paisagismo estruturado.\n\nEste modelo funciona especialmente bem para famílias que desejam uma piscina prática e elegante ao mesmo tempo. O formato retangular oferece espaço para nadar, brincar, fazer exercícios e receber convidados, mantendo uma aparência sofisticada de resort.\n\nOs degraus de entrada e os assentos integrados tornam a Colombian confortável para o uso diário. É um design simples e versátil para nadar, relaxar e receber pessoas sem curvas desnecessárias ou espaço desperdiçado.",
+  },
+  R3: {
+    en: "The Colombian Cove fiberglass pool is a compact rectangular pool designed for homeowners who want clean lines, comfortable swim space, and a polished backyard look without choosing an oversized pool. Its 12′ x 27′ layout makes it a strong fit for smaller backyards, patios, screen enclosures, side yards, and space-conscious outdoor living areas. One of the biggest strengths of the Colombian Cove is its efficient balance of size and usability. The design gives homeowners room for cooling off, floating, family time, and casual swimming, while still leaving space around the pool for decking, landscaping, seating, and outdoor living features. For homeowners comparing compact Florida Fiberglass Pools models, the Colombian Cove offers a clean, versatile shape that works well with both traditional and modern backyard designs. Its rectangular layout pairs beautifully with paver patios, covered seating areas, outdoor kitchens, and organized landscape plans.",
+    es: "La piscina Colombian Cove es un modelo rectangular compacto para quienes buscan líneas limpias, espacio cómodo para nadar y una apariencia elegante sin elegir una piscina sobredimensionada. Su diseño de 12′ x 27′ se adapta bien a patios pequeños, cerramientos, espacios laterales y áreas exteriores donde cada pie cuenta.\n\nSu principal ventaja es el equilibrio entre tamaño y funcionalidad. Ofrece espacio para refrescarse, flotar y compartir en familia, dejando lugar para terrazas, paisajismo y muebles exteriores. Su forma rectangular combina con patios de adoquines, áreas cubiertas y cocinas exteriores.",
+    pt: "A piscina Colombian Cove é um modelo retangular compacto para quem busca linhas limpas, espaço confortável para nadar e um visual sofisticado sem escolher uma piscina grande demais. Seu layout de 12′ x 27′ combina com quintais menores, espaços fechados, corredores laterais e áreas externas onde cada pé é importante.\n\nSua principal vantagem é o equilíbrio entre tamanho e funcionalidade. Ela oferece espaço para se refrescar, flutuar e aproveitar momentos em família, mantendo área para deck, paisagismo e móveis externos. O formato retangular combina com pátios de paver, áreas cobertas e cozinhas externas.",
+  },
+  R4: {
+    es: "La piscina Cali Cove es un modelo rectangular compacto para quienes buscan líneas limpias, una repisa de bronceado integrada y un patio elegante. Su diseño de 12′ x 23′ se adapta a patios pequeños, espacios laterales y cerramientos.\n\nLa repisa poco profunda ofrece un lugar cómodo para sillas, refrescarse, supervisar a los niños y relajarse, sin reducir el área abierta para nadar. Combina muy bien con adoquines, paisajismo moderno y muebles exteriores.",
+    pt: "A piscina Cali Cove é um modelo retangular compacto para quem busca linhas limpas, uma prainha integrada para bronzeamento e um quintal sofisticado. Seu layout de 12′ x 23′ combina com quintais menores, espaços laterais e áreas fechadas.\n\nA área rasa oferece um lugar confortável para cadeiras, para se refrescar, supervisionar as crianças e relaxar sem reduzir o espaço aberto para nadar. Ela combina muito bem com paver, paisagismo moderno e móveis externos.",
+    en: "The Cali Cove fiberglass pool is a compact rectangular pool designed for homeowners who want clean lines, a built-in tanning ledge, and a polished backyard look without choosing an oversized pool. Its 12′ x 23′ layout makes it a strong fit for smaller backyards, patios, side yards, screen enclosures, and space-conscious outdoor living areas. One of the biggest strengths of the Cali Cove is its integrated tanning ledge. This shallow lounge area creates a comfortable place for sun chairs, cooling off, supervising kids, relaxing with pets, or enjoying the water without taking away from the open swim area. For homeowners comparing compact Florida Fiberglass Pools models, the Cali Cove offers a strong balance of style, comfort, and everyday usability. Its clean rectangular shape pairs beautifully with paver patios, modern landscaping, lounge furniture, and covered outdoor living spaces.",
+  },
+  R5: {
+    es: "La Costa Rica es una piscina de forma libre de tamaño mediano, con una silueta más suave, asientos integrados y espacio para nadar, flotar y disfrutar en familia. Su diseño combina comodidad, uso diario y una apariencia natural que se adapta a patios, paisajismo tropical y áreas de descanso.\n\n",
+    pt: "A Costa Rica é uma piscina de formato livre e tamanho médio, com contornos suaves, assentos integrados e espaço para nadar, flutuar e aproveitar em família. Seu design combina conforto, uso diário e um visual natural que se adapta a quintais, paisagismo tropical e áreas de descanso.\n\n",
+    en: "The Costa Rica fiberglass pool is a mid-size freeform pool designed for homeowners who want a softer backyard shape, comfortable built-in features, and plenty of room for everyday enjoyment. Its 12′ x 25′ layout gives families space for swimming, floating, relaxing, and casual outdoor living without requiring an oversized backyard. One of the biggest strengths of the Costa Rica is its comfortable mix of entry steps, built-in seating, and open swim space. The freeform layout gives the pool a relaxed, natural look, while still keeping the design practical for family use, entertaining, and quiet evenings outdoors. For homeowners comparing Florida Fiberglass Pools models, the Costa Rica offers a strong balance of comfort, size, and freeform style. Its curved shape pairs beautifully with tropical landscaping, paver patios, outdoor seating areas, spas, screen enclosures, and resort-inspired backyard designs.",
+  },
+  R6: {
+    es: "La Roatan ofrece una forma libre y relajada con amplio espacio útil para nadar. Su diseño curvo crea una apariencia estilo resort y combina con paisajismo tropical, patios, cerramientos y áreas de estar exteriores. Los asientos integrados permiten descansar sin perder espacio para nadar, recibir invitados y disfrutar en familia.",
+    pt: "A Roatan oferece um formato livre e descontraído com bastante espaço útil para nadar. Seu design curvo cria um visual de resort e combina com paisagismo tropical, pátios, áreas fechadas e espaços externos. Os assentos integrados permitem relaxar sem perder espaço para nadar, receber convidados e aproveitar em família.",
+    en: "The Roatan fiberglass pool gives homeowners a relaxed freeform shape with plenty of usable swim space. Its 14′ x 30′ layout works well for families who want a pool that feels open and inviting without taking over the entire backyard. The curved design creates a softer, more resort-style look than a traditional rectangle. It pairs beautifully with tropical landscaping, travertine patios, screen enclosures, and outdoor living areas, making it a strong fit for Florida and warm-weather backyards. Built-in seating adds comfort without sacrificing swimming room. The Roatan gives swimmers a place to relax, cool off, and enjoy the water while still leaving a generous open area for everyday swimming, entertaining, and family time.",
+  },
+  R7: {
+    es: "La Brasilia es una piscina geométrica amplia para quienes buscan mucho espacio para nadar y una entrada cómoda. Su diseño de 14′ x 30′ funciona para familias, reuniones y vida exterior diaria, y combina con patios, cocinas exteriores y paisajismo moderno.",
+    pt: "A Brasilia é uma piscina geométrica espaçosa para quem busca bastante espaço para nadar e uma entrada confortável. Seu layout de 14′ x 30′ funciona para famílias, encontros e uso diário, combinando com pátios, cozinhas externas e paisagismo moderno.",
+    en: "The Brasilia fiberglass pool is a spacious geometric pool designed for homeowners who want generous swim space, a wide entry area, and a clean backyard look. Its 14′ x 30′ layout gives families room for swimming, floating, relaxing, and everyday outdoor living.\n\nOne of the biggest strengths of the Brasilia is its comfortable entry design. The wide entry area creates an inviting place to step in, sit, cool off, or supervise family time, while the open swim lane keeps the pool practical for active use. For homeowners comparing Florida Fiberglass Pools models, the Brasilia offers a strong balance of size, comfort, and versatility. Its clean rectangular shape pairs beautifully with paver patios, outdoor kitchens, lounge furniture, screen enclosures, and modern landscape designs.",
+  },
+  R8: {
+    es: "La Belize es una piscina rectangular moderna con amplio espacio para nadar y características integradas de comodidad. Su diseño de 14′ x 29′ se adapta a familias, reuniones y áreas exteriores con patios, cocinas, cerramientos y paisajismo contemporáneo.",
+    pt: "A Belize é uma piscina retangular moderna com bastante espaço para nadar e recursos integrados de conforto. Seu layout de 14′ x 29′ combina com famílias, encontros e áreas externas com pátios, cozinhas, espaços fechados e paisagismo contemporâneo.",
+    en: "The Belize fiberglass pool is a modern rectangular pool designed for homeowners who want a clean backyard look, generous swim space, and built-in comfort. Its 14′ x 29′ layout gives families plenty of room for swimming, floating, relaxing, and everyday outdoor living.\n\nOne of the biggest strengths of the Belize is its balanced design. The rectangular shape pairs beautifully with paver patios, outdoor kitchens, seating areas, screen enclosures, and modern landscaping, while the open swim area keeps the pool practical for active use. Homeowners also appreciate the comfortable depth profile and built-in seating areas. The Belize works well for families, entertainers, and homeowners who want a pool that feels polished, usable, and easy to design around.",
+  },
+  R9: {
+    es: "La Colombian Beach es una piscina rectangular amplia con espacio abierto para nadar y una zona integrada para descansar. Su diseño de 12′ x 33′ ofrece comodidad para familias y combina con patios, cocinas exteriores, muebles de descanso y paisajismo moderno.",
+    pt: "A Colombian Beach é uma piscina retangular espaçosa com área aberta para nadar e um espaço integrado para relaxar. Seu design de 12′ x 33′ oferece conforto para famílias e combina com pátios, cozinhas externas, móveis de descanso e paisagismo moderno.",
+    en: "The Colombian Beach fiberglass pool is a spacious rectangular pool designed for homeowners who want open swim space, built-in lounging comfort, and a polished backyard look. Its 12′ x 33′ layout gives families plenty of room for swimming, floating, relaxing, and everyday outdoor living.\n\nOne of the biggest strengths of the Colombian Beach is its integrated tanning and seating area. This built-in lounging space creates a comfortable place to sit, cool off, supervise kids, or enjoy the water without taking away from the open swim area. For homeowners comparing Florida Fiberglass Pools models, the Colombian Beach offers a strong balance of size, comfort, and usability. Its clean rectangular shape pairs beautifully with paver patios, outdoor kitchens, lounge furniture, screen enclosures, and modern landscape designs.",
+  },
+  R10: {
+    es: "La Costa Beach combina una forma libre con una repisa de bronceado integrada y espacio abierto para nadar. Es ideal para relajarse, tomar el sol, supervisar a los niños y recibir invitados, creando un centro atractivo para el patio.",
+    pt: "A Costa Beach combina um formato livre com uma prainha integrada para bronzeamento e área aberta para nadar. É ideal para relaxar, tomar sol, supervisionar as crianças e receber convidados, criando um destaque atraente no quintal.",
+    en: "The Costa Beach fiberglass pool gives homeowners freeform fun with the added comfort of a built-in tanning ledge. It is a strong choice for backyards where homeowners want open swim space, modern lines, and a dedicated shallow-water area for lounging. The integrated beach ledge makes this model especially appealing for relaxing, sunning, and enjoying the pool without being fully submerged. It works well for lounge chairs, casual conversation, kids playing in shallow water, or simply cooling off on warm days. With its balanced layout, the Costa Beach feels both practical and resort-inspired. Homeowners get a pool that supports swimming, entertaining, and everyday relaxation while still creating a polished backyard centerpiece.",
+  },
+  R11: {
+    es: "La Neblina Beach es una piscina rectangular compacta con una zona de playa y banca integrada. Su diseño de 12′ x 20′ ofrece un lugar poco profundo para sentarse, refrescarse y supervisar a los niños, además de espacio abierto para disfrutar en familia.",
+    pt: "A Neblina Beach é uma piscina retangular compacta com área de praia e banco integrado. Seu layout de 12′ x 20′ oferece um espaço raso para sentar, se refrescar e supervisionar as crianças, além de área aberta para aproveitar em família.",
+    en: "The Neblina Beach fiberglass pool is a compact rectangular pool designed for homeowners who want a smaller pool with built-in lounging, clean lines, and everyday comfort. Its 12′ x 20′ layout makes it a strong fit for patios, courtyards, smaller backyards, screen enclosures, and relaxation-focused outdoor living spaces.\n\nOne of the biggest strengths of the Neblina Beach is its integrated beach ledge and full-length bench area. This gives homeowners a shallow place to sit, cool off, supervise kids, enjoy a drink, or relax at the water’s edge without needing a large backyard footprint. For homeowners comparing cocktail pools, plunge pools, and compact Florida Fiberglass Pools models, the Neblina Beach offers a polished balance of lounging space and open water. Its clean rectangular shape pairs beautifully with paver patios, modern landscaping, outdoor seating, and covered outdoor living areas.",
+  },
+  R12: {
+    es: "La Roatan Beach es una piscina de forma libre amplia, con curvas estilo resort, espacio generoso para nadar y áreas integradas para descansar. Su diseño de 14′ x 35′ funciona muy bien para familias, reuniones, paisajismo tropical y espacios exteriores completos.",
+    pt: "A Roatan Beach é uma piscina de formato livre espaçosa, com curvas de resort, bastante espaço para nadar e áreas integradas para relaxar. Seu layout de 14′ x 35′ funciona muito bem para famílias, encontros, paisagismo tropical e áreas externas completas.",
+    en: "The Roatan Beach fiberglass pool is a large freeform pool designed for homeowners who want resort-style curves, generous swim space, and built-in lounging comfort. Its 14′ x 35′ layout gives families plenty of room for swimming, floating, relaxing, entertaining, and everyday outdoor living.\n\nOne of the biggest strengths of the Roatan Beach is its 10-inch deep tanning ledge and comfortable built-in coves. These shallow lounge areas create places to sit, cool off, supervise kids, add sun chairs, or enjoy the water without taking away from the open swim area. For homeowners comparing Florida Fiberglass Pools models, the Roatan Beach offers a strong balance of size, comfort, and freeform style. Its flowing shape pairs beautifully with tropical landscaping, paver patios, outdoor kitchens, lounge furniture, spas, and resort-inspired backyard designs.",
+  },
+  R13: {
+    es: "La Colombian Resort combina una piscina rectangular amplia con un spa integrado. Su diseño de 12′ x 33′ ofrece espacio para nadar, relajarse y recibir invitados, y se adapta a patios, cocinas exteriores, cerramientos y paisajismo moderno.",
+    pt: "A Colombian Resort combina uma piscina retangular espaçosa com um spa integrado. Seu layout de 12′ x 33′ oferece espaço para nadar, relaxar e receber convidados, combinando com pátios, cozinhas externas, áreas fechadas e paisagismo moderno.",
+    en: "The Colombian Resort fiberglass pool is a spacious rectangular pool and spa combination designed for homeowners who want open swim space, built-in relaxation, and a polished resort-style backyard. Its 12′ x 33′ layout gives families room for swimming, floating, relaxing, entertaining, and everyday outdoor living.\n\nOne of the biggest strengths of the Colombian Resort is its integrated spa design. The attached spa creates a dedicated place to unwind, gather, and enjoy the water, while the main pool area still provides generous space for swimming and family use. For homeowners comparing Florida Fiberglass Pools models, the Colombian Resort offers a premium combination of pool, spa, and clean rectangular style. Its structured layout pairs beautifully with paver patios, outdoor kitchens, lounge furniture, screen enclosures, fire features, and modern landscape designs.",
+  },
+  R14: {
+    es: "La Nova ofrece un diseño de fibra de vidrio limpio y moderno, ideal para quienes quieren una piscina bonita y fácil de disfrutar. Su formato equilibrado funciona para nadar, relajarse y recibir invitados, y combina con patios, cerramientos y paisajismo tropical.",
+    pt: "A Nova oferece um design de fibra de vidro limpo e moderno, ideal para quem quer uma piscina bonita e fácil de aproveitar. Seu formato equilibrado funciona para nadar, relaxar e receber convidados, combinando com pátios, áreas fechadas e paisagismo tropical.",
+    en: "The Nova fiberglass pool gives homeowners a clean, modern design that feels simple, stylish, and easy to enjoy. Its balanced layout works well for families who want a beautiful backyard pool without an overly complicated shape or design. This model is a strong fit for everyday swimming, relaxing, and entertaining. The open pool area gives homeowners room to cool off, spend time with family, and enjoy the water, while the streamlined design makes the surrounding patio feel polished and organized. The Nova pairs beautifully with outdoor living spaces, screen enclosures, tropical landscaping, and travertine patios. It creates a fresh, resort-style backyard look while still feeling practical for daily use.",
+  },
+  R15: {
+    es: "La Solaris ofrece un diseño moderno, luminoso y sencillo de integrar al patio. Su área abierta permite nadar, jugar y refrescarse, mientras sus zonas de entrada y asientos aportan comodidad para el uso diario y combinan con patios, cocinas exteriores y áreas de descanso.\n\n",
+    pt: "A Solaris oferece um design moderno, luminoso e fácil de integrar ao quintal. Sua área aberta permite nadar, brincar e se refrescar, enquanto as áreas de entrada e assentos trazem conforto diário e combinam com pátios, cozinhas externas e espaços de descanso.",
+    en: "The Solaris fiberglass pool gives homeowners a bright, modern pool design with a clean layout that feels open and inviting. Its streamlined shape works well for backyards where homeowners want a polished pool area that is easy to enjoy, easy to furnish, and easy to design around. This model is a strong fit for families who want both swimming room and everyday relaxation. The open water area gives swimmers space to move, play, and cool off, while the built-in entry and seating areas make the pool comfortable for casual use. The Solaris creates a resort-style backyard without feeling overly complicated. It pairs beautifully with travertine patios, tropical landscaping, screen enclosures, outdoor kitchens, and lounge areas, making it a versatile choice for homeowners who want a clean, timeless fiberglass pool.",
+  },
+  R16: {
+    es: "La Radiant Island es una piscina rectangular amplia con repisa de bronceado, entrada cómoda y profundidad gradual de 4 a 6 pies. Su diseño de 16′ x 30′ ofrece espacio real para nadar, relajarse y compartir en familia, y combina con patios, paisajismo tropical y áreas exteriores modernas.",
+    pt: "A Radiant Island é uma piscina retangular espaçosa com prainha para bronzeamento, entrada confortável e profundidade gradual de 4 a 6 pés. Seu design de 16′ x 30′ oferece espaço para nadar, relaxar e aproveitar em família, combinando com pátios, paisagismo tropical e áreas externas modernas.",
+    en: "The Radiant Island is a rectangular fiberglass pool designed for homeowners who want generous swim space, a full tanning ledge, and a layout that works as well for family recreation as it does for everyday backyard living. At 16 feet wide by 30 feet long, it fits naturally into larger backyards, outdoor entertaining spaces, and properties where a full-size pool can take center stage. Homeowners love the Radiant Island because its gradual depth profile — transitioning from a comfortable 4-foot shallow end to a true 6-foot deep end — creates a pool that works for every member of the family. The full tanning ledge at the entry end is shallow enough for lounging and supervising young children, while the open 30-foot swim lane gives adults real room to move, swim, and entertain. The Radiant Island is also a smart choice for homeowners who want a pool with genuine versatility. Its built-in bench seating, three-step entry sequence, and clean geometric shape pair beautifully with travertine, pavers, tropical landscaping, and modern outdoor living designs — creating a finished backyard that feels complete and well considered from every angle.",
+  },
+  R17: {
+    es: "La Macaw Cove es una piscina rectangular compacta con una amplia zona de descanso poco profunda y fondo plano. Su diseño de 10′ x 23′ se adapta a patios pequeños y ofrece espacio para sentarse, refrescarse y disfrutar del agua sin perder el área abierta.",
+    pt: "A Macaw Cove é uma piscina retangular compacta com uma ampla área rasa para relaxar e fundo plano. Seu layout de 10′ x 23′ combina com quintais menores e oferece espaço para sentar, se refrescar e aproveitar a água sem perder a área aberta.",
+    en: "The Macaw Cove fiberglass pool is a compact rectangular pool designed for homeowners who want generous lounging space, clean lines, and a comfortable flat-bottom layout. Its 10′ x 23′ size and consistent 4’6″ depth make it a strong fit for smaller backyards, patios, courtyards, screen enclosures, and relaxation-focused outdoor living spaces.\n\nOne of the biggest strengths of the Macaw Cove is its spacious shallow lounging ledge. This dedicated area gives homeowners room for in-pool seating, cooling off, supervising children, relaxing with friends, or enjoying the water without entering the deeper swim area. Built-in steps provide a comfortable transition from the ledge into the flat-bottom pool. For homeowners comparing cocktail pools, plunge pools, and compact Florida Fiberglass Pools models, the Macaw Cove offers a balanced combination of lounging space and open water. Its clean rectangular shape pairs beautifully with paver patios, tropical landscaping, outdoor seating, pergolas, and modern backyard designs.",
+  },
+} as const;
+
+function formatLargeDescription(text: string) {
+  const sentences = text
+    .replace(/\s*\n+\s*/g, ' ')
+    .trim()
+    .split(/(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÑÀ-Ú])/)
+    .filter(Boolean);
+  const paragraphCount = Math.min(3, sentences.length);
+  const baseSize = Math.floor(sentences.length / paragraphCount);
+  const remainder = sentences.length % paragraphCount;
+  const paragraphs: string[] = [];
+  let index = 0;
+
+  for (let paragraph = 0; paragraph < paragraphCount; paragraph += 1) {
+    const size = baseSize + (paragraph < remainder ? 1 : 0);
+    paragraphs.push(sentences.slice(index, index + size).join(' '));
+    index += size;
+  }
+
+  return paragraphs.join('\n\n');
+}
+
+function manufacturerDescLarge(code: keyof typeof _manufacturerDescriptionsLarge) {
+  const description = _manufacturerDescriptionsLarge[code];
+  return {
+    en: formatLargeDescription(description.en),
+    es: formatLargeDescription(description.es ?? _manufacturerDescriptions[code]?.es ?? ''),
+    pt: formatLargeDescription(description.pt ?? _manufacturerDescriptions[code]?.pt ?? ''),
+  };
+}
+
 export const pools: Pool[] = [
   {
     slug: 'r1-neblina-grande',
@@ -318,7 +437,7 @@ export const pools: Pool[] = [
     dimensionsText: { width: "8'", length: "16'", depth: "5'" },
     waterVolumeGallons: 3500, weight: 1500,
     images: [
-      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grand-1.JPEG',
+      '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grand-1.jpeg',
       '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-2.webp',
       '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-3.jpeg',
       '/iso-models/Pools/Neblina-Grande/Showroom/Neblina-Grande-8.jpg.JPEG.webp',
@@ -333,6 +452,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R1'),
+    descriptionLarge: manufacturerDescLarge('R1'),
     features: _poolFeatures,
   },
   {
@@ -346,8 +466,7 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'6"', length: '22\'8"', depth: '10"-3\'6"-5\'' },
     waterVolumeGallons: 7000, weight: 2500,
     images: [
-      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-1.JPEG',
-      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove.jpeg',
+      '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-1.jpeg',
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-2.jpg',
       '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-9.25.25.avif',
       // '/iso-models/Pools/Cali-Cove/Showroom/Cali-Cove-LSP.webp',
@@ -360,6 +479,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R4'),
+    descriptionLarge: manufacturerDescLarge('R4'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -373,9 +493,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "12'", length: "25'", depth: '3\'5"-5\'6"' },
     waterVolumeGallons: 7000, weight: 2500,
     images: [
-      '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-1.webp',
+      '/iso-models/Pools/Costa-Rica/Showroom/costa-rica-1.webp',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-GPT.webp',
-      '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-2.JPEG',
+      '/iso-models/Pools/Costa-Rica/Showroom/costa-rica-2.jpeg',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-18.jpg',
       '/iso-models/Pools/Costa-Rica/Showroom/Costa-Rica-Cumba-Spa-Gray-compressed.webp',
     ],
@@ -387,6 +507,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R5'),
+    descriptionLarge: manufacturerDescLarge('R5'),
     features: withLarge(_freeformFeatures),
     popular: true,
   },
@@ -404,7 +525,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-9.30.avif',
       '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-69.webp',
       '/iso-models/Pools/Costa-Beach/Showroom/img_2533-1.webp',
-      '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-2.JPEG',
+      '/iso-models/Pools/Costa-Beach/Showroom/Costa-Beach-2.jpeg',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Costa-Beach/Costa-Beach-plan.png',
@@ -414,6 +535,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R10'),
+    descriptionLarge: manufacturerDescLarge('R10'),
     features: withLarge(_beachFeatures),
   },
   {
@@ -430,7 +552,7 @@ export const pools: Pool[] = [
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.webp',
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-1.JPEG',
       '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-9.25.25.avif',
-      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-2.JPEG',
+      '/iso-models/Pools/Neblina-Beach/Showroom/Neblina-Beach-2.jpeg',
     ],
     imagesIsoModels: [
       '/iso-models/Pools/Neblina-Beach/Neblina-Beach-plan.png',
@@ -441,6 +563,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R11'),
+    descriptionLarge: manufacturerDescLarge('R11'),
     features: _beachFeatures,
   },
   {
@@ -454,10 +577,10 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'6"', length: '26\'4"', depth: '10"-3\'6"-5\'4"' },
     waterVolumeGallons: 7500, weight: 3000,
     images: [
-      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-1.JPEG',
-      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-2.avif',
-      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-3.JPEG',
-      '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-4.JPEG',
+      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-1.jpeg',
+      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-2.avif',
+      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-3.jpeg',
+      '/iso-models/Pools/Colombian-Cove/Showroom/Colombian-Cove-4.jpeg',
       '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-5.jpg',
       // '/iso-models/Pools/Colombian-Cove/Showroom/colombian-cove-pat-compressed.webp',
     ],
@@ -470,6 +593,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R3'),
+    descriptionLarge: manufacturerDescLarge('R3'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -483,8 +607,8 @@ export const pools: Pool[] = [
     dimensionsText: { width: '11\'5"', length: '26\'4"', depth: '3\'6"-5\'4"' },
     waterVolumeGallons: 8000, weight: 3000,
     images: [
-      '/iso-models/Pools/Colombian/Showroom/Columbian-2.JPEG',
-      '/iso-models/Pools/Colombian/Showroom/Columbian-3.JPEG',
+      '/iso-models/Pools/Colombian/Showroom/Columbian-2.jpeg',
+      '/iso-models/Pools/Colombian/Showroom/Columbian-3.jpeg',
       '/iso-models/Pools/Colombian/Showroom/Columbian-4.JPEG',
       '/iso-models/Pools/Colombian/Showroom/Colombian.avif',
     ],
@@ -496,6 +620,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R2'),
+    descriptionLarge: manufacturerDescLarge('R2'),
     features: withLarge(_poolFeatures),
   },
   {
@@ -523,6 +648,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R9'),
+    descriptionLarge: manufacturerDescLarge('R9'),
     features: withLarge(_beachFeatures),
   },
   {
@@ -536,9 +662,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "14'", length: "30'", depth: '3\'5"-5\'11"' },
     waterVolumeGallons: 10000, weight: 3000,
     images: [
-      '/iso-models/Pools/Roatan/Showroom/Roatan-1.JPEG',
+      '/iso-models/Pools/Roatan/Showroom/Roatan-1.jpeg',
       '/iso-models/Pools/Roatan/Showroom/Roatan-11.12-2.avif',
-      '/iso-models/Pools/Roatan/Showroom/Roatan-2.JPEG',
+      '/iso-models/Pools/Roatan/Showroom/Roatan-2.jpeg',
       '/iso-models/Pools/Roatan/Showroom/img_2285-1.webp',
     ],
     imagesIsoModels: [
@@ -548,6 +674,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R6'),
+    descriptionLarge: manufacturerDescLarge('R6'),
     features: withLarge(_freeformFeatures),
     popular: true,
   },
@@ -562,7 +689,7 @@ export const pools: Pool[] = [
     dimensionsText: { width: "14'", length: "35'", depth: '10"-3\'6"-5\'11"' },
     waterVolumeGallons: 10000, weight: 3800,
     images: [
-      '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-1.JPEG',
+      '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-1.jpeg',
       '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-Deland-FL.avif',
       '/iso-models/Pools/Roatan-Beach/Showroom/Roatan-Beach-White-ECL.webp',
     ],
@@ -574,6 +701,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R12'),
+    descriptionLarge: manufacturerDescLarge('R12'),
     features: withLarge(_beachFeatures),
   },
   {
@@ -587,9 +715,9 @@ export const pools: Pool[] = [
     dimensionsText: { width: "14'", length: "30'", depth: '3\'6"-6\'' },
     waterVolumeGallons: 11500, weight: 3500,
     images: [
-      '/iso-models/Pools/Brasilia/Showroom/Brasilia-1.JPEG',
+      '/iso-models/Pools/Brasilia/Showroom/Brasilia-1.jpeg',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia_Sky_Blue.png',
-      '/iso-models/Pools/Brasilia/Showroom/Brasilia-2.JPEG',
+      '/iso-models/Pools/Brasilia/Showroom/Brasilia-2.jpeg',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia-Another.webp',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia-Rands.avif',
       '/iso-models/Pools/Brasilia/Showroom/Brasilia-Set-N-Stone.webp',
@@ -601,6 +729,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R7'),
+    descriptionLarge: manufacturerDescLarge('R7'),
     features: withLarge(_poolFeatures),
     popular: true,
   },
@@ -617,7 +746,7 @@ export const pools: Pool[] = [
     images: [
       '/iso-models/Pools/Belize/Showroom/Belize-Danny-B-11.4.25.avif',
       '/iso-models/Pools/Belize/Showroom/Belize-Installed-8-1-rotated.webp',
-      '/iso-models/Pools/Belize/Showroom/Belize-Render.JPEG',
+      '/iso-models/Pools/Belize/Showroom/Belize-Render.jpeg',
       '/iso-models/Pools/Belize/Showroom/Quatro-Rio-Belize-1.webp',
     ],
     imagesIsoModels: [
@@ -627,6 +756,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R8'),
+    descriptionLarge: manufacturerDescLarge('R8'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -649,6 +779,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R13'),
+    descriptionLarge: manufacturerDescLarge('R13'),
     features: withLarge(_freeformFeatures),
   },
   {
@@ -675,6 +806,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R14'),
+    descriptionLarge: manufacturerDescLarge('R14'),
     features: _poolFeatures,
   },
   {
@@ -700,6 +832,7 @@ export const pools: Pool[] = [
     ],
     colors: poolColorNames,
     description: manufacturerDesc('R15'),
+    descriptionLarge: manufacturerDescLarge('R15'),
     features: _poolFeatures,
   },
   {
@@ -719,6 +852,7 @@ export const pools: Pool[] = [
     imagesIsoModels: [],
     colors: poolColorNames,
     description: manufacturerDesc('R16'),
+    descriptionLarge: manufacturerDescLarge('R16'),
     features: _tanningLedgeFeatures,
   },
   {
@@ -738,6 +872,7 @@ export const pools: Pool[] = [
     imagesIsoModels: [],
     colors: poolColorNames,
     description: manufacturerDesc('R17'),
+    descriptionLarge: manufacturerDescLarge('R17'),
     features: _tanningLedgeFeatures,
   },
   {

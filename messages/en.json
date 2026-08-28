@@ -80,7 +80,7 @@
     "about": {
       "label": "About Us",
       "title": "South Florida's largest fiberglass pool showroom",
-      "paragraph1": " With a showroom over 8,000 sqft, we are a Rainforest - an American Brand AAA quality locally production - Exclusive Distributor offering more than 150 possible pool shells different combinations. Since 2013, we've delivered 1000+ pools to families across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
+      "paragraph1": " With a showroom over 8,000 sqft, we are Florida Fiberglass Pools, an American brand with AAA-quality local production and exclusive distribution offering more than 150 possible pool shells different combinations. Since 2013, we've delivered 1000+ pools to families across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
       "paragraph2": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
       "editorial": {
         "openingTitle": "More than a pool. A place to imagine.",
@@ -1310,5 +1310,8 @@
     "restartLabel": "Restart conversation",
     "learnMore": "Learn more",
     "send": "Send"
+  },
+  "PoolCard": {
+    "colorsCount": "{count} colors available"
   }
 }

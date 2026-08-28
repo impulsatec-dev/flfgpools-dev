@@ -3,6 +3,7 @@
 import { useRef, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 import { motion, useReducedMotion } from 'framer-motion';
 import { ArrowRight, Check, ImageIcon } from 'lucide-react';
 import type { Pool } from '@/lib/pools';
@@ -15,6 +16,7 @@ interface PoolCardProps {
 }
 
 export function PoolCard({ pool, locale, index = 0 }: PoolCardProps) {
+  const t = useTranslations('PoolCard');
   const reduce = useReducedMotion();
   const hasImage = pool.images.length > 0;
   const hasPrice = pool.priceInitial != null && pool.priceInitial > 0;
@@ -103,12 +105,15 @@ export function PoolCard({ pool, locale, index = 0 }: PoolCardProps) {
         </p>
 
         {pool.colors.length > 0 && (
+          // <div className="mt-4 flex flex-wrap gap-1.5">
+          //   {pool.colors.slice(0, 3).map((color) => (
+          //     <span key={color} className="glass-chip text-xs">
+          //       {color}
+          //     </span>
+          //   ))}
+          // </div>
           <div className="mt-4 flex flex-wrap gap-1.5">
-            {pool.colors.slice(0, 3).map((color) => (
-              <span key={color} className="glass-chip text-xs">
-                {color}
-              </span>
-            ))}
+            <span className="glass-chip text-xs">{t('colorsCount', { count: pool.colors.length })}</span>
           </div>
         )}
 

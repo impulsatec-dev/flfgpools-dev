@@ -80,7 +80,7 @@
     "about": {
       "label": "Sobre nosotros",
       "title": "El showroom de piscinas de fibra de vidrio más grande del sur de Florida",
-      "paragraph1": "Contamos con una sala de exposición de más de 8.000 pies cuadrados y somos distribuidores exclusivos de Rainforest, una marca estadounidense de calidad AAA con fabricación local, ofreciendo más de 150 combinaciones posibles de cascos para piscinas. Desde 2013, hemos entregado más de 1.000 piscinas a familias en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands y Okeechobee.",
+      "paragraph1": "Contamos con una sala de exposición de más de 8.000 pies cuadrados y somos distribuidores exclusivos de Florida Fiberglass Pools, una marca estadounidense de calidad AAA con fabricación local, ofreciendo más de 150 combinaciones posibles de cascos para piscinas. Desde 2013, hemos entregado más de 1.000 piscinas a familias en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands y Okeechobee.",
       "paragraph2": "Como distribuidor exclusivo para todo el sur de Florida, nuestro equipo te guía desde la consulta hasta la instalación, asegurando que tu piscina se ajuste a tu estilo de vida, presupuesto y patio — respaldada por una garantía estructural de por vida directamente de fábrica.",
       "editorial": {
         "openingTitle": "Más que una piscina. Un lugar para imaginar.",
@@ -150,7 +150,7 @@
   "About": {
     "hero": {
       "title": "Construyendo los patios del sur de Florida desde 2013",
-      "subtitle": "De un pequeño negocio familiar al showroom de piscinas de fibra de vidrio más grande de la región y distribuidor exclusivo de Rainforest Pools."
+      "subtitle": "De un pequeño negocio familiar al showroom de piscinas de fibra de vidrio más grande de la región y distribuidor exclusivo de Florida Fiberglass Pools."
     },
     "story": {
       "title": "Nuestra historia",
@@ -1310,5 +1310,8 @@
     "restartLabel": "Reiniciar conversación",
     "learnMore": "Saber más",
     "send": "Enviar"
+  },
+  "PoolCard": {
+    "colorsCount": "{count} colores disponibles"
   }
 }

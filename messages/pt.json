@@ -80,7 +80,7 @@
     "about": {
       "label": "Sobre nós",
       "title": "O maior showroom de piscinas de fibra de vidro do sul da Flórida",
-      "paragraph1": "Com um showroom de mais de 8.000 pés quadrados, representamos a Rainforest — uma marca americana de qualidade AAA com produção local — e atuamos como distribuidores exclusivos, oferecendo mais de 150 combinações possíveis de modelos de piscinas. Desde 2013, já entregamos mais de 1.000 piscinas para famílias nos condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee.",
+      "paragraph1": "Com um showroom de mais de 8.000 pés quadrados, representamos a Florida Fiberglass Pools — uma marca americana de qualidade AAA com produção local — e atuamos como distribuidores exclusivos, oferecendo mais de 150 combinações possíveis de modelos de piscinas. Desde 2013, já entregamos mais de 1.000 piscinas para famílias nos condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands e Okeechobee.",
       "paragraph2": "Como distribuidor exclusivo para todo o sul da Flórida, nossa equipe guia você desde a consulta até a instalação, garantindo que sua piscina se ajuste ao seu estilo de vida, orçamento e quintal — respaldada por uma garantia estrutural vitalícia diretamente de fábrica.",
       "editorial": {
         "openingTitle": "Mais que uma piscina. Um lugar para imaginar.",
@@ -150,7 +150,7 @@
   "About": {
     "hero": {
       "title": "Construindo os quintais do sul da Flórida desde 2013",
-      "subtitle": "De um pequeno negócio familiar ao maior showroom de piscinas de fibra de vidro da região e distribuidor exclusivo da Rainforest Pools."
+      "subtitle": "De um pequeno negócio familiar ao maior showroom de piscinas de fibra de vidro da região e distribuidor exclusivo da Florida Fiberglass Pools."
     },
     "story": {
       "title": "Nossa história",
@@ -1310,5 +1310,8 @@
     "restartLabel": "Reiniciar conversa",
     "learnMore": "Saber mais",
     "send": "Enviar"
+  },
+  "PoolCard": {
+    "colorsCount": "{count} cores disponíveis"
   }
 }

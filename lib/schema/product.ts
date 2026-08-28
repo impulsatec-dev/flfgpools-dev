@@ -11,7 +11,7 @@ export function poolProductSchema(pool: Pool, locale: string = 'en', useSimpleUr
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: `${pool.modelCode} ${pool.name}`,
-    description: pool.description[locale as keyof typeof pool.description] || pool.description.en,
+    description: pool.descriptionLarge?.[locale as keyof typeof pool.descriptionLarge] || pool.description[locale as keyof typeof pool.description] || pool.description.en,
     category: pool.productClass === 'spa' ? 'Fiberglass Spa' : pool.productClass === 'ledge' ? 'Tanning Ledge' : 'Fiberglass Pool',
     url,
     brand: { '@type': 'Brand', name: 'FLFG Pools' },
