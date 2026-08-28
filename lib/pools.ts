@@ -509,6 +509,7 @@ export const pools: Pool[] = [
     waterVolumeGallons: 9000, weight: 3300,
     images: [
       '/iso-models/Pools/Colombian-Beach/Showroom/Columbian-Beach.png',
+      '/iso-models/Pools/Colombian-Beach/Showroom/Columbian-Beach.jpeg',
       '/iso-models/Pools/Colombian-Beach/Showroom/Colombian-Beach-ECL.png',
       '/iso-models/Pools/Colombian-Beach/Showroom/Colombian-Beach-3.jpeg',
     ],
@@ -685,9 +686,11 @@ export const pools: Pool[] = [
     dimensionsText: { width: "10'", length: "20'", depth: '4\'6"' },
     waterVolumeGallons: 4500, weight: 2200,
     images: [
-      '/iso-models/Pools/Solaris/Showroom/Solaris-3.jpg',
       '/iso-models/Pools/Solaris/Showroom/Solaris-1.jpg',
+      '/iso-models/Pools/Solaris/Showroom/Solaris-3.jpg',
       '/iso-models/Pools/Solaris/Showroom/Solaris-2.jpg',
+      '/iso-models/Pools/Solaris/Showroom/Solaris-5.jpg',
+      '/iso-models/Pools/Solaris/Showroom/Solaris-4.jpg',
       '/iso-models/Pools/Solaris/Showroom/Solaris-MW-2.webp',
     ],
     imagesIsoModels: [
