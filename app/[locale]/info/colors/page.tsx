@@ -14,7 +14,7 @@ export default function ColorsPage({ params: { locale } }: { params: { locale: s
       {/* Hero */}
       <section className="container mx-auto px-4 py-12">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: 'Info', href: '/info' }, { name: 'Colors', href: '/info/colors' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: 'Info', href: '/info' }, { name: 'Colors', href: '/info/colors' }]} />
         </div>
         <h1 className="text-4xl md:text-6xl font-display font-bold text-pool-deep">
           {t('colors.title')}

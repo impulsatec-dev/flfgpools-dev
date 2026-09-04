@@ -799,7 +799,7 @@ export function ShowroomContent({ locale }: { locale: string }) {
             </div>
 
             <a
-              href="https://maps.google.com"
+              href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 glass-btn-primary inline-flex items-center gap-2 px-6 py-3 text-white font-medium"

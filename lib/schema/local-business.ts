@@ -3,9 +3,10 @@ import { SOCIAL_LINKS, BUSINESS_INFO, SITE_URL, SEO_CONFIG } from '@/config/site
 export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': ['LocalBusiness', 'HomeAndConstructionBusiness', 'PoolCleaner'],
+    '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
     '@id': `${SITE_URL}/#business`,
     name: BUSINESS_INFO.name,
+    legalName: BUSINESS_INFO.legalName,
     alternateName: BUSINESS_INFO.name === 'Florida Fiberglass Pools' ? 'FLFG Pools' : undefined,
     description: SEO_CONFIG.description,
     url: SITE_URL,
@@ -80,13 +81,6 @@ export function localBusinessSchema() {
           },
         },
       ],
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5',
-      reviewCount: '1000',
-      bestRating: '5',
-      worstRating: '1',
     },
   };
 }

@@ -341,6 +341,26 @@
     "readMore": "Read more",
     "minRead": "{minutes} min read"
   },
+  "LegalConsent": {
+    "title": "Confidentiality notice and consent",
+    "agreementPrefix": "I have read and accept the",
+    "privacyPolicy": "Privacy Policy",
+    "and": "and",
+    "termsAndConditions": "Terms and Conditions",
+    "agreementSuffix": ".",
+    "confidentialityLabel": "Confidentiality notice",
+    "confidentiality": "Information you provide through this form, including your physical address, will be handled with the confidentiality required by the Florida Information Protection Act (FIPA) and stored securely. This information will be used exclusively for purposes related to your request for an estimate, quote, or service. We will not share your information with third parties without your explicit consent, except when necessary to provide the service, such as with installation companies and payment processors."
+  },
+  "LegalPages": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "body": "We protect the information you share with Florida Fiberglass Pools. We use your information to respond to estimate, quote, and service requests, and to coordinate the requested service. We store information securely and do not share it with third parties unless necessary to provide the service or required by law."
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "body": "By using this site and submitting a form, you agree to provide accurate information and use our services lawfully. Quotes are estimates until our team reviews the project, site, and installation requirements."
+    }
+  },
   "Contact": {
     "hero": {
       "title": "Let's build your dream pool",
@@ -398,7 +418,7 @@
       "items": [
         {
           "q": "What makes fiberglass pools different?",
-          "a": "Fiberglass pools are manufactured in Florida, Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes, lifestyles, and outdoor spaces. As the exclusive distributor for South Florida, we bring these premium pools directly to you."
+          "a": "Fiberglass pools are manufactured in Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes, lifestyles, and outdoor spaces. As the exclusive distributor for South Florida, we bring these premium pools directly to you."
         },
         {
           "q": "What warranty do you offer?",
@@ -469,6 +489,8 @@
     "newsletterCta": "Subscribe",
     "languages": "Hablamos Español · Falamos Português",
     "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
     "sizes": {
       "upTo16": "Up to 16ft",
       "16to22": "16ft – 22ft",
@@ -1310,6 +1332,30 @@
     "restartLabel": "Restart conversation",
     "learnMore": "Learn more",
     "send": "Send"
+  },
+  "Errors": {
+    "notFound": {
+      "code": "404",
+      "eyebrow": "Page not found",
+      "title": "This page went for a swim",
+      "description": "The address you’re looking for doesn’t exist or is no longer available. Head home to keep exploring our pools.",
+      "home": "Back to home"
+    },
+    "server": {
+      "code": "500",
+      "eyebrow": "Something went wrong",
+      "title": "We’re adjusting the water",
+      "description": "We couldn’t load this page. Try again or head back home.",
+      "retry": "Try again",
+      "home": "Back to home"
+    },
+    "unavailable": {
+      "code": "503",
+      "eyebrow": "Service temporarily unavailable",
+      "title": "We’ll be back in a moment",
+      "description": "We’re making a quick improvement. Come back in a few minutes to continue.",
+      "home": "Back to home"
+    }
   },
   "PoolCard": {
     "colorsCount": "{count} colors available"

@@ -341,6 +341,26 @@
     "readMore": "Leer más",
     "minRead": "{minutes} min de lectura"
   },
+  "LegalConsent": {
+    "title": "Aviso de confidencialidad y consentimiento",
+    "agreementPrefix": "He leído y acepto la",
+    "privacyPolicy": "Política de Privacidad",
+    "and": "y los",
+    "termsAndConditions": "Términos y Condiciones",
+    "agreementSuffix": ".",
+    "confidentialityLabel": "Aviso de confidencialidad",
+    "confidentiality": "La información que proporciona a través de este formulario, incluyendo su dirección física, será tratada con la confidencialidad requerida por la Florida Information Protection Act (FIPA) y almacenada de forma segura. Esta información será utilizada exclusivamente para los fines relacionados con su solicitud de presupuesto, cotización o servicio. No compartiremos su información con terceros sin su consentimiento explícito, excepto cuando sea necesario para la prestación del servicio, como empresas de instalación y procesadores de pago."
+  },
+  "LegalPages": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "body": "Protegemos la información que compartes con Florida Fiberglass Pools. Usamos tus datos para responder a solicitudes de presupuesto, cotización y servicio, y para coordinar la prestación del servicio solicitado. Guardamos la información de forma segura y no la compartimos con terceros, salvo cuando sea necesario para prestar el servicio o cuando la ley lo requiera."
+    },
+    "terms": {
+      "title": "Términos y Condiciones",
+      "body": "Al utilizar este sitio y enviar un formulario, aceptas proporcionar información precisa y utilizar nuestros servicios de forma legal. Las cotizaciones son orientativas hasta que nuestro equipo revise el proyecto, el sitio y los requisitos de instalación."
+    }
+  },
   "Contact": {
     "hero": {
       "title": "Construyamos tu piscina soñada",
@@ -398,7 +418,7 @@
       "items": [
         {
           "q": "¿Qué hace diferentes a las piscinas de fibra de vidrio?",
-          "a": "Las piscinas de fibra de vidrio se fabrican en Florida, Florida, y están diseñadas para el disfrute a largo plazo del patio. Cada cáscara de piscina se construye con calidad consistente, una superficie suave de fibra de vidrio y una selección de formas que se adaptan a diferentes hogares y estilos de vida. Como distribuidor exclusivo en el sur de Florida, te traemos estas piscinas premium directamente."
+          "a": "Las piscinas de fibra de vidrio se fabrican en Florida y están diseñadas para el disfrute a largo plazo del patio. Cada cáscara de piscina se construye con calidad consistente, una superficie suave de fibra de vidrio y una selección de formas que se adaptan a diferentes hogares y estilos de vida. Como distribuidor exclusivo en el sur de Florida, te traemos estas piscinas premium directamente."
         },
         {
           "q": "¿Qué garantía ofrecen?",
@@ -469,6 +489,8 @@
     "newsletterCta": "Suscribirse",
     "languages": "Hablamos Español · Falamos Português",
     "rights": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsAndConditions": "Términos y Condiciones",
     "sizes": {
       "upTo16": "Hasta 16 pies",
       "16to22": "16 – 22 pies",
@@ -1310,6 +1332,30 @@
     "restartLabel": "Reiniciar conversación",
     "learnMore": "Saber más",
     "send": "Enviar"
+  },
+  "Errors": {
+    "notFound": {
+      "code": "404",
+      "eyebrow": "Página no encontrada",
+      "title": "Esta página se fue a nadar",
+      "description": "La dirección que buscas no existe o ya no está disponible. Regresa al inicio para seguir explorando nuestras piscinas.",
+      "home": "Volver al inicio"
+    },
+    "server": {
+      "code": "500",
+      "eyebrow": "Algo salió mal",
+      "title": "Estamos ajustando el agua",
+      "description": "No pudimos cargar esta página. Inténtalo de nuevo o regresa al inicio.",
+      "retry": "Intentar de nuevo",
+      "home": "Volver al inicio"
+    },
+    "unavailable": {
+      "code": "503",
+      "eyebrow": "Servicio temporalmente no disponible",
+      "title": "Volvemos en un momento",
+      "description": "Estamos haciendo una mejora rápida. Regresa en unos minutos para continuar.",
+      "home": "Volver al inicio"
+    }
   },
   "PoolCard": {
     "colorsCount": "{count} colores disponibles"

@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "next dev -p 3010",
-    "build": "next build",
-    "start": "next start",
+    "kill": "KILL_EXISTING=true node app.js --kill-only",
+    "dev:clean": "npm run kill && npm run dev",
+    "build": "NODE_OPTIONS=--disable-wasm-trap-handler next build",
+    "start": "NODE_OPTIONS=--disable-wasm-trap-handler next start",
     "lint": "next lint",
     "test": "vitest run"
   },

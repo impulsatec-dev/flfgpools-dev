@@ -22,6 +22,7 @@ export const contactLeadSchema = z.object({
     .regex(/^\d{5}$/)
     .optional(),
   message: z.string().trim().max(4000).optional().default(''),
+  consent: z.literal(true),
   locale: z.enum(['en', 'es', 'pt']).optional().default('en'),
 });
 

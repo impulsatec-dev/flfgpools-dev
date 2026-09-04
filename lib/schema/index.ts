@@ -1,4 +1,3 @@
-import { SITE_URL, BUSINESS_INFO, SEO_CONFIG } from '@/config/site';
 import { localBusinessSchema } from './local-business';
 import { websiteSchema } from './website';
 

@@ -95,7 +95,7 @@ export default function BlogPage({ params: { locale } }: { params: { locale: str
     <>
       <section className="container mx-auto px-4 py-12">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: t('hero.title'), href: '/blog' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: t('hero.title'), href: '/blog' }]} />
         </div>
         <h1 className="text-4xl md:text-6xl font-display font-bold text-pool-deep">
           {t('hero.title')}

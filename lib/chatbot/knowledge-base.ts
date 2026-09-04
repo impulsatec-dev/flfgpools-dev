@@ -99,9 +99,9 @@ export const knowledgeBase: KnowledgeEntry[] = [
       pt: ['o que torna as piscinas de fibra de vidro diferentes', 'fibra', 'vidro', 'diferente', 'faz', 'unico', 'especial'],
     },
     answer: {
-      en: 'Fiberglass pools are manufactured in Florida, Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes. As the exclusive distributor for South Florida, we bring these premium pools directly to you.',
-      es: 'Las piscinas de fibra de vidrio se fabrican en Florida, Florida y están diseñadas para el disfrute a largo plazo del patio. Cada casco de piscina se construye con calidad consistente, una superficie lisa de fibra de vidrio y una selección de formas que funcionan para diferentes hogares. Como distribuidor exclusivo del sur de Florida, le traemos estas piscinas premium directamente.',
-      pt: 'As piscinas de fibra de vidro são fabricadas em Florida, Flórida e projetadas para desfrute a longo prazo do quintal. Cada casco de piscina é construído com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formas que funcionam para diferentes lares. Como distribuidor exclusivo do sul da Flórida, trazemos essas piscinas premium diretamente para você.',
+      en: 'Fiberglass pools are manufactured in Florida and designed for long-term backyard enjoyment. Each pool shell is built with consistent quality, a smooth fiberglass surface, and a selection of shapes that work for different homes. As the exclusive distributor for South Florida, we bring these premium pools directly to you.',
+      es: 'Las piscinas de fibra de vidrio se fabrican en Florida y están diseñadas para el disfrute a largo plazo del patio. Cada casco de piscina se construye con calidad consistente, una superficie lisa de fibra de vidrio y una selección de formas que funcionan para diferentes hogares. Como distribuidor exclusivo del sur de Florida, le traemos estas piscinas premium directamente.',
+      pt: 'As piscinas de fibra de vidro são fabricadas em Florida e projetadas para desfrute a longo prazo do quintal. Cada casco de piscina é construído com qualidade consistente, uma superfície lisa de fibra de vidro e uma seleção de formas que funcionam para diferentes lares. Como distribuidor exclusivo do sul da Flórida, trazemos essas piscinas premium diretamente para você.',
     },
     link: {
       en: '/info/faqs',

@@ -60,7 +60,7 @@ export default function FaqsPage({ params: { locale } }: { params: { locale: str
 
       <section className="container mx-auto px-4 py-12">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: t('hero.title'), href: '/info/faqs' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: t('hero.title'), href: '/info/faqs' }]} />
         </div>
           <div>
             <h1 className="text-4xl md:text-6xl font-display font-bold text-pool-deep">

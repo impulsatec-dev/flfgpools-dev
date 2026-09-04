@@ -57,7 +57,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
       {/* Hero */}
       <section className="container mx-auto px-4 py-12">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: t('hero.title'), href: '/about' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: t('hero.title'), href: '/about' }]} />
         </div>
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-display font-bold text-pool-deep text-balance">
@@ -176,7 +176,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
           </div>
 
           <a
-            href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
+            href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 glass-btn-primary inline-flex items-center gap-2 px-6 py-3 text-white font-medium"

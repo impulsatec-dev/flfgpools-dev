@@ -340,6 +340,26 @@
     "readMore": "Ler mais",
     "minRead": "{minutes} min de leitura"
   },
+  "LegalConsent": {
+    "title": "Aviso de confidencialidade e consentimento",
+    "agreementPrefix": "Li e aceito a",
+    "privacyPolicy": "Política de Privacidade",
+    "and": "e os",
+    "termsAndConditions": "Termos e Condições",
+    "agreementSuffix": ".",
+    "confidentialityLabel": "Aviso de confidencialidade",
+    "confidentiality": "As informações fornecidas por você através deste formulário, incluindo seu endereço físico, serão tratadas com a confidencialidade exigida pela Florida Information Protection Act (FIPA) e armazenadas com segurança. Essas informações serão usadas exclusivamente para fins relacionados à sua solicitação de estimativa, orçamento ou serviço. Não compartilharemos suas informações com terceiros sem seu consentimento explícito, exceto quando necessário para prestar o serviço, como empresas de instalação e processadores de pagamento."
+  },
+  "LegalPages": {
+    "privacy": {
+      "title": "Política de Privacidade",
+      "body": "Protegemos as informações que você compartilha com a Florida Fiberglass Pools. Usamos seus dados para responder a solicitações de estimativa, orçamento e serviço, e para coordenar o serviço solicitado. Armazenamos as informações com segurança e não as compartilhamos com terceiros, exceto quando necessário para prestar o serviço ou exigido por lei."
+    },
+    "terms": {
+      "title": "Termos e Condições",
+      "body": "Ao usar este site e enviar um formulário, você concorda em fornecer informações precisas e usar nossos serviços legalmente. Os orçamentos são estimativas até que nossa equipe analise o projeto, o local e os requisitos de instalação."
+    }
+  },
   "Contact": {
     "hero": {
       "title": "Vamos construir sua piscina dos sonhos",
@@ -468,6 +488,8 @@
     "newsletterCta": "Inscrever-se",
     "languages": "Hablamos Español · Falamos Português",
     "rights": "Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsAndConditions": "Termos e Condições",
     "sizes": {
       "upTo16": "Até 16 pés",
       "16to22": "16 – 22 pés",
@@ -1310,6 +1332,30 @@
     "restartLabel": "Reiniciar conversa",
     "learnMore": "Saber mais",
     "send": "Enviar"
+  },
+  "Errors": {
+    "notFound": {
+      "code": "404",
+      "eyebrow": "Página não encontrada",
+      "title": "Esta página saiu para nadar",
+      "description": "O endereço que você procura não existe ou não está mais disponível. Volte ao início para continuar explorando nossas piscinas.",
+      "home": "Voltar ao início"
+    },
+    "server": {
+      "code": "500",
+      "eyebrow": "Algo deu errado",
+      "title": "Estamos ajustando a água",
+      "description": "Não conseguimos carregar esta página. Tente novamente ou volte ao início.",
+      "retry": "Tentar novamente",
+      "home": "Voltar ao início"
+    },
+    "unavailable": {
+      "code": "503",
+      "eyebrow": "Serviço temporariamente indisponível",
+      "title": "Voltamos em um momento",
+      "description": "Estamos fazendo uma melhoria rápida. Volte em alguns minutos para continuar.",
+      "home": "Voltar ao início"
+    }
   },
   "PoolCard": {
     "colorsCount": "{count} cores disponíveis"

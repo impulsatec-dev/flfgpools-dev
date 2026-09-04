@@ -8,10 +8,10 @@ interface BreadcrumbItem {
   href: string;
 }
 
-export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
+export function Breadcrumbs({ items, locale }: { items: BreadcrumbItem[]; locale: string }) {
   const t = useTranslations('Breadcrumbs');
   const fullItems = [{ name: t('home'), href: '/' }, ...items];
-  const schema = breadcrumbSchema(fullItems.map(item => ({ name: item.name, url: item.href })));
+  const schema = breadcrumbSchema(fullItems.map(item => ({ name: item.name, url: item.href })), locale);
 
   const hasHiddenItems = fullItems.length > 3;
   const hiddenItems = fullItems.slice(1, -1);

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
+import { FormConsentNotice, useFormConsent } from '../components/form-consent';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, AlertCircle, Loader2, MapPin, ExternalLink } from 'lucide-react';
 import { SOCIAL_LINKS } from '@/config/site';
@@ -13,6 +14,7 @@ export function ContactForm() {
   const [zipError, setZipError] = useState('');
   const [addressValue, setAddressValue] = useState('');
   const [mailto, setMailto] = useState('');
+  const { accepted: consentAccepted, accept: acceptConsent } = useFormConsent();
 
   const validateZip = (zip: string) => {
     const zipNum = parseInt(zip, 10);
@@ -50,6 +52,7 @@ export function ContactForm() {
           ...(zip ? { zip } : {}),
           message: formData.get('message') || '',
           locale,
+          consent: consentAccepted,
         }),
       });
       const data = await response.json();
@@ -210,9 +213,15 @@ export function ContactForm() {
       </div>
 
       {/* Submit */}
+      <FormConsentNotice
+        accepted={consentAccepted}
+        onAccept={acceptConsent}
+        id="contact-consent"
+      />
+
       <button
         type="submit"
-        disabled={status === 'loading'}
+        disabled={status === 'loading' || !consentAccepted}
         className="w-full glass-btn-primary px-6 py-3 text-white font-medium disabled:opacity-60"
       >
         {status === 'loading' ? (

@@ -50,7 +50,7 @@ export default function CreateByYourselfPage({ params: { locale } }: { params: {
   return (
     <>
       <section className="container mx-auto px-4 py-10">
-        <Breadcrumbs items={[{ name: t('createByYourself'), href: '/create-by-yourself' }]} />
+        <Breadcrumbs locale={locale} items={[{ name: t('createByYourself'), href: '/create-by-yourself' }]} />
       </section>
       <CreateByYourself />
     </>

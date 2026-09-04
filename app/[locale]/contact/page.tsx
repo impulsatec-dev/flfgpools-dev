@@ -52,7 +52,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
     <>
       <section className="container mx-auto px-4 py-12">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: t('hero.title'), href: '/contact' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: t('hero.title'), href: '/contact' }]} />
         </div>
         <h1 className="text-4xl md:text-6xl font-display font-bold text-pool-deep">
           {t('hero.title')}
@@ -105,7 +105,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     {SOCIAL_LINKS.address.city}, {SOCIAL_LINKS.address.state} {SOCIAL_LINKS.address.zip}
                   </p>
                   <a
-                    href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
+                    href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 inline-block text-sm text-pool-aqua link-underline"

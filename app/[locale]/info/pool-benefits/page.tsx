@@ -73,7 +73,7 @@ export default function PoolBenefitsPage({ params: { locale } }: { params: { loc
       {/* === HERO === */}
       <section className="container mx-auto px-4 py-10 sm:py-14">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: t('hero.title'), href: '/info/pool-benefits' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: t('hero.title'), href: '/info/pool-benefits' }]} />
         </div>
         <div className="glass-card relative overflow-hidden p-6 sm:p-8 md:p-12">
           <div className="absolute inset-0 bg-gradient-to-br from-pool-aqua/10 via-white/20 to-transparent" />

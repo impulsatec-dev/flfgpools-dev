@@ -34,9 +34,12 @@ const nextConfig = {
       { protocol: 'https', hostname: 'flfgpools.com' },
       { protocol: 'https', hostname: '**.vercel.app' },
       { protocol: 'https', hostname: 'www.novatec.digital' },
+      { protocol: 'https', hostname: 'www.flfgpools.com' },
     ],
   },
   experimental: {
+    cpus: 1,
+    workerThreads: false,
     optimizePackageImports: ['lucide-react', 'framer-motion'],
     // The lead emails embed the logo from disk, so it has to ship with the routes.
     outputFileTracingIncludes: {

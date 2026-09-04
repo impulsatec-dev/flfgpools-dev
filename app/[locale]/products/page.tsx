@@ -124,7 +124,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
       {/* Hero */}
       <section className="container mx-auto px-4 py-12">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: 'Products', href: '/products' }]} />
+          <Breadcrumbs locale={locale} items={[{ name: 'Products', href: '/products' }]} />
         </div>
         <h1 className="text-4xl md:text-6xl font-display font-bold text-pool-deep">
           {t('hero.title')}

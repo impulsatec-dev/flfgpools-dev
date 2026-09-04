@@ -159,7 +159,11 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-8 border-t border-pool-deep/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-pool-deep/60">
           <p>© {year} {BUSINESS_INFO.legalName}. {t('rights')}</p>
-          <p>{t('languages')}</p>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+            {/* <Link href="/privacy-policy" className="link-underline">{t('privacyPolicy')}</Link>
+            <Link href="/terms-and-conditions" className="link-underline">{t('termsAndConditions')}</Link> */}
+            <span>{t('languages')}</span>
+          </div>
         </div>
       </div>
     </footer>

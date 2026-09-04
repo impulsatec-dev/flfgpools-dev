@@ -89,7 +89,7 @@ export default function PoolDetailPage({
 
       {/* Breadcrumbs */}
       <section className="container mx-auto px-4 py-8">
-        <Breadcrumbs
+        <Breadcrumbs locale={locale}
           items={[
             { name: t('hero.title'), href: '/products' },
             { name: `${pool.modelCode} ${pool.name}`, href: `/products/pools/${size}/${slug}` },

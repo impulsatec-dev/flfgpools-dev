@@ -21,6 +21,7 @@ export async function GET(request: Request) {
           phone: '786-555-0300',
           email: 'ana.lopez@example.com',
           notes: 'Prefiero llamada por la tarde. El patio tiene un muro de 6 pies en el lado este.',
+          consent: true,
           locale: 'es',
         })
       : buildContactEmail({
@@ -32,6 +33,7 @@ export async function GET(request: Request) {
           zip: '33139',
           message:
             'Necesito 3 piscinas para un proyecto residencial en Miami Beach. Busco entrega escalonada entre marzo y mayo.',
+          consent: true,
           locale: 'es',
         });
 

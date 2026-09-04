@@ -14,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/showroom',
     '/blog',
     '/contact',
-    '/faq',
     '/create-by-yourself',
     '/info/faqs',
     '/info/fiberglass-concrete',

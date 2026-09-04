@@ -26,6 +26,7 @@ export const createByYourselfLeadSchema = z.object({
   phone: z.string().min(7),
   email: z.string().email(),
   notes: z.string().optional().default(''),
+  consent: z.literal(true),
   locale: z.enum(['en', 'es', 'pt']).optional().default('en'),
 });
 

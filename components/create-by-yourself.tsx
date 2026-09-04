@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { pools, poolColors } from '@/lib/pools';
 import { cn, formatCurrency } from '@/lib/utils';
+import { FormConsentNotice, useFormConsent } from '../components/form-consent';
 import type { CreateByYourselfLead } from '@/lib/create-by-yourself-email';
 
 const poolTypes = [
@@ -91,6 +92,7 @@ const initialState: FormState = {
   phone: '',
   email: '',
   notes: '',
+  consent: true,
 };
 
 export function CreateByYourself() {
@@ -101,6 +103,7 @@ export function CreateByYourself() {
   const [form, setForm] = useState<FormState>(initialState);
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [mailto, setMailto] = useState('');
+  const { accepted: consentAccepted, accept: acceptConsent } = useFormConsent();
 
   const compatiblePools = useMemo(() => {
     if (form.poolType === 'spa') return pools.filter((pool) => pool.productClass === 'spa');
@@ -138,7 +141,7 @@ export function CreateByYourself() {
 
   const canContinue = () => {
     if (step < 3) return true;
-    return form.name.trim() && form.phone.trim() && form.email.trim() && /^\d{5}$/.test(form.zip);
+    return Boolean(consentAccepted && form.name.trim() && form.phone.trim() && form.email.trim() && /^\d{5}$/.test(form.zip));
   };
 
   const submit = async () => {
@@ -149,7 +152,7 @@ export function CreateByYourself() {
       const response = await fetch('/api/create-by-yourself', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, locale }),
+        body: JSON.stringify({ ...form, locale, consent: consentAccepted }),
       });
       const data = await response.json();
 
@@ -430,6 +433,14 @@ export function CreateByYourself() {
                 )}
               </motion.div>
             </AnimatePresence>
+
+            {step === stepKeys.length - 1 ? (
+              <FormConsentNotice
+                accepted={consentAccepted}
+                onAccept={acceptConsent}
+                id="create-by-yourself-consent"
+              />
+            ) : null}
 
             <div className="mt-8 flex flex-col gap-3 border-t border-pool-deep/10 pt-5 sm:flex-row sm:items-center sm:justify-between">
               <button

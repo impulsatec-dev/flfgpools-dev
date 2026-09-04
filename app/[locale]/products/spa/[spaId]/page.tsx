@@ -68,7 +68,7 @@ export default function SpaDetailPage({
   const pool = getPoolBySlug(spaId);
   if (!pool || pool.productClass !== 'spa') notFound();
 
-  const schema = poolProductSchema(pool, locale, true);
+  const schema = poolProductSchema(pool, locale);
   const relatedSpas = pools
     .filter((p) => p.slug !== pool.slug && p.productClass === 'spa')
     .slice(0, 3);
@@ -85,7 +85,7 @@ export default function SpaDetailPage({
 
       {/* Breadcrumbs */}
       <section className="container mx-auto px-4 py-8">
-        <Breadcrumbs
+        <Breadcrumbs locale={locale}
           items={[
             { name: t('hero.title'), href: '/products' },
             { name: `${pool.modelCode} ${pool.name}`, href: `/products/spa/${spaId}` },

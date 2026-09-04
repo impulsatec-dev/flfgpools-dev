@@ -1,6 +1,6 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://novatec.digital');
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://flfgpools.com');
 
 export const SOCIAL_LINKS = {
   instagram: 'https://www.instagram.com/floridafiberglasspools/',
