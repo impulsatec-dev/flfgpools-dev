@@ -166,9 +166,9 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
           {poolColors.map((color) => (
             <div
               key={color.name}
-              className="flex flex-col items-center gap-2 group cursor-pointer"
+              className="flex flex-col items-center gap-2"
             >
-              <div className="relative w-20 h-20 rounded-full border-4 border-white shadow-lg overflow-hidden transition-transform duration-300 group-hover:scale-110">
+              <div className="relative w-20 h-20 rounded-full border-4 border-white shadow-lg overflow-hidden">
                 <Image
                   src={color.colorChip}
                   alt={color.name}
@@ -177,7 +177,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                   className="object-cover"
                 />
               </div>
-              <span className="text-xs font-medium text-pool-deep/70 group-hover:text-pool-deep transition-colors">
+              <span className="text-xs font-medium text-pool-deep/70">
                 {color.name}
               </span>
             </div>
