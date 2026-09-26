@@ -117,6 +117,7 @@ export function CreateByYourself() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [mailto, setMailto] = useState('');
   const [recaptchaToken, setRecaptchaToken] = useState('');
+  const [serverFields, setServerFields] = useState<string[]>([]);
   const recaptchaRef = useRef<RecaptchaRef>(null);
   const { accepted: consentAccepted, accept: acceptConsent } = useFormConsent();
 
@@ -143,6 +144,7 @@ export function CreateByYourself() {
   const update = <Key extends keyof FormState>(key: Key, value: FormState[Key]) => {
     setForm((current) => ({ ...current, [key]: value }));
     setStatus('idle');
+    setServerFields([]);
   };
 
   const toggleExtra = (extra: string) => {
@@ -165,13 +167,31 @@ export function CreateByYourself() {
     if (step < 3) return [];
 
     const missing: string[] = [];
-    if (!form.name.trim()) missing.push(t('fullName'));
-    if (!form.phone.trim()) missing.push(t('phone'));
-    if (!form.email.trim()) missing.push(t('email'));
+    if (form.name.trim().length < 2) missing.push(t('fullName'));
+    if (form.phone.replace(/\D/g, '').length < 7) missing.push(t('phone'));
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) missing.push(t('email'));
+    if (form.city.trim().length < 2) missing.push(t('city'));
     if (form.zip && !/^\d{5}$/.test(form.zip)) missing.push(t('zipCode'));
     if (!consentAccepted) missing.push(t('consent'));
     if (RECAPTCHA_ENABLED && !recaptchaToken) missing.push('reCAPTCHA');
     return missing;
+  };
+
+  // Translates field paths reported by the API (Zod issues) into the same
+  // labels the client-side check uses, so server rejections are never a
+  // dead-end generic error.
+  const serverFieldLabels = (fields: unknown): string[] => {
+    if (!Array.isArray(fields)) return [];
+    const labels: Record<string, string> = {
+      name: t('fullName'),
+      phone: t('phone'),
+      email: t('email'),
+      city: t('city'),
+      zip: t('zipCode'),
+      consent: t('consent'),
+      recaptchaToken: 'reCAPTCHA',
+    };
+    return [...new Set(fields.map((field) => labels[String(field)]).filter(Boolean))];
   };
 
   const canContinue = () => getMissingFields().length === 0;
@@ -183,15 +203,36 @@ export function CreateByYourself() {
     if (RECAPTCHA_ENABLED && !token) return;
 
     setStatus('loading');
+    setServerFields([]);
     try {
       const response = await fetch('/api/create-by-yourself', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, locale, consent: consentAccepted, recaptchaToken: token }),
+        body: JSON.stringify({
+          ...form,
+          name: form.name.trim(),
+          phone: form.phone.trim(),
+          email: form.email.trim(),
+          city: form.city.trim(),
+          notes: form.notes.trim(),
+          locale,
+          consent: consentAccepted,
+          recaptchaToken: token,
+        }),
       });
       const data = await response.json();
 
       if (!response.ok || !data.ok) {
+        const labels = serverFieldLabels(data.fields);
+        if (labels.length) {
+          setServerFields(labels);
+          setStatus('idle');
+          if (labels.includes('reCAPTCHA')) {
+            recaptchaRef.current?.reset();
+            setRecaptchaToken('');
+          }
+          return;
+        }
         throw new Error(data.error || 'Unable to send request');
       }
 
@@ -457,7 +498,7 @@ export function CreateByYourself() {
                     </OptionGrid>
                     <div className="grid gap-4 md:grid-cols-2">
                       <TextField label={t('fullName')} value={form.name} onChange={(value) => update('name', value)} placeholder="Jane Smith" />
-                      <TextField label={t('phone')} value={form.phone} onChange={(value) => update('phone', value)} placeholder="786-207-1634" />
+                      <TextField label={t('phone')} type="tel" value={form.phone} onChange={(value) => update('phone', value)} placeholder="786-207-1634" />
                     </div>
                     <TextField label={t('email')} type="email" value={form.email} onChange={(value) => update('email', value)} placeholder="you@email.com" />
                     <label className="block">
@@ -492,11 +533,14 @@ export function CreateByYourself() {
               </>
             ) : null}
 
-            {getMissingFields().length > 0 ? (
-              <p className="mt-5 text-sm font-medium text-red-600" role="status">
-                {t('missingFields', { fields: getMissingFields().join(', ') })}
-              </p>
-            ) : null}
+            {(() => {
+              const allMissing = [...new Set([...getMissingFields(), ...serverFields])];
+              return allMissing.length > 0 ? (
+                <p className="mt-5 text-sm font-medium text-red-600" role="status">
+                  {t('missingFields', { fields: allMissing.join(', ') })}
+                </p>
+              ) : null;
+            })()}
 
             <div className="mt-8 flex flex-col gap-3 border-t border-pool-deep/10 pt-5 sm:flex-row sm:items-center sm:justify-between">
               <button

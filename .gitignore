@@ -47,3 +47,5 @@ documentacion.md
 
 stderr.log
 tmp/
+
+.playwright-cli

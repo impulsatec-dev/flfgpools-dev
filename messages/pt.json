@@ -394,6 +394,7 @@
       "submit": "Enviar minha solicitação",
       "success": "Obrigado! Entraremos em contato em 24 horas de trabalho.",
       "error": "Algo deu errado. Por favor ligue para 786-207-1634.",
+      "invalidFields": "Preencha o seguinte: {fields}",
       "openEmailFallback": "Abrir fallback de email"
     },
     "info": {

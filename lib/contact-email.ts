@@ -13,7 +13,7 @@ import {
 export const contactLeadSchema = z.object({
   role: z.enum(['homeowner', 'contractor', 'realtor', 'investor']),
   name: z.string().trim().min(2),
-  phone: z.string().trim().min(7),
+  phone: z.string().trim().refine((value) => value.replace(/\D/g, '').length >= 7, 'Phone needs at least 7 digits'),
   email: z.string().trim().email(),
   address: z.string().trim().optional().default(''),
   zip: z

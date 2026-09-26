@@ -394,6 +394,7 @@
       "submit": "Send my request",
       "success": "Thank you! We'll contact you within 24 business hours.",
       "error": "Something went wrong. Please call 786-207-1634.",
+      "invalidFields": "Please complete: {fields}",
       "openEmailFallback": "Open email fallback"
     },
     "info": {

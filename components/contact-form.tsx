@@ -17,8 +17,33 @@ export function ContactForm() {
   const [addressValue, setAddressValue] = useState('');
   const [mailto, setMailto] = useState('');
   const [recaptchaToken, setRecaptchaToken] = useState('');
+  const [fieldWarning, setFieldWarning] = useState('');
   const recaptchaRef = useRef<RecaptchaRef>(null);
   const { accepted: consentAccepted, accept: acceptConsent } = useFormConsent();
+
+  // Mirrors the server-side Zod rules (lib/contact-email.ts) so the button
+  // never submits a payload the API would reject.
+  const invalidClientFields = (name: string, phone: string, email: string) => {
+    const invalid: string[] = [];
+    if (name.trim().length < 2) invalid.push(t('name'));
+    if (phone.replace(/\D/g, '').length < 7) invalid.push(t('phone'));
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) invalid.push(t('email'));
+    return invalid;
+  };
+
+  // Translates field paths reported by the API (Zod issues) into form labels,
+  // so server rejections are never a dead-end generic error.
+  const serverFieldLabels = (fields: unknown): string[] => {
+    if (!Array.isArray(fields)) return [];
+    const labels: Record<string, string> = {
+      name: t('name'),
+      phone: t('phone'),
+      email: t('email'),
+      address: t('address'),
+      recaptchaToken: 'reCAPTCHA',
+    };
+    return [...new Set(fields.map((field) => labels[String(field)]).filter(Boolean))];
+  };
 
   const validateZip = (zip: string) => {
     const zipNum = parseInt(zip, 10);
@@ -39,25 +64,35 @@ export function ContactForm() {
     const form = e.currentTarget;
     const formData = new FormData(form);
     const zip = (formData.get('zip') as string | null)?.trim();
+    const name = String(formData.get('name') || '');
+    const phone = String(formData.get('phone') || '');
+    const email = String(formData.get('email') || '');
 
     if (zip && !validateZip(zip)) return;
+
+    const clientInvalid = invalidClientFields(name, phone, email);
+    if (clientInvalid.length) {
+      setFieldWarning(t('invalidFields', { fields: clientInvalid.join(', ') }));
+      return;
+    }
 
     const token = recaptchaRef.current?.getToken() || recaptchaToken;
     if (RECAPTCHA_ENABLED && !token) return;
 
     setStatus('loading');
+    setFieldWarning('');
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           role: formData.get('role'),
-          name: formData.get('name'),
-          phone: formData.get('phone'),
-          email: formData.get('email'),
-          address: formData.get('address') || '',
+          name: name.trim(),
+          phone: phone.trim(),
+          email: email.trim(),
+          address: String(formData.get('address') || '').trim(),
           ...(zip ? { zip } : {}),
-          message: formData.get('message') || '',
+          message: String(formData.get('message') || '').trim(),
           locale,
           consent: consentAccepted,
           recaptchaToken: token,
@@ -66,6 +101,16 @@ export function ContactForm() {
       const data = await response.json();
 
       if (!response.ok || !data.ok) {
+        const labels = serverFieldLabels(data.fields);
+        if (labels.length) {
+          setFieldWarning(t('invalidFields', { fields: labels.join(', ') }));
+          setStatus('idle');
+          if (labels.includes('reCAPTCHA')) {
+            recaptchaRef.current?.reset();
+            setRecaptchaToken('');
+          }
+          return;
+        }
         throw new Error(data.error || 'Unable to send request');
       }
 
@@ -239,6 +284,13 @@ export function ContactForm() {
         onError={() => setRecaptchaToken('')}
         className="py-1"
       />
+
+      {fieldWarning ? (
+        <p className="flex items-center gap-1 text-xs text-red-500" role="status">
+          <AlertCircle className="h-3 w-3 shrink-0" />
+          {fieldWarning}
+        </p>
+      ) : null}
 
       <button
         type="submit"
