@@ -534,6 +534,7 @@ export function CreateByYourself() {
             ) : null}
 
             {(() => {
+              if (status === 'success') return null;
               const allMissing = [...new Set([...getMissingFields(), ...serverFields])];
               return allMissing.length > 0 ? (
                 <p className="mt-5 text-sm font-medium text-red-600" role="status">
