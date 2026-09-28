@@ -165,7 +165,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
           <div className="mt-8 overflow-hidden rounded-2xl border border-pool-deep/10 shadow-lg">
             <iframe
-              src="https://www.google.com/maps?q=21500+S+Dixie+Hwy+Miami+FL+33189&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d899.7888332453557!2d-80.38243023036357!3d25.566498408382873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c36e90bf51cd%3A0xe613624fce450b3c!2sFlorida%20Fiberglass%20Pools!5e0!3m2!1ses!2sni!4v1790607543677!5m2!1ses!2sni"
               width="100%"
               height="360"
               style={{ border: 0 }}
@@ -176,7 +176,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
           </div>
 
           <a
-            href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
+            href="https://maps.app.goo.gl/3CKY4BKvya5P4z72A"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 glass-btn-primary inline-flex items-center gap-2 px-6 py-3 text-white font-medium"

@@ -71,7 +71,7 @@ export default async function Image({ params }: { params: { locale: string } }) 
             fontSize: 24,
           }}
         >
-          Hablamos Español · Falamos Português
+          We speak English · Hablamos Español · Falamos Português
         </div>
       </div>
     ),
