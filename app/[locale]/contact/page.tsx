@@ -105,7 +105,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     {SOCIAL_LINKS.address.city}, {SOCIAL_LINKS.address.state} {SOCIAL_LINKS.address.zip}
                   </p>
                   <a
-                    href="https://maps.google.com/?q=21500+S+Dixie+Hwy+Miami+FL+33189/?q=21500+S+Dixie+Hwy+Miami+FL+33189"
+                    href="https://maps.app.goo.gl/3CKY4BKvya5P4z72A"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 inline-block text-sm text-pool-aqua link-underline"
