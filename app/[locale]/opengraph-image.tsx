@@ -13,9 +13,9 @@ export default async function Image({ params }: { params: { locale: string } }) 
   };
 
   const subtitles: Record<string, string> = {
-    en: `1000+ pools delivered · 15-year warranty · ${SOCIAL_LINKS.phoneDisplay}`,
-    es: `Más de 1000 piscinas · Garantía de 15 años · ${SOCIAL_LINKS.phoneDisplay}`,
-    pt: `Mais de 1000 piscinas · Garantia de 15 anos · ${SOCIAL_LINKS.phoneDisplay}`,
+    en: `1000+ pools delivered · Lifetime warranty · ${SOCIAL_LINKS.phoneDisplay}`,
+    es: `Más de 1000 piscinas · Garantía vitalicia · ${SOCIAL_LINKS.phoneDisplay}`,
+    pt: `Mais de 1000 piscinas · Garantia vitalícia  · ${SOCIAL_LINKS.phoneDisplay}`,
   };
 
   const taglines: Record<string, string> = {

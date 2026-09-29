@@ -278,7 +278,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               <span className="absolute left-1/2 top-1/2 h-[min(70vw,54rem)] w-px -translate-x-1/2 -translate-y-1/2 bg-pool-deep/10" />
               <span className="absolute left-1/2 top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border border-pool-aqua bg-pool-cream shadow-[0_0_0_10px_rgba(14,165,233,0.08)]" />
               <span className="absolute left-1/2 top-[calc(60%+min(12vw,8rem))] hidden -translate-x-1/2 font-sans text-[12px] font-semibold uppercase tracking-[0.28em] text-pool-deep/35 min-[768px]:block">
-                South Florida · Since 2013
+                {t('hero.regionSince')}
               </span>
             </div>
             <ScrollRevealItem direction="fade" className="relative z-10 mx-auto max-w-xl px-2 text-center sm:px-0">
@@ -296,7 +296,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <span className="block font-sans text-[12px] font-semibold uppercase tracking-[0.2em] text-pool-deep/35 min-[768px]:hidden">
-                South Florida · Since 2013
+                {t('hero.regionSince')}
               </span>
             </ScrollRevealItem>
           </article>

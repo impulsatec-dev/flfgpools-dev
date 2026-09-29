@@ -19,10 +19,10 @@ export const SOCIAL_LINKS = {
     zip: '33189',
     country: 'US',
   },
+  googleMaps: 'https://www.google.com/maps/place/Florida+Fiberglass+Pools/@25.5665477,-80.3818032,17z/data=!4m15!1m8!3m7!1s0x88d9c36e90ec79a7:0x710d48840f9c6819!2s21500+S+Dixie+Hwy,+Miami,+FL+33189,+EE.+UU.!3b1!8m2!3d25.5665477!4d-80.3818032!16s%2Fg%2F11bw4bc69j!3m5!1s0x88d9c36e90bf51cd:0xe613624fce450b3c!8m2!3d25.5664972!4d-80.3817865!16s%2Fg%2F11m63nljj6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D',
   hours: {
     weekday: '9am – 5pm',
-    saturday: '9am – 6pm',
-    sunday: 'Closed',
+    saturday: '9am – 1pm',
   },
 } as const;
 
@@ -30,7 +30,24 @@ export const BUSINESS_INFO = {
   name: 'Florida Fiberglass Pools',
   legalName: 'Florida Fiberglass Pools LLC',
   foundedYear: 2013,
-  serviceArea: ['Monroe County', 'Miami-Dade County', 'Broward County', 'Palm Beach County', 'Sarasota County'],
+  serviceArea: [
+    'Indian River County',
+    'St. Lucie County',
+    'Martin County',
+    'Palm Beach County',
+    'Broward County',
+    'Miami-Dade County',
+    'Monroe County',
+    'Collier County',
+    'Hendry County',
+    'Glades County',
+    'Lee County',
+    'Charlotte County',
+    'DeSoto County',
+    'Hardee County',
+    'Highlands County',
+    'Okeechobee County',
+  ],
   showroomSize: '8,000 sqft',
 } as const;
 
@@ -39,7 +56,7 @@ export const SEO_CONFIG = {
   title: 'Florida Fiberglass Pools',
   shortName: 'FLFG Pools',
   description:
-    'Supplier and installer of inground and above ground fiberglass pools in South Florida since 2013. 1000+ pools delivered with 15-year warranty. Serving across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.',
+    'Supplier and installer of inground and above ground fiberglass pools in South Florida since 2013. 1000+ pools delivered with a lifetime structural warranty. Serving across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.',
   keywords: [
     'fiberglass pools Miami',
     'piscinas de fibra de vidrio Florida',

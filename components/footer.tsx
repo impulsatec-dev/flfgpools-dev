@@ -97,7 +97,7 @@ export function Footer() {
                 <span>
                   {t('hours.monFri')}: {SOCIAL_LINKS.hours.weekday}<br />
                   {t('hours.sat')}: {SOCIAL_LINKS.hours.saturday}<br />
-                  {t('hours.sun')}: {SOCIAL_LINKS.hours.sunday}
+                  {t('hours.sun')}: {t('hours.sunClosed')}
                 </span>
               </li>
             </ul>

@@ -77,7 +77,7 @@ export function buildCreateByYourselfEmail(lead: CreateByYourselfLead) {
   const pool = pools.find((item) => item.slug === lead.model);
   const model = pool ? `${pool.modelCode} ${pool.name}` : lead.model;
   const dimensions = pool
-    ? `${pool.dimensionsText.length} × ${pool.dimensionsText.width} × ${pool.dimensionsText.depth}`
+    ? `${pool.dimensionsText.width} × ${pool.dimensionsText.length} × ${pool.dimensionsText.depth}`
     : '';
 
   const configRows: LeadRow[] = [

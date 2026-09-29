@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
-import { redirect } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { pools, getPoolBySlug } from '@/lib/pools';
 import { poolProductSchema } from '@/lib/schema/product';
@@ -68,7 +68,7 @@ export default function SpaDetailPage({
   setRequestLocale(locale);
   const t = useTranslations('Products');
   const pool = getPoolBySlug(slug);
-  if (!pool || pool.productClass !== 'spa') redirect(`/${locale}`);
+  if (!pool || pool.productClass !== 'spa') notFound();
 
   const schema = poolProductSchema(pool, locale);
   const relatedSpas = pools
@@ -300,7 +300,7 @@ export default function SpaDetailPage({
                 <div className="p-4">
                   <h3 className="font-display font-bold">{p.modelCode} {p.name}</h3>
                   <p className="text-sm text-pool-deep/60">
-                    {p.dimensionsText.length} × {p.dimensionsText.width}
+                    {p.dimensionsText.width} × {p.dimensionsText.length}
                   </p>
                 </div>
               </Link>

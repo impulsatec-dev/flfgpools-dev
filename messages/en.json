@@ -14,7 +14,7 @@
     },
     "showroom": {
       "title": "Completed Showroom — South Florida Gallery",
-      "description": "See our portfolio of 1000+ installed fiberglass pools acrossacross Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties. Real backyards, real transformations."
+      "description": "See our portfolio of 1,000+ installed fiberglass pools across South Florida, including Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands, and Okeechobee Counties. Real backyards, real transformations."
     },
     "blog": {
       "title": "Pool Guide & Tips — FLFG Pools Blog",
@@ -70,23 +70,24 @@
   },
   "Home": {
     "hero": {
-      "badge": "New Pool Model R16 and 17 — Now Available",
+      "badge": "New Model R16 & R17 — Available Now",
       "title": "Your dream pool, built to last in South Florida",
       "subtitle": "Premium fiberglass pools designed for safety, fun, and effortless maintenance.",
       "ctaPrimary": "Explore Pool Models",
       "ctaSecondary": "Get a Free Quote",
-      "scroll": "Scroll to discover"
+      "scroll": "Scroll to discover",
+      "regionSince": "South Florida · Since 2013"
     },
     "about": {
       "label": "About Us",
       "title": "South Florida's largest fiberglass pool showroom",
-      "paragraph1": " With a showroom over 8,000 sqft, we are Florida Fiberglass Pools, an American brand with AAA-quality local production and exclusive distribution offering more than 150 possible pool shells different combinations. Since 2013, we've delivered 1000+ pools to families across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
+      "paragraph1": " With a showroom over 8,000 sqft, we are Florida Fiberglass Pools, an American brand with AAA-quality local production and exclusive distribution offering more than 150 pool shell combinations. Since 2013, we've delivered 1000+ pools to families across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
       "paragraph2": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
       "editorial": {
         "openingTitle": "More than a pool. A place to imagine.",
         "openingDescription": "See the selection in person and imagine what fits your backyard.",
         "showroomTitle": "Find the shape that feels like yours.",
-        "showroomDescription": "Across more than 8,000 square feet, we display over 150 pool style combos in person. Since 2013 we have delivered more than 1000 pools to families across all south florida, across Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee Counties.",
+        "showroomDescription": "Across more than 8,000 square feet, we display over 150 pool style combinations in person. Since 2013, we have delivered more than 1,000 pools to families across South Florida, including Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands, and Okeechobee Counties.",
         "processTitle": "Your backyard starts with a conversation.",
         "processDescription": "As the exclusive distributor for all of South Florida, our team guides you from consultation to installation, ensuring your pool fits your lifestyle, budget, and backyard — backed by a lifetime structural warranty from the factory.",
         "closingTitle": "Designed for your life. Backed for life.",
@@ -98,7 +99,7 @@
       "soldPools": "Pools delivered",
       "stylesInStock": "Choose from different combinations",
       "yearsExperience": "Years in business",
-      "warranty": "Lifetime warranty",
+      "warranty": "Structural warranty",
       "warrantyText": "Lifetime"
     },
     "whyUs": {
@@ -110,12 +111,12 @@
           "description": "Every pool meets Florida building codes and hurricane standards. Non-slip surfaces, child-safe steps, and durable gelcoat finish."
         },
         "stock": {
-          "title": "100+ styles ready in 4 weeks average",
-          "description": "More than 150 possible pool shells different combinations available to be built in 4 week average and shipp straight from our factory to your backyard."
+          "title": "150+ combinations, built in an average of 4 weeks",
+          "description": "More than 150 pool shell combinations can be built in an average of 4 weeks and shipped straight from our factory to your backyard."
         },
         "custom": {
           "title": "Custom sizes & colors",
-          "description": "Standard no limited. We offers 17 pool shells, 3 SPA shells, 2 Tanning Ledge that can be combined with 7 different colors to show you more than 150 combinations available under your desire."
+          "description": "No standard limits. We offer 17 pool shells, 3 spa shells, and 2 tanning ledges. Combine them with 7 colors for more than 150 options to fit your backyard."
         },
         "warranty": {
           "title": "Lifetime structural warranty",
@@ -183,21 +184,21 @@
       "title": "Visit our showroom",
       "subtitle": "See our fiberglass pools in person. Our team is ready to help you find the perfect fit.",
       "address": "21500 S Dixie Hwy, Miami, FL 33189",
-      "hours": "Mon–Sat: 9am – 6pm",
+      "hours": "Mon–Fri: 9am – 5pm · Sat: 9am – 1pm",
       "cta": "Get directions"
     },
     "stats": {
       "soldPools": "Pools delivered",
       "stylesInStock": "Styles combos in stock",
       "yearsExperience": "Years in business",
-      "warranty": "Lifetime warranty",
+      "warranty": "Structural warranty",
       "warrantyText": "Lifetime"
     }
   },
   "Products": {
     "hero": {
       "title": "Find your perfect fiberglass pool",
-      "subtitle": "More than 150 possible pool shells different combinations available to be built in 4 week average."
+      "subtitle": "More than 150 fiberglass pool combinations can be built in an average of 4 weeks."
     },
     "filter": {
       "title": "Filters",
@@ -298,8 +299,8 @@
     },
     "metrics": {
       "completed": "1,000+ projects completed",
-      "zones": "3 counties served",
-      "years": "15+ years of experience"
+      "zones": "{count} counties served",
+      "years": "{years} years of experience"
     },
     "filters": {
       "title": "Filters",
@@ -329,7 +330,7 @@
       "title": "Visit our showroom",
       "subtitle": "See our fiberglass pools in person. Our team is ready to help you find the perfect fit.",
       "address": "21500 S Dixie Hwy, Miami, FL 33189.",
-      "hours": "Mon–Sat: 9am – 6pm",
+      "hours": "Mon–Fri: 9am – 5pm · Sat: 9am – 1pm",
       "button": "Get directions"
     }
   },
@@ -451,7 +452,7 @@
         },
         {
           "q": "Can I see pools in person?",
-          "a": "Absolutely. You can visit us to appreciate the quality of our products, colors, and more, at 21500 S Dixie Hwy, Miami. Open Monday-Friday 9am-5pm, Saturday 9am-6pm."
+          "a": "Absolutely. You can visit us to appreciate the quality of our products, colors, and more, at 21500 S Dixie Hwy, Miami. Open Monday-Friday 9am-5pm, Saturday 9am-1pm."
         },
         {
           "q": "Do you offer financing?",
@@ -501,7 +502,8 @@
     "hours": {
       "monFri": "Mon–Fri",
       "sat": "Sat",
-      "sun": "Sun"
+      "sun": "Sun",
+      "sunClosed": "Closed"
     }
   },
   "Breadcrumbs": {
@@ -519,7 +521,7 @@
     "heading": "Design the pool. We price the reality.",
     "description": "Configure model, finish, extras, site access and timeline. Our team receives the technical details and sends a quote and design direction to your email.",
     "previewAlt": "Fiberglass pool design preview",
-    "orientativeFrom": "Orientative from",
+    "orientativeFrom": "Starting from",
     "priceNote": "Final price is confirmed after site review, access verification and permitting requirements.",
     "steps": {
       "pool": "Pool",
@@ -1340,9 +1342,24 @@
     "notFound": {
       "code": "404",
       "eyebrow": "Page not found",
-      "title": "This page went for a swim",
-      "description": "The address you’re looking for doesn’t exist or is no longer available. Head home to keep exploring our pools.",
-      "home": "Back to home"
+      "title": "This page no longer exists",
+      "description": "The link may be outdated or the page may have been removed. Choose a destination to keep exploring.",
+      "home": "Back to home",
+      "destinations": {
+        "label": "Where would you like to go?",
+        "products": {
+          "title": "Explore pool models",
+          "description": "Compare pool shapes, sizes, and features."
+        },
+        "showroom": {
+          "title": "See installed pools",
+          "description": "Browse completed pool projects across South Florida."
+        },
+        "contact": {
+          "title": "Contact our team",
+          "description": "Get help with a question or request a quote."
+        }
+      }
     },
     "server": {
       "code": "500",

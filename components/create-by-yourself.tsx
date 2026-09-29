@@ -304,13 +304,15 @@ export function CreateByYourself() {
               <div className="absolute inset-0 bg-gradient-to-t from-pool-deep via-pool-deep/40 to-transparent" />
               <div className="absolute left-4 right-4 top-4 sm:left-6 sm:right-6 sm:top-6 flex items-center justify-between gap-3">
                 <div className="glass-chip-2 text-white">{selectedPool.modelCode} {selectedPool.name}</div>
-                <div className="glass-chip-2 text-white">{selectedPool.dimensionsText.length} × {selectedPool.dimensionsText.width}</div>
+                <div className="glass-chip-2 text-white">{selectedPool.dimensionsText.width} × {selectedPool.dimensionsText.length}</div>
               </div>
               <div className="absolute inset-x-4 bottom-4 sm:inset-x-6 sm:bottom-6">
                 <div className="glass-panel p-5 text-white">
                   <div className="flex items-end justify-between gap-5">
                     <div>
-                      <p className="text-xs uppercase tracking-[0.24em] text-white/60">{t('orientativeFrom')}</p>
+                      {selectedPool.priceInitial != null && (
+                        <p className="text-xs uppercase tracking-[0.24em] text-white/60">{t('orientativeFrom')}</p>
+                      )}
                       <p className="mt-1 text-2xl sm:text-4xl font-bold">{selectedPool.priceInitial != null ? formatCurrency(estimatedFrom, 'en-US') : t('contactForPricing')}</p>
                     </div>
                     <div className="h-10 w-10 sm:h-14 sm:w-14 overflow-hidden rounded-full shadow-lg ring-1 ring-white/50 relative">

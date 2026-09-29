@@ -75,7 +75,8 @@
       "subtitle": "Piscinas de fibra de vidrio premium diseñadas para seguridad, diversión y bajo mantenimiento.",
       "ctaPrimary": "Explorar modelos",
       "ctaSecondary": "Cotización gratis",
-      "scroll": "Desplázate para descubrir"
+      "scroll": "Desplázate para descubrir",
+      "regionSince": "Sur de Florida · Desde 2013"
     },
     "about": {
       "label": "Sobre nosotros",
@@ -86,7 +87,7 @@
         "openingTitle": "Más que una piscina. Un lugar para imaginar.",
         "openingDescription": "Conoce la selección en persona e imagina qué encaja con tu patio.",
         "showroomTitle": "Encuentra la forma que se siente tuya.",
-        "showroomDescription": "Con más de 8,000 pies cuadrados, mostramos más de 150 combos de estilos de piscinas en persona. Desde 2013, hemos entregado más de 1000 piscinas a familias en todo el sur de florida, en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands y Okeechobee.",
+        "showroomDescription": "Con más de 8,000 pies cuadrados, mostramos más de 150 combos de estilos de piscinas en persona. Desde 2013, hemos entregado más de 1000 piscinas a familias en todo el sur de Florida, en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands y Okeechobee.",
         "processTitle": "Tu patio empieza con una conversación.",
         "processDescription": "Como distribuidor exclusivo para todo el sur de Florida, nuestro equipo te guía desde la consulta hasta la instalación, asegurando que tu piscina se ajuste a tu estilo de vida, presupuesto y patio — respaldada por una garantía estructural de por vida directamente de fábrica.",
         "closingTitle": "Diseñada para tu vida. Respaldada de por vida.",
@@ -98,7 +99,7 @@
       "soldPools": "Piscinas entregadas",
       "stylesInStock": "Combinaciones de estilos en stock",
       "yearsExperience": "Años de experiencia",
-      "warranty": "Garantía de por vida",
+      "warranty": "Garantía estructural",
       "warrantyText": "De por vida"
     },
     "whyUs": {
@@ -110,7 +111,7 @@
           "description": "Cada piscina cumple con los códigos de construcción de Florida y estándares de huracanes. Superficies antideslizantes, escaleras seguras para niños y acabado gelcoat durable."
         },
         "stock": {
-          "title": "Más de 100 estilos listos en un promedio de 4 semanas.",
+          "title": "Más de 150 combinaciones disponibles en un promedio de 4 semanas.",
           "description": "Disponemos de más de 150 modelos y combinaciones de cascos de piscina, con un plazo de fabricación promedio de 4 semanas y envío directo desde nuestra fábrica hasta su jardín."
         },
         "custom": {
@@ -156,7 +157,7 @@
       "title": "Nuestra historia",
       "paragraph1": "Florida Fiberglass Pools comenzó en 2013 con una misión simple: hacer accesibles las piscinas premium de fibra de vidrio para las familias del sur de Florida. Lo que empezó como una operación pequeña ahora abarca un showroom de 8,000 pies cuadrados con más de 150 combinaciones de modelos de cascos disponibles, y somos el distribuidor exclusivo para todo el sur de Florida.",
       "paragraph2": "Hemos crecido manteniéndonos fieles a nuestros valores — productos de primera calidad, precios honestos, servicio al cliente y garantías superiores a las del mercado. Nuestro compromiso con nuestros más de 1,200 clientes satisfechos a lo largo de nuestra historia es nuestro compromiso con tu patio.",
-      "paragraph3": "Hoy servimos en todo el sur de florida, en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee. Según el condado donde se encuentre tu propiedad, te ofrecemos uno de nuestros instaladores expertos de piscinas de fibra de vidrio, así como opciones de financiamiento. Nuestro equipo incluye Certified Pool Contractors, diseñadores internos y especialistas en financiamiento."
+      "paragraph3": "Hoy servimos en todo el sur de Florida, en los condados de Indian River, St. Lucie, Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee. Según el condado donde se encuentre tu propiedad, te ofrecemos uno de nuestros instaladores expertos de piscinas de fibra de vidrio, así como opciones de financiamiento. Nuestro equipo incluye Certified Pool Contractors, diseñadores internos y especialistas en financiamiento."
     },
     "values": {
       "title": "Lo que representamos",
@@ -183,14 +184,14 @@
       "title": "Visita nuestro showroom",
       "subtitle": "Ve nuestras piscinas de fibra de vidrio en persona. Nuestro equipo está listo para ayudarte.",
       "address": "21500 S Dixie Hwy, Miami, FL 33189",
-      "hours": "Lun–Sáb: 9am – 6pm",
+      "hours": "Lun–Vie: 9am – 5pm · Sáb: 9am – 1pm",
       "cta": "Cómo llegar"
     },
     "stats": {
       "soldPools": "Piscinas entregadas",
       "stylesInStock": "Elige entre diferentes combinaciones.",
       "yearsExperience": "Años de experiencia",
-      "warranty": "Garantía de por vida",
+      "warranty": "Garantía estructural",
       "warrantyText": "De por vida"
     }
   },
@@ -298,8 +299,8 @@
     },
     "metrics": {
       "completed": "Más de 1,000 proyectos completados",
-      "zones": "3 condados servidos",
-      "years": "Más de 15 años de experiencia"
+      "zones": "{count} condados servidos",
+      "years": "{years} años de experiencia"
     },
     "filters": {
       "title": "Filtros",
@@ -329,7 +330,7 @@
       "title": "Visita nuestro showroom",
       "subtitle": "Ve nuestras piscinas de fibra de vidrio en persona. Nuestro equipo está listo para ayudarte.",
       "address": "21500 S Dixie Hwy, Miami, FL 33189.",
-      "hours": "Lun–Sáb: 9am – 6pm",
+      "hours": "Lun–Vie: 9am – 5pm · Sáb: 9am – 1pm",
       "button": "Cómo llegar"
     }
   },
@@ -382,7 +383,7 @@
       "email": "Correo electrónico",
       "emailPlaceholder": "Ej. juan@ejemplo.com",
       "zip": "Código postal",
-      "zipHelper": "Servimos en todo el sur de florida, en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee.",
+      "zipHelper": "Servimos en todo el sur de Florida, en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee.",
       "zipError": "Este código postal puede estar fuera de nuestra área principal de servicio. Llámanos — servimos en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee y te derivaremos a un socio de confianza.",
       "address": "Dirección de la propiedad",
       "addressPlaceholder": "Ej. 123 Main St, Miami, FL 33189",
@@ -451,7 +452,7 @@
         },
         {
           "q": "¿Puedo ver las piscinas en persona?",
-          "a": "Por supuesto. Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, en 21500 S Dixie Hwy, Miami. Abierto lunes a viernes 9am-5pm, sábado 9am-6pm."
+          "a": "Por supuesto. Puedes visitarnos para apreciar la calidad de nuestros productos, colores y demas, en 21500 S Dixie Hwy, Miami. Abierto lunes a viernes 9am-5pm, sábado 9am-1pm."
         },
         {
           "q": "¿Ofrecen financiamiento?",
@@ -459,7 +460,7 @@
         },
         {
           "q": "¿Qué áreas cubren?",
-          "a": "Servimos en todo el sur de florida, en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee. Si estás fuera de estas áreas, llámanos y te derivaremos a un socio de confianza."
+          "a": "Servimos en todo el sur de Florida, en los condados de Indian River, St. Lucie,  Martin, Palm Beach, Broward, Miami-Dade, Monroe, Collier, Hendry, Glades, Lee, Charlotte, DeSoto, Hardee, Highlands and Okeechobee. Si estás fuera de estas áreas, llámanos y te derivaremos a un socio de confianza."
         },
         {
           "q": "¿Son las piscinas rectangulares de fibra de vidrio una buena opción para patios modernos?",
@@ -501,7 +502,8 @@
     "hours": {
       "monFri": "Lun–Vie",
       "sat": "Sáb",
-      "sun": "Dom"
+      "sun": "Dom",
+      "sunClosed": "Cerrado"
     }
   },
   "Breadcrumbs": {
@@ -519,7 +521,7 @@
     "heading": "Diseña la piscina. Nosotros cotizamos la realidad.",
     "description": "Configura modelo, acabado, extras, acceso al patio y timeline. Nuestro equipo recibe los detalles técnicos y envía una cotización y dirección de diseño a tu correo.",
     "previewAlt": "Vista previa de diseño de piscina de fibra de vidrio",
-    "orientativeFrom": "Orientativo desde",
+    "orientativeFrom": "Desde",
     "priceNote": "El precio final se confirma después de la revisión del sitio, verificación de acceso y requisitos de permisos.",
     "steps": {
       "pool": "Piscina",
@@ -1339,10 +1341,25 @@
   "Errors": {
     "notFound": {
       "code": "404",
-      "eyebrow": "Página no encontrada",
-      "title": "Esta página se fue a nadar",
-      "description": "La dirección que buscas no existe o ya no está disponible. Regresa al inicio para seguir explorando nuestras piscinas.",
-      "home": "Volver al inicio"
+      "eyebrow": "Error 404 · Página no encontrada",
+      "title": "Esta página ya no existe",
+      "description": "El enlace puede estar desactualizado o la página se eliminó. Elige una opción para continuar.",
+      "home": "Volver al inicio",
+      "destinations": {
+        "label": "¿Qué quieres encontrar?",
+        "products": {
+          "title": "Explorar modelos",
+          "description": "Compara formas, tamaños y características de piscinas."
+        },
+        "showroom": {
+          "title": "Ver piscinas instaladas",
+          "description": "Inspírate con proyectos terminados en el sur de Florida."
+        },
+        "contact": {
+          "title": "Contactar al equipo",
+          "description": "Resuelve tus dudas o solicita una cotización."
+        }
+      }
     },
     "server": {
       "code": "500",

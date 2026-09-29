@@ -105,7 +105,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     {SOCIAL_LINKS.address.city}, {SOCIAL_LINKS.address.state} {SOCIAL_LINKS.address.zip}
                   </p>
                   <a
-                    href="https://maps.app.goo.gl/3CKY4BKvya5P4z72A"
+                    href={SOCIAL_LINKS.googleMaps}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 inline-block text-sm text-pool-aqua link-underline"

@@ -9,6 +9,7 @@ import { Shield, Eye, Heart, Headphones, Home, MapPin, Clock, ArrowRight } from 
 import { Certifications } from '@/components/certifications';
 import { SITE_URL, BUSINESS_INFO } from '@/config/site';
 import type { Metadata } from 'next';
+import { SOCIAL_LINKS } from '@/config/site';
 
 export const dynamic = 'force-dynamic';
 
@@ -176,7 +177,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
           </div>
 
           <a
-            href="https://maps.app.goo.gl/3CKY4BKvya5P4z72A"
+            href={SOCIAL_LINKS.googleMaps}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 glass-btn-primary inline-flex items-center gap-2 px-6 py-3 text-white font-medium"

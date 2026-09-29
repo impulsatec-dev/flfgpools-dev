@@ -75,7 +75,8 @@
       "subtitle": "Piscinas de fibra de vidro premium projetadas para segurança, diversão e baixa manutenção.",
       "ctaPrimary": "Explorar modelos",
       "ctaSecondary": "Orçamento grátis",
-      "scroll": "Role para descobrir"
+      "scroll": "Role para descobrir",
+      "regionSince": "Sul da Flórida · Desde 2013"
     },
     "about": {
       "label": "Sobre nós",
@@ -96,9 +97,9 @@
     },
     "stats": {
       "soldPools": "Piscinas entregues",
-      "stylesInStock": "Combinacoes de Estilos em estoque",
+      "stylesInStock": "Combinações de estilos em estoque",
       "yearsExperience": "Anos de experiência",
-      "warranty": "Garantia vitalícia",
+      "warranty": "Garantia estrutural",
       "warrantyText": "Vitalícia"
     },
     "whyUs": {
@@ -110,7 +111,7 @@
           "description": "Cada piscina atende aos códigos de construção da Flórida e padrões de furacão. Superfícies antiderrapantes, degraus seguros para crianças e acabamento gelcoat durável."
         },
         "stock": {
-          "title": "Mais de 100 modelos prontos em uma média de 4 semanas.",
+          "title": "Mais de 150 combinações disponíveis em uma média de 4 semanas.",
           "description": "Mais de 150 combinações possíveis de modelos de piscina disponíveis para fabricação em uma média de 4 semanas, com envio direto da nossa fábrica para o seu quintal."
         },
         "custom": {
@@ -118,7 +119,7 @@
           "description": "Opções padrão sem limitações. Oferecemos 17 modelos de casco de piscina, 3 de spa e 2 de prainha (tanning ledge), que podem ser combinados com 7 cores diferentes, resultando em mais de 150 combinações disponíveis para atender às suas preferências."
         },
         "warranty": {
-          "title": "Garantia estrutural de 15 anos",
+          "title": "Garantia estrutural vitalícia",
           "description": "Cobertura líder na indústria em cada piscina. Nossas cascas de fibra de vidro são construídas para durar décadas com manutenção mínima."
         }
       }
@@ -126,7 +127,7 @@
     "financing": {
       "label": "Financiamento",
       "title": "Você sonha, nós financiamos",
-      "description": "Parceiros com a Hearth e HFS para oferecer opções de pagamento mensal para seu projeto de piscina. Pré-qualifique-se em minutos — ver opções não afeta seu score de crédito.",
+      "description": "Somos parceiros da Hearth e da HFS para oferecer opções de pagamento mensal para seu projeto de piscina. Pré-qualifique-se em minutos — consultar as opções não afeta sua pontuação de crédito.",
       "cta": "Aplicar agora"
     },
     "featuredPools": {
@@ -183,14 +184,14 @@
       "title": "Visite nosso showroom",
       "subtitle": "Veja nossas piscinas de fibra de vidrio pessoalmente. Nossa equipe está pronta para ajudar.",
       "address": "21500 S Dixie Hwy, Miami, FL 33189",
-      "hours": "Seg–Sáb: 9am – 6pm",
+      "hours": "Seg–Sex: 9am – 5pm · Sáb: 9am – 1pm",
       "cta": "Como chegar"
     },
     "stats": {
       "soldPools": "Piscinas entregues",
       "stylesInStock": "Escolha entre diferentes combinações",
       "yearsExperience": "Anos de experiência",
-      "warranty": "Garantia vitalícia",
+      "warranty": "Garantia estrutural",
       "warrantyText": "Vitalícia"
     }
   },
@@ -298,8 +299,8 @@
     },
     "metrics": {
       "completed": "Mais de 1,000 projetos concluídos",
-      "zones": "3 condados atendidos",
-      "years": "Mais de 15 anos de experiência"
+      "zones": "{count} condados atendidos",
+      "years": "{years} anos de experiência"
     },
     "filters": {
       "title": "Filtros",
@@ -329,7 +330,7 @@
       "title": "Visite nosso showroom",
       "subtitle": "Veja nossas piscinas de fibra de vidrio pessoalmente. Nossa equipe está pronta para ajudar.",
       "address": "21500 S Dixie Hwy, Miami, FL 33189.",
-      "hours": "Seg–Sáb: 9am – 6pm",
+      "hours": "Seg–Sex: 9am – 5pm · Sáb: 9am – 1pm",
       "button": "Como chegar"
     }
   },
@@ -501,7 +502,8 @@
     "hours": {
       "monFri": "Seg–Sex",
       "sat": "Sáb",
-      "sun": "Dom"
+      "sun": "Dom",
+      "sunClosed": "Fechado"
     }
   },
   "Breadcrumbs": {
@@ -519,7 +521,7 @@
     "heading": "Projete a piscina. Nós cotamos a realidade.",
     "description": "Configure modelo, acabamento, extras, acesso ao quintal e prazo. Nossa equipe recebe os detalhes técnicos e envia um orçamento e direção de design para seu email.",
     "previewAlt": "Pré-visualização do design da piscina de fibra de vidro",
-    "orientativeFrom": "Orientativo desde",
+    "orientativeFrom": "A partir de",
     "priceNote": "O preço final é confirmado após revisão do local, verificação de acesso e requisitos de licenças.",
     "steps": {
       "pool": "Piscina",
@@ -1340,10 +1342,25 @@
   "Errors": {
     "notFound": {
       "code": "404",
-      "eyebrow": "Página não encontrada",
-      "title": "Esta página saiu para nadar",
-      "description": "O endereço que você procura não existe ou não está mais disponível. Volte ao início para continuar explorando nossas piscinas.",
-      "home": "Voltar ao início"
+      "eyebrow": "Erro 404 · Página não encontrada",
+      "title": "Esta página não existe mais",
+      "description": "O link pode estar desatualizado ou a página foi removida. Escolha um destino para continuar.",
+      "home": "Voltar ao início",
+      "destinations": {
+        "label": "O que você está procurando?",
+        "products": {
+          "title": "Explorar modelos",
+          "description": "Compare formatos, tamanhos e recursos das piscinas."
+        },
+        "showroom": {
+          "title": "Ver piscinas instaladas",
+          "description": "Confira projetos concluídos no sul da Flórida."
+        },
+        "contact": {
+          "title": "Falar com a equipe",
+          "description": "Tire dúvidas ou solicite um orçamento."
+        }
+      }
     },
     "server": {
       "code": "500",

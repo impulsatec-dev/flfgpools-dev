@@ -193,7 +193,7 @@ export function StatCounter({
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: '-40px' });
   const reduce = useReducedMotion();
-  const [display, setDisplay] = useState(0);
+  const [display, setDisplay] = useState(to);
 
   useEffect(() => {
     if (!inView) return;
@@ -214,7 +214,7 @@ export function StatCounter({
   return (
     <div ref={ref} className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gradient text-center">
       <div className="text-4xl font-bold text-gradient md:text-5xl">
-        {textValue ?? `${display.toLocaleString()}${suffix}`}
+        {textValue ?? `${display.toLocaleString('en-US')}${suffix}`}
       </div>
       <div className="mt-1 text-sm text-pool-deep/60">{label}</div>
     </div>

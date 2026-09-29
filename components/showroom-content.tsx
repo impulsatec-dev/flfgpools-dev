@@ -10,6 +10,8 @@ import { cn } from '@/lib/utils';
 import { useRouter } from '@/i18n/navigation';
 import { MapPin, Home, Clock, ArrowRight, Search, X, Award, Calendar, SlidersHorizontal, CircleCheck } from 'lucide-react';
 import { motion, AnimatePresence, useReducedMotion, useScroll, useTransform } from 'framer-motion';
+import { BUSINESS_INFO, SOCIAL_LINKS } from '@/config/site';
+import { STATS } from '@/config/stats';
 
 const zoneOptions: { value: ShowroomZone | 'all'; labelKey: string }[] = [
   { value: 'all', labelKey: 'allZones' },
@@ -287,11 +289,11 @@ export function ShowroomContent({ locale }: { locale: string }) {
               </span>
               <span className="flex items-center gap-2 rounded-lg bg-white/5 border border-white/10 px-3 py-1 text-[14px] font-medium text-white/80">
                 <MapPin className="h-3.5 w-3.5 text-white/60" />
-                {t('metrics.zones')}
+                {t('metrics.zones', { count: BUSINESS_INFO.serviceArea.length })}
               </span>
               <span className="flex items-center gap-2 rounded-lg bg-white/5 border border-white/10 px-3 py-1 text-[14px] font-medium text-white/80">
                 <Calendar className="h-3.5 w-3.5 text-white/60" />
-                {t('metrics.years')}
+                {t('metrics.years', { years: STATS.yearsExperience })}
               </span>
             </div>
           </div>
@@ -722,7 +724,7 @@ export function ShowroomContent({ locale }: { locale: string }) {
                   {selectedProject.location} · {t(`filters.${selectedProject.style}`)}
                 </span>
                 <span className="mt-1 block text-[10px] font-mono uppercase tracking-wider text-black/65">
-                  {(selectedProject.modelCode ? getPoolByCode(selectedProject.modelCode)?.dimensionsText.length : '')} × {(selectedProject.modelCode ? getPoolByCode(selectedProject.modelCode)?.dimensionsText.width : '')} · {selectedProject.size}
+                  {(selectedProject.modelCode ? getPoolByCode(selectedProject.modelCode)?.dimensionsText.width : '')} × {(selectedProject.modelCode ? getPoolByCode(selectedProject.modelCode)?.dimensionsText.length : '')} · {selectedProject.size}
                 </span>
               </div>
             </motion.div>
@@ -763,7 +765,7 @@ export function ShowroomContent({ locale }: { locale: string }) {
                 {hoveredProject.location} · {t(`filters.${hoveredProject.style}`)}
               </span>
               <span className="mt-1 block text-[10px] font-mono uppercase tracking-wider text-black/65">
-                {hoveredModel?.dimensionsText.length} × {hoveredModel?.dimensionsText.width} · {hoveredProject.size}
+                {hoveredModel?.dimensionsText.width} × {hoveredModel?.dimensionsText.length} · {hoveredProject.size}
               </span>
             </>
           )}
@@ -799,7 +801,7 @@ export function ShowroomContent({ locale }: { locale: string }) {
             </div>
 
             <a
-              href="https://maps.app.goo.gl/3CKY4BKvya5P4z72A"
+              href={SOCIAL_LINKS.googleMaps}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 glass-btn-primary inline-flex items-center gap-2 px-6 py-3 text-white font-medium"
